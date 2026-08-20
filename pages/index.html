@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="AI整体師向け・エンジニア向けのニュースを定期収集する個人用ニュースポータル" />
+    <title>Signal Shelf — Personal AI News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Signal Shelf ホーム">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>Signal Shelf</span>
+      </a>
+      <p class="status" id="lastUpdated">DATA FEED / LOADING</p>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">PERSONAL AI NEWS SYSTEM</p>
+          <h1>必要な情報だけ、<br /><em>静かに集める。</em></h1>
+          <p class="hero-copy">AI整体師向けとエンジニア向けの情報源を、GitHub Actionsが定期的に収集します。記事は元URLとともにいつでも追跡できます。</p>
+        </div>
+        <aside class="signal-panel" aria-label="ニュースの状況">
+          <span class="live-dot"></span><span>FEED STATUS</span>
+          <strong id="articleCount">—</strong><small>stored signals</small>
+          <div class="meter"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </aside>
+      </section>
+
+      <section class="controls" aria-label="記事を絞り込む">
+        <div class="category-tabs" role="group" aria-label="カテゴリ">
+          <button class="tab active" data-category="all">すべて <span id="countAll">0</span></button>
+          <button class="tab" data-category="ai_seitaishi">AI整体師向け <span id="countAi">0</span></button>
+          <button class="tab" data-category="engineer">エンジニア向け <span id="countEngineer">0</span></button>
+        </div>
+        <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="タイトル・ソース名・URLを検索" autocomplete="off" /></label>
+      </section>
+
+      <section class="feed-summary" id="feedSummary" aria-label="情報源の状態"></section>
+
+      <section class="articles-section">
+        <div class="section-heading"><p id="resultLabel">記事を読み込み中</p><button class="clear-read" id="clearRead" type="button">既読をリセット</button></div>
+        <div class="article-grid" id="articleGrid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <template id="articleTemplate">
+      <article class="article-card">
+        <div class="card-topline"><span class="category-badge"></span><button class="read-toggle" type="button" aria-label="既読を切り替える"></button></div>
+        <h2></h2>
+        <dl>
+          <div><dt>URL</dt><dd class="url"></dd></div>
+          <div><dt>公開日</dt><dd class="published"></dd></div>
+          <div><dt>ソース名</dt><dd class="source"></dd></div>
+          <div><dt>カテゴリ</dt><dd class="category"></dd></div>
+        </dl>
+        <a class="open-link" target="_blank" rel="noreferrer">元記事を開く <span>↗</span></a>
+      </article>
+    </template>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

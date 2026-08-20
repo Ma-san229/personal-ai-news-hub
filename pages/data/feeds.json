@@ -1,0 +1,22 @@
+{
+  "feeds": [
+    {
+      "id": "engineers-digest",
+      "name": "Engineer's Digest（ponkotsu.dev）",
+      "url": "https://www.ponkotsu.dev/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-08-20T10:31:55.328Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "ai-seitaishi",
+      "name": "AI整体師（RSS URL確認待ち）",
+      "url": "",
+      "category": "ai_seitaishi",
+      "enabled": false,
+      "lastFetchedAt": null,
+      "lastStatus": "disabled"
+    }
+  ]
+}

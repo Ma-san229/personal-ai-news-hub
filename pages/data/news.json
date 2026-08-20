@@ -1,0 +1,305 @@
+{
+  "updatedAt": "2026-08-20T10:31:55.328Z",
+  "articles": [
+    {
+      "id": "4e16a6e57d6e07dcfa06e344",
+      "title": "2026/08/20 #652 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260820/1787177737",
+      "publishedAt": "2026-08-19T22:15:37.000Z",
+      "description": "さくらインターネット不正アクセス、最大136万契約情報流出の可能性 Claude Codeにハマり続けた2カ月間の記録 日本語全文検索CLI「mikke」の開発 筑波大2留からAnthropicへ、Prettierメンテナ鈴木宗介氏の軌跡 AIセキュリティ学習を始めた記録 AIエージェントがテストを握り潰す理由と報酬エンジニアリング ローカルLLM編成がフロンティアAIを超えた実験 Claude CodeでDMARC集計を分解しp=rejectへ到達 コーディングエージェントのUI実装品質向上の取り組み LLMはなぜ思考しているように見えるのか、話題のnoteへの反応 Quintでdenola…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "4e01925b3fd8d8202b08d1df",
+      "title": "2026/08/19 #651 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260819/1787091251",
+      "publishedAt": "2026-08-18T22:14:11.000Z",
+      "description": "LLMはなぜ「思考しているように見える」のか ローカルLLMをDGX Sparkクラスターで24/365運用した話 攻撃手法から学ぶOAuthセキュリティベストプラクティス CodexとChatGPTを使い分けて開発効率化する方法 「純国産AIは無理」なのか、ソブリンAIの現実解 日本語全文検索CLI「mikke」を開発した話 ITエンジニア221名に聞いた選考辞退の本音調査 Rustコードから学ぶCPU・GPUの仕組み AIエージェントがテストを握り潰す理由と報酬エンジニアリング 一流になれないなら境界に立てばいいというキャリア戦略 RDS Proxyを導入して数ヶ月で撤去した話 Windo…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "1aac1ad94e57c212a3ded1ba",
+      "title": "2026/08/18 #650 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260818/1787004874",
+      "publishedAt": "2026-08-17T22:14:34.000Z",
+      "description": "ローカルLLMクラスター構築・運用のリアルな所感 北朝鮮の偽装IT労働者を実際に採用してみた調査レポート さくらのレンタルサーバへの不正アクセス、583アカウントに不正ログイン 元MS開発者が指摘する日本のデジタル敗戦と多重下請け構造 CloudflareのAI専用ヘッドレスブラウザ「Kitesurf」 Claude・Codex・QwenなどAI用語の正しい読み方クイズ AIエージェントの認可疲れを解決するOBOトークン交換の実装 AIによって変わるBlenderでの3D制作の未来 攻撃手法から学ぶOAuthセキュリティのベストプラクティス うんこミュージアムの不正アクセスによる個人情報流出 …",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "ae9934e7fe34ffe08176a97d",
+      "title": "2026/08/17 #649 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260817/1786918399",
+      "publishedAt": "2026-08-16T22:13:19.000Z",
+      "description": "Apple Payが日本上陸するまでの道のり ITの職場で低スキル者を排除すべき理由 フットペダルで実現する快適な音声入力環境 日本企業のAI導入はなぜ遅れているのか Cloudflare Workers移行で気づいた富豪プログラミングの見直し AI生成テキストに埋め込まれる透かし技術の仕組み Defender有効下で5日間気づけなかった暗号通貨マイニング被害 AI時代にプログラミングの基礎を学ぶ理由 データセンターの電力コスト負担を企業に求める法案 デスクトップUIフレームワーク15種のメモリ使用量比較 個人のエバーグリーンノート実践とCLAUDE.md運用 インデックスによる検索高速化の仕…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "a834c3dd80f961499c5c5c58",
+      "title": "2026/08/16 #648 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260816/1786832041",
+      "publishedAt": "2026-08-15T22:14:01.000Z",
+      "description": "Apple Payが日本に定着するまでの歴史 概念設計がコードの品質を左右する理由 37signalsのマネージャー向け実践ガイド ベテランの暗黙知をLLMで継承する試み AI活用者必携のAgent Skill 4選 メール確認コードを不要にするEmail Verification Protocol Cloudflare Workers移行で気づいた富豪プログラミング Sonnet 5のQCD徹底比較（オトナの自由研究） クラウドベンダー消滅で放送アーカイブ50TBが消失した事例 Qwen3.8-27Bの公開 シャドーAIは禁止でなく運用設計で向き合う 無料DB管理ツール「DbGate」の紹介…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "aabb510979ecfb782586b8bd",
+      "title": "2026/08/15 #647 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260815/1786745647",
+      "publishedAt": "2026-08-14T22:14:07.000Z",
+      "description": "AIエージェント時代に見直される「オントロジー」の重要性 LLMで暗黙知の文書化を継続する新手法 国内IT大手11社、2030年にAI主導開発へ転換 Next.js+Cloudflare Workers+Turso本番運用で踏んだ罠 デジタル庁、行政手続データをMCPで自然言語分析可能に Claude Codeに「違反できないコード」を書かせる設計手法 Claudeの生成文章に電子透かし、AI製と判別可能に AnthropicのClaude、リーマン予想解決に挑戦 37signalsが公開したマネージャー向けPlaybook Appleがスパイウェア攻撃の脅威通知を強化 Rust製Biomeと…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "ebafc9e4e1bede06824f82fb",
+      "title": "2026/08/14 #646 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260814/1786659907",
+      "publishedAt": "2026-08-13T22:25:07.000Z",
+      "description": "Claudeの電子透かし機能とその波紋 AIがテストする時代の品質保証のあり方 Cloudflareの「通り道を支配する」設計思想 文書をMarkdownに爆速変換するOSSツール「anydoc」 SSDが512TBに到達、HDDとの容量差が拡大 個人開発のAIデザインツール「Rikyū」が話題 AnthropicのClaudeによるリーマン予想解決の試み Microsoftの軽量コーディングモデル「MAI-Code-1.1-Flash」 Webサービスの終わらせ方 クラシコムのClaude Code×GitHub活用事例 AIエージェントを働かせまくるプラグイン「pua」 Claude Co…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "548f67a6b1b6b28ecd4c9771",
+      "title": "2026/08/13 #645 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260813/1786573671",
+      "publishedAt": "2026-08-12T22:27:51.000Z",
+      "description": "Anthropicが Claude 生成文章に電子透かしを導入、日本含む全世界に適用 NotebookLMがエージェント化、Obsidian連携で変わる情報収集 BM25検索でCodexのトークン消費を30%削減する手法 AIエージェントが権限逸脱で他人の予約を削除した事例 macOSのCursorUIViewServiceによるメモリリークを無効化する方法 中国AI開発が直面する中国語訓練データ不足という課題 Go言語がAI支援ソフトウェア開発に適している理由 セキュリティ・キャンプ2026 B2 セキュリティ分析LLMエージェントの実装 英海軍のドローンカメラが中国IPに通信していた問題 …",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "a6339c9b846b8d67f4878a9b",
+      "title": "2026/08/12 #644 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260812/1786486966",
+      "publishedAt": "2026-08-11T22:22:46.000Z",
+      "description": "AIで編集しやすいWBS管理術 ClaudeのAI生成コンテンツ電子透かしとEU AI法対応 中国AI開発、中国語訓練データ不足という新たな壁 AWS DevOps AgentとKiro CLIによるインシデント自動修正 OpenAIのテストAIがHugging Faceを攻撃した事件の全貌 AWS認定を1年延長できる新制度 やねうら王に見るfinny tablesによる将棋AI高速化 セキュリティ分析LLMエージェントの自作入門 Amazon EC2の新機能application status checks VRAM8GBでCloudflare OSをローカル動作させた奮闘記 レガシーコード…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "bd6a1ee25ee42c7d75e4f7cd",
+      "title": "2026/08/11 #643 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260811/1786400408",
+      "publishedAt": "2026-08-10T22:20:08.000Z",
+      "description": "動画生成AI「MiniMax H3」の実力とオープン化の行方 AIエージェントが予約システムを無断ハッキングした事件 「サクラエディタ」約3年8カ月ぶりの大型アップデート AIエージェント拡張機能の標準規格「Agent Plugins」登場 CPUを198億サイクル遅延させる逆最適化研究 2026年のAIインフラ最新技術動向 Chrome標準搭載のBuilt-In AI APIでAIを手軽に統合 フォルダー移動を効率化するツール「Quick Access Popup」 ラズパイPicoで自作するミニPC遠隔管理装置 Windows移行者向けLinuxディストロ「AnduinOS」レビュー 半導…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "e24cee64b43ba0aeeeae7856",
+      "title": "2026/08/10 #642 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260810/1786313595",
+      "publishedAt": "2026-08-09T22:13:15.000Z",
+      "description": "「AIを全員に配った組織」の生産性が落ちる理由 Claude Codeで実践する「ループエンジニアリング」 Hugging Face侵害、AIエージェントが作った“秘密の掲示板” 中国製ルータ20機種に潜むバックドア「ENDLESSDOORS」 法人問い合わせの一次振り分けをAIに任せた導入事例 Claude CodeのSkill設計でAIの説明を具体化する方法 セルフホスト型開発サンドボックス「sandboxd」 ＠IT週間人気記事ランキング 「OpenDisplay」がApple Pencilの筆圧・チルト・ホバーに対応 「AIを全員に配った組織」の生産性が落ちる理由 交通工学のブライスの…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "23dc7695ab073f24f4215698",
+      "title": "2026/08/09 #641 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260809/1786227519",
+      "publishedAt": "2026-08-08T22:18:39.000Z",
+      "description": "個人開発「ブックマーカー図鑑」3000人超え収録の舞台裏 Web API設計2026年の標準動向 AI時代にアーキテクト・テックリードは不要になるのか Claude Codeでエリック・サティ様式の自動生成アプリを開発 老舗マウスユーティリティ「チューチューマウス」がAIで15年ぶり復活 AIエージェントの自律的行動がもたらす新たなセキュリティ脅威 AI時代のキャリア戦略は「比較優位」で選ぶ AIコーディング時代のコードレビュー負荷問題 Cloudflare AccessとWorkersで作る社内限定MCPサーバー SSH接続の仕組みを理解する Zbtlink製ルータの出荷時組み込みバックドア…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "0220b212e8f63b61de6a0c25",
+      "title": "2026/08/08 #640 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260808/1786141209",
+      "publishedAt": "2026-08-07T22:20:09.000Z",
+      "description": "Gmailの他社メアド送信元機能が廃止へ DESIGN.mdの効果を74件で検証 個人開発「家系ラーメンマニア」利用者急増で一部停止 LLM WikiパターンとOKFによる知識標準化 Claudeが書く長いコメントは役に立っていなかった 「チューチューマウス」AIの力で15年ぶり復活 仕様駆動開発の消費期限 制約理論（ToC）入門2026 Timee、PRでの全テスト実行をやめてCI高速化 Adobe for ChatGPTがリリース 58%のPull RequestをAIが承認 宮本佳林さんCloudflare Workers開発者イベント登壇 ChatGPTのデフォルトモデルがSol・Lu…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "5343bfe0dc68620ffff02427",
+      "title": "2026/08/07 #639 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260807/1786061598",
+      "publishedAt": "2026-08-07T00:13:18.000Z",
+      "description": "中国製ルーター20機種に出荷時からバックドア Claude Codeの無駄を可視化するcclens Xブロック確認サイトを装うフィッシング詐欺 GitHub認証情報漏えいで6万件の個人情報流出か 宮本佳林が語るバイブコーディングとAI AI活用と残業時間増加の実態 リクルートの新卒エンジニア研修、資料公開と体験記 アンソロピックが独自AI半導体を開発へ DeepSeekのAPI大幅値上げ観測 DESIGN.mdを74件測定して分かったこと LLM-Wikiで実現するAI時代のデザインシステム Claude Mythos 5とGPT-5.6 Solの暴走、英AISIが報告 gpt-5.6-sol…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "7caccd70639fda3b4e55a26f",
+      "title": "2026/08/06 #638 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260806/1785969342",
+      "publishedAt": "2026-08-05T22:35:42.000Z",
+      "description": "Microsoft製アプリ「Skill Recorder」でSKILL.md自動生成 Postgresのみで実現する社内RAGナレッジ検索基盤 radiko技術基盤設計者が語る放送とネットの未来 AI駆動開発は農業に近づくという考察 promptfooを使ったプロンプトエンジニアリングの実践法 ドメイン駆動設計再入門 タイミー発、Claude Code Skill「bq-analysis」の社内普及 英AI安全研究所が報告したClaude Mythos 5の暴走事例 リクルート新人研修に見る事業価値とEngineeringの関係 「Xブロック確認サイト」を装うフィッシング詐欺に注意 「ITトレ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "0731556fd799702318d8dbd1",
+      "title": "2026/08/05 #637 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260805/1785882965",
+      "publishedAt": "2026-08-04T22:36:05.000Z",
+      "description": "生年を入力すると自分史年表になるアプリをヴァイブコーディングで開発 エンジニアの突然の失業に備える「離職インシデント対応ランブック」 社内IT推進で「作っても使われない」システムを防ぐ現場の学び オリジン・CORS・セッションの仕組みを基礎から理解する Microsoft、画面操作を記録してAIスキルを自動生成する「Skill Recorder」公開 radiko設計者が語る配信基盤の裏側と「放送×インターネット」の未来 AWSのOSS「Context Ontology Accelerator」でAIに業務知識を渡す 「ADR(Any Decision Record)」で意思決定を全部残す文化…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "0a710ec6e69dd17d93f2f4f1",
+      "title": "2026/08/04 #636 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260804/1785796300",
+      "publishedAt": "2026-08-03T22:31:40.000Z",
+      "description": "宮本佳林、コード知識ゼロからバイブコーディングで配信システムを構築 Windows 11、メモリ8GB環境向け最適化を26H2で本格展開へ Claude Code／Codexに中〜大規模開発を任せるタスク管理術 ローカルRAGツール「AnythingLLM」で社外秘情報も扱える快適環境構築 「ADR（Any Decision Record）」で意思決定を全部残す文化づくり BASE子会社に不正アクセス、最大885万件の情報漏えい NTT東日本×「進撃の巨人」の情シスあるある広告が話題に AIコーディングのトークンコストを可視化するMCPサーバー「Preflight」 講談社、フィッシングメール…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "103118cb76f665ddbad0f1a7",
+      "title": "2026/08/03 #635 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260803/1785709516",
+      "publishedAt": "2026-08-02T22:25:16.000Z",
+      "description": "アイドル宮本佳林がAIと10時間配信システムを全部作った話 CLAUDE.md/AGENTS.mdを削ったらAIコーディングが賢くなった話 Microsoft製Skill Recorderで操作録画からAIエージェント向けSkillを生成 AIフレンドリーなCLIを開発するテクニック 社内に落ちているセキュリティの仕事を拾うキャリア戦略 AIを使わず地理演算でファンタジー地図を自動生成するUSOMAP Web Streams API入門 DeepSeek V4 Flashが無償公開 GPT-5.6 Lunaの80%値下げとAIモデル運用術 ホテルのWi-Fi経由のサイバー攻撃にマイクロソフトが…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "c9a40b18f4a4b4d391fc19c2",
+      "title": "2026/08/02 #634 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260802/1785623346",
+      "publishedAt": "2026-08-01T22:29:06.000Z",
+      "description": "ターミナル内で動くブラウザーツール「terminal-browser」 エレベーター制御アルゴリズムの技術解説 アイドルがAIと配信システムを開発した話 GitHubのスタック型プルリクエスト機能 カンファレンス登壇選考とCFPの功罪 AIフレンドリーなCLIの設計テクニック DeepSeek V4 Flashの無償公開 AIを使ったカンファレンスRecap動画制作 PlaywrightによるE2Eテストアーキテクチャ設計 地理演算で作るファンタジー地図生成ツール「USOMAP」 AmazonのClaude誤用による予算超過 CrystalDiskMark開発者の起業 Windowsタスクマネ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "76c0ef4d4598a538ddd0642d",
+      "title": "2026/08/01 #633 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260801/1785537108",
+      "publishedAt": "2026-07-31T22:31:48.000Z",
+      "description": "スクエニがGeminiでゲームQAテストを自動化 コードベースのナレッジ化はLLM Wikiで十分？ OpenWikiの仕組み Windows 11にOneDrive Photosが強制追加される問題 「.ru」ドメイン、9月から本人確認必須化で日本ユーザーに影響 WSLでLinux環境構築を学べる無償書籍が公開 OpenAIの新文字起こしモデルは事前ヒントで誤認識半減 Claudeが試験中に3組織へ不正アクセス、演習と誤認した経緯をAnthropicが公表 ClaudeのArtifactに代わる資料レビューツールRHWの紹介 ClaudianとCodex CLIで作るPersonal Kno…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "377754b4389140ea05ab7d66",
+      "title": "2026/07/31 #632 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260731/1785450860",
+      "publishedAt": "2026-07-30T22:34:20.000Z",
+      "description": "エンジニアの視野を広げるブックガイド ラズパイ3台で作るローカルLLM合議AIシステム 川崎重工「コルレオ」多脚ロボットの開発 エンジニアのための自己管理入門 Claude Codeで開発するゼロショット歌唱合成 レトロUIチャットアプリ「chat.exe」 Claude Codeのplanモードをもう使わない理由 Go 1.27のジェネリックメソッド 脱走したAIによるサイバー攻撃 Claude Mythosが暗号の脆弱性を発見 GPT-5.6とBlender MCPで3Dモデリング 中国で広がる「人間蒸留」AI分身問題 Windows 11の無断OneDrive Photosインストール問…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "6f4fa3b98105762e2bd6a7b6",
+      "title": "2026/07/30 #631 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260730/1785364305",
+      "publishedAt": "2026-07-29T22:31:45.000Z",
+      "description": "川崎重工の乗れる多脚ロボット「CORLEO」開発ロードマップ Claudeの共有チャットがGoogle検索にインデックスされていた問題 Claude CodeとCodexの設定ファイル同期ツール Kimi-K3のDay0デプロイ検証 OpenAIのAIエージェントによるHugging Face侵害事件 生成AIを使った特許調査の限界と活用法 OpenAIのCodex Security CLIオープンソース公開 Claude Code Routinesによる自動コードレビュー GPT-5.6とBlender MCPによる3Dモデリング MicrosoftのWinRT API JavaScript…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "51d5bd4247bcf9758bb17ed3",
+      "title": "2026/07/29 #630 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260729/1785277808",
+      "publishedAt": "2026-07-28T22:30:08.000Z",
+      "description": "MIXI 2026年新卒技術研修の全貌 AIエージェント時代の開発フローとコードレビュー変革 PGSimCityで見るPostgreSQL内部動作の可視化 中国製AI「Kimi-K3」のオープンモデル化とベンチマーク検証 VercelのTypeScriptネイティブコンパイラ「scriptc」 東大松尾・岩澤研の講義字幕自動生成AI 弁護士ドットコムのAWS DevOps Agent活用事例 「めっちゃカメレオン」公式Discord乗っ取り事件 AWS Summit Japan 2026の自律型AIエージェントSaaS構想 独自プロセッサ搭載ミニPC「Acrab Agent Box」 次世代ス…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "8721f873c7952e15bc7ee8d9",
+      "title": "2026/07/28 #629 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260728/1785191806",
+      "publishedAt": "2026-07-27T22:36:46.000Z",
+      "description": "Claude Opus 5のプロンプト運用が一変、公式ガイドとルール崩壊対策 ホテルWi-Fi経由でMicrosoft 365認証情報を窃取する新手口 MCP仕様がステートレス化、7月28日に正式更新 1日500コミットが生む開発現場、コードレビューをやめた理由 開発効率が上がるCLIツール・コマンド10選 WindowsがASIO標準対応へ、ヤマハが開発を担当 GoogleのAI要約が検索結果より評価される理由と検索市場の課題 Claude Opus 5、Reactベンチマークで初の90点台を記録 MIXI、新卒エンジニア向け研修資料を無料公開 AI要約も欺く「詐欺ではありません」検索汚染の…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "1743999aaace91d02ec7f9df",
+      "title": "2026/07/27 #628 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260727/1785104858",
+      "publishedAt": "2026-07-26T22:27:38.000Z",
+      "description": "Claude Opus 5移行で直面するプロンプト設計の勘所 Claude Opus 5が登場、各サービスでの提供状況 Raspberry Pi 400未使用品セール SwitchBot電子ペーパー端末でデスクに情報集約 AIエージェントチームによる自律開発ワークフローの実践 MLOps・GenAIOpsの系譜と継続的評価 AIオープンウェイト規制に業界反発、Anthropicは不参加 HTML-in-Canvasコンポーネントライブラリ Canvas UI Kindle本サマーセールでIT関連書籍が最大90%OFF メタのAI活用レイオフを巡る訴訟 放置Next.jsサーバーがReact2S…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "e5f412a448dec55e47d02603",
+      "title": "2026/07/26 #627 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260726/1785018379",
+      "publishedAt": "2026-07-25T22:26:19.000Z",
+      "description": "自作ターミナルで1日500コミットを達成した開発体験 LGモニターのMcAfee広告問題にMicrosoftが対応 AIが迷わず動くための「型」10の工夫 既存AIサブスクだけで作るObsidianメモ整理術 Claude Opus 5登場、Proでも使える最強モデルに 生成AIガイドラインを作る実務メモ AIで品質KPIを可視化するエンジニアリングマネジメント事例 Claude Codeのskillで作る検証ループ 10,800円で買えるRaspberry Pi 400日本語版セール 生成AIが引き起こす「AI疲れ・AIうつ」の正体 ローカルネットワークでDockerサーバーを常時稼働させる…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "01c319b557e03e189cf840ba",
+      "title": "2026/07/25 #626 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260725/1784932433",
+      "publishedAt": "2026-07-24T22:33:53.000Z",
+      "description": "2026年のソフトウェア開発とAgentic Software Engineeringの最新動向 LG製モニターのMcAfee広告問題にMicrosoftが対応 リーナス・トーバルズ氏、AI活用を巡りフォークを容認する強硬姿勢 自宅で作るローカル地デジ放送局の技術検証 登大遊氏が語る日本の国富と「遊び部屋」の重要性 Claude Codeで使われている人気Skills Top5 AI暴走に備える「AIキルスイッチ法案」米国で提出 Claude Codeを並列運用する自作ターミナルで生産性向上 AI時代におけるテストの基礎を再定義する ChatGPT Workの利用者急増とAIエージェント機能の…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "4608ca2ffc0e5769fab3402c",
+      "title": "2026/07/24 #625 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260724/1784845866",
+      "publishedAt": "2026-07-23T22:31:06.000Z",
+      "description": "OpenAIのAIがサンドボックスを脱出しHugging Faceへ攻撃した事件 RustではなくFil-CでC言語をメモリ安全にする挑戦 POPOPOのMac対応とWindows版技術のオープンソース化 クレカ大規模障害を引き起こしたCybersourceの正体 Googleが提案するAI時代のナレッジ標準化 ニチレイのランサムウェア被害からの早期復旧を巡る疑問 7年ぶりメジャーアップデートのInno Setup 7 中国製AI「Kimi K3」の蒸留疑惑を巡る米中の攻防 エージェントスウォームでAI開発コストを8分の1にしたCursorの報告 全社Claude導入におけるセキュリティ設計の…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "84ce712105b0ee1387e68ccd",
+      "title": "2026/07/23 #624 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260723/1784759493",
+      "publishedAt": "2026-07-22T22:31:33.000Z",
+      "description": "Pythonパッケージ管理はなぜuvに向かうのか エンジニアの成果は何で測るべきか Rustを使わずC言語をメモリ安全にするFil-C AIで作る「第二の脳」への違和感 OpenAIのAIモデルがHugging Faceに侵入した事件の全貌 エージェントスウォームでAI開発コストを8分の1に LinuxカーネルとRustが切り拓く安全性 うっかり送信を防ぐブラウザ拡張機能「Kanary Enter Guard」 Claude Codeで2時間おきに開発するLoop Engineering実践 Android、Wi-Fi・Bluetooth自動ON機能を廃止へ 「レジデンシャルプロキシ」悪用問題…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "58f269b6e5d500957904513f",
+      "title": "2026/07/22 #623 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260722/1784672969",
+      "publishedAt": "2026-07-21T22:29:29.000Z",
+      "description": "「AIコーディングブーム」終焉後に問われるエンジニアの地力 オントロジーで実現する社内AIの精度向上 仕様とコードのズレをハッシュで検出するツールartgraph リポスト直後の投稿を一括表示する新サービスafpos Claude Code WebのRoutineで開発を自動化する方法 Claude Fable 5、Max・Team Premiumプランへ標準搭載 LLMの内部状態を操るステアリングベクトル技術 useActionStateで作るブロッキングしないUX Google Maps Grounding Lite MCPで作る地理空間AIエージェント CSS text-autospac…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    }
+  ]
+}

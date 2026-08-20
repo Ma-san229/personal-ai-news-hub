@@ -17,3 +17,7 @@
 - [ ] 公開後にRSS定期取得スケジュールを有効化する
 - [x] ponkotsu.devの公開RSS / Atom URLを検出し、エンジニア向け初期フィードとして有効化する
 - [x] noteの公開RSS形式を確認し、エンジニア向けの登録方法をフィード管理画面に案内する
+- [ ] GitHub Pages向けの静的ニュースポータルを作成する
+- [ ] GitHub ActionsでRSS / Atomを定期収集し、静的ニュースデータを更新する
+- [ ] GitHub ActionsでGitHub Pagesへの公開を自動化する
+- [ ] GitHubリポジトリを作成し、GitHub Pages公開設定を有効化する

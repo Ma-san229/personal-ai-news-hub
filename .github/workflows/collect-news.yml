@@ -1,0 +1,41 @@
+name: Collect RSS News
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-news
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.4.1
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Collect RSS and Atom feeds
+        run: node scripts/collect-static-news.mjs
+      - name: Commit refreshed news data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pages/data/news.json pages/data/feeds.json
+          git diff --cached --quiet || git commit -m "chore: refresh news feed"
+          git push
