@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-08-20T18:59:58.743Z",
+  "updatedAt": "2026-08-21T01:58:19.350Z",
   "articles": [
+    {
+      "id": "7c715d9122913a0f792fb7d3",
+      "title": "2026/08/21 #653 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260821/1787263997",
+      "publishedAt": "2026-08-20T22:13:17.000Z",
+      "description": "数学者とAIが共同で新予想を証明した論文執筆記 バイブコーディングでTesla用アプリを自作した体験談 新人AI制御教育ハーネスの導入事例 形式仕様Quintで見つけたdenoland/celldの二重writerバグ LLMによる脆弱性報告急増とBINDのメンテナンス方針転換 パスワード平文保存が今なお繰り返される真因 オントロジー×グラフ×LLMによるRAG実装比較 Dell Pro Max with GB300搭載ワークステーションの発売 CerebrasのAI推論ラックスケール新製品CS-4 トラックボール内蔵自作キーボード「STEEPLECORE」の発売 Excel Power Qu…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "4e16a6e57d6e07dcfa06e344",
       "title": "2026/08/20 #652 - 今日の技術情報ダイジェスト",
