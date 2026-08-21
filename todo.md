@@ -14,10 +14,10 @@
 - [x] サーバー処理のテスト、画面確認、運用手順を整備する
 - [x] GitHub Actionsで型検査・ユニットテスト・ビルドを継続実行する
 - [ ] AI整体師の正式なRSS / Atom URLを確認し、有効化する
-- [ ] 公開後にRSS定期取得スケジュールを有効化する
+- [x] GitHub Actionsによる6時間ごとのRSS定期収集を有効化する
 - [x] ponkotsu.devの公開RSS / Atom URLを検出し、エンジニア向け初期フィードとして有効化する
 - [x] noteの公開RSS形式を確認し、エンジニア向けの登録方法をフィード管理画面に案内する
-- [ ] GitHub Pages向けの静的ニュースポータルを作成する
-- [ ] GitHub ActionsでRSS / Atomを定期収集し、静的ニュースデータを更新する
-- [ ] GitHub ActionsでGitHub Pagesへの公開を自動化する
-- [ ] GitHubリポジトリを作成し、GitHub Pages公開設定を有効化する
+- [x] GitHub Pages向けの静的ニュースポータルを作成する
+- [x] GitHub ActionsでRSS / Atomを定期収集し、静的ニュースデータを更新する
+- [x] GitHub ActionsでGitHub Pagesへの公開を自動化する
+- [x] GitHubリポジトリを作成し、GitHub Pages公開設定を有効化する
