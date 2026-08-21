@@ -2,6 +2,10 @@
 
 GitHub Pages版は、DBを使わない静的ニュースポータルです。GitHub ActionsがRSS / Atomを6時間ごとに取得し、`pages/data/news.json` と `pages/data/feeds.json` を更新してコミットします。そのコミットを契機に、別のGitHub Actionsが `pages/` をGitHub Pagesへ公開します。
 
+## 公開URL
+
+公開サイトは [https://ma-san229.github.io/personal-ai-news-hub/](https://ma-san229.github.io/personal-ai-news-hub/) です。2026年8月21日に、Engineer's Digest（ponkotsu.dev）のAtomフィードから31件の記事が表示されることを確認しました。
+
 ## 情報源を追加・変更する
 
 `pages/data/feeds.json` の `feeds` 配列に、`id`、`name`、`url`、`category`、`enabled` を登録します。カテゴリ値は `ai_seitaishi` または `engineer` のいずれかです。URL確認前の情報源は、`enabled` を `false` に設定してください。
