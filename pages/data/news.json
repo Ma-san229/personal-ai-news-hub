@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-08-21T18:56:24.532Z",
+  "updatedAt": "2026-08-22T01:50:20.842Z",
   "articles": [
+    {
+      "id": "46099b8cf4735df5717ec98a",
+      "title": "2026/08/22 #654 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260822/1787350492",
+      "publishedAt": "2026-08-21T22:14:52.000Z",
+      "description": "「次の単語を当てているだけ」のAIがなぜ数学の証明までできるのか——LLM創発研究の最前線 内蔵GPUを活用してゲーム中のYouTube視聴を快適にする方法 AIエージェントのSkillsを設計・評価する新手法 Unslothの新量子化技術でQwen3.8 27Bが6.2GBに軽量化 一人でちいさくはじめるPlatform Engineering Anthropicが学習サイト「Claude Academy」を無償開設 社内アプリのダークモード実装要望が予想以上に多かった話 楽天ブックス関係会社で不正アクセス、3万3333人分の個人情報漏えいの可能性 コードが書けない筆者がClaude Cod…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "7c715d9122913a0f792fb7d3",
       "title": "2026/08/21 #653 - 今日の技術情報ダイジェスト",
