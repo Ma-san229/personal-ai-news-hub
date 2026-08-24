@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-08-23T18:48:54.793Z",
+  "updatedAt": "2026-08-24T01:58:03.932Z",
   "articles": [
+    {
+      "id": "2236fec1cbbed122ceeafd3a",
+      "title": "2026/08/24 #656 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260824/1787523166",
+      "publishedAt": "2026-08-23T22:12:46.000Z",
+      "description": "Microsoft Entra IDアプリケーション開発入門 RustをAIメンターに丁寧に教わる サクラエディタの便利機能 豪Telstra大規模通信障害、GPS週番号ロールオーバーが原因 Qwen3.8-27Bにおすすめのコーディングエージェントハーネス gRPC/Connect/HTTP2を完全に理解する AIコーディングのためAppleファイルシステムからLinuxへ移行 8bit CPUを自作してLinuxを動かす フレームワークに頼らないピュアPythonでCoding Agentを実装 バックアップの「戻せるか」を5段階で測る CPythonとPyPyから見る最適化のしくみ 単体…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "74e5e0c7520bb5e4e54b7bd3",
       "title": "2026/08/23 #655 - 今日の技術情報ダイジェスト",
