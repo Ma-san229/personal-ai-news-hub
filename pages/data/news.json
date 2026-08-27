@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-08-26T20:03:41.699Z",
+  "updatedAt": "2026-08-27T09:49:23.739Z",
   "articles": [
+    {
+      "id": "511630af816fa60ba9387120",
+      "title": "2026/08/27 #659 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260827/1787785720",
+      "publishedAt": "2026-08-26T23:08:40.000Z",
+      "description": "AIエージェント常時稼働という設計思想への警鐘 マイクロサービス認可伝搬とIETF Transaction Tokens 敵対的検証で精度を高めるLLMコードレビュー オンコール手当の相場を50社調査した結果 Googleエンジニアの不当解雇訴訟 無料ツールLM StudioでローカルAI構築 ChatGPT Workによるログイン必要サイトの操作自動化 大雨時のStarlink通信品質検証 PowerToys 0.101公開とWindow Hopper追加 PayPayが開発したAIテストのセルフヒーリング DuckLabsのAWS参加とDuckDBの今後 YKK APが築いた7年間のセキュ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "9c24cb17ee2f0066490c3143",
       "title": "2026/08/26 #658 - 今日の技術情報ダイジェスト",
