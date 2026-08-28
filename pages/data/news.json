@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-08-27T22:16:17.267Z",
+  "updatedAt": "2026-08-28T11:23:53.352Z",
   "articles": [
+    {
+      "id": "ac02ca3d331a558174943d75",
+      "title": "2026/08/28 #660 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260828/1787879084",
+      "publishedAt": "2026-08-28T01:04:44.000Z",
+      "description": "Claude Code / Cursorで開発をクラウドに移行する働き方 52歳エンジニアが語る50代での初転職 セキュリティ施策を通すための伝え方の工夫 主要ブラウザがJPEG XLを2026年内に正式採用へ Claude Codeの規律をフックで強制する開発手法 藤井聡太王位がAIの223手定跡をそのまま採用した一局 AIを使ったナレッジ中心設計の実践 Backlogの大幅値上げにユーザーから悲鳴 NVIDIAによるHugging Face買収協議 PayPayのAI駆動セルフヒーリングテスト Google「Gemini 3.5 Transcribe」の高精度音声認識 VPN廃止でNASへ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "511630af816fa60ba9387120",
       "title": "2026/08/27 #659 - 今日の技術情報ダイジェスト",
