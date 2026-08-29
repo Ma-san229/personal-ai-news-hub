@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-08-28T22:20:47.399Z",
+  "updatedAt": "2026-08-29T07:05:01.864Z",
   "articles": [
+    {
+      "id": "0c23e855f58416fec7da0e8c",
+      "title": "2026/08/29 #661 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260829/1787956096",
+      "publishedAt": "2026-08-28T22:28:16.000Z",
+      "description": "AI生成ドット絵を高品質化する自作ツール「Pixel Refiner」 LINEヤフーが進めるAI駆動開発の組織展開 九州大学発、誰でも開けるClaude Codeワークショップキット 8年ぶり改訂『徳丸本』第3版の見どころ ローカルAWSエミュレータ「Floci」でTerraformを検証 形式仕様でAIと事前合意する開発手法 AnthropicのAI機器制御規格「Model Hardware Standard」 AIエージェント大量並列運用で変わる開発者の役割 Google「Gemini 3.5 Transcribe」の高精度音声認識 MacBook Pro 128GBでローカルLLM実用…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "ac02ca3d331a558174943d75",
       "title": "2026/08/28 #660 - 今日の技術情報ダイジェスト",
