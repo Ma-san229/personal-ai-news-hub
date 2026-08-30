@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-08-29T20:55:49.027Z",
+  "updatedAt": "2026-08-30T05:25:06.054Z",
   "articles": [
+    {
+      "id": "e3945bfcb860c29ccd25f810",
+      "title": "2026/08/30 #662 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260830/1788041633",
+      "publishedAt": "2026-08-29T22:13:53.000Z",
+      "description": "AI生成ドット絵を本物のドット絵に変換するWebツール「Pixel Refiner」 「AI語」というAI生成文特有の言い回しを読み解く Claude Codeで開発以外の業務も爆速化する活用術 Webセキュリティ定番書『徳丸本』第3版のポイント 並行開発向けAgent IDE「Orca」の使い勝手 ローカルLLMアプリ「Unsloth Desktop」の統合機能 AIに丸投げせず理解しながら進める開発手法 変化の速いClaude Codeとの体系的な付き合い方 Cloudflareが1.1.1.1のDNSキャッシュを削減した100TBのメモリ節約術 MacBook Pro 128GBでローカ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "0c23e855f58416fec7da0e8c",
       "title": "2026/08/29 #661 - 今日の技術情報ダイジェスト",
