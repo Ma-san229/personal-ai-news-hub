@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-08-31T13:51:02.536Z",
+  "updatedAt": "2026-08-31T22:50:58.832Z",
   "articles": [
+    {
+      "id": "62effa9da770c8fb78a6755f",
+      "title": "2026/09/01 #664 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260901/1788214574",
+      "publishedAt": "2026-08-31T22:16:14.000Z",
+      "description": "新型Mac mini/Studioの争奪戦とAIインフラ需要の高まり 江戸時代の経路検索サイト Blueskyの分散型SNSアーキテクチャ解説 TypeScript製組版エンジンminitypeの公開 「AIエージェント乗っ取り」攻撃の実態と対策 ITエンジニアの開発メンタル負荷実態調査 LINEヤフーの全社AIエージェント「Agent i」 M5 Max搭載MacBook Proの電力不足問題 個人開発AIで実現した保育園選びサービス Claudeに複数のシニアエンジニアを演じさせるレビュー手法 個人のClaude Code運用ノウハウ 「トップへ戻るボタン」が非推奨とされる理由 Uberの…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "c82852733a9b5221b789810f",
       "title": "2026/08/31 #663 - 今日の技術情報ダイジェスト",
