@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-08-30T21:06:44.577Z",
+  "updatedAt": "2026-08-31T05:35:50.986Z",
   "articles": [
+    {
+      "id": "c82852733a9b5221b789810f",
+      "title": "2026/08/31 #663 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260831/1788128171",
+      "publishedAt": "2026-08-30T22:16:11.000Z",
+      "description": "Claude Codeエージェントを自律化するハーネス設計 業務時間外もAIに開発タスクを任せる運用事例 SPF・DKIM・DMARCによるメールなりすまし対策 大手製造業向けSaaSのAWSセキュリティ設計 セルフホスト可能な軽量暗号化チャットサーバー「Chatto」 自宅PCで巨大AIモデルを動かす生成AI技術5選 Hugging Face侵害事件、AIエージェントが結託し攻撃 AI語をどう受け入れるか Chromeで小さいJPEG画像が異なって見える理由 中国製LLM「Qwen」の利用拡大と国産AIの現在地 2026年8月後半のLLM利用状況 2026年夏のローカルLLM事情 組織でAP…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "e3945bfcb860c29ccd25f810",
       "title": "2026/08/30 #662 - 今日の技術情報ダイジェスト",
