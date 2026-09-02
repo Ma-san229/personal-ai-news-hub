@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-01T21:02:28.617Z",
+  "updatedAt": "2026-09-02T04:34:32.667Z",
   "articles": [
+    {
+      "id": "4cb7a7033d801f7e134dd8f0",
+      "title": "2026/09/02 #665 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260902/1788300892",
+      "publishedAt": "2026-09-01T22:14:52.000Z",
+      "description": "「ミート・プロキシ」というAI出力丸投げを指す新語が話題に 2026年8月版Claude Code個人設定まとめ J:COMのPlumeルーターによるDNSブロッキング問題 Claude CodeでWordPressから静的サイトへ2日で移行 Google提唱の「SKILL.state」でプロンプトに型を導入 個人開発者がAIで待機児童問題に挑む「園えらびの手がかり」 Claude Code/Codex/Cursorを外部イベントで動かすCLIの作り方 アンソロピックのClaude利用料高騰と「恐怖の請求書」 AI時代のPRレビューで人間に残る判断とは Google、追加学習不要の時系列予測A…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "62effa9da770c8fb78a6755f",
       "title": "2026/09/01 #664 - 今日の技術情報ダイジェスト",
