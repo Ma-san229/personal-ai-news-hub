@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-02T21:04:06.221Z",
+  "updatedAt": "2026-09-03T04:34:06.242Z",
   "articles": [
+    {
+      "id": "bb787a8692f19038b1134cf8",
+      "title": "2026/09/03 #666 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260903/1788387434",
+      "publishedAt": "2026-09-02T22:17:14.000Z",
+      "description": "読まれる職務経歴書の書き方 Google提唱のSKILL.stateでAIエージェントのトークン消費を大幅削減 サブスク型IME「ATOK」を使い続ける理由 Google Workspaceで作る社内サービスの認証基盤 Wi-Fi登録に使える使い捨てメールアドレスサービス 無償ネットワーク調査ツール「NetEnum6」が正式公開 Claude Code/Codex/Cursorを外部イベントで動かすCLIの作り方 Claude Codeのroutine機能でPRレビューを自動化する実例 AIで実装コストが下がった今、戦略づくりに必要なこと Anthropicの高額請求が示すAIコーディングツー…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "4cb7a7033d801f7e134dd8f0",
       "title": "2026/09/02 #665 - 今日の技術情報ダイジェスト",
