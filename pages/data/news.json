@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-03T21:02:40.349Z",
+  "updatedAt": "2026-09-04T04:34:04.866Z",
   "articles": [
+    {
+      "id": "03e51780a470f9257caa3ed1",
+      "title": "2026/09/04 #667 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260904/1788473727",
+      "publishedAt": "2026-09-03T22:15:27.000Z",
+      "description": "Claude CodeでコンサルPPTX資料を自動生成するスキル AWS Cloud Quest 2.0のAIバーチャル顧客対話機能 技術コミュニティ活動で技術者として成長した体験談 オフライン閉域環境における信頼できるAI基盤の実証 AI時代のバックエンドシステムアーキテクチャ再考 ナレッジグラフでClaude Codeの推測を削減する手法 Mac App StoreでインテルMacアプリ対応終了が可能に 5つの役割をリレーするAIエージェントパイプラインの設計 Wolfi OSとChainguardによるセキュアなコンテナイメージ作成 Claudeの見えない透かしとコンテンツ認証機能 Cl…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "bb787a8692f19038b1134cf8",
       "title": "2026/09/03 #666 - 今日の技術情報ダイジェスト",
