@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-04T20:46:11.724Z",
+  "updatedAt": "2026-09-05T04:29:47.022Z",
   "articles": [
+    {
+      "id": "aab59f45e71419d5e79898ce",
+      "title": "2026/09/05 #668 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260905/1788560107",
+      "publishedAt": "2026-09-04T22:15:07.000Z",
+      "description": "OpenAI「GPT-6 Astra」発表、PC操作を高速代行する新フラッグシップモデル エンジニア面接で「開発力」を見極める質問設計 RIZAP社員が私用AIに顧客の個人情報を誤入力 ブラウザで学べる無料学習サイト「WebTerm Learn」公開 バッファロー初のトラックボール「BSTBB700X」誕生の舞台裏 NVIDIA、家庭内PCで分散推論する「PAIR」公開 35年未解決の暗号課題「RSA-260」ついに解読 日販とアンソロピックのAI学習向け書籍販売契約 ELYZAの「業務AIアプリをAIで作成」特許が炎上 Microsoft Office責任者、AI生成文書の質低下に苦言 Ch…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "03e51780a470f9257caa3ed1",
       "title": "2026/09/04 #667 - 今日の技術情報ダイジェスト",
