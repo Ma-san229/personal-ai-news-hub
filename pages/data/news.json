@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-05T20:21:15.730Z",
+  "updatedAt": "2026-09-06T04:39:45.995Z",
   "articles": [
+    {
+      "id": "d602efaccb7966ba622a82d1",
+      "title": "2026/09/06 #669 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260906/1788646600",
+      "publishedAt": "2026-09-05T22:16:40.000Z",
+      "description": "エンジニア面接で「開発力」を見極める質問設計 AIに1枚のHTML図解を作らせるコード理解術 Microsoftが実践する仕様駆動開発(SDD) バッファロー製トラックボールが生まれた開発秘話 Tailscaleで実現する手軽なVPN構築 日本のAIデータセンター投資が4倍に拡大 OpenAIエージェントによる休眠サイト不正利用問題 ELYZAのAI特許取得が招いた炎上騒動 PdEConferenceで語られたプロダクトエンジニアリングの本質 WSL向けターミナル「noctty」のOSS貢献記 uBlock OriginがFirefoxで生き残る理由 AIによるSREチームの週次チーム評価の試…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "aab59f45e71419d5e79898ce",
       "title": "2026/09/05 #668 - 今日の技術情報ダイジェスト",
