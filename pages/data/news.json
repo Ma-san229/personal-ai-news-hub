@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-07T21:31:23.353Z",
+  "updatedAt": "2026-09-08T04:37:10.877Z",
   "articles": [
+    {
+      "id": "c2ce402df4535647c5c39714",
+      "title": "2026/09/08 #671 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260908/1788819301",
+      "publishedAt": "2026-09-07T22:15:01.000Z",
+      "description": "CLAUDE.mdの書き方を見直す、Claude Codeシステムプロンプト削減術 MiniMax H3の高速版でAIキャラとリアルタイムビデオチャット Claude CodeチームがMarkdownを捨てHTML出力を選ぶ理由 生成コードを最大94%削減するAI拡張ツール「ponytail」 ADRは経緯より「決まったこと」だけでいい ローカルLLM実行トレンド、ミニPCからMacまで コードを読まずに25万行を回す個人開発の自動運用術 Claudeがフェルマーの最終定理を11日で機械検証済み証明 AstraにPythonスクリプトを書かせる3Dモデリング検証 プロダクトエンジニアはAI時代…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "65a44c1f9ce35cd5b3866895",
       "title": "2026/09/07 #670 - 今日の技術情報ダイジェスト",
