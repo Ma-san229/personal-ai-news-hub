@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-08T21:10:01.692Z",
+  "updatedAt": "2026-09-09T04:42:53.502Z",
   "articles": [
+    {
+      "id": "7e43b7163ddea458a81fa5ca",
+      "title": "2026/09/09 #672 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260909/1788905679",
+      "publishedAt": "2026-09-08T22:14:39.000Z",
+      "description": "「AIっぽさ」を消す画風プロンプト38種類とテンプレート集 データセンターの排熱で温泉は作れるか スマートテレビによる盗聴・視聴データ収集問題 ble.sh、理論物理研究者がBashだけで作ったコマンドラインエディタ コードを読まずにAIで25万行のサービスを運用する開発フロー DecisionパターンでDDDトリレンマを解く HTMX 4.0正式リリース Windows Installerフォルダーは削除禁止 Red-Green Stacked PRのすすめ ChatGPT Workの文体学習機能 NECが量子コンピュータ実機開発を中止 ファーウェイ「天才少年」出身者たちの現在地 AIエージ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "c2ce402df4535647c5c39714",
       "title": "2026/09/08 #671 - 今日の技術情報ダイジェスト",
