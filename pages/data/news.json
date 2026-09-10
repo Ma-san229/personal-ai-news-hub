@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-09T20:56:47.297Z",
+  "updatedAt": "2026-09-10T04:43:17.508Z",
   "articles": [
+    {
+      "id": "008ab7d8ee0a98b6102f2662",
+      "title": "2026/09/10 #673 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260910/1788992108",
+      "publishedAt": "2026-09-09T22:15:08.000Z",
+      "description": "AIっぽくない画像を作る画風プロンプト38種類 Docker環境をガチで軽量化する鉄板設定 AIクローラーがLinuxカーネルソースに群がる問題 Vibe Codingで衰退した手動コーディングとVim熱中の思い出 大半の人に必要無いAndroidアプリ7選 マクドナルド価格を地図で比較できる個人開発サービス QRコード不要のNFCタグ決済がPayPayやd払いに対応 OpenAIがミレニアム懸賞問題をAIで解決 UberがPostgresからMySQLへ移行した理由 Herdr×git worktree×Claude Codeの相性 内製チーム向けプロジェクトマネジメントの教科書 Metaの…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "7e43b7163ddea458a81fa5ca",
       "title": "2026/09/09 #672 - 今日の技術情報ダイジェスト",
