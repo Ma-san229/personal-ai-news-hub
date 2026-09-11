@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-10T20:52:27.972Z",
+  "updatedAt": "2026-09-11T04:41:07.118Z",
   "articles": [
+    {
+      "id": "8d1ebde8f6b4d501326566c1",
+      "title": "2026/09/11 #674 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260911/1789078423",
+      "publishedAt": "2026-09-10T22:13:43.000Z",
+      "description": "エンジニアが読むべきプロジェクトマネジメント教科書 消えた天才CTOリー・ホロウェイとCloudflareの技術 本当は不要かもしれないAndroidアプリ7選 さくらインターネット不正アクセス事件の全容と再発防止策 AI時代に技術責任者が辞めたくなる理由 エージェントハーネスで作る自動開発パイプライン Claude Codeと連携する無料PDF編集ソフトPDF MARIN Anthropic研究者が警告するAIの人類滅亡リスク LLMのトークン効率化で気をつけたいこと DDD言語SoutherによるドメインモデルのTrilemma解決 Amazon Bedrockの料金上限を自動制御する仕組…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "008ab7d8ee0a98b6102f2662",
       "title": "2026/09/10 #673 - 今日の技術情報ダイジェスト",
