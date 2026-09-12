@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-11T20:58:23.743Z",
+  "updatedAt": "2026-09-12T04:34:58.957Z",
   "articles": [
+    {
+      "id": "d1fd8fa062cf63d60f05b651",
+      "title": "2026/09/12 #675 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260912/1789165027",
+      "publishedAt": "2026-09-11T22:17:07.000Z",
+      "description": "中国AI企業によるClaudeの不正利用とAnthropicの悪用レポート DuckDBはメモリに載らないGROUP BYをどう処理するのか AIエージェントハーネスで開発パイプラインを自動化する試み デジタル庁システムへの不正アクセスで24.6万件の個人情報漏えい 生成AI時代にQiita記事の文章はどう変化したか ミニPCとAIで作る自作AI監視カメラ OpenTelemetry eBPF計装の実装舞台裏 AI生成レシートが経費精算にもたらす不正リスク 折りたたみiPhone「iPhone Duo」向けアプリ開発のポイント ローカルLLMブームを支えるベンダーと国家の思惑 ドメインモデル実…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "8d1ebde8f6b4d501326566c1",
       "title": "2026/09/11 #674 - 今日の技術情報ダイジェスト",
