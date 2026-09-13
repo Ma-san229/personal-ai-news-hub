@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-12T20:33:30.682Z",
+  "updatedAt": "2026-09-13T04:48:34.409Z",
   "articles": [
+    {
+      "id": "0a9c9bf01e0e178fd70ce48c",
+      "title": "2026/09/13 #676 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260913/1789251239",
+      "publishedAt": "2026-09-12T22:13:59.000Z",
+      "description": "AIによる数学難問解決の是非を巡る論争 音楽生成AI「YuE2」の無料公開 警察庁製ランサムウェア復元ツールの活躍 旧型GPU A100でDeepSeek v4.1 Flashを高速化 WordPressサイトの最低限セキュリティ対策 AI時代におけるWebフレームワークの役割 Reactの設計論 OpenTelemetry eBPFによるGo計装の舞台裏 GPT-6 Astra時代のスキル・プロンプト設計 データをMarkdownに変換するテンプレート言語Knap デジタル庁GSSの個人情報漏洩問題 四色定理の新証明とアルゴリズム高速化 ChatGPTとClaudeで作るリアルタイム3Dアバ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "d1fd8fa062cf63d60f05b651",
       "title": "2026/09/12 #675 - 今日の技術情報ダイジェスト",
