@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-13T20:50:21.819Z",
+  "updatedAt": "2026-09-14T04:57:16.500Z",
   "articles": [
+    {
+      "id": "ef9e9839ad12c2335c35b5af",
+      "title": "2026/09/14 #677 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260914/1789337868",
+      "publishedAt": "2026-09-13T22:17:48.000Z",
+      "description": "AIが数学の未解決問題を解いてもいいのか論争 AGI開発競争、終盤戦のシリコンバレー事情 アンソロピックCEOが訴えるAI開発減速論 SpotifyのClaude Codeトークン消費90%削減術 ChatGPTではてブ・Gyazoを横断検索する新手法 警察庁のランサムウェア復元ツールが100か国超で活躍 AI投資のROIを算出する方法 AI時代のWebフレームワークとAgent DX USB Type-Cポート破損問題とDell XPSの対策 AI Agent時代のリアーキテクチャ戦略と実践 Reactの非同期処理と宣言的UI設計論 クロスプラットフォーム開発が解決するコスト、解決しないコス…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "0a9c9bf01e0e178fd70ce48c",
       "title": "2026/09/13 #676 - 今日の技術情報ダイジェスト",
