@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-14T21:49:53.353Z",
+  "updatedAt": "2026-09-15T04:55:19.306Z",
   "articles": [
+    {
+      "id": "d77ec82cfeb012916dd4298a",
+      "title": "2026/09/15 #678 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260915/1789424071",
+      "publishedAt": "2026-09-14T22:14:31.000Z",
+      "description": "AIっぽい日本語表現を検出するtextlintプリセットの公開 SpotifyがClaude Codeのトークン消費を90%削減した手法 OpenAI「GPT-6 Astra」を使いこなすには指示力が鍵 提案書と異なるシステム開発を巡るIT訴訟 ハエの全脳配線図が問い直すAIの学習と重み 75%解雇のTailwind Labs、Shopifyによる買収へ マイクロソフト社内でRustがTier 1言語に昇格 Windows 11セットアップでMicrosoftアカウント作成を回避する方法 AnthropicアモデイCEOが訴えるAI開発のペース調整 会社支給PCの起動が遅すぎて始業前出社が常態…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "ef9e9839ad12c2335c35b5af",
       "title": "2026/09/14 #677 - 今日の技術情報ダイジェスト",
