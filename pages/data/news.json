@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-15T21:21:38.160Z",
+  "updatedAt": "2026-09-16T04:49:37.122Z",
   "articles": [
+    {
+      "id": "a7bb1e801350c56624f68b50",
+      "title": "2026/09/16 #679 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260916/1789510506",
+      "publishedAt": "2026-09-15T22:15:06.000Z",
+      "description": "GO・Waymo・日本交通、東京で無人タクシー商用運行へ Chromium開発者が語る日本語縦書きWeb標準化の軌跡 AIエージェントの自己改善設計の壁と乗り越え方 AIに書かせたDesign docを読みやすくする工夫 AIエージェントの評価と品質保証の技術 Claude Codeで764本のPRをこなした技術的負債解消事例 ローカルAI用PC投資の元が取れるまでの年数を試算 AIエージェント時代のLLM基盤とプロダクトの責務分担 2026年Microsoft AI戦略の全体像 React互換の軽量ランタイムTanStack Redact React Fragment Refsを使ったちょっ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "d77ec82cfeb012916dd4298a",
       "title": "2026/09/15 #678 - 今日の技術情報ダイジェスト",
