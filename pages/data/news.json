@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-16T21:18:49.753Z",
+  "updatedAt": "2026-09-17T04:53:53.515Z",
   "articles": [
+    {
+      "id": "1217bfc17f0e01454f239f97",
+      "title": "2026/09/17 #680 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260917/1789596966",
+      "publishedAt": "2026-09-16T22:16:06.000Z",
+      "description": "クラウドアップロードだけでGoogleアカウントBANされる被害と規約問題 バイブコーディングでGUIが壊れる理由と設計での対策 非エンジニア社長がAIで基幹システムを内製した「わざわざ」の挑戦 ChatGPT共同開発者の新AIモデル「Jev」とTypeSafe AIの挑戦 Gyazo不正アクセスによる大規模情報漏えい AIにどの意思決定を委ねられるかを考える VBScript廃止に備えるWindowsライセンス認証のPowerShell移行 AIは賢くないが素直、デバッグ現場での気づき AI開発減速論を巡る業界の攻防 iOS 27で進化したApple IntelligenceのAI機能 「T…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "a7bb1e801350c56624f68b50",
       "title": "2026/09/16 #679 - 今日の技術情報ダイジェスト",
