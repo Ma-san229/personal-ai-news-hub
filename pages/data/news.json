@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-17T21:22:54.871Z",
+  "updatedAt": "2026-09-18T04:44:12.539Z",
   "articles": [
+    {
+      "id": "b1771222f55e9b27c5dd243a",
+      "title": "2026/09/18 #681 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260918/1789683454",
+      "publishedAt": "2026-09-17T22:17:34.000Z",
+      "description": "Claude Codeを「使うほど育つ」AI秘書にする活用術 AIエージェントの自己改善をどう設計するか TypeSafeの高速判断AI「Jev」登場 VBScript廃止とPowerShellへの移行 iOS 27 Safariの言葉だけで作れるAI機能拡張 Googleの広告審査とGemini活用の実態 AWS中東データセンターのデータ復旧不能問題 Cloudflare Workersがどう考えても最強っぽい 正体不明AI「Union Alpha」が1週間無料 新型汎用人型ロボット「Digit 5」発表 Jev同士で五目並べ対戦させてみた AIエージェントがインターネットを壊し始めている …",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "1217bfc17f0e01454f239f97",
       "title": "2026/09/17 #680 - 今日の技術情報ダイジェスト",
