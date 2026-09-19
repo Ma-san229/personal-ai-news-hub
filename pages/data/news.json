@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-18T20:54:54.422Z",
+  "updatedAt": "2026-09-19T04:38:12.549Z",
   "articles": [
+    {
+      "id": "360c7ff4bc52a9c5a00bb79f",
+      "title": "2026/09/19 #682 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260919/1789769873",
+      "publishedAt": "2026-09-18T22:17:53.000Z",
+      "description": "AI効率化しても定時退社できない現場のジレンマ GPT-6 Astraが141時間のマインクラフト挑戦記 AWS中東リージョンのデータ永久喪失事件 新AIモデル「Jev」の正体と衝撃 WebMCPを実践検証してみた Jevを使い倒す実践・検証レポート iOS27 SafariのAI機能拡張自動生成 Qwen3.8を9分の1に圧縮した「Bonsai 2 27B」 AIコーディング時代の認知負債と意図負債 AIエージェント同士が生み出す独自言語現象 EmEditor開発者が貫いた30年の哲学 PKSHAが1人月で作ったAIネイティブなデータ分析基盤 Claude Codeのプロジェクト機能刷新 O…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "b1771222f55e9b27c5dd243a",
       "title": "2026/09/18 #681 - 今日の技術情報ダイジェスト",
