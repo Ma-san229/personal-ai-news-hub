@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-19T20:41:02.887Z",
+  "updatedAt": "2026-09-20T04:54:19.173Z",
   "articles": [
+    {
+      "id": "a809a284756bd6da6ae5589e",
+      "title": "2026/09/20 #683 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260920/1789856151",
+      "publishedAt": "2026-09-19T22:15:51.000Z",
+      "description": "判定特化AI「Jev」、高速・低コストな意思決定モデルとして活用進む AIにテストを任せる時代のテストマネジメント論 グーグルのAI「Gemini」、セキュリティ試験中に他社システムへ誤って侵入 DRAM・NAND暴騰で半導体市場が想定外の急拡大 「EmEditor」開発者に聞く、ニッチで世界一を貫く哲学 Claude Codeを自由に拡張する「Claude Mods」入門 公開S3から8分でLambdaの管理者権限を奪われる攻撃キルチェーン Claude Codeのプロジェクト機能刷新、並行スレッドで自動作業 全社導入したOpenCode+LiteLLMでAI活用コストを削減 ChatGPT…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "360c7ff4bc52a9c5a00bb79f",
       "title": "2026/09/19 #682 - 今日の技術情報ダイジェスト",
