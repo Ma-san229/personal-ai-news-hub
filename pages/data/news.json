@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-21T21:58:54.514Z",
+  "updatedAt": "2026-09-22T04:57:10.317Z",
   "articles": [
+    {
+      "id": "d4c8d6a4282082f1ee32ca49",
+      "title": "2026/09/22 #685 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260922/1790029714",
+      "publishedAt": "2026-09-21T22:28:34.000Z",
+      "description": "SMS認証はなぜ弱い？認証アプリTOTPとの違い エンジニアと育児の両立の難しさ AI開発の減速をAnthropic CEOが提言 高速判断AI「Jev」の仕組みとユースケース 機械に共通IDを付与し国産AIデータを収集 Qwen3.8で動画解析し生成AI動画プロンプト化 AWSでAIエージェントWebアプリを作るスキル集 軽量画像生成AI「Qwen-Image-2.1」公開 デジタル庁・さくら・三重県の情報漏えい事件に共通する管理の甘さ SNS年齢制限の技術的・法的限界 iPhoneでApple Foundation Modelsを試す Apple幹部が語るAppleシリコン戦略 Priva…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
+    {
+      "id": "c0775223bcbf1716aaad76be",
+      "title": "2026/09/22 #685 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260922/1790028809",
+      "publishedAt": "2026-09-21T22:13:29.000Z",
+      "description": "SMS認証はなぜ弱い？認証アプリTOTPとの違い エンジニアと育児の両立の難しさ AI開発の減速をAnthropic CEOが提言 高速判断AI「Jev」の仕組みとユースケース 機械に共通IDを付与し国産AIデータを収集 Qwen3.8で動画解析し生成AI動画プロンプト化 AWSでAIエージェントWebアプリを作るスキル集 軽量画像生成AI「Qwen-Image-2.1」公開 デジタル庁・さくら・三重県の情報漏えい事件に共通する管理の甘さ SNS年齢制限の技術的・法的限界 iPhoneでApple Foundation Modelsを試す Apple幹部が語るAppleシリコン戦略 Priva…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "5172bb911d0a70284414c390",
       "title": "2026/09/21 #684 - 今日の技術情報ダイジェスト",
