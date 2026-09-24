@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-23T21:30:24.018Z",
+  "updatedAt": "2026-09-24T04:51:35.206Z",
   "articles": [
+    {
+      "id": "7fca04666df2d86e5a0edb73",
+      "title": "2026/09/24 #687 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260924/1790201650",
+      "publishedAt": "2026-09-23T22:14:10.000Z",
+      "description": "Claude Opus 5.5の登場とタスクコスト最適化 DeepSeek v4.1 Flashを徹底解剖 UbuntuコマンドのRust製coreutils移行状況 Qwen3.8で動画解析し生成AI動画プロンプトを自動作成 RustコードにCを直接書けるライブラリ「cinrs」 Mixture of Experts(MoE)の仕組みを整理する基礎技術メモ ORM選定に活きるPoEAAの設計パターン Rails ActiveRecordのJOIN問題とkamipo氏の解決策 AI投資1兆ドルの帳尻に必要な生産性2.7倍という試算 Linux向け軽量サンドボックスツール「Drop」 Windo…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "a2461e33b9ba77458bee40f9",
       "title": "2026/09/23 #686 - 今日の技術情報ダイジェスト",
