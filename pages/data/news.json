@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-25T21:35:14.957Z",
+  "updatedAt": "2026-09-26T04:58:53.853Z",
   "articles": [
+    {
+      "id": "fd4970ed0d64c7bad8647098",
+      "title": "2026/09/26 #689 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260926/1790374865",
+      "publishedAt": "2026-09-25T22:21:05.000Z",
+      "description": "新AI「Jev」が拓く確率判断特化のSystem Oneモデル Claude Codeで1年コードを書かなくなったエンジニアの告白 GitHubアプリをメモ帳代わりに使う活用法 NVIDIAの音声話者識別モデル「Nemotron 3 Diarization」無償公開 PS5ハック主導者が語るAI時代のOSS開発の課題 1024ビットRSA署名偽造の大規模実証に成功 30代エンジニアが振り返るキャリアと意思決定 AWS DevOps Agentの権限悪用リスクを検証 AI生成スライドをそのまま使う登壇への苦言 放置CNAMEによるサブドメイン乗っ取り対策 AIチャットボットを狙う新手口「Dark…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "0d2adbe59dba9caaca014d33",
       "title": "2026/09/25 #688 - 今日の技術情報ダイジェスト",
