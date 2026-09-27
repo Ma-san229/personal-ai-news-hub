@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-26T21:10:47.729Z",
+  "updatedAt": "2026-09-27T05:18:59.871Z",
   "articles": [
+    {
+      "id": "fbb88adecffe31f6f7fa8f8c",
+      "title": "2026/09/27 #690 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260927/1790461015",
+      "publishedAt": "2026-09-26T22:16:55.000Z",
+      "description": "Claude Codeクラウドセッションの新機能 ローカルLLM向けWeb検索サービスまとめ DHHが語るRailsとAI活用への転換 OpenAIとClaude Agent SDKの基本構成比較 CSIRT視点で学ぶインシデント対応の教科書 Google AI Proの特典価値を徹底検証 メルカリのAIエージェント高速プロトタイピング基盤Arca LLM蒸留によるゲームAIの軽量化 Dockerの公式AIエージェント向けスキル公開 AI生成スライドそのまま登壇への違和感 AIエージェントによるAWS構成図生成の検証 Kubernetesの内部動作を理解する 本番DB初期化事故から学ぶ教訓 P…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "fd4970ed0d64c7bad8647098",
       "title": "2026/09/26 #689 - 今日の技術情報ダイジェスト",
