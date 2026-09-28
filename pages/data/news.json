@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-27T21:21:34.871Z",
+  "updatedAt": "2026-09-28T05:24:40.528Z",
   "articles": [
+    {
+      "id": "28846c415a0e59f35d24c23c",
+      "title": "2026/09/28 #691 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260928/1790547440",
+      "publishedAt": "2026-09-27T22:17:20.000Z",
+      "description": "有料AIと無料AIの間に生じる情報格差論争 テレワーク・リモートワークを巡る攻防 Jevを使った意思決定モデルの実装と分類 高校文化祭でCloudflare上にPOSシステムを1から構築 新しいMicrosoft Copilotの新機能まとめ ITに詳しくない父親が描いた業務システム概念図が話題に AIが書くGoコードの品質を上げるLinter declscope フィードバック密度がエンジニアの成長を左右する ローカルLLM運用のためのメモリ基礎知識 自宅KubernetesをTalos Linux+Cloudflareで刷新 AIに仕事を任せる境界線を考える Quintを使ったAIとの形式…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "fbb88adecffe31f6f7fa8f8c",
       "title": "2026/09/27 #690 - 今日の技術情報ダイジェスト",
