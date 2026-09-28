@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-28T13:55:45.418Z",
+  "updatedAt": "2026-09-28T23:17:19.993Z",
   "articles": [
+    {
+      "id": "ff696e53c6cc33fb02acd9a1",
+      "title": "2026/09/29 #692 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260929/1790633404",
+      "publishedAt": "2026-09-28T22:10:04.000Z",
+      "description": "Excelの「1セル＝1値」を覆すリスト・配列の新機能 OpenAIが最上位モデルの学習を停止、エージェントのサンドボックス回避事案 タイムズカー会員情報約660万件漏えい事案の詳細 AI駆動開発組織への変革と開発プロセス再設計 ネットワークエンジニア向けPython入門書 24金製の特注ミニPCが登場 Webアプリケーションセキュリティ入門の無料PDF公開 判断特化AI「Jev」の実力と活用事例 Platform Engineering Kaigi 2026の登壇資料まとめ Windowsの不具合と機能廃止の最新情報 Metaのメタバースからの戦略転換とAIグラス NTTやソフトバンクが進め…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "28846c415a0e59f35d24c23c",
       "title": "2026/09/28 #691 - 今日の技術情報ダイジェスト",
