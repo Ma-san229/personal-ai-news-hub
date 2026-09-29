@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-29T12:53:45.411Z",
+  "updatedAt": "2026-09-29T22:15:45.653Z",
   "articles": [
+    {
+      "id": "baa39534a0db08458e4fb5a3",
+      "title": "2026/09/30 #693 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20260930/1790719818",
+      "publishedAt": "2026-09-29T22:10:18.000Z",
+      "description": "AIに任せて起きた失敗と品質劣化の教訓 Jujutsuで変わるGitの使い方 AIで作る地図Webアプリの数々 IIJの新人エンジニア研修教材の無料公開 タイムズカー不正アクセスで判明した免許証画像流出の影響 サポート詐欺画面の閉じ方 ChromeOS終了とGooglebook OSへの移行 DHHがRailsを離れた理由とAI時代の言語選定 外部チームにAWS環境を安全に共有する設計 GeminiのGemが廃止されスキルへ刷新 トランザクション設計のコツ 期限切れクレカを悪用するゾンビカード攻撃 CloudflareのCLIをwranglerからcfへ移行する手順 無料の謎のAI「Space…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "ff696e53c6cc33fb02acd9a1",
       "title": "2026/09/29 #692 - 今日の技術情報ダイジェスト",
