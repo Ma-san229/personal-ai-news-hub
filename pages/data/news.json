@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-30T12:35:20.787Z",
+  "updatedAt": "2026-09-30T22:16:32.441Z",
   "articles": [
+    {
+      "id": "a97ad76e744c76692b5bbda5",
+      "title": "2026/10/01 #694 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261001/1790806247",
+      "publishedAt": "2026-09-30T22:10:47.000Z",
+      "description": "タイムズカー情報漏えいと相次ぐ企業の漏えい発表 Jujutsuで変わるバージョン管理 WSL 3.0とWSL containers正式版でDockerなしのLinuxコンテナ TOPPANによる損保ジャパン契約者データの誤送付 ChromeOS後継Googlebook OSのLinux環境への懸念 余剰PCで24時間稼働するAIエージェントHermes Agentの構築 トランザクション設計のコツ OpenAI DevDay 2026の発表まとめ AI時代の設計とテストの考え方 Windows 11 26H2の中身と更新の判断 GitHub Actionsのロックファイル gh actions…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "baa39534a0db08458e4fb5a3",
       "title": "2026/09/30 #693 - 今日の技術情報ダイジェスト",
