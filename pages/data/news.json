@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-01T13:15:45.953Z",
+  "updatedAt": "2026-10-01T22:41:42.932Z",
   "articles": [
+    {
+      "id": "e1d25c1f265a4f50233c7e22",
+      "title": "2026/10/02 #695 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261002/1790892609",
+      "publishedAt": "2026-10-01T22:10:09.000Z",
+      "description": "AI臭い日本語を直すAgent Skill「yomiyasu」 相次ぐ不正アクセスによる個人情報漏えい事件 ルーターを自動復旧するezJackのレビュー OpenAI DevDay 2026の発表内容 『構文解析のしくみ』出版と構文解析アルゴリズム 免許証画像流出が招いた免許悪用防止届けの休止 Redditが終了するRSSフィードと公開API テスト要求仕様（TRS）によるテスト設計の効率化 AIエージェントが公開リポジトリに保存した機密スクショ「PixelLeak」 Gemini 4 Argonの登場とフロンティアモデル競争 ヒューマンエラーによる損保ジャパン契約者データ誤送付 OpenAI…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "a97ad76e744c76692b5bbda5",
       "title": "2026/10/01 #694 - 今日の技術情報ダイジェスト",
