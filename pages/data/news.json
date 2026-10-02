@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-02T12:35:35.570Z",
+  "updatedAt": "2026-10-02T22:14:38.943Z",
   "articles": [
+    {
+      "id": "114a65c50bd9dd0f3b3dc11c",
+      "title": "2026/10/03 #696 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261003/1790979062",
+      "publishedAt": "2026-10-02T22:11:02.000Z",
+      "description": "AI臭い日本語を直すAgent Skill「yomiyasu」の公開 AI時代の開発・学習スタイルの変化 「Strata」とTensorFoldで進むローカルLLM推論の高速化 日本全国337万件のPOI検索API「OpenPOI API」 ローソンとe-Taxで相次ぐ情報セキュリティ事案 はてな匿名ダイアリーがClaudeから利用可能に Incremental HTTPの提案 AIエージェントとAIテストの評価手法 RedditのRSSフィード終了と公開API閉鎖 OpenAIの蒸留対策とGemini 4 Argonに見るAIモデル競争 Kubernetesの境界と粒度を見直す社内プラットフ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "e1d25c1f265a4f50233c7e22",
       "title": "2026/10/02 #695 - 今日の技術情報ダイジェスト",
