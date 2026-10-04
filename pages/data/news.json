@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-03T21:14:51.267Z",
+  "updatedAt": "2026-10-04T05:53:38.096Z",
   "articles": [
+    {
+      "id": "e3a82d51abd716de2b636327",
+      "title": "2026/10/04 #697 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261004/1791068314",
+      "publishedAt": "2026-10-03T22:58:34.000Z",
+      "description": "無償公開されたLinuxネットワーク標準教科書 Claudeで比較する日本語推敲スキル 韓国6銀行へのAIハッキングと個人情報流出 非エンジニアが作ったライブツアー用アプリの技術と開発の裏側 AIによる脆弱性検出ツールの登場（Codex Security・Claude Security・Mantis） 相次ぐ不正アクセスと個人情報漏えい（アバハウス・日本原子力機構） AIエージェントに開発を任せる開発基盤Cursor pstack AIエージェントのリスクに備えるmacOSフルディスクアクセスの新制限 AWSをローカルで再現するエミュレーターMiniStack OSSのAIコーディングツールP…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "114a65c50bd9dd0f3b3dc11c",
       "title": "2026/10/03 #696 - 今日の技術情報ダイジェスト",
