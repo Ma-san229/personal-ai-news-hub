@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-04T21:25:42.834Z",
+  "updatedAt": "2026-10-05T05:41:01.075Z",
   "articles": [
+    {
+      "id": "e2c2449e04b4754f95152ce2",
+      "title": "2026/10/05 #698 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261005/1791151787",
+      "publishedAt": "2026-10-04T22:09:47.000Z",
+      "description": "OpenAI安全担当従業員の退社と「文化崩壊」の主張 Cloudflare Quick Tunnelsでlocalhostを安全に公開する方法 AI時代にプロダクトマネージャーの仕事はどう変わるのか 個人向けGeminiのモデル選択厳格化と無料ユーザーの制限 AIで法律をリファクタリングする試み 18.5インチ×4枚のノートPC向け拡張モニターシステム 日本経済新聞のMicrosoft 365不正ログインと不審メール9000件送信 AWS DevOps Agent Skills作成のベストプラクティス 四色定理のバランス良い塗り分けに挑むアルゴリズム Web Pushを模倣してツイートをストリ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "e3a82d51abd716de2b636327",
       "title": "2026/10/04 #697 - 今日の技術情報ダイジェスト",
