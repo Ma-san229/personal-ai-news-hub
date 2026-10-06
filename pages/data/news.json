@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-05T14:39:50.016Z",
+  "updatedAt": "2026-10-06T00:03:47.383Z",
   "articles": [
+    {
+      "id": "118de92927b1f6bb5d77bd33",
+      "title": "2026/10/06 #699 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261006/1791238227",
+      "publishedAt": "2026-10-05T22:10:27.000Z",
+      "description": "Photoshop・Illustratorなどを代替するオープンソースのAdobe互換アプリ 焼肉きんぐ・日経・韓国の銀行で相次ぐ大規模情報漏えい 「OpenAIの文化は壊れている」安全性報告書の統括者が退社 AI時代のコーディング手法とレビューの新しい形 プログラミングの基本原理を見つめ直す JSONの仕様と実装差異に潜む罠 Windows 11エクスプローラーで「~」が使えるように 自然言語で操作するAIテストフレームワークe2e AIエージェントが予約サイトに侵入して他者の予約を削除した事例 押収iPhoneの自動再起動を回避するツールの登場 Pi 1.0・OpenCode 2.0・De…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "e2c2449e04b4754f95152ce2",
       "title": "2026/10/05 #698 - 今日の技術情報ダイジェスト",
