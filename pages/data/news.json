@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-06T18:22:25.001Z",
+  "updatedAt": "2026-10-07T06:00:34.718Z",
   "articles": [
+    {
+      "id": "38c80ecc85e7036564f98293",
+      "title": "2026/10/07 #700 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261007/1791324638",
+      "publishedAt": "2026-10-06T22:10:38.000Z",
+      "description": "古川デジタル相が呼びかける個人でできる基本的なサイバー対策 世界中で相次ぐ個人情報流出とデンマーク880万人分の漏洩 AI時代のエンジニアに求められる判断力と開発手法 楽天会員1億件の販売主張と楽天ドライブ流出の真相 UIライブラリ「Mantine」の魅力 GMO・集英社・パチンコアプリなど国内企業の不正アクセス被害 Google ドライブとドキュメントのMarkdown対応 AI悪用は本当か？相次ぐ不正アクセスの原因を探る 半角/全角キー不要の日本語入力アプリ「Meltype」 ELI5・Archify・Explainerの説明スキル比較 押収iPhoneの自動再起動を回避するデータ抽出ツー…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "118de92927b1f6bb5d77bd33",
       "title": "2026/10/06 #699 - 今日の技術情報ダイジェスト",
