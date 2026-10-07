@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-07T13:24:18.083Z",
+  "updatedAt": "2026-10-07T23:05:36.367Z",
   "articles": [
+    {
+      "id": "028380448d20c3326363e15f",
+      "title": "2026/10/08 #701 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261008/1791411059",
+      "publishedAt": "2026-10-07T22:10:59.000Z",
+      "description": "相次ぐ情報漏洩事案の実態と手口の分析 AIエージェントの暴走とミスアライメント事例 Androidを活用するscrcpy 5.0と古いスマホの再利用 Claude CodeとFableの使いこなし方 アサヒビール攻撃のQilin幹部拘束と日本のセキュリティ体制 AI駆動開発の可能性と品質・脆弱性の課題 LLMが黙って考える隠れた推論能力 IDCFクラウドとMisskeyを襲ったクラウド不正アクセス Google広告代理店アカウントへの不正アクセス事件 OpenAIのDecisions API公開 OpenAI社内AIによるリーマン予想関連の証明主張 EmbeddingGemma 2の登場 はて…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "38c80ecc85e7036564f98293",
       "title": "2026/10/07 #700 - 今日の技術情報ダイジェスト",
