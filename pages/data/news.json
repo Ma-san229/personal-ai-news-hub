@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-08T13:30:12.682Z",
+  "updatedAt": "2026-10-08T23:21:19.459Z",
   "articles": [
+    {
+      "id": "20c893c14c36cbde3b5490f6",
+      "title": "2026/10/09 #702 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261009/1791497433",
+      "publishedAt": "2026-10-08T22:10:33.000Z",
+      "description": "ローソン215万件の個人情報漏えいと相次ぐ国内の不正アクセス 嫌われるデザインの歴史とWebデザイナーの未来 Crafting Appsの日本語対応 ソフトウェアエンジニアリングの基礎を学ぶ読書マップ Claude Mythos時代のAWSセキュリティ対策 IPA応用情報技術者試験の申込障害 AIコードレビューと品質検査の新しい考え方 ランサムウェア攻撃の拡大とIDCFクラウド障害 .neko新ドメインのICANN申請 ローカル実行可能な意思決定モデルd1シリーズの登場 Microsoft Execution ContainersとローカルAI MAI-Code-1.1-Flash AI生成コ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "028380448d20c3326363e15f",
       "title": "2026/10/08 #701 - 今日の技術情報ダイジェスト",
