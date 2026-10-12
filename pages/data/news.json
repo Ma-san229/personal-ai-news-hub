@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-11T21:58:47.372Z",
+  "updatedAt": "2026-10-12T05:58:53.315Z",
   "articles": [
+    {
+      "id": "89eda5d469eb563a6c82dc7f",
+      "title": "2026/10/12 #705 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261012/1791756600",
+      "publishedAt": "2026-10-11T22:10:00.000Z",
+      "description": "SQLiteとDuckDBのAI時代の進化 AIとの付き合い方とエンジニア技能の維持 CPUだけで動くリアルタイム文字起こしツール「早耳」 IDCFクラウドとYandexで相次いだ障害・不正アクセス オープンソースEPUB・PDFリーダー「Readest」 Honoの技術選定と活用事例 GitHub Actionsによるサプライチェーンセキュリティ強化 理研の新スパコン「理究」と量子HPC連携 AIエージェントによる自己改善ソフトと分析エージェント運用 pixivで表示された偽McAfee警告とデジタル庁GSS不正アクセス Claude Codeの新機能とスキル活用 小型シンセ「FM-1」の非…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "7793a37ad5f6049f3ac59624",
       "title": "2026/10/11 #704 - 今日の技術情報ダイジェスト",
