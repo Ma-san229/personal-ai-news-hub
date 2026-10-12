@@ -1,0 +1,7 @@
+{
+  "maxCandidates": 40,
+  "maxSelected": 5,
+  "maxPeriodSelected": 30,
+  "maxExcerptChars": 1800,
+  "maxFeeds": 30
+}
