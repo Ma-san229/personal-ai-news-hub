@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "runs": [],
+  "deliveries": {},
+  "keywords": [
+    { "term": "AI", "status": "active", "pinned": true },
+    { "term": "agent", "status": "active", "pinned": true },
+    { "term": "Claude", "status": "active", "pinned": true },
+    { "term": "Gemini", "status": "active", "pinned": true },
+    { "term": "OpenAI", "status": "active", "pinned": true },
+    { "term": "生成AI", "status": "active", "pinned": true },
+    { "term": "MCP", "status": "active", "pinned": true }
+  ]
+}

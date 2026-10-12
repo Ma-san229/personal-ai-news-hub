@@ -6,6 +6,8 @@
       "url": "https://www.ponkotsu.dev/feed",
       "category": "engineer",
       "enabled": true,
+      "status": "active",
+      "pinned": true,
       "lastFetchedAt": "2026-10-12T15:26:28.262Z",
       "lastStatus": "success"
     },
@@ -17,6 +19,25 @@
       "enabled": false,
       "lastFetchedAt": null,
       "lastStatus": "disabled"
+    },
+    {
+      "id": "zenn-ai",
+      "name": "Zenn AIトピック",
+      "url": "https://zenn.dev/topics/ai/feed",
+      "category": "engineer",
+      "enabled": true,
+      "status": "active",
+      "pinned": true
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face公式ブログ",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "category": "engineer",
+      "enabled": true,
+      "official": true,
+      "status": "active",
+      "pinned": true
     }
   ]
 }
