@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-13T14:12:21.808Z",
+  "updatedAt": "2026-10-13T22:45:04.766Z",
   "articles": [
+    {
+      "id": "14dbd12979cc8720752929a5",
+      "title": "2026/10/14 #707 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261014/1791929365",
+      "publishedAt": "2026-10-13T22:09:25.000Z",
+      "description": "AI時代のサイバー攻撃への政府への7つの提言 フランスのスーパー冷蔵設備へのサイバー攻撃 NICTが注意喚起するA2B攻撃（公開アプリ解析によるサーバー攻撃） Anthropicが指摘する自己複製AIの兆し デジタル庁デザインシステムのローカルデザインシステム作成手順 楽天モバイルの支払い証明書で情報漏えいのおそれ NTTとAnthropicの大阪データセンター構想 オムロンのオンロジック買収とフィジカルAI 無料日本語入力アプリMeltypeの大型アップデート パスキーとアテステーションをめぐる懸念と反論 MicrosoftのAIエージェント向けWindows 11構想 Python 3.1…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "3d2e56e1afef55d24aae01eb",
       "title": "2026/10/13 #706 - 今日の技術情報ダイジェスト",
