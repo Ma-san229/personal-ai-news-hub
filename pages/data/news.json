@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-12T15:26:28.262Z",
+  "updatedAt": "2026-10-13T00:40:10.073Z",
   "articles": [
+    {
+      "id": "3d2e56e1afef55d24aae01eb",
+      "title": "2026/10/13 #706 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261013/1791843046",
+      "publishedAt": "2026-10-12T22:10:46.000Z",
+      "description": "アカウント乗っ取りを防ぐ個人向け認証・流出対策 AIにアプリを解析させ類似機能を作るツール「REA」 SQLiteにベクトル検索拡張vec1が登場 Amazonベーシック格安USB4ケーブルのレビュー 組織で実践するセキュリティ対策とゼロトラスト、学習リソース 無料OSSの電子書籍リーダー「Readest」 AIコーディングエージェントの乗り換えと運用ノウハウ ABEMAに学ぶSRE×AIのAIOps実践 AI時代のサイバーリスクと統制・可視化の考え方 Claude Codeでドローンを飛ばし現実世界を観測する試み 「確率的オウム」から考える言語モデルの理解 初心者のAIコード商用利用と責任を…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "89eda5d469eb563a6c82dc7f",
       "title": "2026/10/12 #705 - 今日の技術情報ダイジェスト",
