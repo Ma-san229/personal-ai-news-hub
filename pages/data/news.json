@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-14T21:41:27.020Z",
+  "updatedAt": "2026-10-15T04:39:38.498Z",
   "articles": [
+    {
+      "id": "b4195123d94ad894063ff28d",
+      "title": "2026/10/15 #708 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261015/1792015809",
+      "publishedAt": "2026-10-14T22:10:09.000Z",
+      "description": "AIエージェントがもたらす新たなセキュリティ脅威 Rust製の無償オフィススイート「ibisOffice」の登場 SBI証券FXの誤ロスカット問題 Anthropicの最新動向：Scionの開発とAI自己開発の予測 インフラを狙うサイバー攻撃の実態 生成AIが変えるクリエイティブ制作 IDCフロンティアの不正アクセス障害の調査状況 AIで自作アプリを手軽に作る方法 2026年10月のWindows Updateと脆弱性過去最多 WindowsメディアプレイヤーのCD情報取得終了と代替ソフト 楽天モバイル端末のAVBテスト鍵残存の脆弱性 相次ぐ個人情報流出事案 AIエージェントによるリバースエン…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "14dbd12979cc8720752929a5",
       "title": "2026/10/14 #707 - 今日の技術情報ダイジェスト",
