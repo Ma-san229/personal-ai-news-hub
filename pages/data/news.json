@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-15T21:23:18.337Z",
+  "updatedAt": "2026-10-16T04:32:33.927Z",
   "articles": [
+    {
+      "id": "94498f399dad2f128f2fcba4",
+      "title": "2026/10/16 #709 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261016/1792102218",
+      "publishedAt": "2026-10-15T22:10:18.000Z",
+      "description": "バーガーキングアプリの会員情報1118万件漏えい ソースネクストで最大2251万件の顧客情報が流出 Claude Codeのスキルとデスクトップ版の新機能 PlayStation 5で27B生成AIが動作 楽天モバイル端末のAVBテスト鍵残存の脆弱性 AndroidでGoogleアカウントに電話番号が自動紐づけ 相次ぐ不正アクセスとAIエージェントの関与 Google Playで「自分のためのアプリ」をAI作成 AIと共に野心的に取り組むためのチュートリアル AIのスピードに負けない開発フロー Appleの遊休Macで仮想GPUクラウドを構築するMinions CSSのstickyで作るせり上…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "b4195123d94ad894063ff28d",
       "title": "2026/10/15 #708 - 今日の技術情報ダイジェスト",
