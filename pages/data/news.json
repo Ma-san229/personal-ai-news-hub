@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-16T21:08:50.885Z",
+  "updatedAt": "2026-10-17T04:26:43.901Z",
   "articles": [
+    {
+      "id": "1115eba3cf3d47c5a3d753f9",
+      "title": "2026/10/17 #710 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261017/1792188594",
+      "publishedAt": "2026-10-16T22:09:54.000Z",
+      "description": "Claude Codeのスキル・Mod・活用入門 ドコモメールの送信ドメイン認証をすり抜けた楽天カード偽装フィッシング 確率を返すAI「Jev」とd1-ultraの登場 ソースネクストでパスワード暗号化なしの情報流出 ヤマト運輸の後払いサービスで530万件の個人情報流出 Linuxカーネル・KVMの脆弱性CVE-2026-99999の影響と攻撃手法 Windows 11のメモリ使用量削減で8GB PCも軽快に ローカルLLMはClaude Codeの代わりになるか検証 タイムズカーで660万アカウントの免許証画像が漏えい ノーコードツール「Studio」の全ユーザー情報漏えい Eストアーの23…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "94498f399dad2f128f2fcba4",
       "title": "2026/10/16 #709 - 今日の技術情報ダイジェスト",
