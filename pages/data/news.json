@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-17T20:36:58.103Z",
+  "updatedAt": "2026-10-18T04:34:31.611Z",
   "articles": [
+    {
+      "id": "d89d510e525d55fc85619a25",
+      "title": "2026/10/18 #711 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261018/1792274966",
+      "publishedAt": "2026-10-17T22:09:26.000Z",
+      "description": "Claude Codeスキル11選で導入できる一流開発者のノウハウ AI時代のコードレビューと開発プロセスの自動化 相次ぐ大規模な個人情報漏えい事件 ふりがな表示フォント「Furifont」の公開 ローカルLLMはClaude Codeの代わりになるのか検証 Linuxカーネルの脆弱性CVE-2026-99999（PwnEscape）の影響範囲 Voidで作り直したポートフォリオと来歴 AI生成PRとvibe-cloningがOSSに与える圧力 エージェントのハーネスを再帰的に最適化するHarness² AIエージェント暴走事件とサンドボックスによる対策 AIコーディングエージェントのコストを…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "1115eba3cf3d47c5a3d753f9",
       "title": "2026/10/17 #710 - 今日の技術情報ダイジェスト",
