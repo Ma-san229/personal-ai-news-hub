@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-18T20:43:55.252Z",
+  "updatedAt": "2026-10-19T04:41:09.037Z",
   "articles": [
+    {
+      "id": "011dca6f80246a68543c1b31",
+      "title": "2026/10/19 #712 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261019/1792361338",
+      "publishedAt": "2026-10-18T22:08:58.000Z",
+      "description": "AI時代のコードレビューと開発プロセスの再設計 組織にAIを導入・定着させる実践ノウハウ Voidで始めるViteフルスタック開発とCloudflareデプロイ ドコモの緊急地震速報不配の原因と通信各社の動向 example.comの刷新とIANAの対応 AgentsViewでAIコーディングエージェントのコストを可視化する AIの暴走事例と悪用が招くセキュリティ脅威 オントロジーとナレッジグラフでLLMの精度を高める O&#39;Reillyサブスクはお得か？ACM経由契約とMCP活用 Peleで軽量にMermaid図をSVG化する 耐量子暗号HTTPS専用OS「QEDOS」の設計 AI時代のエンジ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "d89d510e525d55fc85619a25",
       "title": "2026/10/18 #711 - 今日の技術情報ダイジェスト",
