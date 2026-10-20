@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-19T22:21:20.711Z",
+  "updatedAt": "2026-10-20T04:51:36.963Z",
   "articles": [
+    {
+      "id": "abae72750df12c1834e14af7",
+      "title": "2026/10/20 #713 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261020/1792449114",
+      "publishedAt": "2026-10-19T22:31:54.000Z",
+      "description": "ソースネクストや阪急阪神百貨店で相次ぐ会員情報の漏えい事案 古いAndroidスマホを音楽専用機にする「reTONE」 Anthropic社内でAIエージェントの稼働時間が人間の6倍に AI模倣作を盾にしたインディーゲーム開発者への脅迫メール CIで活用するLambda MicroVMsの魅力 相次ぐ不正アクセスの攻撃元の多くがAIと判明 自宅PCで動くローカルAIモデルの最新動向 PCからAndroidを操作するGUIアプリ「Escrcpy」が全機能無償に セルフホスト可能なオープンソースのメモアプリ「Poznote」 「My SoftBank」の一時停止 ニフティの回線申込システムへの不正…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "011dca6f80246a68543c1b31",
       "title": "2026/10/19 #712 - 今日の技術情報ダイジェスト",
