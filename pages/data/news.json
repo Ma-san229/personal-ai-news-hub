@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-21T21:43:08.484Z",
+  "updatedAt": "2026-10-22T04:46:12.347Z",
   "articles": [
+    {
+      "id": "b968966debecc9aac96f7fae",
+      "title": "2026/10/22 #715 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261022/1792620582",
+      "publishedAt": "2026-10-21T22:09:42.000Z",
+      "description": "PHP緊急脆弱性「php2shell」の概要と対策 AIコーディングが開発現場にもたらす変化と規律 Excelの数式「--」の意味と使い方 nginxとNode.jsのセキュリティアップデート エンジニアと育児・ITとの付き合い方 eMudhra中間証明書の脆弱性と緊急遮断 OSSプロジェクトの運営体制の実態 NEC委託先へのサイバー攻撃と正規アカウント悪用 Oxlint + Oxfmtによるモノレポのlint・format運用 AWS開発環境でのOpenSearchの使い分け OpenAIのCOBOLなど低リソース言語対応の向上 音声AI「Voxtral 3」とオープンモデル「Ornith-…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "5141db6e381db1647e51b7cb",
       "title": "2026/10/21 #714 - 今日の技術情報ダイジェスト",
