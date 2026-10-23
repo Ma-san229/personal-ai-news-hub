@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-22T21:36:02.938Z",
+  "updatedAt": "2026-10-23T04:49:48.386Z",
   "articles": [
+    {
+      "id": "8f82f1b2869cbed1c749ebb6",
+      "title": "2026/10/23 #716 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261023/1792707040",
+      "publishedAt": "2026-10-22T22:10:40.000Z",
+      "description": "Claude Codeに仕組み解説動画を作らせる方法 首相のPHP脆弱性呼びかけと社内対応への影響 デジタル庁の「神Excel」対策ツールHarunobu公開 Tomcat・Java SE・GitLab・BINDの緊急脆弱性 PHP脆弱性のPoC先行流出と悪用試行の急増 大阪大学とカプコンの個人情報漏えい PHP2Shell脆弱性の概要と修正版・対応状況 パスワード使い回し問題と管理の現実 Claude Codeにセキュリティ監査を任せるプロンプト集 PHP脆弱性で相次いだサービス停止と企業への影響 主要OSSの半数近くが1〜2人で運営されている実態 中国系ハッカー集団がAI「ARTEX」で攻…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "b968966debecc9aac96f7fae",
       "title": "2026/10/22 #715 - 今日の技術情報ダイジェスト",
