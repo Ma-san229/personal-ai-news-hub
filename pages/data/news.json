@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-23T21:24:40.645Z",
+  "updatedAt": "2026-10-24T04:37:14.171Z",
   "articles": [
+    {
+      "id": "2b7d47b71d5b000e9cc5dc1a",
+      "title": "2026/10/24 #717 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261024/1792793435",
+      "publishedAt": "2026-10-23T22:10:35.000Z",
+      "description": "タイムズカー不正アクセスで免許証画像146万件が流出、見舞金3000円 佐川急便で最大5323万件の個人情報流出の可能性 お名前.com FX自動売買VPSへの不正アクセスと金銭被害 Claude Codeで行うリポジトリのセキュリティ診断プロンプト集 パナソニックHDが禁止された生成AIへ33万人分の個人情報を送出 PHP2Shell脆弱性への対応とコドモンの予防停止 中国政府系集団Storm-0940によるAI悪用サイバー攻撃 PHP2Shell脆弱性の対応状況とパッチ適用 小説家になろうで第三者による不正ログイン、二段階認証を必須化 eMudhra中間CA証明書の秘密鍵漏洩問題と対処法 …",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "8f82f1b2869cbed1c749ebb6",
       "title": "2026/10/23 #716 - 今日の技術情報ダイジェスト",
