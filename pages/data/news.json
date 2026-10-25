@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-24T20:50:18.193Z",
+  "updatedAt": "2026-10-25T04:41:36.726Z",
   "articles": [
+    {
+      "id": "21f476b408b93dbe13f7d54d",
+      "title": "2026/10/25 #718 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261025/1792879785",
+      "publishedAt": "2026-10-24T22:09:45.000Z",
+      "description": "PHP2Shell脆弱性への対応と被害状況 AI時代のセキュリティ診断と継続的防御 お名前.comデスクトップクラウドへのサイバー攻撃 ログ検索体験から考えるログ基盤設計 リンタールールで実現する決定的なフロントエンド設計 eMudhra中間CA証明書の脆弱な秘密鍵 AI時代のエンジニア需要と求められる人材 Codexが実現したNintendo Switch 2の脱獄 1000万サイト調査で判明したAPIキー露出の実態 Kimi K3.1 Proの登場とコーディング性能 サブエージェントを単一エージェントループへ統合する指針 ghaletでGitHub Actions Self-hosted …",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "2b7d47b71d5b000e9cc5dc1a",
       "title": "2026/10/24 #717 - 今日の技術情報ダイジェスト",
