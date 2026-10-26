@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-26T13:03:31.313Z",
+  "updatedAt": "2026-10-26T22:40:31.947Z",
   "articles": [
+    {
+      "id": "d449b636b73d9b81dedf9aec",
+      "title": "2026/10/27 #720 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261027/1793052654",
+      "publishedAt": "2026-10-26T22:10:54.000Z",
+      "description": "eMudhraの中間CA秘密鍵漏洩インシデントとWebへの影響 AIコーディングエージェント時代の開発プロセスと設計の考え方 無料画像生成AI「Moss-Image」の実力 WordPressからEmDashへ移行した新時代CMSの体験談 脆弱性情報をいち早く入手するための情報源まとめ 確率と統計を視覚的に学べる「Seeing Theory」 GMO不正アクセス事件の経緯と犯行声明・脅迫 PC高騰時代に10万円で戦えるミニPC Brotliの脆弱性「HTTP2Shell」と広がるAI時代のシェル系脆弱性 相次ぐ国内サービスの不正アクセスと情報漏えい被害 気持ちいいUIアニメーションの仕組み A…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "5230a577e40dfbbfe39c9c2a",
       "title": "2026/10/26 #719 - 今日の技術情報ダイジェスト",
