@@ -6,12 +6,18 @@ AI整体師向け・エンジニア向けのニュースを、RSS / Atomから�
 
 ## 仕組み
 
-GitHub Actions（`Collect RSS News`）が6時間ごとに `scripts/collect-static-news.mjs` を実行し、`pages/data/feeds.json` に登録された有効なフィードを取得して `pages/data/news.json` を更新し、コミットします。そのコミットを受けて `Deploy GitHub Pages` が `pages/` を公開します。記事はURLのハッシュで重複排除され、新しい順に最大800件を保持します。1フィードあたりの取り込みは最新30件までです（フィードごとに `maxItems` で変更できます）。
+GitHub Actions（`Collect RSS News`）が6時間ごとに `scripts/collect-static-news.mjs` を実行し、`pages/data/feeds.json` に登録された有効なフィードを取得して `pages/data/news.json` を更新し、コミットします。そのコミットを受けて `Deploy GitHub Pages` が `pages/` を公開します。記事はURLのハッシュで重複排除され、新しい順に最大1200件を保持します。1フィードあたりの取り込みは最新30件までです（フィードごとに `maxItems` で変更できます）。
 
 ```
 feeds.json ──▶ collect-static-news.mjs ──▶ news.json ──▶ pages/（静的サイト）
    （GitHub Actions 6時間ごと）                         （GitHub Pages）
 ```
+
+## アーカイブと RSS
+
+収集のたびに、その日（日本時間）に新しく入った記事を `pages/archives/YYYY-MM-DD.json` へ追記し、日付の一覧を `pages/archives/index.json` に保存します。画面の「アーカイブ」（`archive.html`）から日付ごとに見られ、`news.json` から古い記事が消えても残ります。最新50件の記事は `pages/rss.xml`（公開URLの `/rss.xml`）として出力します。この方式は [daily-tech-news](https://github.com/unsolublesugar/daily-tech-news) を参考にしています。手作成の特集ページ `pages/daily/2026-10-08.html` はアーカイブ画面から辿れますが、自動生成ではありません。
+
+画面のタブは「記事すべて」「AI整体師向け」「エンジニア向け」「イベント」「書籍」です。イベントと書籍は日付が未来になるため、「記事すべて」には含めず、専用のタブで表示します。
 
 ## 情報源
 
@@ -19,7 +25,7 @@ feeds.json ──▶ collect-static-news.mjs ──▶ news.json ──▶ pages
 
 | 区分 | 内容 |
 | --- | --- |
-| 有効（35本） | Engineer's Digest、Zenn（AI / LLM / Claude Code）、OpenAI News、Google AI Blog、Google DeepMind Blog、Hugging Face Blog、GitHub Blog AI/ML、AWS Machine Learning Blog、LangChain Blog、Import AI、Microsoft AI、Microsoft Research、Meta Engineering、NVIDIA 2本、TechCrunch AI、MIT Technology Review AI、VentureBeat AI、arXiv（cs.AI / cs.CL / cs.LG）、Takara TLDR（Daily AI Papers）、はてなブックマーク5本（人気エントリー、AI、生成AI、LLM、Claude）、Qiita タグ4本（AI、ChatGPT、LLM、ClaudeCode）、Hacker News フロントページ、Mistral Blog |
+| 有効（47本） | Engineer's Digest、Zenn（AI / LLM / Claude Code）、OpenAI News、Google AI Blog、Google DeepMind Blog、Hugging Face Blog、GitHub Blog AI/ML、AWS Machine Learning Blog、LangChain Blog、Import AI、Microsoft AI、Microsoft Research、Meta Engineering、NVIDIA 2本、TechCrunch AI、MIT Technology Review AI、VentureBeat AI、arXiv（cs.AI / cs.CL / cs.LG）、Takara TLDR（Daily AI Papers）、はてなブックマーク5本（人気エントリー、AI、生成AI、LLM、Claude）、Qiita タグ4本（AI、ChatGPT、LLM、ClaudeCode）、Hacker News フロントページ、Mistral Blog、[daily-tech-news](https://github.com/unsolublesugar/daily-tech-news) 由来の12本（Tech Blog Weekly、Zenn 総合、Qiita 人気記事、はてなブックマーク新着、DevelopersIO、gihyo.jp、Publickey、CodeZine、InfoQ Japan、connpass と TECH PLAY のイベント、O'Reilly Japan の近刊） |
 | 停止中（URL未確認） | AI整体師（正式なRSS / Atom URLが判明後に登録する） |
 
 arXiv は件数が多いため1回あたり20件に絞っています。論文のトレンドは Takara TLDR（第三者が公開している日次の AI 論文ダイジェスト。Hugging Face Daily Papers 由来かどうかは未確認）で補っています。VentureBeat AI は 2026-10-26 の取得で HTTP 429 が返り、現在は記事が入りません。繰り返し失敗する場合は `enabled` を `false` にしてください。追加・変更の手順は [GITHUB_PAGES.md](GITHUB_PAGES.md) を参照してください。
@@ -35,6 +41,8 @@ arXiv は件数が多いため1回あたり20件に絞っています。論文�
 | `pages/` | 公開する静的サイト（`index.html`、`app.js`、`styles.css`、`data/`、`daily/`） |
 | `pages/data/feeds.json` | 情報源の登録と直近の取得状態 |
 | `pages/data/news.json` | 収集済み記事（Actionsが自動更新） |
+| `pages/archives/` | 日付別アーカイブ（自動生成） |
+| `pages/rss.xml` | このサイト自身のRSS（自動生成） |
 | `scripts/collect-static-news.mjs` | RSS / Atom 収集スクリプト |
 | `.github/workflows/` | `ci.yml`（型検査・テスト・ビルド）、`collect-news.yml`（収集）、`deploy-pages.yml`（公開） |
 | `client/`、`server/`、`shared/`、`drizzle/` | DBを使う動的版アプリ。公開サイトでは使っておらず、手順は [OPERATIONS.md](OPERATIONS.md) |

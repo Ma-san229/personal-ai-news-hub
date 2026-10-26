@@ -1,4 +1,5 @@
-const categoryLabels = { ai_seitaishi: "AI整体師向け", engineer: "エンジニア向け" };
+const categoryLabels = { ai_seitaishi: "AI整体師向け", engineer: "エンジニア向け", event: "イベント", book: "書籍" };
+const articleCategories = ["ai_seitaishi", "engineer"];
 const storedReads = new Set(JSON.parse(localStorage.getItem("signal-shelf-read") || "[]"));
 let articles = [];
 let selectedCategory = "all";
@@ -11,7 +12,7 @@ const shortUrl = (url) => url.replace(/^https?:\/\//, "").replace(/\/$/, "");
 function persistReads() { localStorage.setItem("signal-shelf-read", JSON.stringify([...storedReads])); }
 function render() {
   const query = searchTerm.toLocaleLowerCase("ja-JP");
-  const visible = articles.filter((article) => (selectedCategory === "all" || article.category === selectedCategory) && [article.title, article.sourceName, article.url, article.description || ""].join(" ").toLocaleLowerCase("ja-JP").includes(query));
+  const visible = articles.filter((article) => (selectedCategory === "all" ? articleCategories.includes(article.category) : article.category === selectedCategory) && [article.title, article.sourceName, article.url, article.description || ""].join(" ").toLocaleLowerCase("ja-JP").includes(query));
   articleGrid.innerHTML = "";
   document.querySelector("#resultLabel").textContent = `${visible.length} 件のシグナルを表示`;
   if (!visible.length) { articleGrid.innerHTML = '<div class="empty">条件に一致する記事はありません。情報源または検索条件を確認してください。</div>'; return; }
@@ -33,7 +34,7 @@ function render() {
   });
 }
 
-function count(category) { return category === "all" ? articles.length : articles.filter((article) => article.category === category).length; }
+function count(category) { return category === "all" ? articles.filter((article) => articleCategories.includes(article.category)).length : articles.filter((article) => article.category === category).length; }
 function renderFeedSummary(feeds) {
   const target = document.querySelector("#feedSummary");
   target.innerHTML = feeds.map((feed) => `<span class="feed-tag ${feed.enabled ? "" : "offline"}">${feed.enabled ? "●" : "○"} ${feed.name} ${feed.enabled ? "" : " / URL確認待ち"}</span>`).join("");
@@ -55,7 +56,7 @@ async function load() {
     articles = [...extra, ...base].filter((article) => { if (seen.has(article.url)) return false; seen.add(article.url); return true; });
     document.querySelector("#articleCount").textContent = articles.length;
     document.querySelector("#lastUpdated").textContent = picks.updatedAt ? `DATA FEED / ${new Intl.DateTimeFormat("ja-JP", { month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit" }).format(new Date(picks.updatedAt))}` : "DATA FEED / WAITING";
-    document.querySelector("#countAll").textContent = count("all"); document.querySelector("#countAi").textContent = count("ai_seitaishi"); document.querySelector("#countEngineer").textContent = count("engineer");
+    document.querySelector("#countAll").textContent = count("all"); document.querySelector("#countAi").textContent = count("ai_seitaishi"); document.querySelector("#countEngineer").textContent = count("engineer"); document.querySelector("#countEvent").textContent = count("event"); document.querySelector("#countBook").textContent = count("book");
     renderFeedSummary(feeds.feeds || []); render();
   } catch (error) { articleGrid.innerHTML = '<div class="empty">ニュースデータを読み込めませんでした。次回の収集後に再試行してください。</div>'; console.error(error); }
 }

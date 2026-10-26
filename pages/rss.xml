@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Signal Shelf — Personal AI News</title>
+    <link>https://ma-san229.github.io/personal-ai-news-hub/</link>
+    <description>AI・エンジニア向けニュースの最新50件</description>
+    <language>ja</language>
+    <lastBuildDate>Mon, 26 Oct 2026 11:15:43 GMT</lastBuildDate>
+    <item>
+      <title>AIに設計書を書かせて、人がダメ出しする：その分担と観点</title>
+      <link>https://qiita.com/sha44444/items/786a02abe272d1c6b1e1</link>
+      <guid isPermaLink="true">https://qiita.com/sha44444/items/786a02abe272d1c6b1e1</guid>
+      <pubDate>Mon, 26 Oct 2026 11:13:55 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ClaudeCode</source>
+    </item>
+    <item>
+      <title>Claude Code のゲーム開発スキル、Unity・Godot・Web ゲームでどれを入れるか</title>
+      <link>https://qiita.com/Skillselion/items/6234f517f15002b40733</link>
+      <guid isPermaLink="true">https://qiita.com/Skillselion/items/6234f517f15002b40733</guid>
+      <pubDate>Mon, 26 Oct 2026 11:13:46 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ClaudeCode</source>
+    </item>
+    <item>
+      <title>claude doctorの警告は鵜呑みにしない、Fix行を実行する前の裏取り手順</title>
+      <link>https://qiita.com/kai_kou/items/dcfb1063050a534e1ed4</link>
+      <guid isPermaLink="true">https://qiita.com/kai_kou/items/dcfb1063050a534e1ed4</guid>
+      <pubDate>Mon, 26 Oct 2026 11:10:34 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ClaudeCode</source>
+    </item>
+    <item>
+      <title>実際に試したClaude便利術20選 まとめ</title>
+      <link>https://qiita.com/N-Kyo/items/bf4a3a2185db2d28eee5</link>
+      <guid isPermaLink="true">https://qiita.com/N-Kyo/items/bf4a3a2185db2d28eee5</guid>
+      <pubDate>Mon, 26 Oct 2026 11:05:51 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ClaudeCode</source>
+    </item>
+    <item>
+      <title>ライバル2社のAIが、1つのチェック済み回答を出す：ChatGPTとClaudeがiPhoneで連携（無料）</title>
+      <link>https://qiita.com/vadimchernets/items/46f03c65d8aec5d66b53</link>
+      <guid isPermaLink="true">https://qiita.com/vadimchernets/items/46f03c65d8aec5d66b53</guid>
+      <pubDate>Mon, 26 Oct 2026 11:02:51 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ChatGPT</source>
+    </item>
+    <item>
+      <title>AIエージェントが報告を書けないので、モデル制御と書込み権限の境界を見直した</title>
+      <link>https://qiita.com/Tachiuo/items/5631ed802717f4cd94af</link>
+      <guid isPermaLink="true">https://qiita.com/Tachiuo/items/5631ed802717f4cd94af</guid>
+      <pubDate>Mon, 26 Oct 2026 11:01:54 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ LLM</source>
+    </item>
+    <item>
+      <title>Pythonのif文とfor文がわかる程度の私が、生成AIとWindowsアプリを作って公開するまで</title>
+      <link>https://qiita.com/Iwata-san/items/d5bcfcfdafb182d719e2</link>
+      <guid isPermaLink="true">https://qiita.com/Iwata-san/items/d5bcfcfdafb182d719e2</guid>
+      <pubDate>Mon, 26 Oct 2026 10:52:25 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ChatGPT</source>
+    </item>
+    <item>
+      <title>Softmax と Cross-Entropy に潜む 2 つの数値バグを Mac で再現してみた</title>
+      <link>https://qiita.com/Takuya__/items/05bbe2c9e09c41382ebc</link>
+      <guid isPermaLink="true">https://qiita.com/Takuya__/items/05bbe2c9e09c41382ebc</guid>
+      <pubDate>Mon, 26 Oct 2026 10:52:15 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ LLM</source>
+    </item>
+    <item>
+      <title>Grok 4.6とKimi K2.5のJSON抽出を確かめる3条件</title>
+      <link>https://qiita.com/whitemarshall/items/659fcb4e1ef281465f8b</link>
+      <guid isPermaLink="true">https://qiita.com/whitemarshall/items/659fcb4e1ef281465f8b</guid>
+      <pubDate>Mon, 26 Oct 2026 10:52:07 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ LLM</source>
+    </item>
+    <item>
+      <title>Claude Code のセッションに散らばった判断を、skill で一箇所に集める</title>
+      <link>https://qiita.com/qwertyhoge/items/987c0ea8afdb5cd045e8</link>
+      <guid isPermaLink="true">https://qiita.com/qwertyhoge/items/987c0ea8afdb5cd045e8</guid>
+      <pubDate>Mon, 26 Oct 2026 10:51:04 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ClaudeCode</source>
+    </item>
+    <item>
+      <title>&amp;#x30C6;&amp;#x30B9;&amp;#x30E9;&amp;#x306E;&amp;#x30CD;&amp;#x30C3;&amp;#x30C8;&amp;#x30EF;&amp;#x30FC;&amp;#x30AF;&amp;#x30A8;&amp;#x30F3;&amp;#x30B8;&amp;#x30CB;&amp;#x30A2;&amp;#x306E;&amp;#x52DF;&amp;#x96C6;&amp;#x8981;&amp;#x9805;&amp;#x306B;&amp;#x300C;25kg&amp;#x3092;&amp;#x6301;&amp;#x3061;&amp;#x4E0A;&amp;#x3052;&amp;#x3089;&amp;#x308C;&amp;#x308B;&amp;#x3053;&amp;#x3068;&amp;#x300D;&amp;#x3068;&amp;#x660E;&amp;#x8A18;&amp;#x3057;&amp;#x3066;&amp;#x3042;&amp;#x308B;&amp;#x304C;&amp;#x3001;&amp;#x306A;&amp;#x3093;&amp;#x3067;25kg&amp;#x3092;&amp;#x6301;&amp;#x3061;&amp;#x4E0A;&amp;#x3052;&amp;#x308B;&amp;#x5FC5;&amp;#x8981;&amp;#x304C;&amp;#x3042;&amp;#x308B;&amp;#x3093;&amp;#x3060;&amp;#x308D;&amp;#x3046;&amp;#x304B;&amp;#xFF1F;</title>
+      <link>https://togetter.com/li/2763108</link>
+      <guid isPermaLink="true">https://togetter.com/li/2763108</guid>
+      <pubDate>Mon, 26 Oct 2026 10:48:09 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 新着エントリー（テクノロジー）</source>
+    </item>
+    <item>
+      <title>Codexから始めるAIエージェント入門：Skill・MCP・Pluginの役割を整理する | SB OAI Japan Tech Blogのフィード</title>
+      <link>https://zenn.dev/sboai_tech/articles/b92ef480a0d14e</link>
+      <guid isPermaLink="true">https://zenn.dev/sboai_tech/articles/b92ef480a0d14e</guid>
+      <pubDate>Mon, 26 Oct 2026 10:40:37 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>【Rust × Python】自律型AIヘッジファンドに3.6nsのRust番犬とReddit知見（オントロジー・BM25・林吉田相関）を組み込んだ話</title>
+      <link>https://qiita.com/ramuza0113/items/b20443c7fe991008d444</link>
+      <guid isPermaLink="true">https://qiita.com/ramuza0113/items/b20443c7fe991008d444</guid>
+      <pubDate>Mon, 26 Oct 2026 10:35:24 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ AI</source>
+    </item>
+    <item>
+      <title>&amp;#x56E0;&amp;#x7FD2;&amp;#x751F;&amp;#x6D3B;&amp;#x30B7;&amp;#x30E0;&amp;#x300E;&amp;#x307B;&amp;#x306E;&amp;#x66AE;&amp;#x3057;&amp;#x306E;&amp;#x5EAD;&amp;#x300F;&amp;#x3001;&amp;#x958B;&amp;#x767A;&amp;#x76EE;&amp;#x6A19;&amp;#x306E;&amp;#x300C;3&amp;#x500D;&amp;#x4EE5;&amp;#x4E0A;&amp;#x300D;&amp;#x58F2;&amp;#x308C;&amp;#x3066;&amp;#x3044;&amp;#x305F;&amp;#x3002;&amp;#x958B;&amp;#x767A;&amp;#x306F;&amp;#x5341;&amp;#x6570;&amp;#x540D;&amp;#x3001;&amp;#x958B;&amp;#x767A;&amp;#x671F;&amp;#x9593;&amp;#x306F;2&amp;#x5E74;&amp;#x3001;&amp;#x305D;&amp;#x308C;&amp;#x3067;&amp;#x3044;&amp;#x3066;&amp;#x30DC;&amp;#x30EA;&amp;#x30E5;&amp;#x30FC;&amp;#x30E0;&amp;#x6E80;&amp;#x70B9;&amp;#x3001;&amp;#x201C;&amp;#x3084;&amp;#x308A;&amp;#x304D;&amp;#x3063;&amp;#x305F;&amp;#x201D;&amp;#x30D2;&amp;#x30C3;&amp;#x30C8;&amp;#x4F5C;&amp;#x306E;&amp;#x88CF;&amp;#x5074;&amp;#x3092;&amp;#x958B;&amp;#x767A;&amp;#x8005;&amp;#x306B;&amp;#x8A0A;&amp;#x304F; - AUTOMATON</title>
+      <link>https://automaton-media.com/articles/interviewsjp/honogura-20261026-475678/</link>
+      <guid isPermaLink="true">https://automaton-media.com/articles/interviewsjp/honogura-20261026-475678/</guid>
+      <pubDate>Mon, 26 Oct 2026 10:32:58 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 人気エントリー（テクノロジー）</source>
+    </item>
+    <item>
+      <title>&amp;#x300C;&amp;#x5E74;&amp;#x9F62;&amp;#x306F;&amp;#x5408;&amp;#x3063;&amp;#x3066;&amp;#x307E;&amp;#x3059;&amp;#x304C;&amp;#x3001;&amp;#x4EBA;&amp;#x9593;&amp;#x3067;&amp;#x306F;&amp;#x3042;&amp;#x308A;&amp;#x307E;&amp;#x305B;&amp;#x3093;&amp;#x300D;&amp;#x3000;6&amp;#x6B73;&amp;#x306E;&amp;#x98FC;&amp;#x3044;&amp;#x732B;&amp;#x306B;&amp;#x5C4A;&amp;#x3044;&amp;#x305F;&amp;#x201C;&amp;#x9032;&amp;#x7814;&amp;#x30BC;&amp;#x30DF;&amp;#x306E;&amp;#x6848;&amp;#x5185;&amp;#x201D;&amp;#x3000;&amp;#x306A;&amp;#x305C;&amp;#x5C4A;&amp;#x3044;&amp;#x305F;&amp;#x306E;&amp;#x304B;&amp;#x30D9;&amp;#x30CD;&amp;#x30C3;&amp;#x30BB;&amp;#x306B;&amp;#x805E;&amp;#x3044;&amp;#x305F;</title>
+      <link>https://www.itmedia.co.jp/news/article/2610/26/2000002597/</link>
+      <guid isPermaLink="true">https://www.itmedia.co.jp/news/article/2610/26/2000002597/</guid>
+      <pubDate>Mon, 26 Oct 2026 10:32:41 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 人気エントリー（テクノロジー）</source>
+    </item>
+    <item>
+      <title>Claude Code v2.1.309：sandbox・MCPの大型バグ修正が企業環境に与える影響</title>
+      <link>https://qiita.com/Sidejob/items/4d56166f7e3a713ca365</link>
+      <guid isPermaLink="true">https://qiita.com/Sidejob/items/4d56166f7e3a713ca365</guid>
+      <pubDate>Mon, 26 Oct 2026 10:30:04 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ClaudeCode</source>
+    </item>
+    <item>
+      <title>AI駆動開発のための3層6区分のドキュメント構成の提案（Superpowers利用）</title>
+      <link>https://qiita.com/ha8960/items/8524a73e1c011bf4102f</link>
+      <guid isPermaLink="true">https://qiita.com/ha8960/items/8524a73e1c011bf4102f</guid>
+      <pubDate>Mon, 26 Oct 2026 10:19:56 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ClaudeCode</source>
+    </item>
+    <item>
+      <title>GNext の紹介 #2 つながるデータから、 信頼できる知見へ ヘルスケア分野の事例紹介 | fltech - 富士通研究所の技術ブログ</title>
+      <link>https://blog.fltech.dev/entry/2026/10/26/gnext-part2</link>
+      <guid isPermaLink="true">https://blog.fltech.dev/entry/2026/10/26/gnext-part2</guid>
+      <pubDate>Mon, 26 Oct 2026 10:18:02 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>&amp;#x30E1;&amp;#x30FC;&amp;#x30EB;&amp;#x914D;&amp;#x4FE1;&amp;#x4F1A;&amp;#x793E;&amp;#x300C;&amp;#x30E6;&amp;#x30DF;&amp;#x30EB;&amp;#x30EA;&amp;#x30F3;&amp;#x30AF;&amp;#x300D;&amp;#x306E;&amp;#x3079;5100&amp;#x4E07;&amp;#x4EF6;&amp;#x306E;&amp;#x60C5;&amp;#x5831;&amp;#x6F0F;&amp;#x3048;&amp;#x3044;&amp;#x78BA;&amp;#x8A8D; | NHK&amp;#x30CB;&amp;#x30E5;&amp;#x30FC;&amp;#x30B9;</title>
+      <link>https://news.web.nhk/newsweb/na/nd-20261026de65955</link>
+      <guid isPermaLink="true">https://news.web.nhk/newsweb/na/nd-20261026de65955</guid>
+      <pubDate>Mon, 26 Oct 2026 10:16:01 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 新着エントリー（テクノロジー）</source>
+    </item>
+    <item>
+      <title>Kimi K3.1 Proは本当に安いのか：7回の実測から切り替え判定式を作る</title>
+      <link>https://qiita.com/whitemarshall/items/bd4a510b276c298669c1</link>
+      <guid isPermaLink="true">https://qiita.com/whitemarshall/items/bd4a510b276c298669c1</guid>
+      <pubDate>Mon, 26 Oct 2026 10:10:29 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ LLM</source>
+    </item>
+    <item>
+      <title>インターンで社内 Web アプリのリモート MCP サーバーを構築した | every Tech Blog</title>
+      <link>https://tech.every.tv/entry/2026/10/26/190217</link>
+      <guid isPermaLink="true">https://tech.every.tv/entry/2026/10/26/190217</guid>
+      <pubDate>Mon, 26 Oct 2026 10:02:17 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>Claude Code更新 auto mode設定・API移行【10/16〜22】 | サーバーワークスエンジニアブログ</title>
+      <link>https://blog.serverworks.co.jp/2026/10/26/190000</link>
+      <guid isPermaLink="true">https://blog.serverworks.co.jp/2026/10/26/190000</guid>
+      <pubDate>Mon, 26 Oct 2026 10:00:00 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>【脱・挫折】Pythonの入門書を頭から読むのは今すぐやめろ。AI（ChatGPT/Claude）を専属メンターにして最短で自走する実践的学習法</title>
+      <link>https://qiita.com/xiaoy/items/8d455c664ea9d8716b4b</link>
+      <guid isPermaLink="true">https://qiita.com/xiaoy/items/8d455c664ea9d8716b4b</guid>
+      <pubDate>Mon, 26 Oct 2026 09:47:02 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ChatGPT</source>
+    </item>
+    <item>
+      <title>Dify 三昧：【リリース情報】エージェントルーティング、ポータブルアプリ、ワークフロー可視化の新境地 | DENET 技術ブログ</title>
+      <link>https://blog.denet.co.jp/dify-%e4%b8%89%e6%98%a7%ef%bc%9a%e3%80%90%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e6%83%85%e5%a0%b1%e3%80%91%e3%82%a8%e3%83%bc%e3%82%b8%e3%82%a7%e3%83%b3%e3%83%88%e3%83%ab%e3%83%bc%e3%83%86%e3%82%a3/</link>
+      <guid isPermaLink="true">https://blog.denet.co.jp/dify-%e4%b8%89%e6%98%a7%ef%bc%9a%e3%80%90%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e6%83%85%e5%a0%b1%e3%80%91%e3%82%a8%e3%83%bc%e3%82%b8%e3%82%a7%e3%83%b3%e3%83%88%e3%83%ab%e3%83%bc%e3%83%86%e3%82%a3/</guid>
+      <pubDate>Mon, 26 Oct 2026 09:30:14 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>Frontria技術交流会#2「AI・偽情報時代のサプライチェーンリスクと対策の最前線」を開催しました | fltech - 富士通研究所の技術ブログ</title>
+      <link>https://blog.fltech.dev/entry/2026/10/26/frontria-tech-exchange-2-ja</link>
+      <guid isPermaLink="true">https://blog.fltech.dev/entry/2026/10/26/frontria-tech-exchange-2-ja</guid>
+      <pubDate>Mon, 26 Oct 2026 09:30:00 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>&amp;#xFF2A;&amp;#xFF4F;&amp;#xFF53;&amp;#xFF48;&amp;#xFF49;&amp;#xFF4E;&amp;#x3001;&amp;#x4E0D;&amp;#x6B63;&amp;#x30A2;&amp;#x30AF;&amp;#x30BB;&amp;#x30B9;&amp;#x3067;&amp;#x6700;&amp;#x5927;&amp;#x7D04;600&amp;#x4E07;&amp;#x4EF6;&amp;#x306E;&amp;#x4F1A;&amp;#x54E1;&amp;#x60C5;&amp;#x5831;&amp;#x306A;&amp;#x3069;&amp;#x304C;&amp;#x6F0F;&amp;#x3048;&amp;#x3044;&amp;#x306E;&amp;#x53EF;&amp;#x80FD;&amp;#x6027;&amp;#x3000;</title>
+      <link>https://internet.watch.impress.co.jp/docs/news/2151273.html</link>
+      <guid isPermaLink="true">https://internet.watch.impress.co.jp/docs/news/2151273.html</guid>
+      <pubDate>Mon, 26 Oct 2026 09:20:26 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 人気エントリー（テクノロジー）</source>
+    </item>
+    <item>
+      <title>S3 Object Lock のバケットに、監査の記録を 1 日 1 つにまとめて保管する仕組みを作ってみた</title>
+      <link>https://dev.classmethod.jp/articles/s3-object-lock-eventbridge-scheduler-daily-archive/</link>
+      <guid isPermaLink="true">https://dev.classmethod.jp/articles/s3-object-lock-eventbridge-scheduler-daily-archive/</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:10 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">DevelopersIO</source>
+    </item>
+    <item>
+      <title>イギリスのApple Platformカンファレンス&quot;SwiftLeeds 2026&quot;で登壇してみた | Yappli Tech Blog</title>
+      <link>https://tech.yappli.io/entry/swiftleeds_2026</link>
+      <guid isPermaLink="true">https://tech.yappli.io/entry/swiftleeds_2026</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>[登壇資料] 「3ヶ月で月額300万円削減 ─ AWSコスト削減プロジェクトのリアル」についてお話しました #devio2026</title>
+      <link>https://dev.classmethod.jp/articles/devio2026tokyo-aws-cost-reduction/</link>
+      <guid isPermaLink="true">https://dev.classmethod.jp/articles/devio2026tokyo-aws-cost-reduction/</guid>
+      <pubDate>Mon, 26 Oct 2026 08:53:04 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">DevelopersIO</source>
+    </item>
+    <item>
+      <title>「AIでもわからない言語」を解読し、技術負債解消へ――「最後発のSIer」が挑むモダナイゼーション事業② | SHIFT Group 技術ブログ</title>
+      <link>https://note.shiftinc.jp/n/n727724278c46</link>
+      <guid isPermaLink="true">https://note.shiftinc.jp/n/n727724278c46</guid>
+      <pubDate>Mon, 26 Oct 2026 08:47:57 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>Switzerland. Block by block. At 1:1 scale</title>
+      <link>https://blocks.manifold3d.ch/</link>
+      <guid isPermaLink="true">https://blocks.manifold3d.ch/</guid>
+      <pubDate>Mon, 26 Oct 2026 08:46:09 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Hacker News フロントページ</source>
+    </item>
+    <item>
+      <title>&amp;#x30CF;&amp;#x30C3;&amp;#x30AB;&amp;#x30FC;&amp;#x96C6;&amp;#x56E3; GMO&amp;#x306B;&amp;#x3042;&amp;#x3059;&amp;#x671F;&amp;#x9650;&amp;#x3067;100&amp;#x4E07;&amp;#x30C9;&amp;#x30EB;&amp;#x8981;&amp;#x6C42; &amp;#x9867;&amp;#x5BA2;&amp;#x8105;&amp;#x8FEB;&amp;#x3082; | NHK&amp;#x30CB;&amp;#x30E5;&amp;#x30FC;&amp;#x30B9;</title>
+      <link>https://news.web.nhk/newsweb/na/nd-20261026de65733</link>
+      <guid isPermaLink="true">https://news.web.nhk/newsweb/na/nd-20261026de65733</guid>
+      <pubDate>Mon, 26 Oct 2026 08:44:52 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 人気エントリー（テクノロジー）</source>
+    </item>
+    <item>
+      <title>Building a City #3: The Interiors — 店の中を覗いてみよう | YOUTRUST Tech Blog</title>
+      <link>https://tech.youtrust.co.jp/entry/app-architecture-3</link>
+      <guid isPermaLink="true">https://tech.youtrust.co.jp/entry/app-architecture-3</guid>
+      <pubDate>Mon, 26 Oct 2026 08:44:40 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>【 AWS GameDay イベントレポート】生成 AI と挑む「Unicorn Kiro Force」を開催しました！ | PLAY DEVELOPERS BLOG</title>
+      <link>https://developers.play.jp/entry/2026/10/26/174424</link>
+      <guid isPermaLink="true">https://developers.play.jp/entry/2026/10/26/174424</guid>
+      <pubDate>Mon, 26 Oct 2026 08:44:24 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>遺跡on Railsシリーズ: 失われた遺跡の地図を再構築する（翻訳） | TechRacho</title>
+      <link>https://techracho.bpsinc.jp/hachi8833/2026_10_26/159348</link>
+      <guid isPermaLink="true">https://techracho.bpsinc.jp/hachi8833/2026_10_26/159348</guid>
+      <pubDate>Mon, 26 Oct 2026 08:30:54 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>Supabase MCP を読み取り専用にするなら claude.ai のコネクタも止めておくと安心という話</title>
+      <link>https://dev.classmethod.jp/articles/claude-code-supabase-mcp-read-only-connector/</link>
+      <guid isPermaLink="true">https://dev.classmethod.jp/articles/claude-code-supabase-mcp-read-only-connector/</guid>
+      <pubDate>Mon, 26 Oct 2026 08:13:38 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">DevelopersIO</source>
+    </item>
+    <item>
+      <title>Zod の契約で BE と UI のずれをテストし、振る舞いまで守る Schema-Driven UI | DRESS CODE TECH BLOGのフィード</title>
+      <link>https://zenn.dev/dress_code/articles/fe01d8baae2aa8</link>
+      <guid isPermaLink="true">https://zenn.dev/dress_code/articles/fe01d8baae2aa8</guid>
+      <pubDate>Mon, 26 Oct 2026 08:12:15 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>pixiv&amp;#x793E;&amp;#x306E;&amp;#x7206;&amp;#x901F;PHP&amp;#x30A2;&amp;#x30C3;&amp;#x30D7;&amp;#x30C7;&amp;#x30FC;&amp;#x30C8;&amp;#x3092;&amp;#x53C2;&amp;#x8003;&amp;#x306B;&amp;#x3001;&amp;#x793E;&amp;#x5185;&amp;#x3067; Docker Official Image &amp;#x306E;&amp;#x30D3;&amp;#x30EB;&amp;#x30C9;&amp;#x30B7;&amp;#x30B9;&amp;#x30C6;&amp;#x30E0;&amp;#x3092;&amp;#x4F5C;&amp;#x3063;&amp;#x305F;&amp;#x8A71; - Classi&amp;#x958B;&amp;#x767A;&amp;#x8005;&amp;#x30D6;&amp;#x30ED;&amp;#x30B0;</title>
+      <link>https://tech.classi.jp/entry/2026/10/26/163000</link>
+      <guid isPermaLink="true">https://tech.classi.jp/entry/2026/10/26/163000</guid>
+      <pubDate>Mon, 26 Oct 2026 08:08:37 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 人気エントリー（テクノロジー）</source>
+    </item>
+    <item>
+      <title>AWS CLI コマンドの基本操作を EC2 インスタンスの情報取得で試してみた</title>
+      <link>https://dev.classmethod.jp/articles/aws-cli-ec2-basic-options/</link>
+      <guid isPermaLink="true">https://dev.classmethod.jp/articles/aws-cli-ec2-basic-options/</guid>
+      <pubDate>Mon, 26 Oct 2026 08:08:34 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">DevelopersIO</source>
+    </item>
+    <item>
+      <title>製造BT部　中の人が雰囲気をお伝えします！</title>
+      <link>https://dev.classmethod.jp/articles/mbt-members-ambiance/</link>
+      <guid isPermaLink="true">https://dev.classmethod.jp/articles/mbt-members-ambiance/</guid>
+      <pubDate>Mon, 26 Oct 2026 08:07:47 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">DevelopersIO</source>
+    </item>
+    <item>
+      <title>生成AIはテストを「通す」ためにズルをするのか — 報酬ハッキングを30回の実験で確かめた | SOMPO Digital Labのフィード</title>
+      <link>https://zenn.dev/sompojapan_dx/articles/4f190d7cef4615</link>
+      <guid isPermaLink="true">https://zenn.dev/sompojapan_dx/articles/4f190d7cef4615</guid>
+      <pubDate>Mon, 26 Oct 2026 08:06:48 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>PSN&amp;#x306B;&amp;#x65B0;&amp;#x305F;&amp;#x306A;&amp;#x8106;&amp;#x5F31;&amp;#x6027;&amp;#x304C;&amp;#x767A;&amp;#x899A;&amp;#x304B;&amp;#x3002;&amp;#x4E8C;&amp;#x6BB5;&amp;#x968E;&amp;#x8A8D;&amp;#x8A3C;&amp;#x3092;&amp;#x56DE;&amp;#x907F;&amp;#x3057;&amp;#x3066;&amp;#x30D5;&amp;#x30A1;&amp;#x30DF;&amp;#x30EA;&amp;#x30FC;&amp;#x30E1;&amp;#x30F3;&amp;#x30D0;&amp;#x30FC;&amp;#x304C;&amp;#x52DD;&amp;#x624B;&amp;#x306B;&amp;#x8FFD;&amp;#x52A0;&amp;#x3055;&amp;#x308C;&amp;#x308B;&amp;#x88AB;&amp;#x5BB3;&amp;#x304C;&amp;#x767A;&amp;#x751F;&amp;#x4E2D;</title>
+      <link>https://game.watch.impress.co.jp/docs/news/2151226.html</link>
+      <guid isPermaLink="true">https://game.watch.impress.co.jp/docs/news/2151226.html</guid>
+      <pubDate>Mon, 26 Oct 2026 08:06:45 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 人気エントリー（テクノロジー）</source>
+    </item>
+    <item>
+      <title>Rails 6.1 → 8.1のアップデートで遭遇したエラーとその解決策 | フォトシンス エンジニアブログ</title>
+      <link>https://akerun.hateblo.jp/entry/2026/10/26/170257</link>
+      <guid isPermaLink="true">https://akerun.hateblo.jp/entry/2026/10/26/170257</guid>
+      <pubDate>Mon, 26 Oct 2026 08:02:57 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>AI エージェントの並列開発で膨らんだ GitHub Actions の費用を、AWS Fargate のセルフホストランナーに移して約3割削減した話</title>
+      <link>https://dev.classmethod.jp/articles/github-actions-fargate-self-hosted-runner-cost/</link>
+      <guid isPermaLink="true">https://dev.classmethod.jp/articles/github-actions-fargate-self-hosted-runner-cost/</guid>
+      <pubDate>Mon, 26 Oct 2026 07:57:58 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">DevelopersIO</source>
+    </item>
+    <item>
+      <title>DevelopersIO 2026で「Python Lambdaにおけるテストしやすい設計とAI支援の活用」というタイトルで登壇しました</title>
+      <link>https://dev.classmethod.jp/articles/designing-testable-python-lambda-functions-with-ai/</link>
+      <guid isPermaLink="true">https://dev.classmethod.jp/articles/designing-testable-python-lambda-functions-with-ai/</guid>
+      <pubDate>Mon, 26 Oct 2026 07:54:11 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">DevelopersIO</source>
+    </item>
+    <item>
+      <title>基調講演の聴講をきっかけに、「AIを使う」とは何かを考えた | JaSST’26 Niigata参加レポート | SHIFT Group 技術ブログ</title>
+      <link>https://note.shiftinc.jp/n/n488f60ebee53</link>
+      <guid isPermaLink="true">https://note.shiftinc.jp/n/n488f60ebee53</guid>
+      <pubDate>Mon, 26 Oct 2026 07:53:07 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+    <item>
+      <title>現場でほぼ使っていない私が押さえる生成AI動向メモ（2026年9月号）</title>
+      <link>https://qiita.com/UG_ichi/items/6306dc35fe97314c9606</link>
+      <guid isPermaLink="true">https://qiita.com/UG_ichi/items/6306dc35fe97314c9606</guid>
+      <pubDate>Mon, 26 Oct 2026 07:47:28 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ChatGPT</source>
+    </item>
+    <item>
+      <title>Google&amp;#x304C;&amp;#x300C;Gmail&amp;#x3084;Google&amp;#x30D5;&amp;#x30A9;&amp;#x30C8;&amp;#x306E;&amp;#x5185;&amp;#x5BB9;&amp;#x306F;&amp;#x5E83;&amp;#x544A;&amp;#x306B;&amp;#x5229;&amp;#x7528;&amp;#x3057;&amp;#x306A;&amp;#x3044;&amp;#x300D;&amp;#x3068;&amp;#x3044;&amp;#x3046;&amp;#x65B9;&amp;#x91DD;&amp;#x306B;&amp;#x4F8B;&amp;#x5916;&amp;#x3092;&amp;#x8FFD;&amp;#x52A0;&amp;#x3001;AI&amp;#x3068;&amp;#x306E;&amp;#x30C7;&amp;#x30FC;&amp;#x30BF;&amp;#x5171;&amp;#x6709;&amp;#x304C;&amp;#x5E83;&amp;#x544A;&amp;#x306B;&amp;#x5F71;&amp;#x97FF;&amp;#x3059;&amp;#x308B;&amp;#x53EF;&amp;#x80FD;&amp;#x6027;</title>
+      <link>https://gigazine.net/news/20261026-google-privacy-policy/</link>
+      <guid isPermaLink="true">https://gigazine.net/news/20261026-google-privacy-policy/</guid>
+      <pubDate>Mon, 26 Oct 2026 07:43:49 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 新着エントリー（テクノロジー）</source>
+    </item>
+    <item>
+      <title>&amp;#x30B2;&amp;#x30FC;&amp;#x30E0;&amp;#x306E;&amp;#x3088;&amp;#x3046;&amp;#x306B;&amp;#x79FB;&amp;#x52D5;&amp;#x53EF;&amp;#x80FD;&amp;#x306A;&amp;#x4E16;&amp;#x754C;&amp;#x3092;&amp;#x751F;&amp;#x6210;&amp;#x3067;&amp;#x304D;&amp;#x308B;AI&amp;#x300C;Hy-Nomas&amp;#x300D;&amp;#x304C;&amp;#x30AA;&amp;#x30FC;&amp;#x30D7;&amp;#x30F3;&amp;#x30E2;&amp;#x30C7;&amp;#x30EB;&amp;#x3068;&amp;#x3057;&amp;#x3066;&amp;#x516C;&amp;#x958B;&amp;#x3055;&amp;#x308C;&amp;#x308B;&amp;#x3001;RTX 4090&amp;#x3067;&amp;#x30ED;&amp;#x30FC;&amp;#x30AB;&amp;#x30EB;&amp;#x5B9F;&amp;#x884C;&amp;#x53EF;&amp;#x80FD;</title>
+      <link>https://gigazine.net/news/20261026-hy-nomas-interactive-world-model/</link>
+      <guid isPermaLink="true">https://gigazine.net/news/20261026-hy-nomas-interactive-world-model/</guid>
+      <pubDate>Mon, 26 Oct 2026 07:43:34 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 新着エントリー（テクノロジー）</source>
+    </item>
+    <item>
+      <title>Entra Domain Services の一方向フォレスト信頼で、オンプレ側のサーバーにログオンするまで | CloudNative BLOGs</title>
+      <link>https://blog.cloudnative.co.jp/articles/entra-domain-services-one-way-forest-trust/</link>
+      <guid isPermaLink="true">https://blog.cloudnative.co.jp/articles/entra-domain-services-one-way-forest-trust/</guid>
+      <pubDate>Mon, 26 Oct 2026 07:39:00 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
+    </item>
+  </channel>
+</rss>

@@ -39,3 +39,10 @@
 - Mistral は `https://mistral.ai/rss.xml` が取得できたため、HTML解析ではなくRSSで追加した。
 - RSSが見つからず未対応: Anthropic News（`/rss.xml` は404）、Meta AI Blog、LlamaIndex Blog、The Batch（`/feed/` は404）。
 - はてなブログ（個別ブログ）のRSSは、読みたいブログのURLが分かれば `<ブログURL>/feed` で追加できる（未確認）。Engineer's Digest はすでに登録済み。
+
+## daily-tech-news（unsolublesugar）
+
+- 参照URL: https://github.com/unsolublesugar/daily-tech-news
+- 日本の技術系メディア13本のRSSを毎朝（日本時間7:00）集め、Markdown・HTML・RSSで公開し、日付別にアーカイブするPython製のツール。同じ記事の重複除去、メディアごとの表示件数の固定、記事／イベント／書籍のタブ、Geminiによる要約（任意）、Slack通知を備える。
+- 取り込み（2026-10-26）: 13本のうち、すでに登録済みのはてなブックマーク人気エントリーを除く12本を `feeds.json` に追加し、すべて取得を確認した。イベント（connpass、TECH PLAY）と書籍（O'Reilly Japan 近刊）は新カテゴリ `event`・`book` として専用タブにした。
+- 仕組みの取り込み: 日付別アーカイブ（`pages/archives/`）、自サイトのRSS出力（`pages/rss.xml`）、URLの `utm_` パラメータ除去による重複除去。Gemini要約、Slack通知、サムネイル取得、メディアごとの3件表示は取り込んでいない（外部APIキーや設計変更が必要なため）。

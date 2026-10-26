@@ -6,9 +6,13 @@ GitHub Pages版は、DBを使わない静的ニュースポータルです。Git
 
 公開サイトは [https://ma-san229.github.io/personal-ai-news-hub/](https://ma-san229.github.io/personal-ai-news-hub/) です。2026年8月21日に、Engineer's Digest（ponkotsu.dev）のAtomフィードから31件の記事が表示されることを確認しました。
 
+## アーカイブとRSS
+
+`collect-news.yml` は、収集のたびに `pages/archives/`（日付別の記事JSONと `index.json`）と `pages/rss.xml` も更新してコミットします。アーカイブはその日に初めて収集した記事（`collectedAt`）を日本時間の日付で振り分け、同じ日の複数回の収集は追記します。`news.json` は1200件を超えると古い順に消えますが、アーカイブには残ります。2026-10-26より前の記事には `collectedAt` がないため、アーカイブには含まれません。
+
 ## 情報源を追加・変更する
 
-`pages/data/feeds.json` の `feeds` 配列に、`id`、`name`、`url`、`category`、`enabled` を登録します。カテゴリ値は `ai_seitaishi` または `engineer` のいずれかです。URL確認前の情報源は、`enabled` を `false` に設定してください。登録前に、手元で `node scripts/collect-static-news.mjs` を実行し、`lastStatus` が `success` になることを確認します。
+`pages/data/feeds.json` の `feeds` 配列に、`id`、`name`、`url`、`category`、`enabled` を登録します。カテゴリ値は `ai_seitaishi`、`engineer`、`event`、`book` のいずれかです（`event` と `book` は専用タブにだけ表示されます）。URL確認前の情報源は、`enabled` を `false` に設定してください。登録前に、手元で `node scripts/collect-static-news.mjs` を実行し、`lastStatus` が `success` になることを確認します。
 
 | 項目 | 内容 |
 | --- | --- |
