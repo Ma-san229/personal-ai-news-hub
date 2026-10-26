@@ -26,4 +26,4 @@ GitHubの **Actions** タブから **Collect RSS News** を選び、**Run workfl
 
 ## 情報源の選定
 
-2026-10-26に、[beniyasan/research_info](https://github.com/beniyasan/research_info)（AI Researcher）の `config/sources.json` のうち、RSS / Atomで取得できる情報源を `feeds.json` へ取り込みました。取得確認ができ、個人用の一覧に適した量のものを有効にし、件数が多いもの（arXiv）、取得が拒否されたもの（VentureBeat、HTTP 429）、重複しやすいものは停止中の候補として残しています。有効化する場合は `enabled` を `true` にしてください。新しい `category` 値を足すには画面側（`pages/app.js` のカテゴリ表示とタブ）の変更が必要なため、取り込んだ情報源はすべて `engineer` にしています。
+2026-10-26に、[beniyasan/research_info](https://github.com/beniyasan/research_info)（AI Researcher）の `config/sources.json` のうち、RSS / Atomで取得できる情報源を `feeds.json` へ取り込みました。取得確認ができ、個人用の一覧に適した量のものを有効にし、2026-10-26の追加指示で、候補もすべて有効にしました。件数が多い arXiv は `maxItems` を20にしています。VentureBeat は HTTP 429 で取得できていません。論文のトレンド用に Takara TLDR のフィードも追加しています。新しい `category` 値を足すには画面側（`pages/app.js` のカテゴリ表示とタブ）の変更が必要なため、取り込んだ情報源はすべて `engineer` にしています。

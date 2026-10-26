@@ -15,7 +15,8 @@
 - [x] GitHub Actionsで型検査・ユニットテスト・ビルドを継続実行する
 - [x] README.mdを作成し、運用文書の対応関係を整理する
 - [x] research_infoの情報源から、RSS / Atomで取得できるものを取り込む
-- [ ] 取り込んだ情報源のうち停止中のものを、記事量を見て有効化するか判断する
+- [x] 取り込んだ情報源をすべて有効化し、arXiv系は1回20件に絞る
+- [ ] VentureBeat AI の HTTP 429 が続く場合は無効化または代替を検討する
 - [ ] AI整体師の正式なRSS / Atom URLを確認し、有効化する
 - [x] GitHub Actionsによる6時間ごとのRSS定期収集を有効化する
 - [x] ponkotsu.devの公開RSS / Atom URLを検出し、エンジニア向け初期フィードとして有効化する

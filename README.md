@@ -6,7 +6,7 @@ AI整体師向け・エンジニア向けのニュースを、RSS / Atomから�
 
 ## 仕組み
 
-GitHub Actions（`Collect RSS News`）が6時間ごとに `scripts/collect-static-news.mjs` を実行し、`pages/data/feeds.json` に登録された有効なフィードを取得して `pages/data/news.json` を更新し、コミットします。そのコミットを受けて `Deploy GitHub Pages` が `pages/` を公開します。記事はURLのハッシュで重複排除され、新しい順に最大500件を保持します。1フィードあたりの取り込みは最新30件までです（フィードごとに `maxItems` で変更できます）。
+GitHub Actions（`Collect RSS News`）が6時間ごとに `scripts/collect-static-news.mjs` を実行し、`pages/data/feeds.json` に登録された有効なフィードを取得して `pages/data/news.json` を更新し、コミットします。そのコミットを受けて `Deploy GitHub Pages` が `pages/` を公開します。記事はURLのハッシュで重複排除され、新しい順に最大800件を保持します。1フィードあたりの取り込みは最新30件までです（フィードごとに `maxItems` で変更できます）。
 
 ```
 feeds.json ──▶ collect-static-news.mjs ──▶ news.json ──▶ pages/（静的サイト）
@@ -19,11 +19,10 @@ feeds.json ──▶ collect-static-news.mjs ──▶ news.json ──▶ pages
 
 | 区分 | 内容 |
 | --- | --- |
-| 有効 | Engineer's Digest、Zenn（AI / LLM / Claude Code）、OpenAI News、Google AI Blog、Google DeepMind Blog、Hugging Face Blog、GitHub Blog AI/ML、AWS Machine Learning Blog、LangChain Blog、Import AI |
-| 停止中（候補） | Microsoft AI、Microsoft Research、Meta Engineering、NVIDIA 2本、TechCrunch AI、MIT Technology Review AI、arXiv cs.AI / cs.CL、VentureBeat AI |
+| 有効（24本） | Engineer's Digest、Zenn（AI / LLM / Claude Code）、OpenAI News、Google AI Blog、Google DeepMind Blog、Hugging Face Blog、GitHub Blog AI/ML、AWS Machine Learning Blog、LangChain Blog、Import AI、Microsoft AI、Microsoft Research、Meta Engineering、NVIDIA 2本、TechCrunch AI、MIT Technology Review AI、VentureBeat AI、arXiv（cs.AI / cs.CL / cs.LG）、Takara TLDR（Daily AI Papers） |
 | 停止中（URL未確認） | AI整体師（正式なRSS / Atom URLが判明後に登録する） |
 
-arXiv は日あたりの件数が多く個人用の一覧が埋まるため、VentureBeat は取得時に HTTP 429 が返ったため、停止中にしています（2026-10-26 時点）。追加・変更の手順は [GITHUB_PAGES.md](GITHUB_PAGES.md) を参照してください。
+arXiv は件数が多いため1回あたり20件に絞っています。論文のトレンドは Takara TLDR（第三者が公開している日次の AI 論文ダイジェスト。Hugging Face Daily Papers 由来かどうかは未確認）で補っています。VentureBeat AI は 2026-10-26 の取得で HTTP 429 が返り、現在は記事が入りません。繰り返し失敗する場合は `enabled` を `false` にしてください。追加・変更の手順は [GITHUB_PAGES.md](GITHUB_PAGES.md) を参照してください。
 
 ## 関連リポジトリ
 

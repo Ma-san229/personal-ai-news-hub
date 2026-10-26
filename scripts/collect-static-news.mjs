@@ -42,7 +42,7 @@ for (const feed of feedsData.feeds) {
 }
 const combined = new Map();
 for (const article of [...collected, ...(previous.articles || [])]) combined.set(article.id, article);
-const articles = [...combined.values()].sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0)).slice(0, 500);
+const articles = [...combined.values()].sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0)).slice(0, 800);
 await writeFile(newsPath, `${JSON.stringify({ updatedAt: new Date().toISOString(), articles }, null, 2)}\n`);
 await writeFile(feedsPath, `${JSON.stringify(feedsData, null, 2)}\n`);
 console.log(JSON.stringify({ collected: collected.length, stored: articles.length, activeFeeds: feedsData.feeds.filter((feed) => feed.enabled).length }));
