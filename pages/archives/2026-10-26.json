@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updatedAt": "2026-10-26T11:15:28.601Z",
+  "updatedAt": "2026-10-26T11:17:09.487Z",
   "articles": [
     {
       "id": "2b5197614087d2fb23ea012f",
@@ -23,6 +23,28 @@
       "sourceName": "O'Reilly Japan 近刊",
       "category": "book",
       "feedId": "oreilly-japan-soon"
+    },
+    {
+      "id": "4f4477fc7adbb431f5799590",
+      "title": "【Gemini API×WordPress】モモンガ構文メーカーを作った：プロンプトで消えない一人称を正規表現で消す【PHP】",
+      "url": "https://qiita.com/5naokichi/items/34754d5fa4d259b12eaa",
+      "publishedAt": "2026-10-26T11:17:03.000Z",
+      "description": "はじめに\n入力した文章を、『ちいかわ』のモモンガ風の「わがままで、あざとい」口調に変換する モモンガ構文メーカー を作りました（非公式のファンツールです）。\n\nWordPressの固定ページにフロントを置き、admin-ajax.php 経由でサーバー側から Gemi...",
+      "collectedAt": "2026-10-26T11:17:09.487Z",
+      "sourceName": "Qiita タグ ClaudeCode",
+      "category": "engineer",
+      "feedId": "qiita-claudecode"
+    },
+    {
+      "id": "893b99b0bbe6aec352bd7c2d",
+      "title": "14のAIエージェントが協調する自律型開発フレームワークの設計と実装",
+      "url": "https://qiita.com/fukukei23/items/c0dfd9c2313b1ba04cd9",
+      "publishedAt": "2026-10-26T11:15:46.000Z",
+      "description": "0. なぜ「AIエージェント群」なのか\n「ChatGPTにコードを書かせる」だけでは、プロダクション品質のコードは生まれません。\nレビュー、テスト、セキュリティ検査、要件の明確化——人間の開発者が当たり前にやっていることをAI開発でも実現するには、専門化されたエージェント...",
+      "collectedAt": "2026-10-26T11:17:09.487Z",
+      "sourceName": "Qiita タグ LLM",
+      "category": "engineer",
+      "feedId": "qiita-llm"
     },
     {
       "id": "57f7c6a13367d2e2e7ae853f",

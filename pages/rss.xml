@@ -5,7 +5,21 @@
     <link>https://ma-san229.github.io/personal-ai-news-hub/</link>
     <description>AI・エンジニア向けニュースの最新50件</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 26 Oct 2026 11:15:43 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 11:17:27 GMT</lastBuildDate>
+    <item>
+      <title>【Gemini API×WordPress】モモンガ構文メーカーを作った：プロンプトで消えない一人称を正規表現で消す【PHP】</title>
+      <link>https://qiita.com/5naokichi/items/34754d5fa4d259b12eaa</link>
+      <guid isPermaLink="true">https://qiita.com/5naokichi/items/34754d5fa4d259b12eaa</guid>
+      <pubDate>Mon, 26 Oct 2026 11:17:03 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ ClaudeCode</source>
+    </item>
+    <item>
+      <title>14のAIエージェントが協調する自律型開発フレームワークの設計と実装</title>
+      <link>https://qiita.com/fukukei23/items/c0dfd9c2313b1ba04cd9</link>
+      <guid isPermaLink="true">https://qiita.com/fukukei23/items/c0dfd9c2313b1ba04cd9</guid>
+      <pubDate>Mon, 26 Oct 2026 11:15:46 GMT</pubDate>
+      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Qiita タグ LLM</source>
+    </item>
     <item>
       <title>AIに設計書を書かせて、人がダメ出しする：その分担と観点</title>
       <link>https://qiita.com/sha44444/items/786a02abe272d1c6b1e1</link>
@@ -341,20 +355,6 @@
       <guid isPermaLink="true">https://gigazine.net/news/20261026-google-privacy-policy/</guid>
       <pubDate>Mon, 26 Oct 2026 07:43:49 GMT</pubDate>
       <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 新着エントリー（テクノロジー）</source>
-    </item>
-    <item>
-      <title>&amp;#x30B2;&amp;#x30FC;&amp;#x30E0;&amp;#x306E;&amp;#x3088;&amp;#x3046;&amp;#x306B;&amp;#x79FB;&amp;#x52D5;&amp;#x53EF;&amp;#x80FD;&amp;#x306A;&amp;#x4E16;&amp;#x754C;&amp;#x3092;&amp;#x751F;&amp;#x6210;&amp;#x3067;&amp;#x304D;&amp;#x308B;AI&amp;#x300C;Hy-Nomas&amp;#x300D;&amp;#x304C;&amp;#x30AA;&amp;#x30FC;&amp;#x30D7;&amp;#x30F3;&amp;#x30E2;&amp;#x30C7;&amp;#x30EB;&amp;#x3068;&amp;#x3057;&amp;#x3066;&amp;#x516C;&amp;#x958B;&amp;#x3055;&amp;#x308C;&amp;#x308B;&amp;#x3001;RTX 4090&amp;#x3067;&amp;#x30ED;&amp;#x30FC;&amp;#x30AB;&amp;#x30EB;&amp;#x5B9F;&amp;#x884C;&amp;#x53EF;&amp;#x80FD;</title>
-      <link>https://gigazine.net/news/20261026-hy-nomas-interactive-world-model/</link>
-      <guid isPermaLink="true">https://gigazine.net/news/20261026-hy-nomas-interactive-world-model/</guid>
-      <pubDate>Mon, 26 Oct 2026 07:43:34 GMT</pubDate>
-      <source url="https://ma-san229.github.io/personal-ai-news-hub/">はてなブックマーク 新着エントリー（テクノロジー）</source>
-    </item>
-    <item>
-      <title>Entra Domain Services の一方向フォレスト信頼で、オンプレ側のサーバーにログオンするまで | CloudNative BLOGs</title>
-      <link>https://blog.cloudnative.co.jp/articles/entra-domain-services-one-way-forest-trust/</link>
-      <guid isPermaLink="true">https://blog.cloudnative.co.jp/articles/entra-domain-services-one-way-forest-trust/</guid>
-      <pubDate>Mon, 26 Oct 2026 07:39:00 GMT</pubDate>
-      <source url="https://ma-san229.github.io/personal-ai-news-hub/">Tech Blog Weekly</source>
     </item>
   </channel>
 </rss>
