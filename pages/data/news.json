@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-25T20:51:18.861Z",
+  "updatedAt": "2026-10-26T04:47:50.945Z",
   "articles": [
+    {
+      "id": "5230a577e40dfbbfe39c9c2a",
+      "title": "2026/10/26 #719 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261026/1792966153",
+      "publishedAt": "2026-10-25T22:09:13.000Z",
+      "description": "eMudhra中間CA秘密鍵漏洩事件とWeb開発者が取るべき対策 コードを書かずに思いつきが形になる時代のエンジニアの不安 お名前.comデスクトップクラウドへのサイバー攻撃とGMOの対応 AIネイティブ開発でボトルネックになるレビューと人間の役割 WordPressからCloudflare製CMS「EmDash」へ移行した体験談 Claude Codeを放置して回すループエンジニアリング 決定的なフロントエンドアーキテクチャでレビュー負荷を減らす設計 ログ検索体験から逆算するログ基盤設計 Brotliの重大脆弱性「HTTP2Shell」の影響範囲と対処法 UIアニメーションが気持ちいい理由を…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "21f476b408b93dbe13f7d54d",
       "title": "2026/10/25 #718 - 今日の技術情報ダイジェスト",
