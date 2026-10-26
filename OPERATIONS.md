@@ -1,4 +1,6 @@
-# Personal AI News Hub — 運用手順
+# Personal AI News Hub — 運用手順（動的版）
+
+> このファイルは、DBとサーバーを使う動的版アプリ（`client/`・`server/`）の運用手順です。公開中のGitHub Pages版の運用は [GITHUB_PAGES.md](GITHUB_PAGES.md) を参照してください。全体像は [README.md](README.md) にあります。
 
 ## 初期状態
 

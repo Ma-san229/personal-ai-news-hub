@@ -24,3 +24,10 @@
 - 公開チャンネル: https://www.youtube.com/channel/UCVAkt5l6kD4igMdVoEGTGIg
 - チャンネルでは「AIニュース」シリーズを継続的に公開しており、生成AIを整体院の仕事に活用する文脈の情報源として扱える。
 - 初期フィードには、このチャンネルIDを用いたYouTube公式の動画フィード `https://www.youtube.com/feeds/videos.xml?channel_id=UCVAkt5l6kD4igMdVoEGTGIg` を「AI整体師向け」カテゴリで登録する。
+
+## research_info（AI Researcher）
+
+- 参照URL: https://github.com/beniyasan/research_info
+- Python + Docker で毎朝実行するAI記事の収集・レポート生成ツール。Gemini（Vertex AI）が採用記事を選び、Web検索で裏取りし、日次・週次・月次のMarkdownレポートを作る。Google Drive同期とDiscord通知、Discordでの記事評価（刺さる／追う／既知／弱い／方向違い）による選定の補正を備える。
+- 本プロジェクトとの違い: 本プロジェクトは選定をせず、収集した記事を静的サイトで検索・既読管理する。research_info は選定とレポート化が中心で、実行にDockerとGoogle Cloudの設定が必要。
+- 取り込み: `config/sources.json` のRSS / Atom 25本を2026-10-26に取得確認し、Speaker Deck 4本を除く21本を `pages/data/feeds.json` へ登録した（有効11本、停止中10本）。VentureBeat AI は取得時に HTTP 429 が返ったため停止中とした。Qiita API・Hacker News・HTMLのみの配信元（Anthropic、Meta AI、Mistral、LlamaIndex、The Batch）はRSS / Atomではないため、取り込まなかった。Speaker Deck 4本は記事ではなくスライドのため対象外とした。

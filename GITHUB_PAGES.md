@@ -8,13 +8,14 @@ GitHub Pages版は、DBを使わない静的ニュースポータルです。Git
 
 ## 情報源を追加・変更する
 
-`pages/data/feeds.json` の `feeds` 配列に、`id`、`name`、`url`、`category`、`enabled` を登録します。カテゴリ値は `ai_seitaishi` または `engineer` のいずれかです。URL確認前の情報源は、`enabled` を `false` に設定してください。
+`pages/data/feeds.json` の `feeds` 配列に、`id`、`name`、`url`、`category`、`enabled` を登録します。カテゴリ値は `ai_seitaishi` または `engineer` のいずれかです。URL確認前の情報源は、`enabled` を `false` に設定してください。登録前に、手元で `node scripts/collect-static-news.mjs` を実行し、`lastStatus` が `success` になることを確認します。
 
 | 項目 | 内容 |
 | --- | --- |
 | `url` | RSSまたはAtomの公開URL |
 | `category` | `ai_seitaishi` または `engineer` |
 | `enabled` | `true` のフィードだけを定期取得 |
+| `maxItems` | 1回の取得で取り込む最新記事数の上限（任意。省略時は30件） |
 | `lastStatus` | 直近のActions実行で更新される取得状態 |
 
 ## 手動実行
@@ -22,3 +23,7 @@ GitHub Pages版は、DBを使わない静的ニュースポータルです。Git
 GitHubの **Actions** タブから **Collect RSS News** を選び、**Run workflow** を実行すると即時に記事を更新できます。更新後のコミットにより、GitHub Pagesも自動公開されます。
 
 > GitHub Actionsのスケジュール実行はGitHub側で遅延する場合があります。更新を急ぐ場合は手動実行を使用してください。
+
+## 情報源の選定
+
+2026-10-26に、[beniyasan/research_info](https://github.com/beniyasan/research_info)（AI Researcher）の `config/sources.json` のうち、RSS / Atomで取得できる情報源を `feeds.json` へ取り込みました。取得確認ができ、個人用の一覧に適した量のものを有効にし、件数が多いもの（arXiv）、取得が拒否されたもの（VentureBeat、HTTP 429）、重複しやすいものは停止中の候補として残しています。有効化する場合は `enabled` を `true` にしてください。新しい `category` 値を足すには画面側（`pages/app.js` のカテゴリ表示とタブ）の変更が必要なため、取り込んだ情報源はすべて `engineer` にしています。

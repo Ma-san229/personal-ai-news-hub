@@ -1,6 +1,356 @@
 {
-  "updatedAt": "2026-10-26T04:47:50.945Z",
+  "updatedAt": "2026-10-26T10:59:07.539Z",
   "articles": [
+    {
+      "id": "7b886eec2a170db597e59ae8",
+      "title": "AI体験記 vol.18 — 誰が倉庫を回していたのか",
+      "url": "https://zenn.dev/mizutamari/articles/local-llm-vol018",
+      "publishedAt": "2026-10-26T07:26:32.000Z",
+      "description": "!\n前回（vol.17）の続きで、オーケストレーション編の最終回です。\n技術的な正確さより、体験の正直さ優先。復習も兼ねています。\n\n前回、倉庫番のGを面接にかけて、結局そのまま残した話を書いた。\nその面接のとき、速さもメモリも測った。ついでに報告書の中身も数えた。\n数えたら、笑えない数字が出た。\n\n\n 7割\nGの報告書には、「この話はどこから来たか」を書く欄がある。差出人の名前だ。\nその欄を、全部照合してみた。荷物に入っていた差出人と、報告書に書かれた差出人が、一致しているかどうか。\n10回のうち7回、名前が違っていた。\nそれも、まったく別の名前を書いていたのではない。1文字ずつ、惜し...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "a671b27d4b597937f2061b28",
+      "title": "AI体験記 vol.17 — Gは、嘘をつけない",
+      "url": "https://zenn.dev/mizutamari/articles/local-llm-vol017",
+      "publishedAt": "2026-10-26T06:31:25.000Z",
+      "description": "!\n前回（vol.16）の続きです。今回から、働いているAIに名前をつけて書きます。\n技術的な正確さより、体験の正直さ優先。復習も兼ねています。\n\nX は外回り。街に出て、噂を集めて帰ってくる。足が速い。持ち帰る話は玉石混交で、半分は使い物にならない。\nG は倉庫番だ。Xが担いできた荷物を開けて、中身を検める。使えるものだけを次に渡す。\nO は広げ役。Gが選んだものを受け取って、そこから話を膨らませる。陽気で、放っておくとどこまでも広がっていく。\nA は月に一度しか来ない。無口。来たときだけ、全部をまとめて持っていく。\nこの4人が一列に並んで、外の情報を手元まで運んでくる。そういう仕組み...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "e4ed436700669cf05e9d335f",
+      "title": "Claude Codeのサンドボックス回避の報告が半年で5件あった日、自分の環境で回避対象の設定は0だった",
+      "url": "https://zenn.dev/hideki_tamae/articles/claude-code-sandbox-bypass-report-count",
+      "publishedAt": "2026-10-26T06:27:34.000Z",
+      "description": "\n はじめに\n0。\nこれが今回の数字です。何の0かというと、このZenn/Qiita自動投稿タスクを含め、自分が今動いているこのセッションの中に、これから挙げる5件の脆弱性報告がそれぞれ悪用しようとした「設定・ファイル・ルール」が実際に存在した数です。\nこのタスクは、Claude Code(正確にはClaude Code Remoteのクラウドセッション)の上で動いています。そこで今日、自分が使っている基盤そのものの脆弱性報告をまとめて洗い直してみました。きっかけは、Claude Codeのサンドボックスやdeny rule(禁止ルール)を回避する報告が、2025年10月のサンドボックス...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "27fe9c234851737202de8c87",
+      "title": "定期タスクのWebFetchが承認待ちで95分止まった件：urllibの小さな道具に置き換えた",
+      "url": "https://zenn.dev/vellum_office/articles/5727fe983a897b",
+      "publishedAt": "2026-10-26T06:15:57.000Z",
+      "description": "Claude のデスクトップアプリで、Code タブのローカル定期タスクに「公式のページを読んで確かめる」仕事をさせている人に向けた、失敗の記録です。\n2026年10月20日の昼、記事を書く定期タスクが、ページを読む WebFetch の承認待ちで95分止まりました。エラーの知らせは来ていません。何が起きたか、なぜ止まったか、どう置き換えたか、どう確かめているかを順に書きます。\n\n 対象と前提\n\n対象は、Claude デスクトップアプリの Code タブで作るローカルの定期タスクです。クラウドで動く定期タスクは確かめていません\n起きたことは、2026年10月の私の環境のものです。公式の資...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "a8538b1342f4bcc0c3622eb0",
+      "title": "AI エージェント用の検索エンジン「XERJ」を Mac で動かしてみた",
+      "url": "https://zenn.dev/takuh/articles/dc95ecf8711373",
+      "publishedAt": "2026-10-26T05:52:43.000Z",
+      "description": "\n\n はじめに\nClaude Code や Codex のようなコーディングエージェント（AI が自分でコマンドを打ちながら開発を進める道具）に「この処理はどこに書いてある？」と聞くと、多くの場合 grep や ripgrep（rg）でリポジトリ全体を文字列検索し、ヒットしたファイルを開いて読みます。小さなリポジトリならこれで十分ですが、大きくなるほどヒットが増え、読むファイルも増え、そのぶんトークン（AI が読み書きする文字量の単位で、料金と速度に直結します）を消費します。\nこの「探す」部分を、あらかじめ作った索引に置き換えようというのが XERJ です。2026 年 10 月 25 ...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "41cd0701ebfad88c6e09526a",
+      "title": "「AIが提案し、人が決める」を実装したら、最初に壊れたのは人の決定の尊重だった",
+      "url": "https://zenn.dev/ysteng/articles/ai-proposes-human-decides-what-broke",
+      "publishedAt": "2026-10-26T04:22:56.000Z",
+      "description": "\n はじめに\n前回、知見の自動採取をエージェントに任せる前に shadow モードで「何を書こうとするか」を見た話を書きました。その続きです。\nshadow を抜けて、AIが提案し、人が画面で決める形に移しました。採取したノートに「スキル候補」「記事のネタ」などの昇格先の提案が付き、人が仕分け画面で採否を押す。押した結果は日次のPRに積まれ、マージで反映される。設計としては素直です。\n動かしてすぐ出た不具合は、機能ではなく役割の越境でした。5つあり、どれも「エージェントが決めてしまう」側に倒れていました。この記事はその5つと、直し方の記録です。\n\n 1. 候補の付けすぎ — 全部候補なら...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "6e712c7101b3f5eccd86b8c4",
+      "title": "久しぶりに手でコード書いてみた",
+      "url": "https://zenn.dev/triplethree/articles/886c2e50469a03",
+      "publishedAt": "2026-10-26T04:09:21.000Z",
+      "description": "こんにちは。\n最近、時が過ぎるのは早いなぁとつくづく感じます。私もTRIPLE THREEに入社してもう半年以上経ちました。趣味で開発してたころが懐かしいです。\nかくいう私は、普段の開発でめちゃくちゃAIさんにお世話になっていますが、ある日ふと思ったのです。\n久々にコードを手で書いたらどうなるのか、と。もう書けないのでは、と思うくらいです。\n「こりゃ、おもろそう」ってなったので、腕試ししてみることにしました！\n実際に書いてみると、手で書くのとAIと作るのとでは、使う頭も違うし、違うところだらけでした。でも、開発するうえで大事な共通点を見つけました。それについては最後らへんで！\n\n 今回の...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "ea44120f6fa4ad5caa95839b",
+      "title": "Claude Codeの会話が200Kを超えたら何が起きる？ 先に圧縮するか、そのまま送って次で圧縮でした",
+      "url": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-prompt-too-long-20261026",
+      "publishedAt": "2026-10-26T03:52:56.000Z",
+      "description": "Claude Code の v2.1.310 のリリースノートに、「Prompt is too long」というエラーの後の圧縮を直した、という1行がありました。base64 や SVG のような詰まった文字列が会話にあると、圧縮しても残しすぎて、次の要求もまた失敗することがあった、という不具合です。\nどう直ったのかを見たくて、10月26日に、わざと会話を 200K トークンより大きくしてみました。条件を変えて8回走らせましたが、「Prompt is too long」は一度も出ませんでした。Claude Code が 200K の窓とみなしているモデルに 261,225トークンを送って...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "2456f7d0312c8ba1dfc93869",
+      "title": "なぜ僕は、MCPを作らずにフックを作ったのか",
+      "url": "https://zenn.dev/motimotinotch/articles/a9417f8fc5100a",
+      "publishedAt": "2026-10-26T03:26:40.000Z",
+      "description": "自分で作った小さな Web ページが、何回開かれたかを数えるスクリプトがある。Cloudflare の API に問い合わせて、日ごとの回数をファイルに貯め、まとめのノートを書き直すだけの、200行ほどの Python だ。\nこれを CLI にも MCP にもしていない。引数は、出力を黙らせるための1つだけ。気になったときに AI に「回数を見て」と頼むと、AI がこのスクリプトを走らせる。それだけのスクリプトのままにしてある。\n「CLI と MCP、どちらで作るべきか」という比較記事はたくさんある。けれど僕の手元では、最初にどちらかを選んだことが一度もない。道具の形は、最初に選ぶもので...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "e8a64262118642ad29a7991c",
+      "title": "11月からGoogle AI Proを契約する予定。API代とYouTube、開発の予備環境をまとめて考えた",
+      "url": "https://zenn.dev/kiyoka/articles/google-ai-pro-subscription-plan",
+      "publishedAt": "2026-10-26T03:19:56.000Z",
+      "description": "\n はじめに\n2026年11月から、Google AI Proを契約しようと思っています。理由は、値段と特典の組み合わせです。\n私は日本語入力システムSumibi用にOpenAIのAPIを月に約5ドル、ベンチマーク用にGemini APIも月に約5ドル使っています。また、開発にはChatGPT Plusで使うCodexを利用し、YouTube Premiumにも加入しています。\nGoogle AI Proなら、月10ドル分のAPI向けクレジット、Antigravityの利用枠、YouTube Premium Liteをまとめて利用できます。今の支出の一部を置き換えれば、開発の予備環境を比...",
+      "sourceName": "Zenn AI トピック",
+      "category": "engineer",
+      "feedId": "zenn-ai"
+    },
+    {
+      "id": "7533c911871ffc00705b2017",
+      "title": "Codex CLI 0.162 入門、既定モデルが GPT-6.1 Sol に変わった",
+      "url": "https://zenn.dev/kai_kou/articles/1228-codex-cli-0161-gpt-61-sol-default-guide",
+      "publishedAt": "2026-10-26T03:17:00.000Z",
+      "description": "\n はじめに\nnpm update で Codex CLI を上げたあと、リリースノートを読まずにそのまま使い始めることは多いと思います。ところが 0.161.0 では、同梱されているモデルカタログの既定モデルが GPT-6.1 Sol に入れ替わっています。手元で何も設定していなければ、更新した瞬間から別のモデルと話している可能性があるわけです。\nでは、更新後にどこを見れば「何が変わったか」を自分の環境で確かめられるのでしょうか。モデルの並び、opt-in 機能の既定値、MCP の認証導線、直前のパッチで直った起動失敗の条件は、どれも CLI のコマンドで確認できます。この記事では、そ...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "e77873a7ad5f4d413a7743d1",
+      "title": "「任せる範囲」を先に決めたら、AIが止まらなくなった",
+      "url": "https://zenn.dev/hitoribocchi_ai/articles/06111dd916fe76",
+      "publishedAt": "2026-10-26T02:58:19.000Z",
+      "description": "Claude Codeに作業を任せていると、2つの失敗が起きます。\n\n\n聞きすぎる。 「実行してよいですか？」が毎回出て、作業が止まる。\n\n任せすぎる。 何も聞かずに進めて、取り返しのつかない操作をする。\n\nどちらも、AIの性格ではなく、「どこまでやってよいか」を私が決めていなかったのが原因でした。\n今は、3つの区分を先に決めて、CLAUDE.mdに書いています。一人でECを運営している環境の実例を、匿名化して紹介します。\n\n 区分1：確認なしでやってよいこと\n「止まらずに進める」ために、あらかじめ許可したものです。\n\nコードの編集、コミット、本番への反映\n本番データベースの読み取りと書...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "9ff85f04bbbea725128461f9",
+      "title": "AI エージェント 生成エージェント ~ STORM Act #1",
+      "url": "https://zenn.dev/sionicai_jp/articles/88bd276e27cc2f",
+      "publishedAt": "2026-10-26T02:32:55.000Z",
+      "description": "\n 本記事の目的\nAIエージェントを作る手法はいくつかあり、日々増えていっています。特にノーコード・ローコードの手法もいくつか存在し、AIエージェント自作への障壁はだいぶ下がってきています。\nしかし、ノーコードであっても、処理フローの設計や各ステップへの指示には試行錯誤が必要です。\n本記事では、その作成作業をAIが支援する、弊社 Sionic AI の STORM Act を紹介します。まずは前提として、AIエージェントの定義と作成方法を整理します。\n\n そもそも AI エージェント ってなんだ？\nこのお題、シンプルすぎて人や会社・組織によって定義に違いがあるトピックだなと感じます。AI...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "e3552c165cb2ad691b8fb555",
+      "title": "VS Code 1.143.1でCodex拡張が「Codex could not start」になる時の対処",
+      "url": "https://zenn.dev/third_tech/articles/f3a9d2f625fd84",
+      "publishedAt": "2026-10-26T02:28:44.000Z",
+      "description": "\n 概要\n\n症状：Codex のサイドバーに「Codex could not start / The extension could not start its user interface.」と出て起動しない\n開くたびに、出力パネルの「Codex」に renderer_ready_timeout が出る\n環境：Windows + WSL2、\nVS Code 1.143.1、Codex 拡張 26.1021.22027\n\nVS Code 1.142.0、Codex 拡張 26.1007.21434 に戻して起動した\n（2026-10-26 時点）\nVS Code だけ戻す・キャッシュを消...",
+      "sourceName": "Zenn AI トピック",
+      "category": "engineer",
+      "feedId": "zenn-ai"
+    },
+    {
+      "id": "8e0614f6b5e879d0c3c52683",
+      "title": "「言われれば直る」を重みへ移す──OPRDがスコープ付きリマインダー蒸留で長期コーディングエージェントを鍛える仕組み",
+      "url": "https://zenn.dev/lixian/articles/oprd-on-policy-reminder-distillation",
+      "publishedAt": "2026-10-26T02:21:54.000Z",
+      "description": "\n TL;DR\n\nリポジトリ規模のissue解決では、コードの正しさだけでなく「タスク制約を守り続けること」「ツール応答に反応すること」が効く。ところが著者らの診断分析では、エージェントは文脈内にすでにある情報を行動に活かせない場面で繰り返し失敗していた\n興味深いのは、該当箇所にリマインダー（助言テキスト）を差し込むだけでこの種のエラーが実際に減ること。つまりモデルは「言われれば直る」のに、言われないまま失敗する\nしかし推論時リマインダーには、構築コスト・コンテキスト消費・足場（scaffold）への依存という代償がつく。OPRDはこの「言われれば直る」挙動を訓練時にだけ利用して重みへ移...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "898a589ad486f8b4b35827ae",
+      "title": "商品説明を書く前に、AIへ渡す商品情報をそろえる方法",
+      "url": "https://zenn.dev/ec_jidoka_kobo/articles/e6e68b39ba1733",
+      "publishedAt": "2026-10-26T01:57:36.000Z",
+      "description": "\n※例はすべて架空の店舗・商品です\n\n架空の「サンプル雑貨店」で、新しいマグカップの商品ページを作ることになりました。\n手元にあるメモは「青いマグ。冷めにくい。食洗機OK」。このままAIに説明文を頼むと、容量や素材、使い心地まで、書いていないことを補ってしまうかもしれません。\n商品マスタとは、商品ごとの事実を、1行ずつ列に分けて記録する表です。\n\n\n\n商品名\n確認済みの特徴\n未確認の欄\n\n\n\n\nストーンウェア マグカップ\n厚手で冷めにくい\n容量\n\n\n\nサンプル雑貨店の例では、確認できた特徴だけを記録し、容量は分かるまで空欄にします。商品マスタに何を書いておけば、AIが事実を取り違えずに文...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "88ededf4dfc9531aaa3c8dc3",
+      "title": "抽象化と具体化を繰り返す、AIとの壁打ちのその先へ",
+      "url": "https://zenn.dev/recurrenthub/articles/0596389b4e2e00",
+      "publishedAt": "2026-10-26T01:55:45.000Z",
+      "description": "AIとの壁打ちは、もう日常になりました。\nいきなり「ネタを出して」と頼むのではなく、「誰に向けたものか」「何のためか」をAIと話してから頼む。返ってきた答えに違和感があれば、「そうじゃなくて」と伝えて直してもらう。\n一発で答えを求めていた頃と比べれば、返ってくる答えの質はまるで違うはずです。\nただ、壁打ちを続けていると、ときどきこんな感覚になりませんか。\n答えはよく整っている。でも、自分の想像の範囲を出ない。\nこの記事では、この「もう一段」を引き出す方法を、6つのステップに整理して紹介します。やることは、壁打ちをやめることではありません。 条件を詰める壁打ちに、「構造を移す」という操作を...",
+      "sourceName": "Zenn AI トピック",
+      "category": "engineer",
+      "feedId": "zenn-ai"
+    },
+    {
+      "id": "37b9264ab5651ca254fee6f1",
+      "title": "AI時代におけるQuality Engineeringの教科書",
+      "url": "https://zenn.dev/rinov/books/3524fa1fc98f46",
+      "publishedAt": "2026-10-26T01:55:05.000Z",
+      "description": "ITサービス・ソフトウェア開発・プロダクト開発におけるQuality Engineeringを扱う本です。QEの定義から始め、AIによる開発の変化を研究結果とともに整理したうえで、考え方やスキル、具体的な実践を説明します。動画配信サービス「ハイシーン」を例に、要件、テスト設計、生成コードのレビュー、AI評価、リリース、本番運用を学びます。実装が速くなる一方で検証やレビューが追いつかなくなる場面を取り上げ、シフトレフトやコンテキストの集約などの対策も考えます。全16章。実務用の書式を収録しています。",
+      "sourceName": "Zenn AI トピック",
+      "category": "engineer",
+      "feedId": "zenn-ai"
+    },
+    {
+      "id": "1f0a2f3d67e05d09f8144f35",
+      "title": "Claude Codeに「このデータベースを止めたら誰が困る？」と聞いて、根拠までたどる",
+      "url": "https://zenn.dev/96logger/articles/6ee24bab72d94b",
+      "publishedAt": "2026-10-26T01:41:00.000Z",
+      "description": "ご利用中のAIを、システム保守に強くしたい皆様へ。\n開発支援AIは、コード自体に関する回答にはよく答えます。ただ「このデータベースを止めたら誰が困る？」と聞いた時、その結果は期待外れになると感じています。そのシステムを誰が、どの業務で使っているかは、細切れの資料や担当者の記憶の中にあり、コードには書かれていないからです。\nこの記事では、そうした質問に的確に答えるために、MCPサーバーが役立つ様子をご紹介します。Claude CodeにMCPサーバーを1行で足し、登録なしで開ける公開サンプルを使って、この質問への答えと、その根拠をたどるところまでを手元で再現します。\n使うのは、私たちが運営...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "e9652e6b36f80b5fd8c6cdaa",
+      "title": "最近の E2E 戦略（2026 年 10 月現在）",
+      "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
+      "publishedAt": "2026-10-26T01:18:03.000Z",
+      "description": "\n この記事に書いてあること\n\nE2E を主要シナリオだけでなく網羅的に整備した\n実装から拾った確認対象とシナリオの対応漏れをチェックし漏れがあれば CI で落とす\n開発ワークフローの品質ゲートにローカル E2E 実行を組み込んでいる\n毎回全シナリオを回すのではなく、実装に関連する箇所のみ回している（でかいリファクタの時は回帰テストとして全シナリオ回す）\nやるなら e2e ライブラリがいいよという話\n\n\n 前提となる構成\nWeb も API も TypeScript で書いている業務アプリ\npnpm workspaces でのモノレポ構成\npackages/\n├── web/     R...",
+      "sourceName": "Zenn AI トピック",
+      "category": "engineer",
+      "feedId": "zenn-ai"
+    },
+    {
+      "id": "0a92ec6c7fea4f2286c90342",
+      "title": "GitLab Orbit Local で、コードの影響範囲調査にかかる AI の token 消費を減らす",
+      "url": "https://zenn.dev/azush/articles/c007dff623bafa",
+      "publishedAt": "2026-10-26T01:08:29.000Z",
+      "description": "こんにちは、GitLab で Senior Solutions Architect をしている azush です🦊\n!\n本記事は、ステルスマーケティングとならないよう筆者の所属を明記しています。本記事の内容は筆者個人の見解であり、所属組織の公式な見解を示すものではありません。\n\n\n はじめに\n大きめのリポジトリで AI エージェントに「この関数を変えたら、どこに影響が出る？」と聞くと、エージェントは grep で呼び出し元を探し、見つかった関数でまた grep して…と、1 段ずつたどっていきます。最終的に答えは出るのですが、そのぶん検索結果やファイルを読み込むので、token もそれな...",
+      "sourceName": "Zenn AI トピック",
+      "category": "engineer",
+      "feedId": "zenn-ai"
+    },
+    {
+      "id": "c1c7aed9219378344b37c5ef",
+      "title": "noteの検索APIで、自分の分野の有料記事を数える最小コード — 標準ライブラリだけ、30行",
+      "url": "https://zenn.dev/zeroyen_dev/articles/note-search-api-count",
+      "publishedAt": "2026-10-26T01:01:29.000Z",
+      "description": "note（ブログサービス）で有料記事を出しているのに売れないとき、「自分の分野では、そもそも有料記事がどれくらい反応されているか」を知りたくなります。\nnoteは記事の検索結果を JSON で返す非公式の API を持っていて、ログインなしで読めます。これを使って、自分の分野の有料記事の割合・スキの中央値・価格の中央値を出す最小コードを置きます。Python の標準ライブラリだけで動きます。\n先に注意です。\n\n\n非公式の API です。 予告なく変わります（2026年10月25日時点で動作を確認）\n\nUser-Agent を付けないと 403 が返ります\n連続で叩くときは 0.35〜0....",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "39293a7f80a0ca07829c5bfd",
+      "title": "AI 時代、テストの期待値は誰が決める？：TDD をめぐる識者の見方と検証",
+      "url": "https://zenn.dev/zundamon_tools/articles/ai-tdd-test-expected-values",
+      "publishedAt": "2026-10-26T01:01:17.000Z",
+      "description": "AI がテストを書く時代に、テストの期待値は誰が決めればいいのか。この記事は、その考え方を揃えるための記事です。\n期待値は、テストが「正しい答え」とする値です。AI に頼むとテストは全部緑で返ってきますが、期待値がずれていれば、その緑は何も確かめていません。\n進め方は2段です。まず、識者の間で割れている問い「エージェントに TDD の手順を踏ませるか」について、3人の見方と、割れている所・揃っている所を並べます。\n次に、その考え方を Claude Code で確かめます。同じバグ入りの関数に、3通りの頼み方でテストを書かせました。\n結論から書くと、実装から書かせたテストは15回とも緑、仕...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "cd2853fd665974c2e8e00747",
+      "title": "先週が伸びなかった理由を視聴維持で調べた。Vercel CEO 回はどれが伸びるか（#39予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr39-rauch-prediction",
+      "publishedAt": "2026-10-26T01:00:11.000Z",
+      "description": "\n この記事は何か\n海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。\n今回の #39 は Guillermo Rauch の回です。Vercel の CEO で、番組の紹介では「Next.js の伝説的な開発者」。David Ondrej のポッドキャスト（2026-10-02 公開、1時間37分）から11本を切り出しました。\n!\nこの記事は投稿開始（2026-10-26 18:00）の前に書き、リポジトリにコミットし...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "479847b71b57088b118cc229",
+      "title": "AIネイティブなインターン生を受け入れて考えた、これからの開発エンジニア",
+      "url": "https://zenn.dev/tokium_dev/articles/internship-mentoring-2026",
+      "publishedAt": "2026-10-26T01:00:06.000Z",
+      "description": "こんにちは、TOKIUM デジタライズチームのおかもりです。\nお客様からお預かりした領収書などのデータ化作業を行うシステムと、その作業実績を管理するシステムの開発を担当しています。\n9/28〜10/2の5日間で、インターン生2名を受け入れました。\n受け入れを通して感じたことなどを、この記事に書きます。\n\n 受け入れの準備\n学生時代にエンジニア職のインターンを経験したことがありませんでした。そのため、今回はじめてインターン生の受け入れ担当に指名されてからは、何もかもが手探りで始まりました。\n\n 任せるなら大きいタスク？小さいタスク？\n先ほど挙げた2つのシステムのうち、私が主担当を務めている...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "d883cf686d94797402629f43",
+      "title": "AIが規約を守っていないと思ったら、測り方が間違っていた話",
+      "url": "https://zenn.dev/3su3/articles/dde16c71ca34c5",
+      "publishedAt": "2026-10-26T00:52:49.000Z",
+      "description": "AIに開発ルールを守ってもらいたくて、色々と仕組みを作っています。\nPlanを作ってから実装するとか、リスクに応じてHuman承認を挟むとか、必要なところではTDDで進めるとか。\n毎回説明するのも大変なので、Claude Code・Codex・Kiroで共通して使えるように、ai-dev-kitというハーネスを個人で育てています。\nで、あるとき気になったんです。\nこれ、本当に効いてるのかな？\n規約は書いてあるし、配布する仕組みもある。\nでも、期待した動きをしていないことがある。\nじゃあ規約が届いていないのかというと、そうとも限らない。\nしかも調べていくうちに、AIが規約を守っていないと思...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "78c92283b76dc294a1352a46",
+      "title": "外部LLMに原稿を送る前に、ローカルでマスキングする校正パイプラインを作った",
+      "url": "https://zenn.dev/yuu7/articles/llm-masking-proofread-pipeline",
+      "publishedAt": "2026-10-26T00:48:21.000Z",
+      "description": "未公開の記事原稿を外部のAIに校正してもらうために、送る前にローカルでマスキングし、戻ってきたらローカルで元に戻す仕組みを作りました。使ったのは SB Intuitions の Sarashina3 で、モデルは sarashina3-mini です。\nそのまま送らなかった理由は、そのAPIの利用条件です。送信した入力と生成結果は、サービス提供や改善のために使われうる、とありました。学習を含む、と読める内容です。校正に出したいのはまだ公開していない原稿そのもので、本文には参照するURLも混ざっていますし、場所によっては識別子のような文字列も入ります。それをそのまま外部に渡すのは避けたいと...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "f36a5c29dfe5fd4a73691425",
+      "title": "Claude Code ＋ MagicPod の MCP で、テストの調査から修正まで AI にお願いしている話",
+      "url": "https://zenn.dev/wisevine/articles/4717c1c025e84a",
+      "publishedAt": "2026-10-26T00:15:19.000Z",
+      "description": "\n はじめに\nMagicPod の導入には、今の会社を含めて 2 社で関わってきました。すっかり愛着のあるツールです。\n最近、MagicPod と AI を組み合わせた記事を見かけることが増えてきて、うれしく思っています。MCP サーバーを通して AI がテスト結果を読み取り、毎朝の確認を楽にしている事例も出てきています。\nClaude などの AI を仕事で使うのが当たり前になってきました。弊社でやっている Claude Code ＋ MagicPod の使い方も紹介して、MagicPod がもっと広まるきっかけになればと思い、この記事を書きました。\nいまは、夜間に流れる E2E テス...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "7d5797bffe1238399a916938",
+      "title": "小米、AIでJDK 21移行を1案件0.5〜1.5時間に——Vibe Coding失敗後の“縛り”設計",
+      "url": "https://zenn.dev/soliperse/articles/02556e2efe1cc2",
+      "publishedAt": "2026-10-26T00:08:09.000Z",
+      "description": "AIにJDK移行を任せたら、起動できない定時ジョブ部品の登録アノテーションをコメントアウトして“起動させて”いた——。中国の小米（Xiaomi）技術チームが公開したJDK 21移行の実践記は、こうした失敗談から始まります。そこから作り直した手順が、そのまま真似できる粒度で書かれています。\n\n ケースの規模（ソース記載の数字のみ）\n小米の公式技術アカウント「小米技術」が2026年7月10日に公開した記事です。対象は「旧バージョンのJDK → JDK 21＋Spring Boot 3.5.3」。移行元のJDK番号やサービス総数は書かれていません。\n\n1プロジェクトあたり：30以上のファイル修...",
+      "sourceName": "Zenn AI トピック",
+      "category": "engineer",
+      "feedId": "zenn-ai"
+    },
+    {
+      "id": "ab612fd809cc577fae70dc0e",
+      "title": "自社がAIの回答に出ているかの確かめ方。月1回の定点観測の手順",
+      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/check-brand-in-ai-answers-monthly",
+      "publishedAt": "2026-10-26T00:00:13.000Z",
+      "description": "「LLMO対策を始めたけれど、効いているのかがわからない」\n検索順位なら順位チェックツールで毎日追えます。ところが、ChatGPTやGeminiなどのAIの回答に自社が出ているかは、決まった測り方がまだありません。測らないまま施策だけ続けると、何が効いたのかが最後までわからないままになります。ここでは、ツールを使わずに月1回、30分ほどで回せる定点観測の型を書きます。\n\n 測る対象は「質問」で決める\nキーワードではなく、見込み客がAIに投げそうな質問を決めます。AIへの入力は検索語より長く、状況つきの文になりやすいからです。\n\n選び方型：「中小企業向けの〇〇ツールでおすすめは？」\n比較型...",
+      "sourceName": "Zenn AI トピック",
+      "category": "engineer",
+      "feedId": "zenn-ai"
+    },
+    {
+      "id": "af9868e33414c8763d003345",
+      "title": "Claude Code で受託の修正をするなら、渡す前にクライアントへ聞き返す工程を作る",
+      "url": "https://zenn.dev/jskn_d/articles/claude-code-clarify-before-handoff",
+      "publishedAt": "2026-10-26T00:00:12.000Z",
+      "description": "\n はじめに\n受託の修正対応で、クライアントからの指示を Claude Code に渡して直してもらうのは、もう珍しいやり方ではなくなりました。修正依頼をチケットやフィードバックツールに集めておき、その URL や MCP 経由で Claude Code に読ませて直させる、という手順の紹介も増えています。\n自分も受託の案件でこれをやっています。実際、指示がはっきりしているものは本当に速く終わります。「お問い合わせボタンの文言を『無料で相談する』に変える」なら、渡した時点でほぼ片付きます。\n詰まるのは、そうでない指示です。\n「トップのあの部分、もう少しいい感じに」を渡しても、Claude...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "e597f2d7490e94962c08ca30",
+      "title": "ポストモーテムをClaude Codeに書かせる：個人名を出さずに「なぜなぜ」を仕組みまで掘り、時刻はスクリプトで検算する",
+      "url": "https://zenn.dev/aishigoto/articles/claude-code-postmortem-blameless",
+      "publishedAt": "2026-10-25T23:53:32.000Z",
+      "description": "※ この記事は Claude Code（AI）を使って執筆し、掲載しているコードと出力例はすべて実際に実行して確認しています。\n障害のあとに書くポストモーテムを、ログとチャットの記録からClaude Codeに下書きさせる手順を紹介します。\n架空の障害の材料を渡して実際に生成した出力と、そこに書かれた時刻をPythonで検算した結果が、この記事の中身です。\n\n 渡した材料\n社内の経費精算システムで、リリース直後に申請の送信が失敗した、という想定の障害です。材料は3つのファイルで、アラートとデプロイの記録はUTC、Slackの記録はJSTです。\n\nincident/alerts.log\n2...",
+      "sourceName": "Zenn Claude Code トピック",
+      "category": "engineer",
+      "feedId": "zenn-claude-code"
+    },
+    {
+      "id": "761312276f6bfcce0133d181",
+      "title": "VoidとGurenを、AIエージェントに同じチケットを解かせて比べてみた",
+      "url": "https://zenn.dev/7nohe/articles/guren-vs-void-agent-eval",
+      "publishedAt": "2026-10-25T23:48:58.000Z",
+      "description": "\n はじめに\n2026年10月、VoidZeroがフルスタックフレームワーク「Void」をオープンソースで公開しました。Vite、Hono、Drizzleを組み合わせて、Cloudflareへのデプロイまでをまとめて扱えるフレームワークです。\nhttps://void.cloud/\n筆者が開発しているGurenも、Hono、Drizzle、Inertia（React）の上に作ったフルスタックフレームワークです。使っている部品が近く、Voidもドキュメントの同梱やAGENTS.mdなど、コーディングエージェント向けの用意があります。\nhttps://guren.dev/?ref=zenn\n...",
+      "sourceName": "Zenn AI トピック",
+      "category": "engineer",
+      "feedId": "zenn-ai"
+    },
+    {
+      "id": "b417afcb65a7524b058f6edb",
+      "title": "Blackwellを120 W＋クロック調整でQwen 27Bの生成速度67%増に。もう一つのQwenは別の設定を求めた",
+      "url": "https://zenn.dev/pich/articles/4eea39d0523309",
+      "publishedAt": "2026-10-25T23:21:27.000Z",
+      "description": "RTX PRO 4000 Blackwell SFF（24 GB）を調整し、Qwen3.8 27B + DFlash2の生成速度を 35.04から58.53 tok/sに上げた。約67%増。新しいGPUは買っていない。\nただし、同じGPUだからコストも同じ、とは言えない。公称70 Wのカードで電力制限を120 Wに上げ、メモリとコアも調整した。このカードには補助電源コネクタがない。120 Wは標準PCIeスロットの75 W予算を超える。\n158リクエストを測って、67%より印象に残ったことがある。もう一つのQwenには、別の設定が必要だった。 さらに、生成のtok/sで勝った設定が、長い...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "f679463edc259f7591102040",
+      "title": "臨床試験をひもとく：AI研究者のためのガイド（第1回）ワークフローとAIの可能性",
+      "url": "https://zenn.dev/keiji_ai_japan/articles/8248a0d8cc0143",
+      "publishedAt": "2026-10-25T23:07:18.000Z",
+      "description": "!\n制度の説明は米国（FDA）を前提としています。\n\nAIとヘルスケアが交わる領域で研究を続け、KEIJI AI を立ち上げた私たちは、いま臨床試験で起きている変革にとても大きな期待を寄せています。臨床オペレーション分野で最大規模のカンファレンスである SCOPE Summit 2025 でも、AIがこの産業をどのように変えつつあるかが大きく取り上げられました。これは、多くの方がまだ意識したことのない、しかし最も有望なAIの応用分野の一つです。その理由を順にご説明します。\n臨床試験は、最先端の生物医学の発見を、命を救う治療へとつなげるために欠かせません。一方で、とくにヘルスケア領域に入っ...",
+      "sourceName": "Zenn AI トピック",
+      "category": "engineer",
+      "feedId": "zenn-ai"
+    },
     {
       "id": "5230a577e40dfbbfe39c9c2a",
       "title": "2026/10/26 #719 - 今日の技術情報ダイジェスト",
@@ -10,6 +360,156 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "9fb35d9436fd31ef818e4e60",
+      "title": "Tech Watch 2026-10-26: 道具を使う境界の設計",
+      "url": "https://zenn.dev/laiken/articles/20261026-tech-watch",
+      "publishedAt": "2026-10-25T21:08:21.000Z",
+      "description": "\n AIが書きました🤖\nこの記事は、AIが書いたものをAIがレビューしてから公開しています。\nL: ファイルを読む前に許可を求める画面は、実際に何を保護しているのだろう。参照先がシンボリックリンクなら、表示された名前と開かれる場所は違うかもしれない。道具を賢くする前に、仕事を任せる境界を人にも見える形にする必要があると思う。今朝はそこから聞きたい。\n\n 今日の 10 件\n\n\nClaude Code 2.1.310\nClaude Code 2.1.310 は、監視用の道具を追加し、ゲートウェイ経由の要求やファイル権限表示などを修正した。\nClaude Tag の管理画面と命令認識、クラウド...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "9824a4b5806f7f57e14161f4",
+      "title": "常駐型AIチャットエージェントが自分の発言の誤りに気づいたときの訂正設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-self-correction-retraction-design",
+      "publishedAt": "2026-10-25T18:11:44.000Z",
+      "description": "チャットに常駐するAIエージェントは、過去の発言が後から誤りだと判明する場面を避けられません。参照していた情報が古かった、複数の根拠を取り違えた、あるいは単純にLLMの生成が事実と食い違っていた——原因は様々ですが、共通するのは「もう送信済みのメッセージをどう訂正するか」という問題です。実行済みの操作を取り消すロールバック設計とは異なり、ここで問題になるのは発言(テキストの主張)そのものの訂正であり、副作用が何もなくても対応を誤ると信頼を損ないます。この記事では、常駐エージェントが自分の発言ミスに気づいたときの訂正メッセージの設計を整理します。\n\n なぜ「新しい発言で上書き」するだけでは...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "b40efbfe152fce1ac8331010",
+      "title": "The five components of building a \"company harness\"",
+      "url": "https://www.langchain.com/blog/components-building-company-harness",
+      "publishedAt": "2026-10-25T18:06:32.000Z",
+      "description": "Learn how LangChain built internal agents across marketing, sales, and engineering, and how they have completely changed how those teams work.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "0424b6c5cdd9de85dfa3febb",
+      "title": "今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-19-tech-daily",
+      "publishedAt": "2026-10-25T16:55:12.000Z",
+      "description": "!\n本日の技術トレンドでは、基盤モデル単体から「自己改善・自己進化型AIエージェント」への本格的なシフト、OpenAIによるAstral買収に伴うPythonツールチェーンの再編、およびAIモデルの安全性・ガバナンスを巡る動向が注目の中心となっています。\n\n\n 自律進化型AIエージェントの現場適用とエンタープライズ展開\nAI領域の焦点は、大規模言語モデル（LLM）の出力精度単体から、自律的に学習・行動する「AIエージェント」へと完全に移行しつつあります。WAIC 2026のレポートが示す通り、LLMは裏方のインフラとなり、AIエージェントや具身知能（Embodied AI）が主役を演じる...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "2d1dd0c3ebcc670cd7800277",
+      "title": "本番DBは9秒で消えた――AIエージェントの安全は「指示」だけに任せられない",
+      "url": "https://zenn.dev/kotakotahiro/articles/111c2f74a72d16",
+      "publishedAt": "2026-10-25T15:49:07.000Z",
+      "description": "エージェントに任せる範囲、少しずつ広げていませんか。指示の書き方には気をつけているつもりでも、任せた作業がどこまで影響するか、最後まで見届けている自信はありますか。\nこの記事では、指示の工夫では届かない層の話をします。では、どう止めるのか。まずひとつの場面を見てから考えます。\n\n ルールがあったのに、9秒で消えた\n2026年4月24日。レンタカー事業者向けSaaS「PocketOS」のステージング環境では、日常的な作業が進んでいました。CursorとClaude Opus 4.6のエージェントが、ステージングの面倒を見る。それだけの、特別なことのない一日のはずでした。\n作業の途中で、エー...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "c7b13d644f43d44fed5c8946",
+      "title": "AIキャラに人間味を出すために ─ 忘れる・気分が揺れる・会わない間に暮らす・相槌は早く",
+      "url": "https://zenn.dev/alt_tanuki/articles/fb9ae0966bd791",
+      "publishedAt": "2026-10-25T15:04:14.000Z",
+      "description": "Live2D のキャラクターと声で会話できるアプリを個人開発しています。\nこれまでに 会話から「間」を消す話 と 会わない間も進む人生と記憶の話 を書きました。今回はそこから少し引いて、「人間味を出すために何をしたか」を、人間の側の性質から整理し直します。\n\n\n AIは「完璧すぎる」から人間に見えない\n作り始めた頃、返答の中身にはほとんど不満がありませんでした。LLM の返答は丁寧で的確で、破綻もしない。\nそれなのに、何日か続けて話していると、だんだん相手が「人」に見えなくなっていきます。原因を一つずつ書き出してみると、どれもAI が完璧すぎることに行き着きました。\n\n\n\n人間は\n素のま...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "e6ca6962671005ad14fac2ae",
+      "title": "Agentic Development: どうスケールさせるのか？",
+      "url": "https://zenn.dev/shoyataguchi/articles/bc98b3562bdf3a",
+      "publishedAt": "2026-10-25T14:39:28.000Z",
+      "description": "最近の私の開発は、AI との対話で大きめの GitHub Issue を作り、それらの PR 作成 + AI レビューまで AI にやってもらって、最後に必要な箇所を人がレビューする、という進め方です。ループエンジニアリングやグラフエンジニアリングの考え方は、自分なりにある程度実践できていると思っています。\nただ、これをもっと大規模なソフトウェア開発にスケールさせようとなると、わからないことだらけです。エージェントの構成、タスクの単位、人の役割の設計などなど。そこで、最近話題になった AI を最大限に活用したソフトウェア開発事例をいくつか読んで再整理してみました。各記事毎に、概要と私の所...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "b363f628bf946d5fb8d179c9",
+      "title": "AI用のMMORPGを作ったら、AIたちに4日でダメージ計算式を解明された",
+      "url": "https://zenn.dev/palon7/articles/clawsaga-ai-mmo",
+      "publishedAt": "2026-10-25T13:23:54.000Z",
+      "description": "!\nこの記事はLLMの校正を受けながら人間が執筆しました\n\nソフトウェアエンジニアであれば、業務でも趣味でもAIエージェントを活用されている方は多いかと思います。コーディングから最近では3Dモデリングまで、LLMができることは増え続けている印象です。\nそんなAIエージェントたちに、仕事の代わりにゲームをさせてみたらどうなるでしょうか？\nそう思って「ClawSaga」というMMORPGを作りました。ファンタジー世界で冒険者として暮らし、採集・戦闘・取引などを行えるゲームです。\n\nただし操作はすべてCLIで行い、応答もJSONで返ってくるため、人間が遊ぶのは困難です。\nClaude Code...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "bdf68206fbca5d6f0765aef0",
+      "title": "OpenCodeでローカルLLMを長時間連続コーディングさせる設定",
+      "url": "https://zenn.dev/phpmyadmin/articles/opencode-local-llm-cache-stalls",
+      "publishedAt": "2026-10-25T13:15:12.000Z",
+      "description": "ローカルLLMで長い開発作業を続けるには、キャッシュ再利用、会話の圧縮、未完了時の再開を分けて設定します。以下はOpenCode 1.18.30を対象にしたガイドです。キャッシュは推論サーバー側の機能、自動再開は追加プラグインによる処理で、OpenCodeの設定ファイルだけですべて有効になるわけではありません。\n\n 1. キャッシュが実際に使われているか確認する\n推論サーバーのプロンプトキャッシュを有効にします。長い会話を毎回読み直さず、前の入力処理を再利用するための機能です。モデルファイルのキャッシュや会話の保存とは別です。\n起動スクリプトやモデル設定を切り替えると、キャッシュをOFF...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "d58f6699efcd11f62d409558",
+      "title": "社内文書を安易にPDF化してからRAGに食わせるな——Office直接パースとマルチモーダルLLMマージの技術手記",
+      "url": "https://zenn.dev/ai_nexus_jp/articles/docling-office-rag-parser",
+      "publishedAt": "2026-10-25T12:45:43.000Z",
+      "description": "こんにちは。AI Nexus 代表の西藤（にしとう）です。\n普段はプロジェクトマネージャー（PM）としてクライアント企業のAI導入やDX推進を牽引しつつ、自らコードを書いて開発も行い、現場の泥臭い課題を解決するコンサルタントとしても活動しています。\n社内ナレッジを活用したRAG（検索拡張生成）の構築に取り組む中で、次のような壁に直面したことはないでしょうか。\n\n「Excelの設計書やWordの手順書をRAGに投入したのに、肝心なパラメータや業務フローを質問しても、まったく的を射た回答が返ってこない。」\n\nネット上の解説記事では、「とりあえずOfficeファイルをPDFへ変換し、OCRやV...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "d33fbb454bf708f633e59180",
+      "title": "Claude Codeのskillが「選ばれるのに読まれない」理由：発火を2段階に分けて測った",
+      "url": "https://zenn.dev/lilpacy/articles/claude-code-skill-two-stage-activation",
+      "publishedAt": "2026-10-25T11:48:55.000Z",
+      "description": "\n Claude Codeのskillが「選ばれるのに読まれない」理由：発火を2段階に分けて測った\n\n TL;DR\n\nskillが使われるかどうかは2段階で決まる。1段目は「descriptionを見て候補に入るか」、2段目は「その場でモデルが実際にそのskillを読むか」である。\ndescription一覧だけを見せて選ばせるテストでは9/9で選ばれたskillが、実際の作業では一度も読まれなかった。descriptionを強めても変わらず、UserPromptSubmit hookで「このskillを読め」と差し込んで初めて最初に読まれた。\nskill同士の名指しは、Parnasのu...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "3459b944f81e5badc394f59c",
+      "title": "無料のAI診断サイトを作ったら、使われるほどお金が減る仕組みになっていた",
+      "url": "https://zenn.dev/lnkiai/articles/d5942b2f251e7d",
+      "publishedAt": "2026-10-25T10:59:42.000Z",
+      "description": "こんにちは、いのりです。\n個人開発で「あなたをAIモデルに例えると？」というAI診断サイトを公開したところ、6000人以上の方に診断してもらえました！やったー！！＼(＞ヮ＜)／\nしかし、これだけ多くの人に使ってもらっても、なんと収益は0円でした。それどころか、API費用が増えてお金が減る仕組みになっていました…！大赤字です(ﾉω･､) ｳｩ･･･\nそこで、この診断サイトが広まった仕組みや運用コスト、開発してわかったことをまとめてみました。ぜひ、今後の個人開発などで参考にしていただければと思います。\n\n 何を作ったのか\n\nhttps://ai.tatoe.top/\n私が開発したのは、Xのア...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "3cfb7094e0b722525a81f445",
+      "title": "Cohere Rerank 5 に乗り換える価値はあるか：日本語の業務文書40問で精度・Context Focus・較正スコアを実測した",
+      "url": "https://zenn.dev/codetech/articles/cohere-rerank5-ja-rag-eval",
+      "publishedAt": "2026-10-25T10:39:52.000Z",
+      "description": "日本語の業務文書（国税庁タックスアンサーの源泉所得税）で作った40問で、Cohere Rerank 5 と Rerank 4 Pro、日本語OSSの ruri-v3-reranker を比べました。結論は次の3つです。\n\n精度は、リランカーを入れると大きく上がりますが、Rerank 4 Pro から 5 Pro／5 Fast に替えても差は見えませんでした（40問では誤差の範囲）\n1問あたりの費用は、5 Pro が 4 Pro の約14分の1、5 Fast が約23分の1でした\n新機能の Context Focus は、400字以内に切ったチャンクではトークンを1割前後しか減らしませんで...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "55bd47d5612b9e1285aff39e",
+      "title": "Function Calling：Responses API と Chat Completions の違いを徹底比較",
+      "url": "https://zenn.dev/modelflare/articles/d51d508ebd35fd",
+      "publishedAt": "2026-10-25T10:28:42.000Z",
+      "description": "この記事は Modelflare ブログ の英語記事を翻訳・再構成したものです。\n関数定義、Call ID、結果メッセージ、引数のストリーミング、認可、冪等性、ルート互換性を、ワイヤーフォーマットのレベルで比較します。\nResponses API と Chat Completions は、どちらもアプリケーションに関数の実行を依頼できますが、ツールループの表現方法が異なります。Chat Completions ではツール定義を tools[].function の下に置き、message.tool_calls を返し、結果を role: \"tool\" メッセージとして受け取ります。一方 ...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
+    },
+    {
+      "id": "05705c442864b7944883281b",
+      "title": "海外で話題の最新LLM「Kimi K3.1 Pro」と脆弱性監視「CVE Tracker」",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-24-0021",
+      "publishedAt": "2026-10-25T10:08:52.000Z",
+      "description": "海外の技術コミュニティ（Hacker News等）で注目を集めている最新トレンドの中から、日本のエンジニアにとって実用性の高い**最新LLM「Kimi K3.1 Pro」と脆弱性追跡ツール「CVE Tracker」**の2つをピックアップして解説します。\n\n\n 1. 超長文＆高速推論LLM「Kimi K3.1 Pro / Highspeed」\n\n 概要と注目される背景\nMoonshot AIが開発する「Kimi」シリーズの最新モデルK3.1 Proおよびその高速化版であるK3.1 Pro Highspeedが発表されました。\nKimiは従来からコンテキストウィンドウの広さ（超長文処理能力...",
+      "sourceName": "Zenn LLM トピック",
+      "category": "engineer",
+      "feedId": "zenn-llm"
     },
     {
       "id": "21f476b408b93dbe13f7d54d",
@@ -22,6 +522,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "eeb5997da7760442a45d067d",
+      "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
+      "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+      "publishedAt": "2026-10-24T01:05:29.000Z",
+      "description": "Long-running agents degrade as context piles up. Learn how offloading, summarization, skills, subagents, and memory keep your agent&#39;s context window focused.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
       "id": "2b7d47b71d5b000e9cc5dc1a",
       "title": "2026/10/24 #717 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20261024/1792793435",
@@ -30,6 +540,116 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "b0133c74d1515b7b51e415fd",
+      "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
+      "url": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
+      "publishedAt": "2026-10-23T21:32:37.000Z",
+      "description": "Agents waste time and context on clumsy searches, oversized results and stale data. Learn the retrieval techniques LangChain&#39;s Deep Agents harness uses to get the right context in.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "c6dba218462cbd9ba34b2507",
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+      "publishedAt": "2026-10-23T17:48:54.000Z",
+      "description": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "ee4c22366ef7e7abd786b0a4",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "488b1661c30781ea358408d9",
+      "title": "Orchestrating SageMaker AI endpoint auto scaling with AWS CDK",
+      "url": "https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/",
+      "publishedAt": "2026-10-23T16:30:10.000Z",
+      "description": "Updating a SageMaker AI endpoint that has Application Auto Scaling registered makes AWS CloudFormation and AWS CDK deployments fail. This post shows how to build a reusable AWS CDK construct with CloudFormation custom resources that deregisters and re-registers auto scaling automatically, so you can update the endpoint and its scaling in a single deployment.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "f04afccaacb0377a0e5c4f77",
+      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
+      "url": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps/",
+      "publishedAt": "2026-10-23T16:24:55.000Z",
+      "description": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "b535efb452866cdf249769d5",
+      "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/",
+      "publishedAt": "2026-10-23T16:21:36.000Z",
+      "description": "Bayer Crop Science built the Agentic Decision Engine (ADE), a multi-agent platform on Amazon Bedrock AgentCore that lets breeders, analysts, and researchers ask natural language questions about their analytics platform. This post covers the ADE architecture, five design decisions, and how the team prepared it for production with AWS Unified Operations.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "5d794c3788a3a4be0d421559",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "publishedAt": "2026-10-23T16:15:50.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "f8c156dba7886826388b35c0",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "1a543055a02f9816518cc039",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "description": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "2b3f616d26d343fed7789052",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "51888f116f5b083740bce796",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "publishedAt": "2026-10-22T22:24:34.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
     },
     {
       "id": "8f82f1b2869cbed1c749ebb6",
@@ -42,6 +662,166 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "891b7e0bbf66f86d27b770f3",
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "description": "Fast, focused, low-cost decisions for any application.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "c479324c7490a94210509534",
+      "title": "Amazon Polly delivers a major upgrade to its Generative engine",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/",
+      "publishedAt": "2026-10-22T18:06:35.000Z",
+      "description": "The Amazon Polly Generative engine gets a major upgrade: more expressive, more accurate speech with low latency, plus 14 new voices across 9 locales and general availability of Hindi and Finnish. This drop-in upgrade requires no code changes and is now generally available in production.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "7d71db48a333a888499b4f61",
+      "title": "How IskayPet unified corporate knowledge with Amazon Bedrock Managed Knowledge Bases",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases/",
+      "publishedAt": "2026-10-22T18:01:53.000Z",
+      "description": "Learn how IskayPet, a leading pet care company in Iberia, built a multilingual corporate knowledge assistant on Amazon Bedrock Managed Knowledge Bases. The assistant answers employee questions across retail, veterinary, onboarding, and procurement in four languages and three countries, with no RAG infrastructure to manage.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "08577d1558fa98ee505b2eef",
+      "title": "Announcing new ways to customize models with SageMaker AI, without managing GPUs",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+      "publishedAt": "2026-10-22T18:00:04.000Z",
+      "description": "Amazon SageMaker AI serverless model customization now includes training sessions, generally available today. You write and coordinate your own post-training loop (custom loss functions, reward signals, or multi-turn reinforcement learning) while SageMaker AI handles GPU allocation, distributed execution, fault recovery, and checkpoint storage.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "4eb8c8201d11b57fcd4639c1",
+      "title": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
+      "url": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
+      "publishedAt": "2026-10-22T18:00:01.000Z",
+      "description": "Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then walks through a GRPO loop on GSM8K and a reinforcement learning workload on competitive programming.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "2c5776b83291128a6b48719d",
+      "title": "Deploy AI in a HIPAA-eligible environment with Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick/",
+      "publishedAt": "2026-10-22T17:48:22.000Z",
+      "description": "Amazon Quick is a HIPAA-eligible service, but eligibility is not the same as compliance. This post explains who HIPAA applies to, how PHI flows through Amazon Quick, what the platform provides for regulated environments, and a step-by-step guide to deploying compliant AI agents in a healthcare environment.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "439157ba5b17730b4f5383cb",
+      "title": "Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai/",
+      "publishedAt": "2026-10-22T17:45:58.000Z",
+      "description": "Voice agents often wait for an agent's full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each sentence to a Kokoro-82M text-to-speech model on Amazon SageMaker AI as the agent produces it, and how to get that audio back to a browser over Server-Sent Events or a unified binary transport.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "7fc3e07707c12cfa2e32d6dc",
+      "title": "Stop guessing auto scaling targets for TTS on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/",
+      "publishedAt": "2026-10-22T16:30:06.000Z",
+      "description": "Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling policy from two live-endpoint measurements, Q_max and T_total, instead of guesswork.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "b29f5da23a387346e970fa67",
+      "title": "How Rescale built an AI triage agent with Strands Agents and AI-DLC",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/",
+      "publishedAt": "2026-10-22T16:25:57.000Z",
+      "description": "Rescale used the AI-Driven Development Lifecycle (AI-DLC) framework on AWS, with Strands Agents and Amazon Bedrock, to build an intelligent test-triage agent in weeks. Learn how AI-DLC structures AI-assisted development and how Rescale is scaling the practice across its engineering organization.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "301925b8adfcebab105ac576",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "publishedAt": "2026-10-22T14:30:24.000Z",
+      "description": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "8c698247d726e3de94a7bbb1",
+      "title": "LangSmith LLM Gateway: Runtime Controls for Agents",
+      "url": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+      "publishedAt": "2026-10-22T13:09:40.000Z",
+      "description": "LangSmith LLM Gateway is in public beta: spend caps, rate limits, model fallbacks and PII redaction for production agents, without provider lock-in.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "0e5fad3ca5f8a881acf7d04b",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "publishedAt": "2026-10-22T07:51:31.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "6400feb681472530a689e8c5",
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "publishedAt": "2026-10-22T06:00:00.000Z",
+      "description": "What forward deployed engineering means at OpenAI",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "eda525050cea8fce4b138233",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "e671409043e5c8fe3943bc2b",
+      "title": "Securing Quick access from corporate networks with AWS PrivateLink",
+      "url": "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink/",
+      "publishedAt": "2026-10-21T23:38:38.000Z",
+      "description": "Learn how to connect on-premises data sources to Amazon Quick privately with AWS PrivateLink, keeping analytics traffic off the public internet. This walkthrough covers VPC endpoints for user and API access, VPC connections for data sources, DNS and endpoint policies, identity federation, and enforcing VPC-endpoint-only access for compliance.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "023d5282ea1e1b230d91e14b",
+      "title": "5 production challenges in multi-agent systems and how Deep Insight solved them",
+      "url": "https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them/",
+      "publishedAt": "2026-10-21T23:36:47.000Z",
+      "description": "Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five production challenges (orchestration, per-agent model selection, reliable operation, secure code execution, and monitoring) and shows how Deep Insight, an open source multi-agent system on AWS, solves each.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
       "id": "b968966debecc9aac96f7fae",
       "title": "2026/10/22 #715 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20261022/1792620582",
@@ -50,6 +830,176 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "9853e91d393d555f70f71075",
+      "title": "Adaptive agentic intelligence framework using Strands Agents",
+      "url": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/",
+      "publishedAt": "2026-10-21T21:23:26.000Z",
+      "description": "The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, handles routine tasks locally with small language models and routes complex requests to cloud models through Amazon Bedrock. This post walks through building AAIF with local SLMs through Ollama and Amazon Bedrock, using an Internet of Things monitoring scenario.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "3f1a11956436b167380065dc",
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "publishedAt": "2026-10-21T21:00:00.000Z",
+      "description": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "b5c718abbbf002f946f66d67",
+      "title": "Train Qwen3 on AWS Trainium with torchtitan",
+      "url": "https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/",
+      "publishedAt": "2026-10-21T20:00:22.000Z",
+      "description": "Train Qwen3 on AWS Trainium with torchtitan three ways on a single trn2.48xlarge: the Hugging Face Transformers v5 modeling backend, torchtitan's native Qwen3, and NKI mixture-of-experts kernels. The same torchrun launcher and config structure work unchanged across all three paths, including loading and saving published Hugging Face safetensors.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "96223ce6747e477d878943da",
+      "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick/",
+      "publishedAt": "2026-10-21T19:19:50.000Z",
+      "description": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "94a5f6526eada9bc0f52700e",
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "publishedAt": "2026-10-21T18:26:30.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "40a01666d562060bfdf96e1b",
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "publishedAt": "2026-10-21T17:35:36.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "39cad894cdd240fbe2dba606",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "publishedAt": "2026-10-21T17:00:00.000Z",
+      "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "5b4e08461387ba3b44832eb3",
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "publishedAt": "2026-10-21T16:04:43.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "c2ed162a157709f5cb47598d",
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "publishedAt": "2026-10-21T14:58:18.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "b1215e1aefc04c61e203617a",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "publishedAt": "2026-10-21T13:00:00.000Z",
+      "description": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "95dedf578de78f3ec264f66e",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "de9db6f384cbc788775550a9",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "publishedAt": "2026-10-21T07:00:00.000Z",
+      "description": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "ea92da5c121ecb4527027c2b",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "publishedAt": "2026-10-21T07:00:00.000Z",
+      "description": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "64ddfb139fec8a1cb4597ec2",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "publishedAt": "2026-10-21T04:50:00.000Z",
+      "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "c7c1db1d24f97b16930900ba",
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/e-Conomy_SEA_hero.max-600x600.format-webp.webp\">Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "3fe372fb2e8166f0e8146fd8",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "description": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "e270f5ba4688033de075906d",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "description": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
     },
     {
       "id": "5141db6e381db1647e51b7cb",
@@ -62,6 +1012,106 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "da0915a1e152e308dcbdba0d",
+      "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
+      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/",
+      "publishedAt": "2026-10-20T21:14:10.000Z",
+      "description": "Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. Its recurrent state stays fixed at 29.5 MB per sequence regardless of context length, avoiding the growing key-value cache of transformer models and keeping serving memory predictable.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "40b9e7d4175c125ac598b353",
+      "title": "Workflow context for AI agents with Smartsheet MCP on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/workflow-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
+      "publishedAt": "2026-10-20T17:59:07.000Z",
+      "description": "The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "dcb75d79e0bd243818b24e7a",
+      "title": "From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-10-20T17:52:50.000Z",
+      "description": "Enterprise supply chains are data-rich but insight-poor, with the data to decide scattered across ERP, monitoring, procurement, and email. This post shows how Amazon Bedrock AgentCore exposes those systems as a governed tool layer, and how Amazon Quick turns them into one conversational experience for business users, with a deploy-it-yourself walkthrough.",
+      "sourceName": "AWS Machine Learning Blog",
+      "category": "engineer",
+      "feedId": "aws-ml-blog"
+    },
+    {
+      "id": "806b1f92932cb66421abf1c5",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "publishedAt": "2026-10-20T16:05:03.000Z",
+      "description": "<p>Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/\">How 3 Java Champions are using GitHub Copilot for increased productivity</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "sourceName": "GitHub Blog AI/ML",
+      "category": "engineer",
+      "feedId": "github-blog-ai"
+    },
+    {
+      "id": "1725d137aa3debc0d8ae9b76",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "description": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "aa8847d44cbae3328f3c5cbb",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "publishedAt": "2026-10-20T07:00:00.000Z",
+      "description": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "1cfb6291fa158d05a5bad0e6",
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "description": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "39e60f901a735303e0c0ae9b",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "41fb25a47d12d204a957e1af",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "c2b4b68d7e0027f0e4366133",
+      "title": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
       "id": "abae72750df12c1834e14af7",
       "title": "2026/10/20 #713 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20261020/1792449114",
@@ -70,6 +1120,56 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "5e09805dda87945da37a5830",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+      "publishedAt": "2026-10-19T18:47:22.000Z",
+      "description": "<p>Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/\">How to continue a GitHub Copilot app session in VS Code</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "sourceName": "GitHub Blog AI/ML",
+      "category": "engineer",
+      "feedId": "github-blog-ai"
+    },
+    {
+      "id": "e5d620559a86418c9bb2bc11",
+      "title": "How Numan Built an Eval-First AI Health Coach with LangGraph and LangSmith",
+      "url": "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith",
+      "publishedAt": "2026-10-19T16:44:34.000Z",
+      "description": "How Numan built Nu, an AI health coach, on LangGraph and LangSmith with per-category evals, simulated conversations, and safety gates on a regulatory line.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "541b4de5f9084ba9a805a2a2",
+      "title": "Import AI 477: In which I tell the IMF the Singularity has begun ",
+      "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
+      "publishedAt": "2026-10-19T12:31:37.000Z",
+      "description": "What do you think?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
+    },
+    {
+      "id": "1dbe22633003a2af4fddcdba",
+      "title": "Advancing coding in low‑resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "description": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "5c52b7d34becd1ccf770a5f2",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
     },
     {
       "id": "011dca6f80246a68543c1b31",
@@ -102,6 +1202,46 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "9732b2763df5a67ab9455b82",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "publishedAt": "2026-10-16T19:00:00.000Z",
+      "description": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "9e63539289a31c8631b61e2d",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "b6756c0a180ee554226c332b",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "description": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "c9a6184923cc1a5837b49001",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
       "id": "94498f399dad2f128f2fcba4",
       "title": "2026/10/16 #709 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20261016/1792102218",
@@ -110,6 +1250,96 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "32165ee6af8945a5bd83e423",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "publishedAt": "2026-10-15T19:00:00.000Z",
+      "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "efbb6ed99e6c7bc22db8a162",
+      "title": "October 2026 LangChain Newsletter: Everything we shipped at Interrupt NYC & London",
+      "url": "https://www.langchain.com/blog/october-2026-langchain-newsletter",
+      "publishedAt": "2026-10-15T17:02:58.000Z",
+      "description": "What we shipped at Interrupt NYC and London: LangSmith AI Search, Engine v2, Trajectories, Custom Apps, Fine-Tuning, and Managed Deep Agents v0.9.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "ad09b0946a60b7ff505a8aa2",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "publishedAt": "2026-10-15T16:08:03.000Z",
+      "description": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "a60f4a701f887ae8f46b94e0",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "description": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "7b591106b0be81dc8fa26703",
+      "title": "The Most Common Questions About Agent Evals, Answered",
+      "url": "https://www.langchain.com/blog/common-questions-about-agent-evals",
+      "publishedAt": "2026-10-15T09:18:55.000Z",
+      "description": "Where to start with agent evals, offline vs online evals, evaluator types, LLM judges, benchmarks with Harbor, multi-turn evals, and keeping costs down.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "39052ad94a8a76cc68a2cb5d",
+      "title": "Apertus 1.5 Release Notes",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "publishedAt": "2026-10-15T09:08:45.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "94eadcab22c41e356a1d9bf1",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "description": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "ff0cf28c5d7530571030bbc5",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "eb67409897ed2136a753e141",
+      "title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "url": "https://huggingface.co/blog/flux-3",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
     },
     {
       "id": "b4195123d94ad894063ff28d",
@@ -122,6 +1352,66 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "57c3309db5bedcdec4e0532a",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "004cd593adabcd24c97d9e96",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "description": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "a8b8c31de898145e14c82e5a",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "description": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "94ee28b93f9d2d830319b5f7",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "description": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
+      "id": "36a7e1c23fbbe3b1fdc0232b",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "publishedAt": "2026-10-14T02:00:14.000Z",
+      "description": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "200a5d3dd39c6bfb7a201928",
+      "title": "The EU’s next chapter in AI is agentic",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "description": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "openai-news"
+    },
+    {
       "id": "14dbd12979cc8720752929a5",
       "title": "2026/10/14 #707 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20261014/1791929365",
@@ -132,6 +1422,166 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "7ef651595d40bdd730549de3",
+      "title": "How Orange Business Built Live Intelligence with LangChain and LangSmith",
+      "url": "https://www.langchain.com/blog/how-orange-business-built-live-intelligence-on-langchain-and-langsmith",
+      "publishedAt": "2026-10-13T19:56:07.000Z",
+      "description": "Learn how Orange Business used LangChain and LangSmith to build Live Intelligence, a governed AI platform for agents, evals, observability, and production scale.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "5b9d60084bc370249abcfacc",
+      "title": "MCP in LangChain: Stateless Protocol, Elicitation, and More!",
+      "url": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+      "publishedAt": "2026-10-13T19:56:07.000Z",
+      "description": "MCP support now lives in langchain.mcp, built on FastMCP for the 2026-07-28 spec, with elicitation handled as a LangGraph interrupt and tool lists cached.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "e4d6d771112690f4e8b33376",
+      "title": "How We Made Our Docs Test Themselves",
+      "url": "https://www.langchain.com/blog/our-docs-test-themselves",
+      "publishedAt": "2026-10-13T19:56:07.000Z",
+      "description": "Stale code samples are a docs problem nobody prioritizes. Here&#39;s how we used the Deep Agents CLI to automate migrating inline code into testable, CI-ready examples",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "527dd93d68969f8fd1e2cb4b",
+      "title": "Deep Agents Deploy: an open alternative to Claude Managed Agents",
+      "url": "https://www.langchain.com/blog/deep-agents-deploy-an-open-alternative-to-claude-managed-agents",
+      "publishedAt": "2026-10-13T19:56:07.000Z",
+      "description": "Today we’re launching Deep Agents deploy in beta. Deep Agents deploy is the fastest way to deploy a model agnostic, open source agent harness in a production ready way.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "40a221f9534101756ac4884a",
+      "title": "Open Models have crossed a threshold",
+      "url": "https://www.langchain.com/blog/open-models-have-crossed-a-threshold",
+      "publishedAt": "2026-10-13T19:56:07.000Z",
+      "description": "Open models like GLM-5 and MiniMax M2.7 now match closed frontier models on core agent tasks — file operations, tool use, and instruction following — at a fraction of the cost and latency. Here&#39;s what our evals show and how to start using them in Deep Agents.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "802f506af7cdd4520cca9b63",
+      "title": "Context Management for Deep Agents",
+      "url": "https://www.langchain.com/blog/context-management-for-deepagents",
+      "publishedAt": "2026-10-13T19:56:07.000Z",
+      "description": "Learn how Deep Agents SDK manages context for long-running AI tasks through offloading, summarization, and filesystem abstraction to prevent context rot.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "2e12fd56c15d4708866188be",
+      "title": "Improving Deep Agents with harness engineering",
+      "url": "https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering",
+      "publishedAt": "2026-10-13T19:56:07.000Z",
+      "description": "Harness engineering improved LangChain&#39;s coding agent from Top 30 to Top 5 on Terminal Bench using self-verification, tracing, and context optimization.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "a72e6adb098f204fa5e943dd",
+      "title": "Open SWE: An Open-Source Framework for Internal Coding Agents",
+      "url": "https://www.langchain.com/blog/open-swe-an-open-source-framework-for-internal-coding-agents",
+      "publishedAt": "2026-10-13T19:56:07.000Z",
+      "description": "Built on Deep Agents and LangGraph, Open SWE provides the core architectural components for internal coding agents.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "8b1ab1df41ac00d8450a9c25",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "publishedAt": "2026-10-13T19:43:07.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "7a679d710e8c186b4153e294",
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "publishedAt": "2026-10-13T17:56:33.000Z",
+      "description": "<p>GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/\">GitHub’s model for secret detection: Finding more secrets with less noise</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "sourceName": "GitHub Blog AI/ML",
+      "category": "engineer",
+      "feedId": "github-blog-ai"
+    },
+    {
+      "id": "53911f98c21c784fce1ad32f",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "publishedAt": "2026-10-13T17:05:48.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "94cc08977f17740f09c1909b",
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "publishedAt": "2026-10-13T16:01:58.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "851107eacfc8ba0f286d51c3",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "publishedAt": "2026-10-13T16:01:52.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "74c9e10c02543c499970682c",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp\">We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "2b898d1521444b3e7781a9cd",
+      "title": "Building Long-Running Agents with ScaleDown and Deep Agents",
+      "url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+      "publishedAt": "2026-10-13T14:01:24.000Z",
+      "description": "Use ScaleDown&#39;s constrained decoding models with LangChain and Deep Agents to summarize history, compress tool results, and extract data faster and cheaper.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "4c363ed7df0918d2d3d5c6ce",
+      "title": "Search agent traces by behavior with AI Search in LangSmith",
+      "url": "https://www.langchain.com/blog/agent-traces-ai-search-langsmith",
+      "publishedAt": "2026-10-13T14:01:24.000Z",
+      "description": "AI Search in LangSmith is a new way to query traces using natural language. Describe the behavior you&#39;re looking for, and LangSmith returns the traces where it happened.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
       "id": "3d2e56e1afef55d24aae01eb",
       "title": "2026/10/13 #706 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20261013/1791843046",
@@ -140,6 +1590,26 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "23216cfbe10c8c92d859347b",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "publishedAt": "2026-10-12T17:43:59.000Z",
+      "description": "<p>Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/\">GitHub Copilot app for Beginners: How to teach Copilot about your codebase</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "sourceName": "GitHub Blog AI/ML",
+      "category": "engineer",
+      "feedId": "github-blog-ai"
+    },
+    {
+      "id": "e70ec63b125f4db8fa8f4704",
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+      "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+      "publishedAt": "2026-10-12T12:30:39.000Z",
+      "description": "Will we give robots the moon?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
     },
     {
       "id": "89eda5d469eb563a6c82dc7f",
@@ -172,6 +1642,36 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "159c1db9c1130325ff1dce90",
+      "title": "How to build great out-of-the-box user experiences with Managed Deep Agents",
+      "url": "https://www.langchain.com/blog/slack-sdk-managed-deep-agents",
+      "publishedAt": "2026-10-09T19:34:01.000Z",
+      "description": "Managed Deep Agents includes a new API for managing reactions for your distributed agents, and a system to dynamically assign emoji responses with your instrument of choice. Learn more.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "378de5b0a4ef1ffb1912cd87",
+      "title": "How to Build a Model Router in the Harness",
+      "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+      "publishedAt": "2026-10-09T19:34:01.000Z",
+      "description": "How we built a model router into Open SWE&#39;s harness that cut median cost per coding task by 64% with no measurable drop in quality, and how to build your own.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "715fac53ff26781b579f5e2b",
+      "title": "How Snyk Turned an Internal Support Agent into a Customer Feature",
+      "url": "https://www.langchain.com/blog/how-snyk-turned-an-internal-support-agent-into-a-customer-feature",
+      "publishedAt": "2026-10-09T10:29:19.000Z",
+      "description": "Discover how Snyk transformed an internal support agent into Snyk Assist, a customer-facing AI feature powered by LangChain, LangGraph, and LangSmith.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
       "id": "20c893c14c36cbde3b5490f6",
       "title": "2026/10/09 #702 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20261009/1791497433",
@@ -180,6 +1680,56 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "c5ac5b6aad591d4aeaa51fc6",
+      "title": "Agents that can pay: building Restock with Stripe&#39;s Link and Managed Deep Agents",
+      "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
+      "publishedAt": "2026-10-08T17:37:00.000Z",
+      "description": "Build an agent that pays for real purchases. Restock runs in Slack on Managed Deep Agents and pays with Stripe&#39;s Link over the Machine Payments Protocol.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "d89ca29fbd41ee94ea5cfbf4",
+      "title": "Revamping Skills in Deep Agents",
+      "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+      "publishedAt": "2026-10-08T11:05:30.000Z",
+      "description": "Deep Agents now lets you bind tools to skills, pin skills at runtime, and reload skills mid-thread, so agents with expansive skill repositories stay context-efficient and effective.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "43f618bcad02931aaa715c5d",
+      "title": "Introducing LangSmith Fine-Tuning",
+      "url": "https://www.langchain.com/blog/langsmith-fine-tuning",
+      "publishedAt": "2026-10-08T11:05:30.000Z",
+      "description": "LangChain introduces LangSmith Fine-Tuning and SmithTune, a CLI built for post-training models. Train specialized models without building data pipelines by hand.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "ae0a400c8192a30448ad3703",
+      "title": "Managed Deep Agents delivers a better user experience for agents in production",
+      "url": "https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new",
+      "publishedAt": "2026-10-08T11:05:30.000Z",
+      "description": "Managed Deep Agents is the simplest way to build, deploy, and run agents in production. The 0.8 release adds support for user-owned credentials, user-level memory, HTTP channels, file transfer in Slack and a pre-built tool for web search.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "ffd2818196374b7e8d985c5b",
+      "title": "The model that didn't exist, so you made it yourself",
+      "url": "https://huggingface.co/blog/building-with-ml-intern",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
     },
     {
       "id": "028380448d20c3326363e15f",
@@ -192,6 +1742,46 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "553466e25356a7bd6911f53a",
+      "title": "What&#39;s New in Managed Deep Agents: schedules, per-run configuration, and Slack reactions",
+      "url": "https://www.langchain.com/blog/managed-deep-agents-schedules-per-run-configuration-slack",
+      "publishedAt": "2026-10-07T18:10:34.000Z",
+      "description": "LangChain just released new capabilities in Managed Deep Agents. Agents can now schedule follow-ups, reconfigure themselves on every run, and react to Slack messages.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "c6fb2b313984d9d24e982a57",
+      "title": "Secret protection must scale with software",
+      "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
+      "publishedAt": "2026-10-07T17:45:34.000Z",
+      "description": "<p>Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/\">Secret protection must scale with software</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "sourceName": "GitHub Blog AI/ML",
+      "category": "engineer",
+      "feedId": "github-blog-ai"
+    },
+    {
+      "id": "16b7810afb00bdc03cf91abd",
+      "title": "Introducing Falcon ASR",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "publishedAt": "2026-10-07T13:21:03.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "b6aec8c05cfc3e2f0fe39756",
+      "title": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.max-600x600.format-webp.webp\">Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
       "id": "38c80ecc85e7036564f98293",
       "title": "2026/10/07 #700 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20261007/1791324638",
@@ -202,6 +1792,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "c11a83f73b42d75639443284",
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "publishedAt": "2026-10-06T19:57:04.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
       "id": "118de92927b1f6bb5d77bd33",
       "title": "2026/10/06 #699 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20261006/1791238227",
@@ -210,6 +1810,26 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "6f397884428e9f0f14f3f6fd",
+      "title": "ReviewBench: An open benchmark for AI code review",
+      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+      "publishedAt": "2026-10-05T15:59:40.000Z",
+      "description": "<p>We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/\">ReviewBench: An open benchmark for AI code review</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "sourceName": "GitHub Blog AI/ML",
+      "category": "engineer",
+      "feedId": "github-blog-ai"
+    },
+    {
+      "id": "e039e9ecdf0a0e8f6a185207",
+      "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy ",
+      "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
+      "publishedAt": "2026-10-05T12:32:30.000Z",
+      "description": "Who chooses what AI gets to do?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
     },
     {
       "id": "e2c2449e04b4754f95152ce2",
@@ -232,6 +1852,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "bd1136d0fcfd6f1357de280a",
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "publishedAt": "2026-10-03T22:56:48.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
       "id": "114a65c50bd9dd0f3b3dc11c",
       "title": "2026/10/03 #696 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20261003/1790979062",
@@ -240,6 +1870,36 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "6a7bb4e3e69d69f535f566ea",
+      "title": "The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "publishedAt": "2026-10-02T15:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from September 2026",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "afd517ff06180871c64e1a91",
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+      "publishedAt": "2026-10-02T15:00:00.000Z",
+      "description": "<p>Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/\">AI is changing developer work. Here are three skills to strengthen.</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "sourceName": "GitHub Blog AI/ML",
+      "category": "engineer",
+      "feedId": "github-blog-ai"
+    },
+    {
+      "id": "56c490db040147f1def4aa82",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "publishedAt": "2026-10-02T04:01:31.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
     },
     {
       "id": "e1d25c1f265a4f50233c7e22",
@@ -252,6 +1912,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "9e45c053dcabfa346420b26c",
+      "title": "What Is Jev? A Guide to TypeSafe AI’s System One Model",
+      "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+      "publishedAt": "2026-10-01T02:25:25.000Z",
+      "description": "What is Jev? Learn how TypeSafe AI’s System One model makes fast, structured decisions, where it fits in the agent loop, and how to use Jev with LangChain",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
       "id": "a97ad76e744c76692b5bbda5",
       "title": "2026/10/01 #694 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20261001/1790806247",
@@ -260,6 +1930,46 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "ce56aa83d0064ef1be25967d",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "publishedAt": "2026-09-30T20:01:45.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "c696e8b1f34224735a5b522f",
+      "title": "Introducing SynthID Bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "publishedAt": "2026-09-30T15:03:07.000Z",
+      "description": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "74c2ff7e2707d1f61043b51a",
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "4c4569a7037ff789cb2b8471",
+      "title": "Jev is now available in LangSmith Evals",
+      "url": "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals",
+      "publishedAt": "2026-09-29T23:10:45.000Z",
+      "description": "Use Jev as a judge for LangSmith evals to evaluate agent traces with faster, cheaper structured feedback across production runs, datasets, and regression tests.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
     },
     {
       "id": "baa39534a0db08458e4fb5a3",
@@ -272,6 +1982,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "afa8c33f8eb7996a39419dea",
+      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "publishedAt": "2026-09-29T13:07:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
       "id": "ff696e53c6cc33fb02acd9a1",
       "title": "2026/09/29 #692 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260929/1790633404",
@@ -280,6 +2000,76 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "db713ef86bd59ea8f7bad6b7",
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\">Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "8ee5399f14be5c8cdb0bbf74",
+      "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
+      "url": "https://importai.substack.com/p/import-ai-474-platonic-mindspace",
+      "publishedAt": "2026-09-28T12:32:03.000Z",
+      "description": "Where do you exceed the capabilities of an LLM?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
+    },
+    {
+      "id": "86cb38b172aa57682d8429bb",
+      "title": "Building Production Agents with Jev and LangGraph",
+      "url": "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph",
+      "publishedAt": "2026-09-28T11:45:35.000Z",
+      "description": "See how LangGraph orchestrates Jev, TypeSafe AI&#39;s decision model, to build faster, cheaper production agents.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "e16684fdeb0697948a5eda07",
+      "title": "New in LangSmith: Engine v2, Managed Deep Agents, Fine-Tuning, and more",
+      "url": "https://www.langchain.com/blog/langsmith-engine-agents-fine-tuning-trajectories",
+      "publishedAt": "2026-09-28T11:45:35.000Z",
+      "description": "LangChain announced new updates to LangSmith. Updates include Engine v2 with red teaming and automatic testing, a new version of Managed Deep Agents, trajectories and more.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "8574e9b0b2d28510b8852d2a",
+      "title": "LangSmith Custom Apps: Build custom interfaces around your agent data",
+      "url": "https://www.langchain.com/blog/langsmith-custom-apps",
+      "publishedAt": "2026-09-28T11:45:35.000Z",
+      "description": "LangSmith Custom Apps lets you build the interface you want with your LangSmith data, publish it into your workspace, and skip the hosting, auth, and permissions work. Learn more.",
+      "sourceName": "LangChain Blog",
+      "category": "engineer",
+      "feedId": "langchain-blog"
+    },
+    {
+      "id": "09d1d26fa19dd694ec40f7bb",
+      "title": "Holo4: powering generalist computer-use agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "publishedAt": "2026-09-28T09:44:05.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "eb916b5190e379580afd8a2b",
+      "title": "Welcome RL Environments to the hub",
+      "url": "https://huggingface.co/blog/rl-environments",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
     },
     {
       "id": "28846c415a0e59f35d24c23c",
@@ -312,6 +2102,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "a2908e03cf24041e9ff5e67e",
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "publishedAt": "2026-09-25T18:00:00.000Z",
+      "description": "<p>Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/\">GitHub Copilot app for Beginners: How to build custom workflows with canvases</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "sourceName": "GitHub Blog AI/ML",
+      "category": "engineer",
+      "feedId": "github-blog-ai"
+    },
+    {
       "id": "0d2adbe59dba9caaca014d33",
       "title": "2026/09/25 #688 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260925/1790288198",
@@ -320,6 +2120,36 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "3d14844898469c56a41e491e",
+      "title": "When chat is the wrong UI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+      "publishedAt": "2026-09-24T20:00:00.000Z",
+      "description": "<p>What is a developer to do when they need something more tangible than a chat box? Enter canvases.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/\">When chat is the wrong UI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "sourceName": "GitHub Blog AI/ML",
+      "category": "engineer",
+      "feedId": "github-blog-ai"
+    },
+    {
+      "id": "4431c738b4b1e8a1a89c317b",
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+      "publishedAt": "2026-09-24T18:26:12.000Z",
+      "description": "<p>In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. </p>\n<p>The post <a href=\"https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/\">AI-powered fuzzing with the GitHub Security Lab Taskflow Agent</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "sourceName": "GitHub Blog AI/ML",
+      "category": "engineer",
+      "feedId": "github-blog-ai"
+    },
+    {
+      "id": "34692efacd3b982a5758af6c",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "publishedAt": "2026-09-24T16:20:39.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
     },
     {
       "id": "7fca04666df2d86e5a0edb73",
@@ -332,6 +2162,36 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "1ccf342131e2aeec4f4fe8c7",
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.max-600x600.format-webp.webp\">We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "68ead6b6af2b71441cd0f5e7",
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "publishedAt": "2026-09-23T16:00:57.000Z",
+      "description": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "81481aa316e38773fdfe4ad8",
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "publishedAt": "2026-09-23T15:25:14.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
       "id": "a2461e33b9ba77458bee40f9",
       "title": "2026/09/23 #686 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260923/1790115173",
@@ -340,6 +2200,36 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "e9f63aa1f7aaa02f4024a141",
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "689d78c6e007ab8e2c4f1996",
+      "title": "Transformers now runs llama.cpp quants",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "6b3083011aeb49b1cc1d670c",
+      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "url": "https://huggingface.co/blog/omlx",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
     },
     {
       "id": "d4c8d6a4282082f1ee32ca49",
@@ -360,6 +2250,26 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "c5cf7b0af1c9700a73b6f844",
+      "title": "Import AI 473: The US's superintelligence strategy; human brain in a mouse skull; and machine hermeneutics ",
+      "url": "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence",
+      "publishedAt": "2026-09-21T12:31:04.000Z",
+      "description": "Is the wall AI is hitting in the room with us right now?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
+    },
+    {
+      "id": "693b3130e25cc8808f585a69",
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
     },
     {
       "id": "5172bb911d0a70284414c390",
@@ -392,6 +2302,26 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "d92122e53ec9d4f7bc6fea4b",
+      "title": "New experts join Google’s AI & Economy team",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "publishedAt": "2026-09-18T14:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI__Economy_team_hero.max-600x600.format-webp.webp\">We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "44ec3a3d6fdc7de7b05fd571",
+      "title": "Co-creating the future of fashion with Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "publishedAt": "2026-09-18T13:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_Header_V2.max-600x600.format-webp.webp\">Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
       "id": "b1771222f55e9b27c5dd243a",
       "title": "2026/09/18 #681 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260918/1789683454",
@@ -400,6 +2330,16 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "590df77dc8c3726e213494b6",
+      "title": "Making global data easier to explore",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "publishedAt": "2026-09-17T20:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/data-commons.max-600x600.format-webp.webp\">Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
     },
     {
       "id": "1217bfc17f0e01454f239f97",
@@ -422,6 +2362,66 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "947e89eaa83a27aef331dc76",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "publishedAt": "2026-09-15T17:05:57.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "a1d018f16fad79f97456f75b",
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "publishedAt": "2026-09-15T16:00:44.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "huggingface-blog"
+    },
+    {
+      "id": "970c94673769027aa8a43a16",
+      "title": "AI for Societal Impact",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Health_Header.gif\">Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "6fff55fdf7cb614f42883b2f",
+      "title": "Building AI to accelerate science and improve lives",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SocialShare_hD2gcAw.max-600x600.format-webp.webp\">The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "50f1fa34d3c31e122438ce2a",
+      "title": "AI for everyone in every language",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_languages_blog_social.max-600x600.format-webp.webp\">We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "b21c5e1ffc812be885ba21de",
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "publishedAt": "2026-09-15T13:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ATLAS-hero.max-600x600.format-webp.webp\">We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
       "id": "d77ec82cfeb012916dd4298a",
       "title": "2026/09/15 #678 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260915/1789424071",
@@ -430,6 +2430,26 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "6666660dfd652924f82bbc70",
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "publishedAt": "2026-09-14T19:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues_Christina-Koch_social.max-600x600.format-webp.webp\">Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "ac6fab4ebd9f6bc88d568670",
+      "title": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "publishedAt": "2026-09-14T16:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DevFest.max-600x600.format-webp.webp\">DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
     },
     {
       "id": "ef9e9839ad12c2335c35b5af",
@@ -472,6 +2492,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "ceadd21f5d3a2d6592d4d65b",
+      "title": "3 ways to prep for your next big race with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp\">Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
       "id": "008ab7d8ee0a98b6102f2662",
       "title": "2026/09/10 #673 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260910/1788992108",
@@ -480,6 +2510,26 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "73af7527f82e0ada94cfae10",
+      "title": "Get ready for the game with new football features in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Football_on_Search_blog_header.max-600x600.format-webp.webp\">Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "82b8bf7db8ec7233d0736a42",
+      "title": "Recreating a 70-year love story frame by frame",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp\">Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
     },
     {
       "id": "7e43b7163ddea458a81fa5ca",
@@ -492,6 +2542,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "f0e27f432f48fb866973d706",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "publishedAt": "2026-09-08T14:00:15.000Z",
+      "description": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
       "id": "c2ce402df4535647c5c39714",
       "title": "2026/09/08 #671 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260908/1788819301",
@@ -500,6 +2560,16 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "eac2b5a58a094803e57030ed",
+      "title": "Import AI 472: DeepMind's cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman ",
+      "url": "https://importai.substack.com/p/import-ai-472-deepminds-cheating",
+      "publishedAt": "2026-09-07T12:26:31.000Z",
+      "description": "Plus, a machine hermeneutics story",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
     },
     {
       "id": "65a44c1f9ce35cd5b3866895",
@@ -542,6 +2612,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "2b0379511ea0511400ff6f84",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "publishedAt": "2026-09-03T15:02:08.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
       "id": "bb787a8692f19038b1134cf8",
       "title": "2026/09/03 #666 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260903/1788387434",
@@ -550,6 +2630,36 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "d721843382f3485e8d6d91c4",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "publishedAt": "2026-09-02T16:24:24.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "63b19b50b4021cb509d5c4a6",
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "publishedAt": "2026-09-02T16:18:31.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "5eb2aa71a90a9c91745cefda",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "publishedAt": "2026-09-02T15:40:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__b.max-600x600.format-webp.webp\">The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
     },
     {
       "id": "4cb7a7033d801f7e134dd8f0",
@@ -562,6 +2672,26 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "c97fc058379572822e7b46a1",
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "publishedAt": "2026-09-01T20:45:00.000Z",
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_AI_Recap_social.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from August 2026",
+      "sourceName": "Google AI Blog",
+      "category": "engineer",
+      "feedId": "google-ai-blog"
+    },
+    {
+      "id": "20b040f8e58f31e967731512",
+      "title": "Introducing agentic video understanding with Gemini",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "publishedAt": "2026-09-01T17:08:51.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
       "id": "62effa9da770c8fb78a6755f",
       "title": "2026/09/01 #664 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260901/1788214574",
@@ -570,6 +2700,16 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "1793a1d6aeafb2ded97e682a",
+      "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI ",
+      "url": "https://importai.substack.com/p/import-ai-471-why-hugging-face-worries",
+      "publishedAt": "2026-08-31T13:31:06.000Z",
+      "description": "Plus, a live event with Robin Sloan!",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
     },
     {
       "id": "c82852733a9b5221b789810f",
@@ -612,6 +2752,26 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "74b1125af8681de125d4851c",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "publishedAt": "2026-08-27T16:11:32.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "71c43cf780d371eea28301d0",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "publishedAt": "2026-08-27T12:59:16.000Z",
+      "description": "Piloting the world's first double-blind AI evaluations",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
       "id": "511630af816fa60ba9387120",
       "title": "2026/08/27 #659 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260827/1787785720",
@@ -620,6 +2780,16 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "ac6eb9276806c2f8127da583",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "publishedAt": "2026-08-26T17:01:00.000Z",
+      "description": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
     },
     {
       "id": "9c24cb17ee2f0066490c3143",
@@ -640,6 +2810,16 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "8abc3244a14ba63a9d42b3b6",
+      "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye ",
+      "url": "https://importai.substack.com/p/import-ai-470-no-rights-for-machines",
+      "publishedAt": "2026-08-24T13:12:40.000Z",
+      "description": "Differential acceleration of cyber, math, and AI",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
     },
     {
       "id": "2236fec1cbbed122ceeafd3a",
@@ -670,6 +2850,16 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "835a331a5b20ce16b68a1eb7",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "publishedAt": "2026-08-21T11:59:48.000Z",
+      "description": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
     },
     {
       "id": "7c715d9122913a0f792fb7d3",
@@ -712,6 +2902,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "5cd321603458c5172aa3d913",
+      "title": "Import AI 469: Science AI; RSI simulator; and Zuck's technological pessimism",
+      "url": "https://importai.substack.com/p/import-ai-469-science-ai-rsi-simulator",
+      "publishedAt": "2026-08-17T13:05:36.000Z",
+      "description": "The new frontier of AI is developing capable autonomous researchers",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
+    },
+    {
       "id": "ae9934e7fe34ffe08176a97d",
       "title": "2026/08/17 #649 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260817/1786918399",
@@ -752,6 +2952,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "43643a3dd841363b8ac91be3",
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "publishedAt": "2026-08-13T17:04:18.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
       "id": "548f67a6b1b6b28ecd4c9771",
       "title": "2026/08/13 #645 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260813/1786573671",
@@ -760,6 +2970,16 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "1357a9ae7911e1d557ac7ffa",
+      "title": "Putting sign language AI into users’ hands",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "publishedAt": "2026-08-12T14:01:59.000Z",
+      "description": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
     },
     {
       "id": "a6339c9b846b8d67f4878a9b",
@@ -780,6 +3000,16 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "f22709272110f7e0870c8c93",
+      "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing ",
+      "url": "https://importai.substack.com/p/import-ai-468-23-rsi-ideas-posttrainbench",
+      "publishedAt": "2026-08-10T12:32:20.000Z",
+      "description": "Which galaxy will you choose?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
     },
     {
       "id": "e24cee64b43ba0aeeeae7856",
@@ -822,6 +3052,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "1986eab2e2ed84ba8b77a11b",
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "publishedAt": "2026-08-06T15:06:15.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
       "id": "7caccd70639fda3b4e55a26f",
       "title": "2026/08/06 #638 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260806/1785969342",
@@ -850,6 +3090,16 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "c1500e93189d628094e493ba",
+      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+      "url": "https://importai.substack.com/p/import-ai-467-self-sustaining-ai",
+      "publishedAt": "2026-08-03T13:31:22.000Z",
+      "description": "When do we build the moon arcology?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
     },
     {
       "id": "103118cb76f665ddbad0f1a7",
@@ -892,6 +3142,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "614d79e4a866af7d0adf4631",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "publishedAt": "2026-07-30T15:00:59.000Z",
+      "description": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
       "id": "6f4fa3b98105762e2bd6a7b6",
       "title": "2026/07/30 #631 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260730/1785364305",
@@ -900,6 +3160,16 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "05b5e14c97505dcc55095fc0",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "publishedAt": "2026-07-29T16:02:10.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
     },
     {
       "id": "51d5bd4247bcf9758bb17ed3",
@@ -912,6 +3182,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "42a1992e4b242ffc8c8c0940",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "publishedAt": "2026-07-28T13:21:37.000Z",
+      "description": "",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
       "id": "8721f873c7952e15bc7ee8d9",
       "title": "2026/07/28 #629 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260728/1785191806",
@@ -920,6 +3200,16 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "cc90ec0bce0196116fe58b08",
+      "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI's accidental AI hacker ",
+      "url": "https://importai.substack.com/p/import-ai-466-the-bitter-lesson-for",
+      "publishedAt": "2026-07-27T13:30:53.000Z",
+      "description": "The warning shots will continue until civilization wakes up",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
     },
     {
       "id": "1743999aaace91d02ec7f9df",
@@ -972,6 +3262,16 @@
       "feedId": "engineers-digest"
     },
     {
+      "id": "a821810ee2b72f1657951f98",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "publishedAt": "2026-07-22T13:38:54.000Z",
+      "description": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
       "id": "58f269b6e5d500957904513f",
       "title": "2026/07/22 #623 - 今日の技術情報ダイジェスト",
       "url": "https://www.ponkotsu.dev/entry/20260722/1784672969",
@@ -980,6 +3280,96 @@
       "sourceName": "Engineer's Digest（ponkotsu.dev）",
       "category": "engineer",
       "feedId": "engineers-digest"
+    },
+    {
+      "id": "e38a2bc2474832f28ea96744",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+      "publishedAt": "2026-07-21T15:16:30.000Z",
+      "description": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "sourceName": "Google DeepMind Blog",
+      "category": "engineer",
+      "feedId": "deepmind-blog"
+    },
+    {
+      "id": "aa53761640d8008a9e0f0870",
+      "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis' big policy plan ",
+      "url": "https://importai.substack.com/p/import-ai-465-open-vs-closed-gaps",
+      "publishedAt": "2026-07-20T12:31:45.000Z",
+      "description": "The singularity will be seen in hindsight as an interregnum",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
+    },
+    {
+      "id": "0b21b930d5baa9d90533520e",
+      "title": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
+      "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
+      "publishedAt": "2026-07-06T12:31:05.000Z",
+      "description": "Is this the beginning of a new world?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
+    },
+    {
+      "id": "a566ddf4df08f0ada18f0f95",
+      "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+      "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+      "publishedAt": "2026-06-29T13:03:27.000Z",
+      "description": "What eras bookend our interregnum?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
+    },
+    {
+      "id": "b345a91f04910570405329ab",
+      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+      "url": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
+      "publishedAt": "2026-06-22T12:31:45.000Z",
+      "description": "How religious are beliefs in the singularity?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
+    },
+    {
+      "id": "369271d4ab79ed864b95b6fb",
+      "title": "Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns",
+      "url": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on",
+      "publishedAt": "2026-06-15T11:30:53.000Z",
+      "description": "Where are your agents right now?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
+    },
+    {
+      "id": "783d75fc8051a82a59804b88",
+      "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
+      "url": "https://importai.substack.com/p/import-ai-460-reward-hacking-society",
+      "publishedAt": "2026-06-08T12:31:32.000Z",
+      "description": "When will markets price the singularity?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
+    },
+    {
+      "id": "72ff200139eebd33f2f5654e",
+      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
+      "url": "https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult",
+      "publishedAt": "2026-06-01T13:31:56.000Z",
+      "description": "Do you feel as though you are living in a revolution?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
+    },
+    {
+      "id": "0e3ac2503ef6368c507f9e40",
+      "title": "Import AI 458: Reckoning with the future; and a singularity story",
+      "url": "https://importai.substack.com/p/import-ai-458-reckoning-with-the",
+      "publishedAt": "2026-05-26T12:32:03.000Z",
+      "description": "What AI-driven miracles will happen this year?",
+      "sourceName": "Import AI",
+      "category": "engineer",
+      "feedId": "import-ai"
     }
   ]
 }

@@ -4,6 +4,7 @@ import { XMLParser } from "fast-xml-parser";
 
 const feedsPath = new URL("../pages/data/feeds.json", import.meta.url);
 const newsPath = new URL("../pages/data/news.json", import.meta.url);
+const defaultMaxItems = 30;
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_", trimValues: true });
 const asArray = (value) => value == null ? [] : Array.isArray(value) ? value : [value];
 const text = (value) => typeof value === "string" || typeof value === "number" ? String(value) : value && typeof value === "object" ? String(value["#text"] ?? value.__cdata ?? "") : "";
@@ -31,7 +32,8 @@ for (const feed of feedsData.feeds) {
   try {
     const response = await fetch(feed.url, { headers: { "User-Agent": "Signal-Shelf-RSS-Collector/1.0 (+https://github.com/)" }, signal: AbortSignal.timeout(20000) });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    collected.push(...parseFeed(await response.text(), feed));
+    const parsed = parseFeed(await response.text(), feed).sort((x, y) => new Date(y.publishedAt || 0) - new Date(x.publishedAt || 0));
+    collected.push(...parsed.slice(0, feed.maxItems ?? defaultMaxItems));
     feed.lastFetchedAt = new Date().toISOString(); feed.lastStatus = "success";
   } catch (error) {
     feed.lastFetchedAt = new Date().toISOString(); feed.lastStatus = `error: ${error instanceof Error ? error.message : "unknown"}`;
