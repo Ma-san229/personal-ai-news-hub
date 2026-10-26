@@ -19,14 +19,14 @@ feeds.json ──▶ collect-static-news.mjs ──▶ news.json ──▶ pages
 
 | 区分 | 内容 |
 | --- | --- |
-| 有効（24本） | Engineer's Digest、Zenn（AI / LLM / Claude Code）、OpenAI News、Google AI Blog、Google DeepMind Blog、Hugging Face Blog、GitHub Blog AI/ML、AWS Machine Learning Blog、LangChain Blog、Import AI、Microsoft AI、Microsoft Research、Meta Engineering、NVIDIA 2本、TechCrunch AI、MIT Technology Review AI、VentureBeat AI、arXiv（cs.AI / cs.CL / cs.LG）、Takara TLDR（Daily AI Papers） |
+| 有効（35本） | Engineer's Digest、Zenn（AI / LLM / Claude Code）、OpenAI News、Google AI Blog、Google DeepMind Blog、Hugging Face Blog、GitHub Blog AI/ML、AWS Machine Learning Blog、LangChain Blog、Import AI、Microsoft AI、Microsoft Research、Meta Engineering、NVIDIA 2本、TechCrunch AI、MIT Technology Review AI、VentureBeat AI、arXiv（cs.AI / cs.CL / cs.LG）、Takara TLDR（Daily AI Papers）、はてなブックマーク5本（人気エントリー、AI、生成AI、LLM、Claude）、Qiita タグ4本（AI、ChatGPT、LLM、ClaudeCode）、Hacker News フロントページ、Mistral Blog |
 | 停止中（URL未確認） | AI整体師（正式なRSS / Atom URLが判明後に登録する） |
 
 arXiv は件数が多いため1回あたり20件に絞っています。論文のトレンドは Takara TLDR（第三者が公開している日次の AI 論文ダイジェスト。Hugging Face Daily Papers 由来かどうかは未確認）で補っています。VentureBeat AI は 2026-10-26 の取得で HTTP 429 が返り、現在は記事が入りません。繰り返し失敗する場合は `enabled` を `false` にしてください。追加・変更の手順は [GITHUB_PAGES.md](GITHUB_PAGES.md) を参照してください。
 
 ## 関連リポジトリ
 
-[beniyasan/research_info](https://github.com/beniyasan/research_info)（AI Researcher）は、同じ「AI情報の個人向け収集」を別の方法で行う姉妹プロジェクトです。Python + Docker で毎朝実行し、Gemini が採用記事を選んでレポート化し、Discordの評価で選定を改善します。この hub は「選ばずに並べて検索・既読管理する」軽量な静的サイトで、役割が異なります。hub の初期情報源のうち、RSS / Atom として取得できる公式ブログ・開発者向け・日本語技術メディアは、research_info の `config/sources.json` を出典として取り込みました。Qiita API、Hacker News、HTMLのみで配信される Anthropic / Meta AI / Mistral / LlamaIndex は RSS ではないため対象外です。
+[beniyasan/research_info](https://github.com/beniyasan/research_info)（AI Researcher）は、同じ「AI情報の個人向け収集」を別の方法で行う姉妹プロジェクトです。Python + Docker で毎朝実行し、Gemini が採用記事を選んでレポート化し、Discordの評価で選定を改善します。この hub は「選ばずに並べて検索・既読管理する」軽量な静的サイトで、役割が異なります。hub の初期情報源のうち、RSS / Atom として取得できる公式ブログ・開発者向け・日本語技術メディアは、research_info の `config/sources.json` を出典として取り込みました。research_info が API で取得していた Qiita と Hacker News は、同等の RSS（Qiita のタグ別フィード、hnrss.org）で代替しました。HTMLのみで配信される Anthropic / Meta AI / LlamaIndex と The Batch は RSS が見つからず対象外です。
 
 ## ディレクトリ構成
 

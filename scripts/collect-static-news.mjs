@@ -19,7 +19,7 @@ function parseFeed(xml, feed) {
   const entries = atomEntries.length ? atomEntries.map((entry) => ({
     title: text(entry.title), url: atomLink(entry), publishedAt: toDate(text(entry.published) || text(entry.updated)), description: text(entry.summary) || text(entry.content),
   })) : rssEntries.map((entry) => ({
-    title: text(entry.title), url: text(entry.link) || text(entry.guid), publishedAt: toDate(text(entry.pubDate) || text(entry.date)), description: text(entry.description),
+    title: text(entry.title), url: text(entry.link) || text(entry.guid), publishedAt: toDate(text(entry.pubDate) || text(entry["dc:date"]) || text(entry.date)), description: text(entry.description),
   }));
   return entries.filter((entry) => entry.title && /^https?:\/\//.test(entry.url)).map((entry) => ({ id: articleId(entry.url), ...entry, sourceName: feed.name, category: feed.category, feedId: feed.id }));
 }

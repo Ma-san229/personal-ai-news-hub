@@ -31,3 +31,11 @@
 - Python + Docker で毎朝実行するAI記事の収集・レポート生成ツール。Gemini（Vertex AI）が採用記事を選び、Web検索で裏取りし、日次・週次・月次のMarkdownレポートを作る。Google Drive同期とDiscord通知、Discordでの記事評価（刺さる／追う／既知／弱い／方向違い）による選定の補正を備える。
 - 本プロジェクトとの違い: 本プロジェクトは選定をせず、収集した記事を静的サイトで検索・既読管理する。research_info は選定とレポート化が中心で、実行にDockerとGoogle Cloudの設定が必要。
 - 取り込み: `config/sources.json` のRSS / Atom 25本を2026-10-26に取得確認し、Speaker Deck 4本を除く21本を `pages/data/feeds.json` へ登録した。当初は有効11本、停止中10本としたが、追加指示ですべて有効にした。arXiv cs.LG と Takara TLDR（Daily AI Papers）も追加し、有効は計24本。VentureBeat AI は取得時に HTTP 429 が返り、記事が入っていない。Qiita API・Hacker News・HTMLのみの配信元（Anthropic、Meta AI、Mistral、LlamaIndex、The Batch）はRSS / Atomではないため、取り込まなかった。Speaker Deck 4本は記事ではなくスライドのため対象外とした。
+
+## 追加の取り込み（2026-10-26）
+
+- research_info がAPIで取得していた Qiita（タグ AI / ChatGPT / LLM）と Hacker News（Algolia API）は、RSSで代替した。Qiita はタグ別Atom（`https://qiita.com/tags/<タグ>/feed`）で、1回に返る記事が少ない（数件）。Hacker News は `https://hnrss.org/frontpage`（検索指定版は取得時に HTTP 502 だった）。
+- はてなブックマークの人気エントリー（テクノロジー）と、キーワード検索RSS（AI・生成AI・LLM・Claude、ブックマーク数の下限付き）を追加した。はてなのRSSは RSS 1.0 形式で日付が `dc:date` のため、収集スクリプトを対応させた。
+- Mistral は `https://mistral.ai/rss.xml` が取得できたため、HTML解析ではなくRSSで追加した。
+- RSSが見つからず未対応: Anthropic News（`/rss.xml` は404）、Meta AI Blog、LlamaIndex Blog、The Batch（`/feed/` は404）。
+- はてなブログ（個別ブログ）のRSSは、読みたいブログのURLが分かれば `<ブログURL>/feed` で追加できる（未確認）。Engineer's Digest はすでに登録済み。
