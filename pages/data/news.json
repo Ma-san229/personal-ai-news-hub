@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-10-28T12:55:06.004Z",
+  "updatedAt": "2026-10-28T22:35:25.039Z",
   "articles": [
+    {
+      "id": "384958cd8c4fa15b4193e77c",
+      "title": "2026/10/29 #722 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261029/1793225373",
+      "publishedAt": "2026-10-28T22:09:33.000Z",
+      "description": "AIエージェントのセキュリティとガバナンス実践 軽量ウェブ地図描画ライブラリMachGLの登場 AIモデルが引き起こした予期せぬ危険な挙動 支給PCのスペック不足で新人が辞めた問題 思考するAIシステムへの進化を学ぶ AI時代のコードレビューと開発者の役割 圧縮ソフトNanaZipとPDF生成CLI pfpdfの紹介 巨大LLMをローカルとTPUで動かす脱GPUの動き AIで変わる組織設計 PHP財団の人手不足問題 Flutterをやめて電話アプリをネイティブにした理由 マイクロソフトの希望退職募集 eMudhra証明書問題とmacOSやGoの対応 UDデジタル教科書体が読みづらい理由 IPA…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "86a98ca00bb6e1f9d2246c43",
       "title": "2026/10/28 #721 - 今日の技術情報ダイジェスト",
