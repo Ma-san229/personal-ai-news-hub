@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-01T22:02:04.383Z",
+  "updatedAt": "2026-11-02T06:03:41.454Z",
   "articles": [
+    {
+      "id": "caff64d420aa56e5fff38070",
+      "title": "2026/11/02 #726 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261102/1793570861",
+      "publishedAt": "2026-11-01T22:07:41.000Z",
+      "description": "AIエージェント向けAgent Skillsの設計方法 1Passwordで考える情報セキュリティとAIエージェント時代の備え AI学習の利用拒否をrobots.txtで共通指定へ ブラウザのクローンデータ売買と二段階認証無効化への対策 ISUCON2026参加記 楽天証券の顧客情報流出の可能性 TVerのテスト自動化の歩み Qwenputer追試で分かったGPU上のLLM内CPU動作 音楽理論不要の作曲ツールを作ってみた GeoJSON入門 streamAppendHTML()でAIの回答をHTMLのままストリーミング描画する Contact Form 7の任意ファイルアップロード脆弱性と6…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "579aaedff12d156e228e60e4",
       "title": "2026/11/01 #725 - 今日の技術情報ダイジェスト",
