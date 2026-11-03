@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-03T14:14:45.507Z",
+  "updatedAt": "2026-11-03T23:23:30.978Z",
   "articles": [
+    {
+      "id": "175c91bccf7abcafc5195d4a",
+      "title": "2026/11/04 #728 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261104/1793743924",
+      "publishedAt": "2026-11-03T22:12:04.000Z",
+      "description": "AIエージェントがISUCON2026で優勝した舞台裏 AIエージェント時代のドキュメント整備：ARCHITECTURE.mdとADR運用 ドメイン更新料の高騰トラブル YubiKeyが売り切れ続出、物理キー導入の注意点 IaCはAI時代でもなくならない理由 サービスレベル設計として考える非機能要件 画像1枚から3Dを生成するAI「Idol」の公開 サイバー攻撃が現実世界を止める：欧州スーパーの冷凍庫と緊急警報アプリ Amazon ECS Gatewayを試してみた キーエンスのPLC専用AIエージェント「KV Intelligence」発売 Android TV端末に仕込まれたバックドアとボ…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "ef4b0008a02dbb67713a71ab",
       "title": "2026/11/03 #727 - 今日の技術情報ダイジェスト",
