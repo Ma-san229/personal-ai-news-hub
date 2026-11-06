@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-05T19:57:07.206Z",
+  "updatedAt": "2026-11-06T06:46:47.371Z",
   "articles": [
+    {
+      "id": "065687b1c099b9a674eb497d",
+      "title": "2026/11/06 #730 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261106/1793916533",
+      "publishedAt": "2026-11-05T22:08:53.000Z",
+      "description": "アダルト動画サイトに仕込まれた情報窃取スクリプトの実態 AIによるエンジニアの燃え尽きとアイデンティティ喪失 日本の全法令がGitの履歴で管理される AI駆動開発の現在地とバイブコーディングの落とし穴 ボットネットXCPEのテイクダウンと130万台超のTV用端末乗っ取り AI時代のペネトレーションテスト自動化 相次ぐ国産・中国発オープンウェイトLLMの公開 Codexのセキュリティ機構：Sandbox・Trust・Approval UbuntuでCVE対応状況を確認する方法 GitHub Octoverse 2026が示す言語とOSSの最新動向 優秀なテストエンジニアの特徴を調べた研究 JAX…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "2722eaa3960feab1f7e017dc",
       "title": "2026/11/05 #729 - 今日の技術情報ダイジェスト",
