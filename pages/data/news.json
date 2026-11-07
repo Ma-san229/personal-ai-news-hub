@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-06T19:24:34.408Z",
+  "updatedAt": "2026-11-07T05:58:30.470Z",
   "articles": [
+    {
+      "id": "adea9c716665a38a3e4cc51d",
+      "title": "2026/11/07 #731 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261107/1794002874",
+      "publishedAt": "2026-11-06T22:07:54.000Z",
+      "description": "AI時代にエンジニアとOSSメンテナーが直面する負担 Unixのパスワード欄に残る「*」の歴史 インプレスがセキュリティ書籍9冊を期間限定で全文無料公開 PLaMo 3 Translateの重み公開 ドコモの不正アクセスで最大30万件の顧客情報が流出 Googleが10年ぶりに改訂した「SREの教科書」第2版 AIが暴き出すLinuxやPHPの脆弱性と技術的負債 Claude Codeを活用した開発の効率化事例 JNSAへの不正アクセスと総務省が促す基本的な不正アクセス対策 税法をLeanで形式化しプロダクト実装を全入力で検証 JAXA Earth APIとQGISで地球観測データを可視化 C…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "065687b1c099b9a674eb497d",
       "title": "2026/11/06 #730 - 今日の技術情報ダイジェスト",
