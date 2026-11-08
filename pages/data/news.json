@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-07T21:51:09.151Z",
+  "updatedAt": "2026-11-08T06:01:17.910Z",
   "articles": [
+    {
+      "id": "4cde68c6f03552a0304b5ee7",
+      "title": "2026/11/08 #732 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261108/1794089289",
+      "publishedAt": "2026-11-07T22:08:09.000Z",
+      "description": "生成AI時代にエンジニアが感じる葛藤と変わる仕事観 CloudFrontのVPCオリジンでオリジンを守るAWS配信構成 PHP 5.6環境をDockerで再現して旧サイトを復旧した話 明治時代の開始日変更で単体テストが失敗した破壊的変更 複数のAIエージェントを見守る運用術と確認待ちの設計 GMOとドコモで相次ぐ大規模な情報漏えいの原因 Claude Codeが大規模移植とISUCONで成果を出した事例 税法をLeanで形式化しプロダクト実装を全入力で検証する PHP2ShellとAIが暴いた技術的負債の返済 DiscordがElectronからRustへクライアントを全面書き直し ヤマハルー…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "adea9c716665a38a3e4cc51d",
       "title": "2026/11/07 #731 - 今日の技術情報ダイジェスト",
