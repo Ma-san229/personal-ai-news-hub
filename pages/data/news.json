@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-08T22:05:33.569Z",
+  "updatedAt": "2026-11-09T06:29:24.865Z",
   "articles": [
+    {
+      "id": "bf61d27820c80869d4df8cb6",
+      "title": "2026/11/09 #733 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261109/1794175657",
+      "publishedAt": "2026-11-08T22:07:37.000Z",
+      "description": "AIで自動化するセキュリティチェックの実践 AWSのネットワーク入口と名前解決の基礎 ローカルAI OCRと文字起こしAIなど生成AI技術5選 マルチエージェント設計の15パターン 生成AI時代のIAM設計のマニアックな話 ローカルAI翻訳Chrome拡張Sakutto 仕事で利益がドーパミンを超えた話 運用しながら改善するLLM-as-a-Judgeの構築 MCPが復権した理由とCLIの台頭 AI生成物の透かしがユーザー追跡に使われる問題 NVIDIAのAI GPU位置追跡義務化 WindowsとMacのセキュリティ対策の考え方 IrodrをReact 19 + Vite+で書き直した話 S…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "4cde68c6f03552a0304b5ee7",
       "title": "2026/11/08 #732 - 今日の技術情報ダイジェスト",
