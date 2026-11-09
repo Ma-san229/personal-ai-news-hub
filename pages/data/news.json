@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-09T06:29:24.865Z",
+  "updatedAt": "2026-11-09T22:21:46.033Z",
   "articles": [
+    {
+      "id": "19e7d20ded326299777b5c62",
+      "title": "2026/11/10 #734 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261110/1794262092",
+      "publishedAt": "2026-11-09T22:08:12.000Z",
+      "description": "エントロピーを下げる人が評価される組織づくり ローカルLLMの実践と進む普及 AIで類似アプリを生成する無料ツール「Craft Anything」 マルチエージェント設計と運用の最前線 仕事の利益と働き方を考える個人ブログ 50歳ベテランエンジニアの求職投稿から見るAI時代の転職事情 Meta「Muse」の新機能「スペース」で作る自分専用アプリ Macに搭載された人間関係グラフ化プログラムの実態 運用しながら改善するLLM-as-a-Judgeの構築 相次ぐ不正アクセスと会員情報の流出事故 AI生成の透かしがユーザー追跡のスパイマークになる問題 Yahoo! JAPAN IDのパスキー一本化を…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "bf61d27820c80869d4df8cb6",
       "title": "2026/11/09 #733 - 今日の技術情報ダイジェスト",
