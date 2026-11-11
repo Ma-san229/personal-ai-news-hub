@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-10T19:43:55.672Z",
+  "updatedAt": "2026-11-11T06:20:58.612Z",
   "articles": [
+    {
+      "id": "dee91213b11ff92f5b0e11cc",
+      "title": "2026/11/11 #735 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261111/1794348509",
+      "publishedAt": "2026-11-10T22:08:29.000Z",
+      "description": "Claude Codeを使いこなす実践Tipsと司令塔運用 ローカルLLMとMuseで広がるコーディングエージェントの新しい使い方 Claude Fable 5.2の発表と活用プロンプトのポイント ソフトバンク社長が語るAI時代のサイバー攻撃とパッチ対応の限界 エンジニアにとってEMは魅力的な役割か iPhoneでmacOSを動かすエミュレーターHenge公開 「自分の仕事はここまで」を生む組織の仕組みと自律的なチーム作り 病院へのサイバー攻撃が患者の死亡率を高める調査結果 Claude Opus 5.5の推論能力低下疑惑をめぐる検証 新しいオープンウェイトAIモデル Ripple-65BとP…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "19e7d20ded326299777b5c62",
       "title": "2026/11/10 #734 - 今日の技術情報ダイジェスト",
