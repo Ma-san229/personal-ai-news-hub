@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-11T19:35:48.644Z",
+  "updatedAt": "2026-11-12T07:10:43.690Z",
   "articles": [
+    {
+      "id": "959274d6acdb354e97bf9893",
+      "title": "2026/11/12 #736 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261112/1794434875",
+      "publishedAt": "2026-11-11T22:07:55.000Z",
+      "description": "無料で使える公共データ100選 Claude Codeの活用Tipsとハーネス制御 ISUCON2026優勝者の準備編 Claude Fable 5.2・Opus 5.5をめぐるプロンプトと性能変化 Museで退屈なCoding Agent作業を自動化する GitHubとAIで属人化したISMS運用を仕組み化 Google版AirTag「Pixel Tag」の発売 NVIDIAの最新研究とデータセット公開 相次ぐ不正アクセスによる個人情報漏えい事件 HTML-in-Canvasで作るページトランジションライブラリ Linuxカーネル開発で効果を上げるAIバグ修正 SREのためのFinOps入門…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "dee91213b11ff92f5b0e11cc",
       "title": "2026/11/11 #735 - 今日の技術情報ダイジェスト",
