@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-12T19:54:21.628Z",
+  "updatedAt": "2026-11-13T06:46:04.930Z",
   "articles": [
+    {
+      "id": "f8e194b7102785c71102b5be",
+      "title": "2026/11/13 #737 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261113/1794521523",
+      "publishedAt": "2026-11-12T22:12:03.000Z",
+      "description": "無印良品・宝くじ公式サイトなど個人情報漏えい事案 日本語入力アプリMozkeyの紹介 無料で使える公共データ100選 ISUCON2026優勝レポート MetaのAIエージェント「Muse」を使い倒した体験談 Software Factoryとエージェント開発の実践 AWS Emulator公開とエージェント時代のエンジニアの仕事 核融合データの正しい隠し方 危険なDockerイメージを使い続けるリスク Claude Mythos時代のAWSセキュリティ対策 AI支援型リバースエンジニアリングの現状 Devin Automationsによる脆弱性影響調査の自動化 WebサイトをAgent Re…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "959274d6acdb354e97bf9893",
       "title": "2026/11/12 #736 - 今日の技術情報ダイジェスト",
