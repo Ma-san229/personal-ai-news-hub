@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-13T19:42:10.389Z",
+  "updatedAt": "2026-11-14T06:23:26.018Z",
   "articles": [
+    {
+      "id": "06e2d7d6a0920cb41da216cb",
+      "title": "2026/11/14 #738 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261114/1794607705",
+      "publishedAt": "2026-11-13T22:08:25.000Z",
+      "description": "相次ぐ不正アクセスと個人情報漏えい事案 Microsoft 365大規模障害の経緯と現場の反応 Dockerイメージのセキュリティ対策 Claude Code・コーディングエージェントの活用術と運用パターン 物理パスキーYubiKeyの日本本格展開 AWS Emulator正式リリースとエージェント開発への活用 Webサイトとエージェント向けUI部品のAgent Ready対応 総務省のPython統計解析プログラミング無料講座 NVIDIAジェンスン・フアンCEO辞任とCUDAの功績 Apache HTTP ServerとNode.jsのセキュリティリリース Claude Fable 5.2…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "f8e194b7102785c71102b5be",
       "title": "2026/11/13 #737 - 今日の技術情報ダイジェスト",
