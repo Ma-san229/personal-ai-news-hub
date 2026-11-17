@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-16T22:01:36.285Z",
+  "updatedAt": "2026-11-17T07:55:16.098Z",
   "articles": [
+    {
+      "id": "0fac5192ff604dbad3d45ad1",
+      "title": "2026/11/17 #741 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261117/1794866845",
+      "publishedAt": "2026-11-16T22:07:25.000Z",
+      "description": "パスキー対応103サイトの脆弱性調査結果 AI時代の開発チームと人間の役割 生成AIをめぐるゲーム開発者と開発コミュニティの反発 エンジニア組織の技術勉強会と働き方を見直す 新AIモデルの発表とオープンモデル公開 スパコン「富岳」への不正アクセス Microsoft 365大規模障害の原因 NVIDIAとローカルAI向けGPUの動向 コーディングエージェント活用の最新動向 Rust 1.100のリリース内容 AWSコンテナとAIエージェント関連の新情報 日清食品のLINE登録者情報漏洩 NTTのソブリン型サイバーセキュリティAI技術 ロボット同士の通信による空間認識技術 ウォズニアックがBAS…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "6d4740482cccb503ddafa4ed",
       "title": "2026/11/16 #740 - 今日の技術情報ダイジェスト",
