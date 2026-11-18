@@ -33,6 +33,16 @@
     {"id":"tbrf-nishika","name":"Nishika","url":"https://zenn.dev/p/team_nishika/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
     {"id":"tbrf-sb-oai-japan","name":"SB OAI Japan","url":"https://zenn.dev/p/sboai_tech/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
     {"id":"tbrf-members-aiforall","name":"メンバーズ AIフォーオールカンパニー","url":"https://zenn.dev/p/aiforall/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-brainpad","name":"BrainPad","url":"https://blog.brainpad.co.jp/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"}
+    {"id":"tbrf-brainpad","name":"BrainPad","url":"https://blog.brainpad.co.jp/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
+    {"id":"oai-openai","name":"OpenAI News","url":"https://openai.com/news/rss.xml","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
+    {"id":"oai-google-ai","name":"Google AI Blog","url":"https://blog.google/technology/ai/rss/","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
+    {"id":"oai-huggingface","name":"Hugging Face Blog","url":"https://huggingface.co/blog/feed.xml","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
+    {"id":"oai-github-blog","name":"GitHub Blog","url":"https://github.blog/feed/","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
+    {"id":"oai-langchain","name":"LangChain Blog","url":"https://blog.langchain.com/rss/","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
+    {"id":"oai-zenn-llm","name":"Zenn（トピック: LLM）","url":"https://zenn.dev/topics/llm/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
+    {"id":"oai-qiita-llm","name":"Qiita（タグ: LLM）","url":"https://qiita.com/tags/llm/feed.atom","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
+    {"id":"oai-hn-100","name":"Hacker News（100pt以上）","url":"https://hnrss.org/frontpage?points=100","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
+    {"id":"oai-arxiv-cs-ai","name":"arXiv cs.AI（大量のため停止中）","url":"https://rss.arxiv.org/rss/cs.AI","category":"engineer","enabled":false,"lastFetchedAt":null,"lastStatus":"disabled"},
+    {"id":"oai-arxiv-cs-cl","name":"arXiv cs.CL（大量のため停止中）","url":"https://rss.arxiv.org/rss/cs.CL","category":"engineer","enabled":false,"lastFetchedAt":null,"lastStatus":"disabled"}
   ]
 }
