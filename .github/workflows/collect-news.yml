@@ -30,8 +30,13 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Collect RSS and Atom feeds
         run: node scripts/collect-static-news.mjs
-      - name: Build daily report (facts only, no AI API)
+      - name: Build daily report (facts only)
         run: node scripts/build-daily-report.mjs
+      - name: Summarize daily report with AI (skipped when no key)
+        run: node scripts/summarize-daily.mjs
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
       - name: Commit refreshed news data
         run: |
           git config user.name "github-actions[bot]"
