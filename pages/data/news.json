@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-17T20:55:40.683Z",
+  "updatedAt": "2026-11-18T07:28:52.022Z",
   "articles": [
+    {
+      "id": "58b1a8bb2bde57b18934cd9e",
+      "title": "2026/11/18 #742 - 今日の技術情報ダイジェスト",
+      "url": "https://www.ponkotsu.dev/entry/20261118/1794953325",
+      "publishedAt": "2026-11-17T22:08:45.000Z",
+      "description": "楽天証券の不正アクセスと最大1125万口座の情報漏えい AI時代のテスト・QA品質向上の取り組み スーパーコンピューター「富岳」への不正アクセス Agent Skillsの管理とWeb最新化ガイダンス AIエージェントとの向き合い方と開発スタイルの変化 GitHub Issueの新機能:HTMLとMarkdownのArtifact添付 NVIDIA CEO交代の発表 Go言語の勉強会hatena.goとPerlからGoへのAI移植 日本語リアルタイム会話AI「Haru-4B」の公開 AIチャットと広告トラッカーのプライバシー問題 Microsoft 365大規模障害の原因と影響 macOS 2…",
+      "sourceName": "Engineer's Digest（ponkotsu.dev）",
+      "category": "engineer",
+      "feedId": "engineers-digest"
+    },
     {
       "id": "0fac5192ff604dbad3d45ad1",
       "title": "2026/11/17 #741 - 今日の技術情報ダイジェスト",
