@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-19",
+  "timezone": "Asia/Tokyo",
+  "title": "Signal Shelf 日次｜2026-11-19",
+  "sections": [
+    {
+      "id": "ai_seitaishi",
+      "label": "AI整体師向け",
+      "items": []
+    },
+    {
+      "id": "engineer",
+      "label": "エンジニア向け",
+      "items": [
+        {
+          "headline": "RAG とは何か：LLM に資料を調べさせてから答えさせる仕組み",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/CHEN98/items/0b2d40fc46bd567a5582",
+              "source_date": "2026-11-19"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "ローカルAI構築記　④前回作ったReAct Agentと比較しながらLangChainの中身を理解する",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/ahaya/items/4432425af222ccf415f8",
+              "source_date": "2026-11-19"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "熱量を持った学生が集まる「第6回 数理生物学 夏の学校」にブレインパッドが協賛・参加しました！〜数理生物学出身DSが伝えるキャリアの選択肢〜",
+          "facts": [
+            {
+              "text": "BrainPad が公開",
+              "source_url": "https://blog.brainpad.co.jp/entry/2026/11/19/140025",
+              "source_date": "2026-11-19"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "ポケモンで始めるAIエージェント開発〜画像認識からLLMによるパーティ選出まで〜",
+          "facts": [
+            {
+              "text": "Zenn（トピック: LLM） が公開",
+              "source_url": "https://zenn.dev/kouji0705/books/0e11ee1a267e48",
+              "source_date": "2026-11-19"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Claude Code の auto-compact に、その会話専用の指示を渡す — PreCompact hook で指示文を生成する",
+          "facts": [
+            {
+              "text": "Zenn（トピック: LLM） が公開",
+              "source_url": "https://zenn.dev/jasagiri/articles/d132330d5dc580",
+              "source_date": "2026-11-19"
+            }
+          ],
+          "implications": []
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    "AI整体師向け: 直近36時間に該当記事なし"
+  ]
+}

@@ -1,48 +1,400 @@
 {
   "feeds": [
-    {"id":"engineers-digest","name":"Engineer's Digest（ponkotsu.dev）","url":"https://www.ponkotsu.dev/feed","category":"engineer","enabled":true,"lastFetchedAt":"2026-11-18T20:31:23.558Z","lastStatus":"success"},
-    {"id":"ai-seitaishi","name":"AI整体師（RSS URL確認待ち）","url":"","category":"ai_seitaishi","enabled":false,"lastFetchedAt":null,"lastStatus":"disabled"},
-    {"id":"tbrf-abeja","name":"ABEJA","url":"https://tech-blog.abeja.asia/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-aces","name":"ACES","url":"https://tech.acesinc.co.jp/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-ai-shift","name":"AI Shift","url":"https://www.ai-shift.co.jp/techblog/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-ai-inside","name":"AI inside","url":"https://note.com/aiinside_tech/rss","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-airev","name":"AIREV","url":"https://zenn.dev/airev/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-algomatic","name":"Algomatic","url":"https://tech.algomatic.jp/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-elyza","name":"ELYZA","url":"https://elyza-inc.hatenablog.com/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-generative-agents","name":"Generative Agents","url":"https://blog.generative-agents.co.jp/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-preferred-networks-plamo","name":"Preferred Networks (PLaMo)","url":"https://tech.preferred.jp/ja/blog/llm-plamo/feed/","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-sb-intuitions","name":"SB Intuitions","url":"https://www.sbintuitions.co.jp/blog/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-stockmark","name":"Stockmark","url":"https://stockmark-tech.hatenablog.com/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-stockmark-tech","name":"ストックマーク","url":"https://tech.stockmark.co.jp/index.xml","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-turing","name":"TURING","url":"https://zenn.dev/turing/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-turing-pub","name":"TURING (Zenn Publication)","url":"https://zenn.dev/p/turing_motors/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-retrieva","name":"レトリバ","url":"https://zenn.dev/p/retrieva_tech/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-pksha","name":"PKSHA","url":"https://zenn.dev/p/pksha/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-matsuo-lab","name":"松尾研究所","url":"https://zenn.dev/p/mkj/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-exawizards","name":"エクサウィザーズ","url":"https://zenn.dev/p/exwzd/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-ridge-i","name":"Ridge-i","url":"https://iblog.ridge-i.com/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-datafluct","name":"DATAFLUCT","url":"https://tech.datafluct.com/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-coefont","name":"CoeFont","url":"https://zenn.dev/p/coefont/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-karakuri","name":"KARAKURI","url":"https://medium.com/feed/karakuri","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-spiral-ai","name":"Spiral.AI","url":"https://zenn.dev/p/spiralai/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-insight-edge","name":"Insight Edge","url":"https://techblog.insightedge.jp/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-heroz","name":"HEROZ","url":"https://heroz-tech.hatenablog.jp/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-retail-ai","name":"Retail AI","url":"https://note.com/retail_ai/rss","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-kikagaku","name":"キカガク (Zenn)","url":"https://zenn.dev/p/kikagaku/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-google-cloud-jp","name":"Google Cloud Japan","url":"https://zenn.dev/p/google_cloud_jp/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-nishika","name":"Nishika","url":"https://zenn.dev/p/team_nishika/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-sb-oai-japan","name":"SB OAI Japan","url":"https://zenn.dev/p/sboai_tech/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-members-aiforall","name":"メンバーズ AIフォーオールカンパニー","url":"https://zenn.dev/p/aiforall/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"tbrf-brainpad","name":"BrainPad","url":"https://blog.brainpad.co.jp/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"oai-openai","name":"OpenAI News","url":"https://openai.com/news/rss.xml","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"oai-google-ai","name":"Google AI Blog","url":"https://blog.google/technology/ai/rss/","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"oai-huggingface","name":"Hugging Face Blog","url":"https://huggingface.co/blog/feed.xml","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"oai-github-blog","name":"GitHub Blog","url":"https://github.blog/feed/","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"oai-langchain","name":"LangChain Blog","url":"https://blog.langchain.com/rss/","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"oai-zenn-llm","name":"Zenn（トピック: LLM）","url":"https://zenn.dev/topics/llm/feed","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"oai-qiita-llm","name":"Qiita（タグ: LLM）","url":"https://qiita.com/tags/llm/feed.atom","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"oai-hn-100","name":"Hacker News（100pt以上）","url":"https://hnrss.org/frontpage?points=100","category":"engineer","enabled":true,"lastFetchedAt":null,"lastStatus":"pending"},
-    {"id":"oai-arxiv-cs-ai","name":"arXiv cs.AI（大量のため停止中）","url":"https://rss.arxiv.org/rss/cs.AI","category":"engineer","enabled":false,"lastFetchedAt":null,"lastStatus":"disabled"},
-    {"id":"oai-arxiv-cs-cl","name":"arXiv cs.CL（大量のため停止中）","url":"https://rss.arxiv.org/rss/cs.CL","category":"engineer","enabled":false,"lastFetchedAt":null,"lastStatus":"disabled"}
+    {
+      "id": "engineers-digest",
+      "name": "Engineer's Digest（ponkotsu.dev）",
+      "url": "https://www.ponkotsu.dev/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:47.167Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "ai-seitaishi",
+      "name": "AI整体師（RSS URL確認待ち）",
+      "url": "",
+      "category": "ai_seitaishi",
+      "enabled": false,
+      "lastFetchedAt": null,
+      "lastStatus": "disabled"
+    },
+    {
+      "id": "tbrf-abeja",
+      "name": "ABEJA",
+      "url": "https://tech-blog.abeja.asia/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:48.304Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-aces",
+      "name": "ACES",
+      "url": "https://tech.acesinc.co.jp/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:49.318Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-ai-shift",
+      "name": "AI Shift",
+      "url": "https://www.ai-shift.co.jp/techblog/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:50.103Z",
+      "lastStatus": "error: HTTP 404"
+    },
+    {
+      "id": "tbrf-ai-inside",
+      "name": "AI inside",
+      "url": "https://note.com/aiinside_tech/rss",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:50.330Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-airev",
+      "name": "AIREV",
+      "url": "https://zenn.dev/airev/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:50.759Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-algomatic",
+      "name": "Algomatic",
+      "url": "https://tech.algomatic.jp/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:51.848Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-elyza",
+      "name": "ELYZA",
+      "url": "https://elyza-inc.hatenablog.com/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:52.296Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-generative-agents",
+      "name": "Generative Agents",
+      "url": "https://blog.generative-agents.co.jp/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:53.072Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-preferred-networks-plamo",
+      "name": "Preferred Networks (PLaMo)",
+      "url": "https://tech.preferred.jp/ja/blog/llm-plamo/feed/",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:54.651Z",
+      "lastStatus": "error: HTTP 404"
+    },
+    {
+      "id": "tbrf-sb-intuitions",
+      "name": "SB Intuitions",
+      "url": "https://www.sbintuitions.co.jp/blog/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:55.745Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-stockmark",
+      "name": "Stockmark",
+      "url": "https://stockmark-tech.hatenablog.com/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:56.617Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-stockmark-tech",
+      "name": "ストックマーク",
+      "url": "https://tech.stockmark.co.jp/index.xml",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:57.584Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-turing",
+      "name": "TURING",
+      "url": "https://zenn.dev/turing/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:57.990Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-turing-pub",
+      "name": "TURING (Zenn Publication)",
+      "url": "https://zenn.dev/p/turing_motors/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:58.490Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-retrieva",
+      "name": "レトリバ",
+      "url": "https://zenn.dev/p/retrieva_tech/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:58.906Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-pksha",
+      "name": "PKSHA",
+      "url": "https://zenn.dev/p/pksha/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:59.381Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-matsuo-lab",
+      "name": "松尾研究所",
+      "url": "https://zenn.dev/p/mkj/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:25:59.782Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-exawizards",
+      "name": "エクサウィザーズ",
+      "url": "https://zenn.dev/p/exwzd/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:00.316Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-ridge-i",
+      "name": "Ridge-i",
+      "url": "https://iblog.ridge-i.com/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:01.531Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-datafluct",
+      "name": "DATAFLUCT",
+      "url": "https://tech.datafluct.com/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:02.584Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-coefont",
+      "name": "CoeFont",
+      "url": "https://zenn.dev/p/coefont/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:03.038Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-karakuri",
+      "name": "KARAKURI",
+      "url": "https://medium.com/feed/karakuri",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:03.208Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-spiral-ai",
+      "name": "Spiral.AI",
+      "url": "https://zenn.dev/p/spiralai/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:03.689Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-insight-edge",
+      "name": "Insight Edge",
+      "url": "https://techblog.insightedge.jp/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:05.128Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-heroz",
+      "name": "HEROZ",
+      "url": "https://heroz-tech.hatenablog.jp/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:06.687Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-retail-ai",
+      "name": "Retail AI",
+      "url": "https://note.com/retail_ai/rss",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:07.045Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-kikagaku",
+      "name": "キカガク (Zenn)",
+      "url": "https://zenn.dev/p/kikagaku/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:07.455Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-google-cloud-jp",
+      "name": "Google Cloud Japan",
+      "url": "https://zenn.dev/p/google_cloud_jp/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:07.985Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-nishika",
+      "name": "Nishika",
+      "url": "https://zenn.dev/p/team_nishika/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:08.755Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-sb-oai-japan",
+      "name": "SB OAI Japan",
+      "url": "https://zenn.dev/p/sboai_tech/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:09.215Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-members-aiforall",
+      "name": "メンバーズ AIフォーオールカンパニー",
+      "url": "https://zenn.dev/p/aiforall/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:09.598Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "tbrf-brainpad",
+      "name": "BrainPad",
+      "url": "https://blog.brainpad.co.jp/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:10.489Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "oai-openai",
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:10.636Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "oai-google-ai",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:10.866Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "oai-huggingface",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:11.031Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "oai-github-blog",
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:11.119Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "oai-langchain",
+      "name": "LangChain Blog",
+      "url": "https://blog.langchain.com/rss/",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:11.520Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "oai-zenn-llm",
+      "name": "Zenn（トピック: LLM）",
+      "url": "https://zenn.dev/topics/llm/feed",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:11.544Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "oai-qiita-llm",
+      "name": "Qiita（タグ: LLM）",
+      "url": "https://qiita.com/tags/llm/feed.atom",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:11.918Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "oai-hn-100",
+      "name": "Hacker News（100pt以上）",
+      "url": "https://hnrss.org/frontpage?points=100",
+      "category": "engineer",
+      "enabled": true,
+      "lastFetchedAt": "2026-11-19T07:26:12.111Z",
+      "lastStatus": "success"
+    },
+    {
+      "id": "oai-arxiv-cs-ai",
+      "name": "arXiv cs.AI（大量のため停止中）",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "category": "engineer",
+      "enabled": false,
+      "lastFetchedAt": null,
+      "lastStatus": "disabled"
+    },
+    {
+      "id": "oai-arxiv-cs-cl",
+      "name": "arXiv cs.CL（大量のため停止中）",
+      "url": "https://rss.arxiv.org/rss/cs.CL",
+      "category": "engineer",
+      "enabled": false,
+      "lastFetchedAt": null,
+      "lastStatus": "disabled"
+    }
   ]
 }
