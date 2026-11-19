@@ -7,11 +7,12 @@ function renderItem(it) {
   const facts = (it.facts || [])
     .map((f) => `<li>${escapeHtml(f.text)}（${escapeHtml(f.source_date)}） <a class="open-link" href="${escapeHtml(safeUrl(f.source_url))}" target="_blank" rel="noreferrer">元記事を開く ↗</a></li>`)
     .join("");
+  const scoreBadge = typeof it.score === "number" ? `<div class="card-topline"><span class="category-badge">スコア ${escapeHtml(it.score.toFixed(2))}</span></div>` : "";
   const summary = it.summary ? `<p class="why">${escapeHtml(it.summary)}</p>` : "";
   const impl = (it.implications || []).length
     ? `<ul>${it.implications.map((i) => `<li>${escapeHtml(i.text)} <span class="category-badge">${escapeHtml(i.confidence === "likely" ? "有力" : "仮説")}</span></li>`).join("")}</ul>`
     : `<p class="muted">未作成（要約は未実行、または失敗）</p>`;
-  return `<article class="article-card"><h2>${escapeHtml(it.headline)}</h2>${summary}<h4>Facts（事実）</h4><ul>${facts}</ul><h4>Implications（示唆）</h4>${impl}</article>`;
+  return `<article class="article-card">${scoreBadge}<h2>${escapeHtml(it.headline)}</h2>${summary}<h4>Facts（事実）</h4><ul>${facts}</ul><h4>Implications（示唆）</h4>${impl}</article>`;
 }
 
 export function renderHtml(report) {
