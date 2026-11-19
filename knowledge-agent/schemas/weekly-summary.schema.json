@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://manome-dev.local/schemas/weekly-summary.schema.json",
+  "title": "MameTechWeeklySummary",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["week_start", "week_end", "timezone", "title", "themes"],
+  "properties": {
+    "week_start": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "week_end": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "timezone": { "type": "string", "const": "Asia/Tokyo" },
+    "title": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "themes": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "facts", "implications"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "facts": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["text", "source_url"],
+              "properties": {
+                "text": { "type": "string" },
+                "source_url": { "type": "string", "format": "uri" },
+                "source_date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+              }
+            }
+          },
+          "implications": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["text", "confidence"],
+              "properties": {
+                "text": { "type": "string" },
+                "confidence": { "type": "string", "enum": ["hypothesis", "likely"] }
+              }
+            }
+          }
+        }
+      }
+    },
+    "top_sources": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" }
+    },
+    "reading_time_minutes": { "type": "integer", "minimum": 1, "maximum": 60 }
+  }
+}
