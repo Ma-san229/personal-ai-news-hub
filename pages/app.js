@@ -7,6 +7,7 @@ let searchTerm = "";
 const articleGrid = document.querySelector("#articleGrid");
 const formatDate = (value) => value ? new Intl.DateTimeFormat("ja-JP", { year:"numeric", month:"short", day:"numeric" }).format(new Date(value)) : "公開日不明";
 const shortUrl = (url) => url.replace(/^https?:\/\//, "").replace(/\/$/, "");
+const escapeHtml = (value) => String(value ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 function persistReads() { localStorage.setItem("signal-shelf-read", JSON.stringify([...storedReads])); }
 function render() {
@@ -36,15 +37,26 @@ function render() {
 function count(category) { return category === "all" ? articles.length : articles.filter((article) => article.category === category).length; }
 function renderFeedSummary(feeds) {
   const target = document.querySelector("#feedSummary");
-  target.innerHTML = feeds.map((feed) => `<span class="feed-tag ${feed.enabled ? "" : "offline"}">${feed.enabled ? "●" : "○"} ${feed.name} ${feed.enabled ? "" : " / URL確認待ち"}</span>`).join("");
+  const active = feeds.filter((feed) => feed.enabled);
+  const stopped = feeds.length - active.length;
+  const tags = feeds.map((feed) => `<span class="feed-tag ${feed.enabled ? "" : "offline"}">${feed.enabled ? "●" : "○"} ${escapeHtml(feed.name)}${feed.enabled ? "" : " / 停止中"}</span>`).join("");
+  target.innerHTML = `<details><summary>情報源 ${active.length} 件が有効${stopped ? `（停止中・確認待ち ${stopped} 件）` : ""}</summary><div>${tags}</div></details>`;
+}
+function renderDailyLink(index) {
+  const link = document.querySelector("#dailyLink");
+  if (!link || !index?.latest || !/^\d{4}-\d{2}-\d{2}$/.test(index.latest)) return;
+  link.href = `./daily/${index.latest}.html`;
+  link.textContent = `最新の日次レポート（${index.latest}）を開く ↗`;
+  link.hidden = false;
 }
 
 async function load() {
   try {
-    const [newsResponse, feedsResponse, picksResponse] = await Promise.all([
+    const [newsResponse, feedsResponse, picksResponse, dailyIndex] = await Promise.all([
       fetch("./data/news.json", { cache:"no-store" }),
       fetch("./data/feeds.json", { cache:"no-store" }),
-      fetch("./data/okumura-2026-10-08.json", { cache:"no-store" })
+      fetch("./data/okumura-2026-10-08.json", { cache:"no-store" }),
+      fetch("./data/daily-index.json", { cache:"no-store" }).then((response) => response.ok ? response.json() : null).catch(() => null)
     ]);
     const news = await newsResponse.json();
     const feeds = await feedsResponse.json();
@@ -56,7 +68,7 @@ async function load() {
     document.querySelector("#articleCount").textContent = articles.length;
     document.querySelector("#lastUpdated").textContent = picks.updatedAt ? `DATA FEED / ${new Intl.DateTimeFormat("ja-JP", { month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit" }).format(new Date(picks.updatedAt))}` : "DATA FEED / WAITING";
     document.querySelector("#countAll").textContent = count("all"); document.querySelector("#countAi").textContent = count("ai_seitaishi"); document.querySelector("#countEngineer").textContent = count("engineer");
-    renderFeedSummary(feeds.feeds || []); render();
+    renderFeedSummary(feeds.feeds || []); renderDailyLink(dailyIndex); render();
   } catch (error) { articleGrid.innerHTML = '<div class="empty">ニュースデータを読み込めませんでした。次回の収集後に再試行してください。</div>'; console.error(error); }
 }
 document.querySelectorAll(".tab").forEach((button) => button.addEventListener("click", () => { selectedCategory = button.dataset.category; document.querySelectorAll(".tab").forEach((tab) => tab.classList.toggle("active", tab === button)); render(); }));

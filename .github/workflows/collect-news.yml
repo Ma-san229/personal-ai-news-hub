@@ -37,10 +37,12 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+      - name: Update daily report index
+        run: node scripts/update-daily-index.mjs
       - name: Commit refreshed news data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pages/data/news.json pages/data/feeds.json pages/daily
+          git add pages/data/news.json pages/data/feeds.json pages/data/daily-index.json pages/daily
           git diff --cached --quiet || git commit -m "chore: refresh news feed"
           git push
