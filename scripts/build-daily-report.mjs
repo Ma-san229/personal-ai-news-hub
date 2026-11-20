@@ -1,8 +1,9 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { renderHtml } from "./lib/daily-render.mjs";
+import { learnFromAdoption, mergeConfig, scoreArticle } from "./lib/scoring.mjs";
 
-// 日次レポート生成（AI APIなし）。pages/data/news.json の直近記事から、
-// カテゴリ別の上位を選んで pages/daily/YYYY-MM-DD.{json,html} を出力する。
+// 日次レポート生成（AI APIなし）。pages/data/news.json の直近記事に点数を付け（scripts/lib/scoring.mjs）、
+// カテゴリ別に点数の高い順に選んで pages/daily/YYYY-MM-DD.{json,html} を出力する。
 // すでに要約・示唆が付いた記事は、再生成しても引き継ぐ（summarize-daily.mjs が付ける）。
 // 構成の参考: mametech-news の daily-report（Facts / Implications）。コードは流用していない。
 
@@ -28,11 +29,19 @@ for (const s of previous?.sections || []) {
   }
 }
 
+const readJson = (path, fallback) => readFile(new URL(path, root), "utf8").then(JSON.parse).catch(() => fallback);
+const config = mergeConfig(await readJson("pages/data/scoring.json", {}));
+const adoption = await readJson("pages/data/adoption.json", { adopted: [] });
+const learned = learnFromAdoption(adoption.adopted, config);
+
 const { articles = [] } = JSON.parse(await readFile(newsPath, "utf8"));
-const since = Date.now() - windowHours * 3600 * 1000;
+const now = Date.now();
+const since = now - windowHours * 3600 * 1000;
+const plain = (html) => String(html ?? "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim().slice(0, 400);
 const recent = articles
   .filter((a) => a.publishedAt && new Date(a.publishedAt).getTime() >= since && /^https?:\/\//.test(a.url))
-  .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  .map((a) => ({ ...a, score: scoreArticle({ ...a, excerpt: plain(a.description) }, config, learned, now) }))
+  .sort((a, b) => b.score - a.score || new Date(b.publishedAt) - new Date(a.publishedAt));
 
 // 同じ収集元に偏らないよう、1つの収集元は各セクション2件まで。
 const pick = (category) => {
@@ -44,6 +53,7 @@ const pick = (category) => {
     perSource.set(a.sourceName, n + 1);
     items.push({
       headline: String(a.title).slice(0, 160),
+      score: a.score,
       facts: [{ text: `${a.sourceName} が公開`, source_url: a.url, source_date: ymd(a.publishedAt) }],
       ...(carried.get(a.url) || { implications: [] }),
     });

@@ -1,5 +1,7 @@
 const categoryLabels = { ai_seitaishi: "AI整体師向け", engineer: "エンジニア向け" };
 const storedReads = new Set(JSON.parse(localStorage.getItem("signal-shelf-read") || "[]"));
+const adoptedKey = "signal-shelf-adopted";
+const readAdopted = () => { try { return JSON.parse(localStorage.getItem(adoptedKey) || "{}"); } catch { return {}; } };
 let articles = [];
 let selectedCategory = "all";
 let searchTerm = "";
@@ -29,7 +31,13 @@ function render() {
     fragment.querySelector(".source").textContent = article.sourceName;
     fragment.querySelector(".category").textContent = article.description || categoryLabels[article.category] || article.category;
     const link = fragment.querySelector(".open-link"); link.href = article.url;
-    fragment.querySelector(".read-toggle").addEventListener("click", () => { if (storedReads.has(article.id)) storedReads.delete(article.id); else storedReads.add(article.id); persistReads(); render(); });
+    fragment.querySelector(".read-toggle").addEventListener("click", () => {
+      const adopted = readAdopted();
+      if (storedReads.has(article.id)) { storedReads.delete(article.id); delete adopted[article.url]; }
+      else { storedReads.add(article.id); adopted[article.url] = { url: article.url, sourceName: article.sourceName, title: article.title, adoptedAt: new Date().toISOString() }; }
+      localStorage.setItem(adoptedKey, JSON.stringify(adopted));
+      persistReads(); render();
+    });
     articleGrid.append(fragment);
   });
 }
@@ -73,5 +81,13 @@ async function load() {
 }
 document.querySelectorAll(".tab").forEach((button) => button.addEventListener("click", () => { selectedCategory = button.dataset.category; document.querySelectorAll(".tab").forEach((tab) => tab.classList.toggle("active", tab === button)); render(); }));
 document.querySelector("#searchInput").addEventListener("input", (event) => { searchTerm = event.target.value.trim(); render(); });
+document.querySelector("#exportAdoption").addEventListener("click", async () => {
+  const existing = await fetch("./data/adoption.json", { cache: "no-store" }).then((response) => response.ok ? response.json() : { adopted: [] }).catch(() => ({ adopted: [] }));
+  const merged = new Map();
+  for (const entry of [...(existing.adopted || []), ...Object.values(readAdopted())]) if (entry?.url) merged.set(entry.url, entry);
+  const blob = new Blob([`${JSON.stringify({ adopted: [...merged.values()] }, null, 2)}\n`], { type: "application/json" });
+  const link = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: "adoption.json" });
+  link.click(); URL.revokeObjectURL(link.href);
+});
 document.querySelector("#clearRead").addEventListener("click", () => { storedReads.clear(); persistReads(); render(); });
 load();
