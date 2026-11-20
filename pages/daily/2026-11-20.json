@@ -13,55 +13,55 @@
       "label": "エンジニア向け",
       "items": [
         {
-          "headline": "GPT-6.2 Astraを実測した：単価は2割安いが、コード品質とトークンは先代より得か",
+          "headline": "Amazon Cognito のトークン交換を試し、AgentCore Gateway の Outbound Auth に組み込む",
+          "facts": [
+            {
+              "text": "エクサウィザーズ が公開",
+              "source_url": "https://zenn.dev/exwzd/articles/20261116-cognito-token-exchange",
+              "source_date": "2026-11-20"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "nRouter Rust SDK: async-openai drop-in and a native client that parses x-nr-* metadata",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/FlatkeyAI/items/60e46fec96fd374fc4d4",
+              "source_url": "https://qiita.com/nrouter_ai1991/items/8b9ac1e1b8805e167f89",
               "source_date": "2026-11-20"
             }
           ],
           "implications": []
         },
         {
-          "headline": "スライドのスキル5つに同じ原稿を渡したら、角丸の箱が0個から100個に分かれた",
+          "headline": "おなじUMAでも・・・・",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/Nekorock/items/f7a62fe85e2bd07bd8ae",
+              "source_url": "https://qiita.com/yoshihiro-yoshimura/items/1120f31ed4b51372fc69",
               "source_date": "2026-11-20"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Introducing Tool Retrieval in the Gemini API",
+          "headline": "KaggleのポケモンカードAI対戦コンペ(PTCG AI Battle Challenge)の解法と学び",
           "facts": [
             {
-              "text": "Google AI Blog が公開",
-              "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+              "text": "レトリバ が公開",
+              "source_url": "https://zenn.dev/retrieva_tech/articles/8a1fa7ae2e28ee",
               "source_date": "2026-11-20"
             }
           ],
           "implications": []
         },
         {
-          "headline": "AIは「次の1語」をどう選んでいるのか ── 1つの依頼を追いかけて知る、AIのしくみ②",
-          "facts": [
-            {
-              "text": "Zenn（トピック: LLM） が公開",
-              "source_url": "https://zenn.dev/oha_note/articles/cc1cb86cf2afeb",
-              "source_date": "2026-11-20"
-            }
-          ],
-          "implications": []
-        },
-        {
-          "headline": "Claude solves two open problems in the physics of black holes",
+          "headline": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
           "facts": [
             {
               "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://www.anthropic.com/research/claude-black-hole-physics",
+              "source_url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
               "source_date": "2026-11-20"
             }
           ],
