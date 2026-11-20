@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-20T07:16:26.646Z",
+  "updatedAt": "2026-11-20T20:20:58.780Z",
   "articles": [
+    {
+      "id": "587880aa30624ca7130e9798",
+      "title": "Responses APIのbackground完了窓を実測した：2時間枠は約5分で終わり、公式単価では30%安かった",
+      "url": "https://qiita.com/FlatkeyAI/items/beea75836ce92ca03f4a",
+      "publishedAt": "2026-11-20T19:47:10.000Z",
+      "description": "GPT-6.2 Astra と Sol には、Flex processing（service_tier: \"flex\"）がありません。公式は、非同期で待てる仕事の代替として、Responses API の background 完了窓を挙げています。Background m...",
+      "sourceName": "Qiita（タグ: LLM）",
+      "category": "engineer",
+      "feedId": "oai-qiita-llm"
+    },
+    {
+      "id": "cb5e6e91712c9ca41bd5cad3",
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "publishedAt": "2026-11-20T18:33:14.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\">https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50579568\">https://news.ycombinator.com/item?id=50579568</a></p>\n<p>Points: 628</p>\n<p># Comments: 267</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "d32b20a39c5cb2dedbfa7737",
+      "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+      "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "publishedAt": "2026-11-20T17:44:01.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394\">https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50578794\">https://news.ycombinator.com/item?id=50578794</a></p>\n<p>Points: 146</p>\n<p># Comments: 123</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "a5368ddb02b51560693e29a7",
+      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "publishedAt": "2026-11-20T17:21:36.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/\">https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50578358\">https://news.ycombinator.com/item?id=50578358</a></p>\n<p>Points: 151</p>\n<p># Comments: 32</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "df8a0760e59baf58668af96f",
+      "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "publishedAt": "2026-11-20T16:59:27.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/\">https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50577901\">https://news.ycombinator.com/item?id=50577901</a></p>\n<p>Points: 132</p>\n<p># Comments: 77</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "03b179946dd0e551984b025c",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "publishedAt": "2026-11-20T16:29:06.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://arxiv.org/abs/2611.21885\">https://arxiv.org/abs/2611.21885</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50577265\">https://news.ycombinator.com/item?id=50577265</a></p>\n<p>Points: 241</p>\n<p># Comments: 90</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "4efc51a9cb647c94cfb79e0d",
+      "title": "I'll never buy Framework hardware again",
+      "url": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+      "publishedAt": "2026-11-20T16:06:30.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/\">https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50576855\">https://news.ycombinator.com/item?id=50576855</a></p>\n<p>Points: 714</p>\n<p># Comments: 470</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "000c86b48d4dab329f36754c",
+      "title": "複数案を勝ち抜き戦で決めるClaude Codeスキルを作った",
+      "url": "https://qiita.com/w3pe8xmk/items/07ce506b70f51ededf4e",
+      "publishedAt": "2026-11-20T15:55:27.000Z",
+      "description": "本記事は、文章に生成AIを使用しています。\n読みやすいように人間がチェックと修正をしています。\n\nはじめに\n文言やプロンプトの案が複数あるとき、どれが良いか迷ったことはないでしょうか。\n案を現行案と1対1で比べ、勝った方を残していくスキル champion-challe...",
+      "sourceName": "Qiita（タグ: LLM）",
+      "category": "engineer",
+      "feedId": "oai-qiita-llm"
+    },
+    {
+      "id": "02a5a23cea7bf9c6ad6657b0",
+      "title": "Finite-time blow-up for the Navier–Stokes equations",
+      "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+      "publishedAt": "2026-11-20T15:34:31.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://github.com/tristanbuckmaster/navier-stokes/\">https://github.com/tristanbuckmaster/navier-stokes/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50576232\">https://news.ycombinator.com/item?id=50576232</a></p>\n<p>Points: 187</p>\n<p># Comments: 63</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "72989d3423918003b6eac1ca",
+      "title": "Why there are still no non-WebKit browsers on iOS",
+      "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+      "publishedAt": "2026-11-20T15:03:31.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/\">https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50575644\">https://news.ycombinator.com/item?id=50575644</a></p>\n<p>Points: 260</p>\n<p># Comments: 136</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "3b3270b0917323ae879a1f5a",
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "url": "https://alpo.ge/remark.pdf",
+      "publishedAt": "2026-11-20T14:16:21.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://alpo.ge/remark.pdf\">https://alpo.ge/remark.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50574968\">https://news.ycombinator.com/item?id=50574968</a></p>\n<p>Points: 1975</p>\n<p># Comments: 1327</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "49954c2a73ae6ad035f646e9",
+      "title": "LLM-as-a-Judgeは位置に揺れないが、12組全てで長い回答が勝った",
+      "url": "https://qiita.com/kenimo49/items/90deda5c06bf1467efa6",
+      "publishedAt": "2026-11-20T13:30:00.000Z",
+      "description": "LLM-as-a-Judge(以下 Judge)は、2つの回答を見せてどちらが優れているかを LLM に答えさせる方式です。コードレビューの指摘比較、RAG 回答の優劣判定、A/B テストの自動化。いろいろな場面で使われます。\nただ、少し調べるとすぐ出てくる話があります。「...",
+      "sourceName": "Qiita（タグ: LLM）",
+      "category": "engineer",
+      "feedId": "oai-qiita-llm"
+    },
+    {
+      "id": "d46bbec3ae9a908d8b613fd4",
+      "title": "個人開発のテストカバレッジを0%→76テストに上げた地道な作業記録",
+      "url": "https://qiita.com/fukukei23/items/e586c4c23c36973c8086",
+      "publishedAt": "2026-11-20T13:07:48.000Z",
+      "description": "はじめに\n「テスト大事」と分かっていても、個人開発では後回しになりがち。\n私は 0%だったテストカバレッジを76テストに上げました。派手な技術はないですが、地道な作業の記録を共有します。\n\nBefore → After\nBefore: テスト0件\nAfter:  76テス...",
+      "sourceName": "Qiita（タグ: LLM）",
+      "category": "engineer",
+      "feedId": "oai-qiita-llm"
+    },
+    {
+      "id": "7af898147798b94709666f86",
+      "title": "全社の GitHub 権限管理を Terraform に移行するのは、なぜ大変なのか",
+      "url": "https://zenn.dev/pksha/articles/github-org-terraform-migration",
+      "publishedAt": "2026-11-20T11:12:45.000Z",
+      "description": "\n はじめに\nこんにちは。PKSHA Technology で SWE をしている須藤です。\n社内の GitHub では、チームの切り方や承認の流れが部署ごとに違います。これまでは、そうした運用の違いを抱えたまま、権限の申請を全社共通の申請フォームで受け付け、承認後に情報システム部（以下、情シス）が手作業で反映していました。\nこの運用を、Terraform のコードと Pull Request による運用に移行しました。6 月に検証を始め、10 月末に全社で切り替えるまで約 5 か月かかりました。\n移行で大変だったのは、部署ごとに違う運用を理解して合意を取ることでした。本記事では Ter...",
+      "sourceName": "PKSHA",
+      "category": "engineer",
+      "feedId": "tbrf-pksha"
+    },
+    {
+      "id": "0af935d27548f6cbae732932",
+      "title": "数十年前の社内マニュアルをRAGに食わせる前にやっておく5つの前処理",
+      "url": "https://zenn.dev/dxclab/articles/001ddb6d841ddf",
+      "publishedAt": "2026-11-20T11:11:09.000Z",
+      "description": "\n はじめに\nこんにちは。普段は生成AIを使った業務アプリのPoCを作っています。\n「社内のマニュアルを全部RAGに入れて、何でも答えてくれるAIを作りたい」という相談はとても多いです。そして実際に触ってみると、だいたい次のような状況になります。\n\n元ファイルは Word や PDF で、作られたのは10年〜20年前\n全角英数字、機種依存文字、謎の罫線がたっぷり\n「第3章 3.2.1」のような見出しはあるが、PDF にすると全部ただの文字列\n社内でしか通じない略語が説明なしで出てくる\n\nこの状態のままベクトルDBに入れると、検索はそこそこ当たっているのに回答の質が上がらない、という状態に...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "d530cc764569dce0800e354b",
+      "title": "AI営業ロールプレイの「お客様役」を本物っぽくするペルソナ設計",
+      "url": "https://zenn.dev/dxclab/articles/786bd805ba1169",
+      "publishedAt": "2026-11-20T11:08:35.000Z",
+      "description": "\n はじめに\nこんにちは。普段は生成AIを使った業務アプリのPoCを作っています。\n最近、「LLMにお客様役をやってもらって、営業や窓口対応の練習をしたい」という相談をよく受けます。人同士のロールプレイは、相手役の時間を取るのが大変ですし、毎回同じ温度感で付き合ってもらうのも難しいからです。\nところが、何も考えずに「あなたは〇〇業界の部長です。営業担当と話してください」とお願いすると、だいたい次のようになります。\n\n\nすぐに納得してくれる（「なるほど、ぜひ導入したいです！」）\n聞いてもいないのに、自分の課題を全部話してくれる\n\n何を言っても怒らない、渋らない\n\n\nこれでは練習になりません...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "0e849b5d4259167af2af7986",
+      "title": "The Making of Oxygene",
+      "url": "https://jeanmicheljarre.com/aaa/the-making-of-oxygene",
+      "publishedAt": "2026-11-20T10:41:10.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://jeanmicheljarre.com/aaa/the-making-of-oxygene\">https://jeanmicheljarre.com/aaa/the-making-of-oxygene</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50572822\">https://news.ycombinator.com/item?id=50572822</a></p>\n<p>Points: 177</p>\n<p># Comments: 63</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "f4d1f7efde70ed209e9c207b",
+      "title": "Codex と GitHub Copilot で GPT-6.2 Astra・Sol を使い始める手順｜対象プランと設定",
+      "url": "https://zenn.dev/kenji_harada/articles/codex-copilot-gpt-6-2-astra-sol-1h2edv-2bd36957",
+      "publishedAt": "2026-11-20T10:15:09.000Z",
+      "description": "GPT-6.2 Astra と GPT-6.2 Sol は、2026-11-17 に ChatGPT Work・Codex と GitHub Copilot での提供が発表された、OpenAI のエージェントコーディング向けモデルです。この記事では、2026-11-17 の Codex と GitHub Copilot の changelog をもとに、使い始めるときに次の 3 つを順に決められるようにまとめます。\n\nCodex と GitHub Copilot のどちらで使うか\nそのためにどのプランが必要か\nどの設定や画面を確認すればよいか\n\n先に要点です。両社の公式情報は優劣を示して...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "7289d1c4885da483ef116e14",
+      "title": "許可ルールの書き間違いに警告が出るようになったのに小文字のbashは黙って効かない",
+      "url": "https://zenn.dev/marunage_kacho/articles/ai-trial-rule-warning",
+      "publishedAt": "2026-11-20T10:10:29.000Z",
+      "description": "前に、Claude Codeの--allowedToolsに閉じカッコを忘れたルールを書いても、何も言われずに通ってしまう、という話を書きました。\n新しい版（2.1.326以降）で、これに警告が出るようになったと更新履歴にあったので、同じやり方で確かめてみました。結論から言うと、半分だけ直ってた。\n\n やったこと\nclaude -pに、わざと書き間違えた許可ルールを渡して、起動時に警告が出るかを見ました。許可が本当に効いているかは「Bashでgit --versionを実行して」と頼んで、3回ずつ確かめています。版は2.1.328、モデルはHaikuです。\n\n\n\n書き方\n警告\n許可は効い...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "3381c1b46b2b81fa0a771b8a",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "publishedAt": "2026-11-20T10:01:41.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://architectlabs.com/blog/frostbite\">https://architectlabs.com/blog/frostbite</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50572503\">https://news.ycombinator.com/item?id=50572503</a></p>\n<p>Points: 549</p>\n<p># Comments: 295</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "7ad44f990f0c53ef2e2a5377",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "publishedAt": "2026-11-20T10:00:00.000Z",
+      "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "oai-openai"
+    },
+    {
+      "id": "a37c9c6a58981c3b07ea3eb3",
+      "title": "What people are building, discovered through new domains",
+      "url": "https://startups.novumsignals.com/",
+      "publishedAt": "2026-11-20T09:54:33.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://startups.novumsignals.com/\">https://startups.novumsignals.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50572448\">https://news.ycombinator.com/item?id=50572448</a></p>\n<p>Points: 142</p>\n<p># Comments: 69</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "75b8dbd1e569b3d48a527177",
+      "title": "If you can't explain something in simple terms, you don't understand it (2017)",
+      "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+      "publishedAt": "2026-11-20T09:43:19.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it\">https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50572355\">https://news.ycombinator.com/item?id=50572355</a></p>\n<p>Points: 531</p>\n<p># Comments: 268</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "8e7b1da91569f41ae654d898",
+      "title": "Signal Is Serious About Protecting Your Privacy",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "publishedAt": "2026-11-20T09:42:16.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://signal.org/blog/protecting-your-privacy/\">https://signal.org/blog/protecting-your-privacy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50572348\">https://news.ycombinator.com/item?id=50572348</a></p>\n<p>Points: 370</p>\n<p># Comments: 229</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
+      "id": "7a609d11b4672d8bb7511530",
+      "title": "新しい Grok Bot は優秀な新人だ。ただし、あなたの失敗は何も知らない",
+      "url": "https://zenn.dev/worked/articles/0f832f7af77d3c",
+      "publishedAt": "2026-11-20T08:51:48.000Z",
+      "description": "Grok Bot を入れると、チャットが開いてカーソルが点滅する。「hi」と送ると、とても有能なアシスタントが、計画を待ってくれている。\nつまずくのは、だいたいここだ。ツールが難しいからではない。新しい Bot は新しい同僚と同じで、ルールも、すでに払った失敗も知らない。初日に直すための短いチェックリストを、公式ドキュメントに沿ってまとめた。詳細なリンクは英語の原文にある。\n以下は How to set up your first Grok Bot so it doesn&#39;t start from zero の要約と再構成である。Worked は xAI および Grok Bot...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
     {
       "id": "957c0abba25f033a56ac6199",
       "title": "Amazon Cognito のトークン交換を試し、AgentCore Gateway の Outbound Auth に組み込む",
@@ -22,6 +272,26 @@
       "feedId": "oai-qiita-llm"
     },
     {
+      "id": "c75b42a6fcd7c6f460080d12",
+      "title": "【ゆるっとAIセキュリティ #3】プロンプトインジェクションって？",
+      "url": "https://zenn.dev/daphne/articles/ai-prompt-injection-readme",
+      "publishedAt": "2026-11-20T07:00:05.000Z",
+      "description": "第2回では、AIに作ってもらったツールを動かす前に、別のAIに見てもらう話をした。\nhttps://zenn.dev/daphne/articles/ai-review-new-chat\n最後にひとつ残した問いがある。ツールを作ってもらうとき、参考にしたWeb記事をコピーしてチャットに貼ることもある。普段のチャットで「このWeb記事をまとめて」と頼むときも同じだ。\nもしそのページの中に、別の命令がこっそり混ざっていたらどうなるのか。\n先に結論から言う。\nChatGPTのような大きなサービスなら、記事に別の命令が隠れていても、無視されたり「変な指示がある」と教えてくれたりすることが多い。た...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "5d41ce7b4d6d29a2b3b0bbcc",
+      "title": "「本物のユーザー」の代わりは務まるのか？ユーザーシミュレータの評価を評価した論文を読んで",
+      "url": "https://zenn.dev/lonebula/articles/user-simulator-evaluation",
+      "publishedAt": "2026-11-20T06:12:45.000Z",
+      "description": "\n 「本物のユーザー」の代わりは務まるのか？ユーザーシミュレータの評価を評価した論文を読んで\nLLMエージェントがコードを書いたり、資料を作ったり、作ったものを直したりしてくれるようになってきました。こうしたエージェントを評価するとき、ひとつ困ったことがあります。エージェントの相手をする「ユーザー」が必要なんですよね。本物のユーザーを毎回集めるのはコストがかかりますし、同じ条件で比べ直すのも難しい。そこで使われるのが「ユーザーシミュレータ」です。LLMにユーザー役を演じてもらって、エージェントとの多ターンなやり取りを大量に回す。便利な仕組みだと思います。\nでも、ふと気になることがあります...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
       "id": "5d2dc3359024c7cfefc969c7",
       "title": "おなじUMAでも・・・・",
       "url": "https://qiita.com/yoshihiro-yoshimura/items/1120f31ed4b51372fc69",
@@ -40,6 +310,16 @@
       "sourceName": "レトリバ",
       "category": "engineer",
       "feedId": "tbrf-retrieva"
+    },
+    {
+      "id": "ab55dbc8b871889e2740400f",
+      "title": "AIに0円から稼がせる実験を3週間あまり続けた。売上は0円、分かったこと",
+      "url": "https://zenn.dev/chiisana_bin/articles/ai-earn-experiment-3weeks-zero",
+      "publishedAt": "2026-11-20T05:26:49.000Z",
+      "description": "\nこの記事は、AI（Claude）が下書きを書きました。数字は実験の記録（AI自身がつけている実験ボード）から写したものです。実験は、人間の同僚1人とAIの社員たちで回しています。\n\n\n 何をしているか\n「初期投資0円・AIが自分で判断して実行し、稼げるか」を試す実験を、2026年10月26日から続けています。AIが調べ、作り、公開し、数字で判定します。人間の同僚には、アカウント作成・本人確認・鍵の登録など、AIが行わない決まりの操作を主に手伝ってもらっています。\n開始から約3週間（11/19時点）の結果は次のとおりです。\n\n市場に出した試し：5つ\n判定：「届いていない」3つ、「判別不能...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
     },
     {
       "id": "1dfd71750299fd06c525a2bb",
@@ -92,6 +372,26 @@
       "feedId": "tbrf-sb-intuitions"
     },
     {
+      "id": "ac187ec673ea1d5e91381f40",
+      "title": "「socratic-tutor」入門 ― 102行の指示書がAIを「答えを教えない家庭教師」に変える。ローカル1Bモデルで実測する",
+      "url": "https://zenn.dev/ikesita/articles/4b061548eda717",
+      "publishedAt": "2026-11-20T03:42:43.000Z",
+      "description": "AIツールウォッチ第6回 / 検証日：2026-11-17 / 検証対象：socratic-tutor（janestreet/agent_skills、MITライセンス、SKILL.md 102行・5,243バイト、コミット 7c6715c2）\n※「実測」と書いたものは検証環境で実際に測った値、「公式値」と書いたものは開発者の公開資料（GitHub・公式README）の値です。SKILL.mdの全文はこの記事には載せていません。指示書そのものはGitHubの公式リポジトリから入手してください。\n\n\n 1. 何ができるツールか\nsocratic-tutor（ソクラティック・テューター）は、...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "9ef3309626d64ee4dc7b0623",
+      "title": "OWASP LLM Top 10 2026 要約",
+      "url": "https://zenn.dev/oubakiou/articles/dc6902d14967b9",
+      "publishedAt": "2026-11-20T03:35:29.000Z",
+      "description": "!\nこの記事の文章はLLMによって要約されています。\n原文は https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/  を参照してください\n\n\n OWASP LLM Top 10 2026 — 要約\n\n 概要\n「OWASP Top 10 for LLM Applications 2026」は、LLMを組み込んだアプリケーションにおける代表的なセキュリティリスクを整理したガイドラインです。\n2026年版では、専門家の評価に加えて実際のインシデントデータを分析し、リスクの優先順位と説明が見直されています。特に、AIエージェン...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
       "id": "79d9fd0b7d722df79581979c",
       "title": "同じ内容でも言語でトークン数は何倍違う？日本語・中国語・韓国語・タイ語を6つのトークナイザーで比べてみた",
       "url": "https://zenn.dev/aiforall/articles/5069b7c19696bf",
@@ -102,6 +402,36 @@
       "feedId": "tbrf-members-aiforall"
     },
     {
+      "id": "602e27a97f97dd3ac16da80b",
+      "title": "Decision ModelはFAQの回答の確認と問い合わせの振り分けに使えるか",
+      "url": "https://zenn.dev/genax_corp/articles/20261109-judge-models-faq-check",
+      "publishedAt": "2026-11-20T03:00:05.000Z",
+      "description": "こんにちは。\nGen-AX Researchエンジニアの箕輪です。\n今回は、文章を生成せずに確率や選択肢だけを返す Decision Model を、FAQ の回答の確認と、問い合わせの振り分けに使えるかを検証した結果について紹介します。\n\n 本記事のサマリー\n本記事の要点は以下の 4 つです。\n\n回答にはっきりした欠陥があるかの見分けでは、Jev・Decisions API・Clef（27B）は、比較した生成 LLM の中で最も性能の高い gpt-6-luna(medium) と同程度で、Jev は応答時間・費用・安定性でも gpt-6-luna(medium) を大きく上回る\nDec...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "b50c4706845cd3947d35fb56",
+      "title": "一つのエージェント席の運用記録 ― 生成を増やし、判断を守るための設計図",
+      "url": "https://zenn.dev/miyu9muses/articles/agent-seat-operations",
+      "publishedAt": "2026-11-20T02:22:45.000Z",
+      "description": "\n はじめに\nこの記録は、一個のAIエージェント運用席が、日常的な制作と運用を回し続けるために組み上げてきた仕組みの設計図である。扱っているのは、文章・音声・画像といったコンテンツの制作、多数の定期タスクの運転、そしてそれらを支える記憶と品質管理の方法だ。\n特別な技術は使っていない。中心にあるのは一つの原則と、それを裏切らないための地味な仕掛けの積み重ねである。本稿では、その原則と仕掛けを、特定の環境に依存しない一般形で記述する。\n\n 1. 全体構成 ― 判断は人間に残す三層構造\nこの席の作業は、三つの層に分かれている。\n\n\n判断の層：目的、権限の範囲、許容できるリスクの境界を決める。こ...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "998308c2577462a948f1b68d",
+      "title": "Rails から Python のサービスを gRPC で呼ぶ：はじめてでも本番で使える構成ガイド",
+      "url": "https://zenn.dev/flyingclouds/articles/d11dd921ca756b",
+      "publishedAt": "2026-11-20T02:18:04.000Z",
+      "description": "\n はじめに\n個人開発しているアプリで、Rails から Python の AI サービスを gRPC で呼び出しています。\n「gRPC って聞いたことはあるけど、Rails でどう使うの？」という方向けに、この記事では proto の定義 → コード生成 → Rails のクライアント → Python のサーバー → テスト までを一通り説明します。\nサンプルは「Rails から文章を送ると、Python のサービスが要約して返す」というシンプルなものですが、コードは そのまま本番に持っていける形 で書いています。\n:::note info\n環境：Rails 8.1 / Ruby 3...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
       "id": "97dffa3b72860b1f67e009bc",
       "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
       "url": "https://github.com/openssl/openssl/pull/33652",
@@ -110,6 +440,96 @@
       "sourceName": "Hacker News（100pt以上）",
       "category": "engineer",
       "feedId": "oai-hn-100"
+    },
+    {
+      "id": "f25d1ab8fd7ce272f52e58c0",
+      "title": "Gemini 4 徹底比較：推論・コーディング・長コンテキスト",
+      "url": "https://zenn.dev/modelflare_dev/articles/51144736333b6e",
+      "publishedAt": "2026-11-20T01:48:05.000Z",
+      "description": "この記事は Modelflare ブログ の英語記事を翻訳・再構成したものです。\nGemini 4 の Argon、Carbon、Hydrogen、Neon を、推論、科学的作業、コーディングエージェント、マルチモーダル理解、採択結果あたりのコストから比較します。\nGemini 4 の Neon と Carbon は、いずれも Artificial Analysis Intelligence Index で high の推論強度において 60 点です。一方、ベンチマークが推定する重み付きタスクあたりの時間は Neon が 14.8 分、Carbon が 30 分超です。別の比較は別の能力...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "327fd0a4628fd13cdab5e49e",
+      "title": "AIで開発するほど、工程を省かなくなった",
+      "url": "https://zenn.dev/weiyi/articles/blog-36fcb86812ee5817",
+      "publishedAt": "2026-11-20T01:47:33.000Z",
+      "description": "今は自分のブログの改修にAIを使っています。機能、見た目、翻訳、デプロイまで、ひと通り関わってもらっています。\n便利なのは間違いありません。ただ、使うほどにはっきりしてきたことがあります。コードはAIに書いてもらえても、開発の工程まで省けるわけではありません。\n未一ブログで文字が窮屈なら、フォントを調整する。スマホで表が切れるなら、表を直す。こうした変更は目的が明確で、ページを開けば効果もかなり判断できます。\n多言語化、アクセス解析、バックエンドAPIとなると話は別です。ページが正常に見えても、機能が正しいとは限りません。ビルドが通っても、本番に問題がない証明にはなりません。\n\n 自分が...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "62f9ce995093a265a73fed8b",
+      "title": "Claude Desktopの回答を別のAIに検閲させる仕組みの中身——語の照合と文脈判断の2段、差し戻しの渡し方",
+      "url": "https://zenn.dev/kensho_ya/articles/claude-desktop-reply-checker-two-stage-review",
+      "publishedAt": "2026-11-20T01:08:53.000Z",
+      "description": "この連載の#6の冒頭で、Claudeの回答を別のAIで検閲していると書いた。Claude Desktopの画面をmacOSのアクセシビリティAPIで監視し、Claudeの応答を禁則と照らして、抵触があれば入力欄に差し戻し文を入れて送り直させる、という仕組みだ。#6では全体の流れと禁則の例だけを書いた。\nこの記事では、その中身を書く。自作のPythonスクリプトは、語の一致で見る段と、別のAIに文脈で判断させる段の2段に分けてある。判断させる側にどんな文脈を渡すか、差し戻しへのやり直しをどう見分けさせるかにも、決めごとを入れている。書くのは、スクリプトと設定ファイルに実際に書いてある内容だ...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "11f37bc7de99f0bef91c353f",
+      "title": "もしSurface Laptop Ultraがあったら：下書きはローカル、難問はクラウドへ振り分ける",
+      "url": "https://zenn.dev/boxbox_jp/articles/3260a6c7c2747e",
+      "publishedAt": "2026-11-20T01:06:59.000Z",
+      "description": "\n はじめに\nClaude Code、Codex、Cursor、Gemini。最近の私の開発は、この4つを並走させるのが当たり前になりました。1つにタスクを投げて、書いている間に別の1つへ次の指示を出す。\nでも実際に困ったのは、モデルの速さではありませんでした。一番困ったのは、「今どれが自分を待っているか分からない」ことでした。\nこの記事は、そんな並走の日々から考えたハイブリッドLLMの構想です。私はいま、ローカルLLMを日常的に運用しているわけではありません。だからこれは実践の報告ではなく、「もし1台のPCでローカルとクラウドを使い分けられたら」という構想として書きます。実測値やベンチ...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "c1a2af93db54bfcf7c217cb7",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "oai-openai"
+    },
+    {
+      "id": "824c03b970f1dc58cad67633",
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "oai-huggingface"
+    },
+    {
+      "id": "701a571706ec6c00de8bbc6a",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "description": "",
+      "sourceName": "Hugging Face Blog",
+      "category": "engineer",
+      "feedId": "oai-huggingface"
+    },
+    {
+      "id": "627649777b56d639143dd57e",
+      "title": "Tech Watch 2026-11-20: エージェント運用の境界",
+      "url": "https://zenn.dev/laiken/articles/20261120-tech-watch",
+      "publishedAt": "2026-11-19T23:10:10.000Z",
+      "description": "\n AIが書きました🤖\nこの記事は、AIが書いたものをAIがレビューしてから公開しています。\nL: 性能の異常を見つけて、原因を調べ、修正案を出す。そこまでは想像できる。でも修正後に本当に元へ戻ったかを別の実行で確かめるところまで含めると、もう単発の対話ではないよね。人が途中で入る仕組みを、どう設計するのが自然なんだろう。\n\n 今日の 10 件\n\n\nHow OpenAI’s Performance Factory keeps ChatGPT fast\nOpenAI の Performance Factory は、性能低下の通知から調査、修正案、人による確認、配備後の再検証までを状態付きの...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "e3b461a19a107207720a63d0",
+      "title": "5年使った自作PCを買い替えた：RTX 5070 Tiで125BのローカルLLMを動かすまで",
+      "url": "https://zenn.dev/kentaro36/articles/pc-switch-local-llm-5070ti",
+      "publishedAt": "2026-11-19T22:10:26.000Z",
+      "description": "\n はじめに\n平日は仕事、土日は大学院の研究。ほぼ毎日、朝から晩まで使い倒してきた自作PCが、ついに限界に近づいてきました。\nきっかけは、ローカルLLMを回し始めたことです。GPU推論を本格的に使うようになると、VRAM 8GBでは動かせるモデルが限られます。ゲーム用途でも、来年あたりに出るであろうPC版GTA VIへの期待があります。\nそこで、約5年ぶりにPCを買い替えました。本記事では、前半で旧PCとの5年間を振り返り、後半で新PCの構成、モデル選定、実測結果を紹介します。\n\n 1. 旧PCとの5年間\n旧PCの構成は次のとおりです。\n・CPU　Ryzen 7 5800X\n・GPU　G...",
+      "sourceName": "Zenn（トピック: LLM）",
+      "category": "engineer",
+      "feedId": "oai-zenn-llm"
     },
     {
       "id": "acb5f76d8b1f19f07999117f",
@@ -322,6 +742,16 @@
       "feedId": "oai-hn-100"
     },
     {
+      "id": "1b8608936da10d74ac00b221",
+      "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+      "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+      "publishedAt": "2026-11-19T15:16:02.000Z",
+      "description": "\n<p>I want to show you HippoMaps. It is a fully featured map and navigation app built on OpenStreetMap with a custom Overpass API engine for really fast search of POIs, areas and ways.<p>My aim with HippoMaps is to get to a level where I don't need Google Maps anymore. The biggest hurdle IMHO with OSM based apps is the lack of nice and fast search (where GMaps excels at). To get there I started working on a deterministic (as in no LLMs used) parser of queries that translates them to the Overpass QL.<p>Search queries are split into tokens and the algorithm tries to guess \"what\" you want to search and \"where\". The former comes from a word list (known brands, sports, OSM tags) and the latter from the geocoder service (Photon).<p>You can get quite creative like \"cafes in Zurich by the Limmat\", \"peaks over 4000 m in Valais\", \"pharmacies open now in Bern\". It's good for discovering hiking trails, e.g. \"hiking trails from Arth-Goldau to Rigi Kulm\". It knows how to find stuff between two places, next to a place, near a place and so on. You can stack those as well like \"bridges over the danube in serbia 50 km from novi sad\".<p>Except the search it has almost all of the features you would expect from a map like turn-by-turn navigation (Valhalla) with voice (Piper), public transport navigation in Europe (MOTIS), live traffic (only a few countries so far).<p>The app is GPL-3.0: <a href=\"https://github.com/cdutsov/hippomaps\" rel=\"nofollow\">https://github.com/cdutsov/hippomaps</a><p>I'm looking forward to feedback on searches that work or don't work for you + overall comments.</p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50561199\">https://news.ycombinator.com/item?id=50561199</a></p>\n<p>Points: 112</p>\n<p># Comments: 32</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
+    },
+    {
       "id": "d111e6b7809345c304cbed12",
       "title": "Cooling buildings is overtaking heating them as an energy need, IEA says",
       "url": "https://maccus.fr/en/cooling-overtaking-heating/",
@@ -350,6 +780,16 @@
       "sourceName": "Zenn（トピック: LLM）",
       "category": "engineer",
       "feedId": "oai-zenn-llm"
+    },
+    {
+      "id": "bb71587e90797dad7387dd5d",
+      "title": "Floppy3.5: A portable 3.5-inch floppy WiFi NAS",
+      "url": "https://github.com/bigcrimping/floppy3.5",
+      "publishedAt": "2026-11-19T14:29:49.000Z",
+      "description": "\n<p>Article URL: <a href=\"https://github.com/bigcrimping/floppy3.5\">https://github.com/bigcrimping/floppy3.5</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50560595\">https://news.ycombinator.com/item?id=50560595</a></p>\n<p>Points: 114</p>\n<p># Comments: 49</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
     },
     {
       "id": "dfd001010f0e45a74e70ea34",
@@ -792,6 +1232,16 @@
       "feedId": "oai-zenn-llm"
     },
     {
+      "id": "82fe289fe466dcc1d4f71a60",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "description": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "oai-openai"
+    },
+    {
       "id": "a890a236270cc5e31862345b",
       "title": "Deploying Daybreak Red",
       "url": "https://openai.com/business/learn/deploying-daybreak-red",
@@ -807,16 +1257,6 @@
       "url": "https://openai.com/business/learn/pr-scans-demo",
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "description": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "82fe289fe466dcc1d4f71a60",
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "description": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
       "sourceName": "OpenAI News",
       "category": "engineer",
       "feedId": "oai-openai"
@@ -1162,21 +1602,21 @@
       "feedId": "oai-openai"
     },
     {
-      "id": "58da586369f33999eb920dc2",
-      "title": "Research acceleration: The jagged frontier",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "publishedAt": "2026-11-18T08:00:00.000Z",
-      "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
       "id": "53d809d7420a3923e8bad7c3",
       "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
       "url": "https://openai.com/business/customer-stories/sumitomo-life",
       "publishedAt": "2026-11-18T08:00:00.000Z",
       "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "oai-openai"
+    },
+    {
+      "id": "58da586369f33999eb920dc2",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
       "sourceName": "OpenAI News",
       "category": "engineer",
       "feedId": "oai-openai"
@@ -1350,6 +1790,16 @@
       "sourceName": "Generative Agents",
       "category": "engineer",
       "feedId": "tbrf-generative-agents"
+    },
+    {
+      "id": "3cc35f5ed6eaaafc402601d8",
+      "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+      "url": "https://kobi.music/research/dettato",
+      "publishedAt": "2026-11-17T01:03:05.000Z",
+      "description": "\n<p>I released dettato, my open weight audio to midi transcription model. It beats muscriptor 1.3b on every set and is roughly 60x smaller, without training on copyrighted recordings. Feel free to ask questions</p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50526023\">https://news.ycombinator.com/item?id=50526023</a></p>\n<p>Points: 189</p>\n<p># Comments: 35</p>\n",
+      "sourceName": "Hacker News（100pt以上）",
+      "category": "engineer",
+      "feedId": "oai-hn-100"
     },
     {
       "id": "91d91c942ac9984d5d00ba5e",
@@ -3832,16 +4282,6 @@
       "feedId": "tbrf-members-aiforall"
     },
     {
-      "id": "86dbfdb5b436c283839e74a6",
-      "title": "How Grupo Boticário uses AI to strengthen human connections",
-      "url": "https://openai.com/index/grupo-boticario",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "description": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
       "id": "d3b9ba6f7bd01af06315d29c",
       "title": "How Localiza reorganized work around generative AI",
       "url": "https://openai.com/index/localiza-generative-ai",
@@ -3852,11 +4292,11 @@
       "feedId": "oai-openai"
     },
     {
-      "id": "9e63539289a31c8631b61e2d",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "id": "86dbfdb5b436c283839e74a6",
+      "title": "How Grupo Boticário uses AI to strengthen human connections",
+      "url": "https://openai.com/index/grupo-boticario",
       "publishedAt": "2026-10-16T00:00:00.000Z",
-      "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "description": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
       "sourceName": "OpenAI News",
       "category": "engineer",
       "feedId": "oai-openai"
@@ -3867,6 +4307,16 @@
       "url": "https://openai.com/index/benefit-street-partners",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "description": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "oai-openai"
+    },
+    {
+      "id": "9e63539289a31c8631b61e2d",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "sourceName": "OpenAI News",
       "category": "engineer",
       "feedId": "oai-openai"
@@ -4172,21 +4622,21 @@
       "feedId": "tbrf-turing-pub"
     },
     {
-      "id": "9bf93d58cc35db9987f8bca4",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "publishedAt": "2026-10-09T07:00:00.000Z",
-      "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
       "id": "570fe3204556675e8dd927e7",
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "url": "https://openai.com/index/sophos",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "description": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "sourceName": "OpenAI News",
+      "category": "engineer",
+      "feedId": "oai-openai"
+    },
+    {
+      "id": "9bf93d58cc35db9987f8bca4",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "sourceName": "OpenAI News",
       "category": "engineer",
       "feedId": "oai-openai"
@@ -4550,456 +5000,6 @@
       "sourceName": "Hugging Face Blog",
       "category": "engineer",
       "feedId": "oai-huggingface"
-    },
-    {
-      "id": "a59daea1ecab7ab9279b527b",
-      "title": "自分で調べ、未来を組み立てる――SIAIの企業体験から考えるシナリオプランニング自動化の難しさ",
-      "url": "https://stockmark-tech.hatenablog.com/entry/2026/10/02/095629",
-      "publishedAt": "2026-10-02T00:56:29.000Z",
-      "description": "Research Division の高橋です。今回は、学生向けイベントSIAIで用意したシナリオプランニング体験と、このテーマにおけるシナリオプランニングの研究課題を紹介します。 この記事のポイント 参加者は1時間の企業体験で、情報を調べ、複数の未来を比べ、架空の顧客への行動案を考えました。 参加者の回答には、過去の実績だけでなく、利用者の違いや行事に目を向ける様子がありました。 これを研究として自動化するには、情報収集から確率・シナリオ・行動の更新までを一続きで扱う難しさがあります。 SIAI #8 産学クロススクエア「ミライをつくるAI人材」は、2026年9月18〜19日に産業技術総合研…",
-      "sourceName": "Stockmark",
-      "category": "engineer",
-      "feedId": "tbrf-stockmark"
-    },
-    {
-      "id": "882596cbc7639eb42bf210ab",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "url": "https://openai.com/index/chatham-financial",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "e1d25c1f265a4f50233c7e22",
-      "title": "2026/10/02 #695 - 今日の技術情報ダイジェスト",
-      "url": "https://www.ponkotsu.dev/entry/20261002/1790892609",
-      "publishedAt": "2026-10-01T22:10:09.000Z",
-      "description": "AI臭い日本語を直すAgent Skill「yomiyasu」 相次ぐ不正アクセスによる個人情報漏えい事件 ルーターを自動復旧するezJackのレビュー OpenAI DevDay 2026の発表内容 『構文解析のしくみ』出版と構文解析アルゴリズム 免許証画像流出が招いた免許悪用防止届けの休止 Redditが終了するRSSフィードと公開API テスト要求仕様（TRS）によるテスト設計の効率化 AIエージェントが公開リポジトリに保存した機密スクショ「PixelLeak」 Gemini 4 Argonの登場とフロンティアモデル競争 ヒューマンエラーによる損保ジャパン契約者データ誤送付 OpenAI…",
-      "sourceName": "Engineer's Digest（ponkotsu.dev）",
-      "category": "engineer",
-      "feedId": "engineers-digest"
-    },
-    {
-      "id": "b8087b88cb63ae7fc829eff8",
-      "title": "The eternal complement",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "publishedAt": "2026-10-01T17:00:00.000Z",
-      "description": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "637d3dfa247fa816a4c4160f",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "publishedAt": "2026-10-01T16:00:00.000Z",
-      "description": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "b55e1cb1d9c272abbbfb87f4",
-      "title": "JevライクなOllamaの「意思決定モデル（nimble/tev1）」をDockerで動かして、3モデルで判定を比べてみた",
-      "url": "https://zenn.dev/aiforall/articles/10d5e569207a08",
-      "publishedAt": "2026-10-01T08:30:34.000Z",
-      "description": "\n はじめに\nollama/ollama:0.35.0 で、「意思決定モデル」と呼ばれる新しい種類のモデルが使えるようになりました。\n\n意思決定モデルは、文章を生成するのではなく、「この問い合わせはどのチームに回すか」「返金を求めているか」のような判定を、確率付きで返すモデルです。TypeSafe社の判定API「Jev」に基づく専用のエンドポイントで呼び出します。Ollama 上で動くので、手元の Docker 環境で試してみました。\n\n 結論\n\n3つのモデル(nimble、tev1:4b、tev1:0.8b)は、どれも Mac の Docker 上で動きました。nimble だけは、D...",
-      "sourceName": "メンバーズ AIフォーオールカンパニー",
-      "category": "engineer",
-      "feedId": "tbrf-members-aiforall"
-    },
-    {
-      "id": "2167384f51e2a4466793a69c",
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "url": "https://openai.com/index/the-den-family-social",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "description": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "a97ad76e744c76692b5bbda5",
-      "title": "2026/10/01 #694 - 今日の技術情報ダイジェスト",
-      "url": "https://www.ponkotsu.dev/entry/20261001/1790806247",
-      "publishedAt": "2026-09-30T22:10:47.000Z",
-      "description": "タイムズカー情報漏えいと相次ぐ企業の漏えい発表 Jujutsuで変わるバージョン管理 WSL 3.0とWSL containers正式版でDockerなしのLinuxコンテナ TOPPANによる損保ジャパン契約者データの誤送付 ChromeOS後継Googlebook OSのLinux環境への懸念 余剰PCで24時間稼働するAIエージェントHermes Agentの構築 トランザクション設計のコツ OpenAI DevDay 2026の発表まとめ AI時代の設計とテストの考え方 Windows 11 26H2の中身と更新の判断 GitHub Actionsのロックファイル gh actions…",
-      "sourceName": "Engineer's Digest（ponkotsu.dev）",
-      "category": "engineer",
-      "feedId": "engineers-digest"
-    },
-    {
-      "id": "1e0084ed311375f045286a0d",
-      "title": "OpenAI dotsのVMを解剖してみた - 権限から見えてくる思想",
-      "url": "https://tech.algomatic.jp/entry/2026/09/30/215943",
-      "publishedAt": "2026-09-30T12:59:43.000Z",
-      "description": "こんにちは。Algomatic VPoEの坂本(ikki0006)です! OpenAIは2026年9月29日のDevDay 2026で常時稼働エージェント「dots」を発表しました。 GPT-6 Astraで動く ユーザー専用のクラウドコンピューター環境を持つ 4,000を超えるアプリに接続している こちらが寝ている間も動き続ける という触れ込みです。 この中で個人的に気になるのは「ユーザー専用のクラウドコンピューター」(以下、便宜上VM環境)でした。 具体的に何が入っていて、何ができない機械なのか。そこから、OpenAIがdotsに何をやらせたいと考えているのかも見えてくるはずです。 dot…",
-      "sourceName": "Algomatic",
-      "category": "engineer",
-      "feedId": "tbrf-algomatic"
-    },
-    {
-      "id": "90249c2a3882c6d31b88e7ce",
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "publishedAt": "2026-09-30T10:30:00.000Z",
-      "description": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "061338e668ed697490e5190c",
-      "title": "Helping small businesses put AI to work",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "publishedAt": "2026-09-30T10:00:00.000Z",
-      "description": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "07e6ba69040306fec9190ab1",
-      "title": "Training-Free Memory Policies for Revisit Consistency in Video World Models",
-      "url": "https://www.sbintuitions.co.jp/blog/entry/2026/09/30/170000",
-      "publishedAt": "2026-09-30T08:00:00.000Z",
-      "description": "Contributions Core Contributor: Nicola Dall&#39;Asen Project Lead: Shiqi YangCreative Vision Team, Multimodal AI Department Introduction Point a camera at a tree, pan away to explore the rest of a generated world, then pan back. Nothing guarantees the same tree is there with the same shape and color; th…",
-      "sourceName": "SB Intuitions",
-      "category": "engineer",
-      "feedId": "tbrf-sb-intuitions"
-    },
-    {
-      "id": "53d966e130db58ac8750c668",
-      "title": "Full-Managed のその奥は？ FSx for Lustre の I/O 問題を AWS と一緒に切り分ける",
-      "url": "https://zenn.dev/turing_motors/articles/hyperpod-again-part1-efa-lustre",
-      "publishedAt": "2026-09-30T06:06:00.000Z",
-      "description": "\n はじめに\nTuringのインフラチームで、クラウドGPUクラスタの構築・運用を担当している大戸（おおど）です。先日、Platform Engineering Kaigi 2026（PEK2026）で、マルチクラウドとオンプレミスにまたがるGPU基盤の構築・運用についてお話ししました。この記事は登壇後の補足として、AWSでのストレージ運用を詳しくまとめたものです。\n\n この記事を3行でまとめると\n\nGPUは認識されているのに、学習が進まない。Turingの学習環境で起きたFSx for LustreのI/O問題を追いました。\nノードを作り直しても再発。AWSの担当者とログ・メトリクス・...",
-      "sourceName": "TURING (Zenn Publication)",
-      "category": "engineer",
-      "feedId": "tbrf-turing-pub"
-    },
-    {
-      "id": "61e089f3cf7a9d8ea0a14012",
-      "title": "AIは「ネ申」を「神」と読めるのか？",
-      "url": "https://zenn.dev/aiforall/articles/668d7cf8b63c71",
-      "publishedAt": "2026-09-30T05:48:27.000Z",
-      "description": "\n はじめに\nネットスラングでは、漢字の一部を別の文字に置き換えて表す書き方を見かけることがあります。たとえば「ネ申」は、カタカナの「ネ」と漢字の「申」を並べて「神」に見立てる表現です。本記事では、このように漢字の構成要素を別の文字として並べた表記を、便宜上「分解文字」と呼びます。\nこうした表記は単なる文字遊びとして使われる一方で、通常の表記とは異なるため、機械的な文字列処理では意味を取りこぼす可能性があります。では、大規模言語モデルは分解文字を見たとき、元の漢字や熟語としてどの程度解釈できるのでしょうか。単体の文字列、熟語、文章の中に置いた場合で反応が変わるのかを確かめました。\n\n 検...",
-      "sourceName": "メンバーズ AIフォーオールカンパニー",
-      "category": "engineer",
-      "feedId": "tbrf-members-aiforall"
-    },
-    {
-      "id": "e96291abcca11a73a6460be0",
-      "title": "証明可能な安全性を備えたRAG【Nishika 論文サク読み 第26回】",
-      "url": "https://zenn.dev/team_nishika/articles/e2aaec18a4b68a",
-      "publishedAt": "2026-09-30T05:32:54.000Z",
-      "description": "\n はじめに\nこんにちは。NishikaでAIエンジニアとしてインターンをしている笠原です。\n自分の学部の出身である情報セキュリティと、近年盛り上がりを見せているPrivate RAGについての論文があったので読んでみました。\n社内ローカルでPrivate RAGを作ったとしても権限や所属によって見せたくない資料とかも出てくると思うのでそういったときに使えそうだな～と思いました。\n\n 論文\n原題：Provably Secure Retrieval-Augmented Generation\n著者： Pengcheng Zhou、Yinglun Feng、Zhongliang Yang\nDO...",
-      "sourceName": "Nishika",
-      "category": "engineer",
-      "feedId": "tbrf-nishika"
-    },
-    {
-      "id": "39e828c4502a3403c165b4ef",
-      "title": "NVIDIA Nemotron 3 Nano 30B A3B Base に対する汎用・金融特化SFT",
-      "url": "https://tech-blog.abeja.asia/entry/llm-dev-nemotron-nano-sft-202609",
-      "publishedAt": "2026-09-30T04:45:49.000Z",
-      "description": "ABEJA でデータサイエンティストをしている藤原です。 弊社は NEDO が進める「ポスト5G情報通信システム基盤強化研究開発事業／データの秘匿性を考慮した効率的なAI学習手法の開発」に参画し、当該事業の実施委託先として採択を受けた一般社団法人AIデータ主権共創機構（CODAS）より委託を受け、中核の一つである「産業特化型LLM」の開発を行っています。当該事業は企業がセキュリティリスクを懸念することなく産業データを安全に利活用できる「プライバシーファーストAI」の確立を目的としたものです。 産業特化型LLMの開発として、直近では NVIDIA Nemotron 3 をベースモデルとして追加学…",
-      "sourceName": "ABEJA",
-      "category": "engineer",
-      "feedId": "tbrf-abeja"
-    },
-    {
-      "id": "a27c23fd0859c32d8f15d4b3",
-      "title": "Service Design Camp 2026に参加してきました！",
-      "url": "https://techblog.insightedge.jp/entry/service_design_camp_2026",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "description": "こんにちは！Insight Edgeでサービスデザインを担当している廣瀬です。 今回は、2026年8月2日に女子美術大学 杉並キャンパスで開催された「Service Design Camp 2026」に参加してきましたので、その熱気あふれる様子や実践的な学びをレポートします。 会場の女子美術大学 Service Design Camp 2026とは？ 平均的ペルソナからの脱却（AMセッション） サービスデザイナーのための量的エスノグラフィ：データの捉え方を探る実験ワークショップ（PMセッション） 当社メンバーもライトニングトークに登壇！ おわりに Service Design Camp 202…",
-      "sourceName": "Insight Edge",
-      "category": "engineer",
-      "feedId": "tbrf-insight-edge"
-    },
-    {
-      "id": "74c2ff7e2707d1f61043b51a",
-      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "url": "https://huggingface.co/blog/open-tts-leaderboard",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "description": "",
-      "sourceName": "Hugging Face Blog",
-      "category": "engineer",
-      "feedId": "oai-huggingface"
-    },
-    {
-      "id": "baa39534a0db08458e4fb5a3",
-      "title": "2026/09/30 #693 - 今日の技術情報ダイジェスト",
-      "url": "https://www.ponkotsu.dev/entry/20260930/1790719818",
-      "publishedAt": "2026-09-29T22:10:18.000Z",
-      "description": "AIに任せて起きた失敗と品質劣化の教訓 Jujutsuで変わるGitの使い方 AIで作る地図Webアプリの数々 IIJの新人エンジニア研修教材の無料公開 タイムズカー不正アクセスで判明した免許証画像流出の影響 サポート詐欺画面の閉じ方 ChromeOS終了とGooglebook OSへの移行 DHHがRailsを離れた理由とAI時代の言語選定 外部チームにAWS環境を安全に共有する設計 GeminiのGemが廃止されスキルへ刷新 トランザクション設計のコツ 期限切れクレカを悪用するゾンビカード攻撃 CloudflareのCLIをwranglerからcfへ移行する手順 無料の謎のAI「Space…",
-      "sourceName": "Engineer's Digest（ponkotsu.dev）",
-      "category": "engineer",
-      "feedId": "engineers-digest"
-    },
-    {
-      "id": "d6b9f5e651b1891e950e0096",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "publishedAt": "2026-09-29T17:00:00.000Z",
-      "description": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "afa8c33f8eb7996a39419dea",
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "publishedAt": "2026-09-29T13:07:00.000Z",
-      "description": "",
-      "sourceName": "Hugging Face Blog",
-      "category": "engineer",
-      "feedId": "oai-huggingface"
-    },
-    {
-      "id": "6071f63e21f6425413eb6372",
-      "title": "DevDay 2026 Recap",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "publishedAt": "2026-09-29T10:00:00.000Z",
-      "description": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "0ef0a6dc3f9fedbe1638a3b1",
-      "title": "「生命の複雑さ」に挑んだ経験からビジネスへ。生物学の研究で培った「データに向き合う力」がキャリアを拓く",
-      "url": "https://blog.brainpad.co.jp/entry/2026/09/29/140000",
-      "publishedAt": "2026-09-29T05:00:00.000Z",
-      "description": "生物学とデータサイエンス。一見すると関わりの薄い分野のように思われるかもしれません。しかし、複雑な生命現象を捉え、データから示唆を導き出す研究プロセスは、ビジネスでのデータ活用による課題解決と多くの共通点を持っています。 今回は、数理生物学や生物物理学、バイオインフォマティクスなどでモデリングや解析を行っている方から、実験系の研究室で遺伝子解析など自ら取得したデータの分析に取り組んでいる方まで、「生物」を対象に研究している学生の皆さんに向けて、インタビュー企画をお届けします。 登場するのは、生物学の研究からブレインパッドのデータサイエンティストへ進んだ2名。なぜこのキャリアを選んだのか、そして…",
-      "sourceName": "BrainPad",
-      "category": "engineer",
-      "feedId": "tbrf-brainpad"
-    },
-    {
-      "id": "40c3925a4b6ee1df87a0164b",
-      "title": "Spannerの通信レイテンシーを短縮する新機能の仕組みと実測検証",
-      "url": "https://zenn.dev/google_cloud_jp/articles/80f52aa388bf02",
-      "publishedAt": "2026-09-29T04:35:10.000Z",
-      "description": "\n tl;dr\n\nSpannerへのアクセスのレイテンシーを短くするための新機能が提供開始されました。\n2026年9月時点で対応している言語はGoとJavaです。\nメモリの使用量が若干増えるのでご注意ください。\n\n\n はじめに\nSpannerは分散データベースという特性のため多くのコンポーネントで構成されています。そのため一般的なRDBに比べると単純な処理を行ったときでもレイテンシーが高くなる傾向にありました。レイテンシーの原因の1つはSpannerへのアクセスが Google Front End（以下、GFE） を経由することに由来します。これに対し、GFEをバイパスしてクライアントV...",
-      "sourceName": "Google Cloud Japan",
-      "category": "engineer",
-      "feedId": "tbrf-google-cloud-jp"
-    },
-    {
-      "id": "dec620cb7225d2434a9b02e6",
-      "title": "Introducing dots",
-      "url": "https://openai.com/index/introducing-dots",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "description": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "ff696e53c6cc33fb02acd9a1",
-      "title": "2026/09/29 #692 - 今日の技術情報ダイジェスト",
-      "url": "https://www.ponkotsu.dev/entry/20260929/1790633404",
-      "publishedAt": "2026-09-28T22:10:04.000Z",
-      "description": "Excelの「1セル＝1値」を覆すリスト・配列の新機能 OpenAIが最上位モデルの学習を停止、エージェントのサンドボックス回避事案 タイムズカー会員情報約660万件漏えい事案の詳細 AI駆動開発組織への変革と開発プロセス再設計 ネットワークエンジニア向けPython入門書 24金製の特注ミニPCが登場 Webアプリケーションセキュリティ入門の無料PDF公開 判断特化AI「Jev」の実力と活用事例 Platform Engineering Kaigi 2026の登壇資料まとめ Windowsの不具合と機能廃止の最新情報 Metaのメタバースからの戦略転換とAIグラス NTTやソフトバンクが進め…",
-      "sourceName": "Engineer's Digest（ponkotsu.dev）",
-      "category": "engineer",
-      "feedId": "engineers-digest"
-    },
-    {
-      "id": "50d71cd52400f551c336b9ad",
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "description": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "2fc54b690d7b20a2e1432838",
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "description": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "db713ef86bd59ea8f7bad6b7",
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\">Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "sourceName": "Google AI Blog",
-      "category": "engineer",
-      "feedId": "oai-google-ai"
-    },
-    {
-      "id": "09d1d26fa19dd694ec40f7bb",
-      "title": "Holo4: powering generalist computer-use agents",
-      "url": "https://huggingface.co/blog/Hcompany/holo4",
-      "publishedAt": "2026-09-28T09:44:05.000Z",
-      "description": "",
-      "sourceName": "Hugging Face Blog",
-      "category": "engineer",
-      "feedId": "oai-huggingface"
-    },
-    {
-      "id": "90e8e768724a65a2e412d777",
-      "title": "Japan Community Day 2026に参加しました",
-      "url": "https://zenn.dev/exwzd/articles/20260728_japan_community_day_2026",
-      "publishedAt": "2026-09-28T08:10:08.000Z",
-      "description": "\n はじめに\nエクサウィザーズのインフラストラクチャー部でインフラエンジニアをしている長谷川です。\n2026年7月28日、パシフィコ横浜で開催された Japan Community Day に参加しました。\nJapan Community Dayは、KubeCon + CloudNativeCon Japan 2026の併設イベントとして開催されました。\n本記事では、参加したセッションの内容と所感をまとめます。\n\n Building Trust in MCP for Agentic AI with Authorization Server Conformance Tests\n\n MCPと...",
-      "sourceName": "エクサウィザーズ",
-      "category": "engineer",
-      "feedId": "tbrf-exawizards"
-    },
-    {
-      "id": "11c14e6aad20abf70a945284",
-      "title": "参画 3 ヶ月のチームがサイクルタイムを 15.5h → 3.9h にした取り組み",
-      "url": "https://zenn.dev/kikagaku/articles/0a3faff243696a",
-      "publishedAt": "2026-09-28T08:00:05.000Z",
-      "description": "\n はじめに\n株式会社キカガクでは DX-Navi の開発に Findy Team+ を導入し、可視化された開発資本スコア（旧開発生産性スコア）を通して開発の健全性を保つ取り組みを実施しています。\nまた、Findy Team+ Award の受賞も目標のひとつに掲げており、サイクルタイムの短縮やコード品質の改善など、さまざまな施策を実施してきました。\n弊社が提供する DX-Navi は、育成診断から学習・研修管理までを一気通貫で提供する、DX 人財育成プラットフォームです。\n開発は複数チームで担当していますが、そのなかでも A チームの開発速度は目を見張るものがありました。\nただ、A チ...",
-      "sourceName": "キカガク (Zenn)",
-      "category": "engineer",
-      "feedId": "tbrf-kikagaku"
-    },
-    {
-      "id": "eb7b25bbd40219b33806353d",
-      "title": "FDEに求められる能力を考える ── データアナリストの経験を踏まえ",
-      "url": "https://zenn.dev/retrieva_tech/articles/51b1b23e273a24",
-      "publishedAt": "2026-09-28T07:38:12.000Z",
-      "description": "\n はじめに\n生成AIの業務活用が広がるなか、顧客の現場に入り、技術導入を支える「FDE（Forward Deployed Engineer）」という職種に改めて注目が集まっています。\nFDEには、どのような能力が求められるのでしょうか。\n筆者は以前、マーケティング領域でデータアナリストとして、顧客へのヒアリングから分析方針の策定、分析、施策の提案・導入支援まで携わっていました。FDEについて調べるなかで、当時求められていた能力と共通する部分があると感じました。\n本記事では、著名な企業の採用情報や書籍をもとに、FDEの役割と求められる能力を整理します。そのうえで、筆者のデータ分析の経験と...",
-      "sourceName": "レトリバ",
-      "category": "engineer",
-      "feedId": "tbrf-retrieva"
-    },
-    {
-      "id": "b4bcc56ae54b20a3f8af8eb9",
-      "title": "DeepSeek-V4-Flash を Mac mini 64GB で動かす",
-      "url": "https://tech-blog.abeja.asia/entry/deepseek-v4-flash-tech-report-202609",
-      "publishedAt": "2026-09-28T07:30:00.000Z",
-      "description": "こんにちは、エンジニアの石川です。 この記事で紹介しているモデルの重みは Hugging Face で公開しています。 DeepSeek-V4-Flash-0731 は、DeepSeek が 7 月 31 日に公開したオープンウェイト・モデルです1。 総パラメータ 284B・アクティブ 13B の MoE 2 Terminal Bench 2.1 で 82.7%、DeepSWE で 54.4%、NL2Repo で 54.2% など、特にコーディング・エージェント用途で魅力的なポイントが並びます。 このモデルを手元で動かすときの定番が、Unsloth の量子化版です。DeepSeek-V4-Fl…",
-      "sourceName": "ABEJA",
-      "category": "engineer",
-      "feedId": "tbrf-abeja"
-    },
-    {
-      "id": "0adf5bb2a473897d12526e4b",
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "publishedAt": "2026-09-28T07:00:00.000Z",
-      "description": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "c7722c036f1700f6960529ba",
-      "title": "【STEM×ミライ応援プロジェクト｜真夏の女子中高生編 #1】データの面白さを伝える！「Girls Meet STEM」オフィスツアー開催レポート",
-      "url": "https://blog.brainpad.co.jp/entry/2026/09/28/140022",
-      "publishedAt": "2026-09-28T05:00:22.000Z",
-      "description": "2026年8月20日（木）、ブレインパッドにて、公益財団法人山田進太郎D&I財団が提供する、女子中高生向けSTEM領域のツアー型体験プログラム「Girls Meet STEM」オフィスツアーを初めて開催しました！ その当日の模様をお届けします。8月20日（木）、女性中高生向けSTEM領域のツアー型体験プログラム「Girls Meet STEM」のオフィスツアーを実施しました。ブレインパッドは、日本の理系人材を増やすことを通じて、日本の「デジタル競争力の低迷」という社会課題の解決に貢献すべく、サステナビリティ活動の一環として、「科学や技術をもっと身近に感じてほしい」「データやデータサイエンス…",
-      "sourceName": "BrainPad",
-      "category": "engineer",
-      "feedId": "tbrf-brainpad"
-    },
-    {
-      "id": "498ff98ec97c019568433d47",
-      "title": "音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】",
-      "url": "https://zenn.dev/mkj/articles/speech-tts-japanese-2026",
-      "publishedAt": "2026-09-28T02:50:05.000Z",
-      "description": "株式会社 松尾研究所で働いている栗原です。\n以前、「音声合成の日本語化手法が一般化した話」を書きました。\n今回は、日本語の難しさと、それを音声合成に扱わせる難しさ、その課題に取り組むために考案した日本語言語処理部（G2P: Grapheme-to-Phoneme）について、前後編に分けて解説していきます。\n専門家・理系の方でなくても読めるよう、なるべく平易に書きますのでお読みください！\n前編の本記事では、「日本語の読みがいかに難しいか、それが日本語TTSの難しさにどうつながるか」を音声学・音韻論の知見からなるべく平易に書きました。後編でG2Pを説明するための準備として、韻律（プロソディー...",
-      "sourceName": "松尾研究所",
-      "category": "engineer",
-      "feedId": "tbrf-matsuo-lab"
-    },
-    {
-      "id": "dde1ab00215d045aca6acf9b",
-      "title": "J-MultiChallenge：日本語マルチターン対話能力評価ベンチマークの公開",
-      "url": "https://www.sbintuitions.co.jp/blog/entry/2026/09/28/110000",
-      "publishedAt": "2026-09-28T02:00:00.000Z",
-      "description": "Evaluationチームの 栗原 理聡 です。 本記事では、新たに公開する日本語マルチターン対話能力評価ベンチマーク「J-MultiChallenge」について、データ概要・構築フロー・様々なモデルでの性能評価と分析の結果をまとめます。 概要 1. 背景 1.1 MultiChallengeとは 2. J-MultiChallenge 2.1 Sarashina3 translateでの自動翻訳と人手品質チェック・修正 2.2 翻訳による不成立データのチェック・作り替え 2.3 外部知識を必要とする問題のチェック・ラベル付け 2.4 ジャッジ質問の過去ターン参照前提データのチェック・修正 2…",
-      "sourceName": "SB Intuitions",
-      "category": "engineer",
-      "feedId": "tbrf-sb-intuitions"
-    },
-    {
-      "id": "833e9419a34f8836dc9d7502",
-      "title": "Are you a Codex Original?",
-      "url": "https://openai.com/form/codex-originals",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "description": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "eb674100bb687fff764326a1",
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "description": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
-    },
-    {
-      "id": "eb916b5190e379580afd8a2b",
-      "title": "Welcome RL Environments to the hub",
-      "url": "https://huggingface.co/blog/rl-environments",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "description": "",
-      "sourceName": "Hugging Face Blog",
-      "category": "engineer",
-      "feedId": "oai-huggingface"
-    },
-    {
-      "id": "28846c415a0e59f35d24c23c",
-      "title": "2026/09/28 #691 - 今日の技術情報ダイジェスト",
-      "url": "https://www.ponkotsu.dev/entry/20260928/1790547440",
-      "publishedAt": "2026-09-27T22:17:20.000Z",
-      "description": "有料AIと無料AIの間に生じる情報格差論争 テレワーク・リモートワークを巡る攻防 Jevを使った意思決定モデルの実装と分類 高校文化祭でCloudflare上にPOSシステムを1から構築 新しいMicrosoft Copilotの新機能まとめ ITに詳しくない父親が描いた業務システム概念図が話題に AIが書くGoコードの品質を上げるLinter declscope フィードバック密度がエンジニアの成長を左右する ローカルLLM運用のためのメモリ基礎知識 自宅KubernetesをTalos Linux+Cloudflareで刷新 AIに仕事を任せる境界線を考える Quintを使ったAIとの形式…",
-      "sourceName": "Engineer's Digest（ponkotsu.dev）",
-      "category": "engineer",
-      "feedId": "engineers-digest"
-    },
-    {
-      "id": "fbb88adecffe31f6f7fa8f8c",
-      "title": "2026/09/27 #690 - 今日の技術情報ダイジェスト",
-      "url": "https://www.ponkotsu.dev/entry/20260927/1790461015",
-      "publishedAt": "2026-09-26T22:16:55.000Z",
-      "description": "Claude Codeクラウドセッションの新機能 ローカルLLM向けWeb検索サービスまとめ DHHが語るRailsとAI活用への転換 OpenAIとClaude Agent SDKの基本構成比較 CSIRT視点で学ぶインシデント対応の教科書 Google AI Proの特典価値を徹底検証 メルカリのAIエージェント高速プロトタイピング基盤Arca LLM蒸留によるゲームAIの軽量化 Dockerの公式AIエージェント向けスキル公開 AI生成スライドそのまま登壇への違和感 AIエージェントによるAWS構成図生成の検証 Kubernetesの内部動作を理解する 本番DB初期化事故から学ぶ教訓 P…",
-      "sourceName": "Engineer's Digest（ponkotsu.dev）",
-      "category": "engineer",
-      "feedId": "engineers-digest"
-    },
-    {
-      "id": "fd4970ed0d64c7bad8647098",
-      "title": "2026/09/26 #689 - 今日の技術情報ダイジェスト",
-      "url": "https://www.ponkotsu.dev/entry/20260926/1790374865",
-      "publishedAt": "2026-09-25T22:21:05.000Z",
-      "description": "新AI「Jev」が拓く確率判断特化のSystem Oneモデル Claude Codeで1年コードを書かなくなったエンジニアの告白 GitHubアプリをメモ帳代わりに使う活用法 NVIDIAの音声話者識別モデル「Nemotron 3 Diarization」無償公開 PS5ハック主導者が語るAI時代のOSS開発の課題 1024ビットRSA署名偽造の大規模実証に成功 30代エンジニアが振り返るキャリアと意思決定 AWS DevOps Agentの権限悪用リスクを検証 AI生成スライドをそのまま使う登壇への苦言 放置CNAMEによるサブドメイン乗っ取り対策 AIチャットボットを狙う新手口「Dark…",
-      "sourceName": "Engineer's Digest（ponkotsu.dev）",
-      "category": "engineer",
-      "feedId": "engineers-digest"
-    },
-    {
-      "id": "9de028fbe46cac8b155a7c08",
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "url": "https://openai.com/index/proaction",
-      "publishedAt": "2026-09-25T19:00:00.000Z",
-      "description": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "sourceName": "OpenAI News",
-      "category": "engineer",
-      "feedId": "oai-openai"
     }
   ]
 }
