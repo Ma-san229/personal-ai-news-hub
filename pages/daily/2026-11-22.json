@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-22",
+  "timezone": "Asia/Tokyo",
+  "title": "Signal Shelf 日次｜2026-11-22",
+  "sections": [
+    {
+      "id": "ai_seitaishi",
+      "label": "AI整体師向け",
+      "items": []
+    },
+    {
+      "id": "engineer",
+      "label": "エンジニア向け",
+      "items": [
+        {
+          "headline": "縦書き・複合表PDFを RAG / NotebookLM / Obsidian が誤読しない Markdown に整える実践ポイント",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/SMKC/items/1d09597b560cd19fea85",
+              "source_date": "2026-11-22"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Lean verification of the Riemann Hypothesis",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+              "source_date": "2026-11-21"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Detonating a pile of lead azide",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+              "source_date": "2026-11-21"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Zenn記事半自動パイプラインをGLM+MiniMaxで構築した話",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/fukukei23/items/07bcee598d846f71c2f5",
+              "source_date": "2026-11-21"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "自分専用のAIナレッジベースを構築できる「AnythingLLM」が、個人開発や社内wikiの救世主になる理由",
+          "facts": [
+            {
+              "text": "Zenn（トピック: LLM） が公開",
+              "source_url": "https://zenn.dev/flosslabs/articles/anythingllm-intro",
+              "source_date": "2026-11-21"
+            }
+          ],
+          "implications": []
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    "AI整体師向け: 直近36時間に該当記事なし"
+  ]
+}
