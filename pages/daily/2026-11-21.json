@@ -13,56 +13,56 @@
       "label": "エンジニア向け",
       "items": [
         {
-          "headline": "Responses APIのbackground完了窓を実測した：2時間枠は約5分で終わり、公式単価では30%安かった",
+          "headline": "Google Chat の AIボットを「スレッド全部読めるアシスタント」にする実装記（Hermes Agent）",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/FlatkeyAI/items/beea75836ce92ca03f4a",
+              "source_url": "https://qiita.com/supertask/items/22d46e72663f7014b25e",
               "source_date": "2026-11-21"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Hurried Announcement: Alessandro Masullo GRH",
-          "facts": [
-            {
-              "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-              "source_date": "2026-11-21"
-            }
-          ],
-          "implications": []
-        },
-        {
-          "headline": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
-          "facts": [
-            {
-              "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-              "source_date": "2026-11-21"
-            }
-          ],
-          "implications": []
-        },
-        {
-          "headline": "複数案を勝ち抜き戦で決めるClaude Codeスキルを作った",
+          "headline": "AIに任せた仕事が散らからなくなった。LinearとDotsで個人開発を進めてみた",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/w3pe8xmk/items/07ce506b70f51ededf4e",
+              "source_url": "https://qiita.com/Tachiuo/items/dde9afe6a6d2a3aa8618",
               "source_date": "2026-11-21"
             }
           ],
           "implications": []
         },
         {
-          "headline": "全社の GitHub 権限管理を Terraform に移行するのは、なぜ大変なのか",
+          "headline": "Backblaze Notice at Collection and Privacy Policy",
           "facts": [
             {
-              "text": "PKSHA が公開",
-              "source_url": "https://zenn.dev/pksha/articles/github-org-terraform-migration",
-              "source_date": "2026-11-20"
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://www.backblaze.com/company/policy/privacy",
+              "source_date": "2026-11-21"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "NINLIVE: The Nine Inch Nails live archive",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://ninlive.com/",
+              "source_date": "2026-11-21"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "2026/11/21 #745 - 今日の技術情報ダイジェスト",
+          "facts": [
+            {
+              "text": "Engineer's Digest（ponkotsu.dev） が公開",
+              "source_url": "https://www.ponkotsu.dev/entry/20261121/1795212439",
+              "source_date": "2026-11-21"
             }
           ],
           "implications": []
