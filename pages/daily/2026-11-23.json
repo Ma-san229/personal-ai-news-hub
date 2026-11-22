@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-23",
+  "timezone": "Asia/Tokyo",
+  "title": "Signal Shelf 日次｜2026-11-23",
+  "sections": [
+    {
+      "id": "ai_seitaishi",
+      "label": "AI整体師向け",
+      "items": []
+    },
+    {
+      "id": "engineer",
+      "label": "エンジニア向け",
+      "items": [
+        {
+          "headline": "RAG のプラン B：クラウド検索インデックスを 1 日でローカルに置き換える",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/yshurik/items/7be59ee70275e390bfc3",
+              "source_date": "2026-11-23"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "ペリカンSVGを検索可能な参照データにする：FolkbenchのJSON・SQLiteアーカイブ",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/cscsearching/items/d2448ca3fecff2f0cb8b",
+              "source_date": "2026-11-23"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Perplexity and Intelligence",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://openai.com/index/perplexity-and-intelligence/",
+              "source_date": "2026-11-23"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
+              "source_date": "2026-11-23"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "NixOSでStrataを動かそう",
+          "facts": [
+            {
+              "text": "Zenn（トピック: LLM） が公開",
+              "source_url": "https://zenn.dev/mekhr/articles/87b57fbdad4b9e",
+              "source_date": "2026-11-22"
+            }
+          ],
+          "implications": []
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    "AI整体師向け: 直近36時間に該当記事なし"
+  ]
+}
