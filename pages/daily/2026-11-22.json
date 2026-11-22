@@ -13,56 +13,56 @@
       "label": "エンジニア向け",
       "items": [
         {
-          "headline": "縦書き・複合表PDFを RAG / NotebookLM / Obsidian が誤読しない Markdown に整える実践ポイント",
+          "headline": "Antigravity が Gemini の利用上限をリセットなど、11/22 の AI ニュース",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/SMKC/items/1d09597b560cd19fea85",
+              "source_url": "https://qiita.com/xdaily/items/3c35cfd741e41ac1e573",
               "source_date": "2026-11-22"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Lean verification of the Riemann Hypothesis",
+          "headline": "Toyota, Nissan, and Honda to standardize parts to lower costs",
           "facts": [
             {
               "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-              "source_date": "2026-11-21"
+              "source_url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+              "source_date": "2026-11-22"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Detonating a pile of lead azide",
-          "facts": [
-            {
-              "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
-              "source_date": "2026-11-21"
-            }
-          ],
-          "implications": []
-        },
-        {
-          "headline": "Zenn記事半自動パイプラインをGLM+MiniMaxで構築した話",
+          "headline": "LLMを呼ぶ、その先へ。12のGitHub教材で学ぶAIエンジニアリングのロードマップ",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/fukukei23/items/07bcee598d846f71c2f5",
-              "source_date": "2026-11-21"
+              "source_url": "https://qiita.com/ryosuke_ohori/items/5b4638fab7f9aefbd81a",
+              "source_date": "2026-11-22"
             }
           ],
           "implications": []
         },
         {
-          "headline": "自分専用のAIナレッジベースを構築できる「AnythingLLM」が、個人開発や社内wikiの救世主になる理由",
+          "headline": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
           "facts": [
             {
-              "text": "Zenn（トピック: LLM） が公開",
-              "source_url": "https://zenn.dev/flosslabs/articles/anythingllm-intro",
-              "source_date": "2026-11-21"
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://github.com/ItsNotRexed/Leonida",
+              "source_date": "2026-11-22"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "2026/11/22 #746 - 今日の技術情報ダイジェスト",
+          "facts": [
+            {
+              "text": "Engineer's Digest（ponkotsu.dev） が公開",
+              "source_url": "https://www.ponkotsu.dev/entry/20261122/1795299921",
+              "source_date": "2026-11-22"
             }
           ],
           "implications": []
