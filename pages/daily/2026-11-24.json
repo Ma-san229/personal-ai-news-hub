@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-24",
+  "timezone": "Asia/Tokyo",
+  "title": "Signal Shelf 日次｜2026-11-24",
+  "sections": [
+    {
+      "id": "ai_seitaishi",
+      "label": "AI整体師向け",
+      "items": []
+    },
+    {
+      "id": "engineer",
+      "label": "エンジニア向け",
+      "items": [
+        {
+          "headline": "ローカルAI構築記　⑤ llama.cppでAgent Memoryを自作してみた",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/ahaya/items/86ab26a157d30ebb3e8e",
+              "source_date": "2026-11-24"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "汎用LLMが医学文献マイニングで苦戦する理由：基盤モデル「LEADS」",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/keiji_ai_japan/items/cb2873cec215a86e9f7f",
+              "source_date": "2026-11-24"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "金融ガードレールモデルFinGuard-Input-310Mの公開",
+          "facts": [
+            {
+              "text": "Zenn（トピック: LLM） が公開",
+              "source_url": "https://zenn.dev/elith/articles/2101640c3ee4c2",
+              "source_date": "2026-11-24"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Claude Codeで業務システムを保守する ― 調査5時間が30分になった仕組みづくり",
+          "facts": [
+            {
+              "text": "Zenn（トピック: LLM） が公開",
+              "source_url": "https://zenn.dev/ao_workshop/books/legacy-system-ai-agent-guide",
+              "source_date": "2026-11-24"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "2026/11/24 #748 - 今日の技術情報ダイジェスト",
+          "facts": [
+            {
+              "text": "Engineer's Digest（ponkotsu.dev） が公開",
+              "source_url": "https://www.ponkotsu.dev/entry/20261124/1795474036",
+              "source_date": "2026-11-24"
+            }
+          ],
+          "implications": []
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    "AI整体師向け: 直近36時間に該当記事なし"
+  ]
+}
