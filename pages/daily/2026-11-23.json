@@ -13,56 +13,56 @@
       "label": "エンジニア向け",
       "items": [
         {
-          "headline": "RAG のプラン B：クラウド検索インデックスを 1 日でローカルに置き換える",
+          "headline": "AIに失敗ログから改善案を出してもらうために、後続の実行まで確認する監査を作った",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/yshurik/items/7be59ee70275e390bfc3",
+              "source_url": "https://qiita.com/Tachiuo/items/9b048d42492f96177fed",
               "source_date": "2026-11-23"
             }
           ],
           "implications": []
         },
         {
-          "headline": "ペリカンSVGを検索可能な参照データにする：FolkbenchのJSON・SQLiteアーカイブ",
+          "headline": "プロンプト（Prompt）とは何か：プロンプトエンジニアリングからコンテキストエンジニアリングへ",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/cscsearching/items/d2448ca3fecff2f0cb8b",
+              "source_url": "https://qiita.com/CHEN98/items/6a1dbe39d5b95e5b9965",
               "source_date": "2026-11-23"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Perplexity and Intelligence",
+          "headline": "DeFlock Amerca Facebook Group Suspended as a Dangerous Organization",
           "facts": [
             {
               "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://openai.com/index/perplexity-and-intelligence/",
+              "source_url": "https://www.facebook.com/shugvermonte/posts/the-deflock-america-group-with-over-840k-members-has-been-suspended-by-meta-what/10165140280736049/",
               "source_date": "2026-11-23"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
+          "headline": "XNU Linux: Full OS X GUI Userspace on Linux",
           "facts": [
             {
               "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
+              "source_url": "https://github.com/AFK-surf/xnulinux",
               "source_date": "2026-11-23"
             }
           ],
           "implications": []
         },
         {
-          "headline": "NixOSでStrataを動かそう",
+          "headline": "AIエージェントは「作るもの」から「任せるもの」へ。任せるときに必要な4つのこと",
           "facts": [
             {
               "text": "Zenn（トピック: LLM） が公開",
-              "source_url": "https://zenn.dev/mekhr/articles/87b57fbdad4b9e",
-              "source_date": "2026-11-22"
+              "source_url": "https://zenn.dev/koheip/articles/from-building-to-delegating-agents",
+              "source_date": "2026-11-23"
             }
           ],
           "implications": []
