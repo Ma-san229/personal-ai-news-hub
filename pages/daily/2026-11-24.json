@@ -13,55 +13,55 @@
       "label": "エンジニア向け",
       "items": [
         {
-          "headline": "ローカルAI構築記　⑤ llama.cppでAgent Memoryを自作してみた",
+          "headline": "llama.cpp 1.0 の MoE 専門家キャッシュ（--moe-cache-mib）を Windows・RTX 5070 Ti で測った記録（小さいキャッシュが遅くなった理由のログの警告と --load-mode none）",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/ahaya/items/86ab26a157d30ebb3e8e",
+              "source_url": "https://qiita.com/auto_ai_techlab/items/0cf0c9ee5ee0524d3026",
               "source_date": "2026-11-24"
             }
           ],
           "implications": []
         },
         {
-          "headline": "汎用LLMが医学文献マイニングで苦戦する理由：基盤モデル「LEADS」",
+          "headline": "「AIが書いた文章の『らしさ』はなぜ気になるのか」――マーティン・ファウラーの「LLM Voice」",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/keiji_ai_japan/items/cb2873cec215a86e9f7f",
+              "source_url": "https://qiita.com/pitaspot/items/0be3d702355ec42e045f",
               "source_date": "2026-11-24"
             }
           ],
           "implications": []
         },
         {
-          "headline": "金融ガードレールモデルFinGuard-Input-310Mの公開",
+          "headline": "「AIエージェントキャッチアップ #99 - Personal Agent Protocol」を開催しました",
           "facts": [
             {
-              "text": "Zenn（トピック: LLM） が公開",
-              "source_url": "https://zenn.dev/elith/articles/2101640c3ee4c2",
+              "text": "Generative Agents が公開",
+              "source_url": "https://blog.generative-agents.co.jp/entry/2026/11/24/172234",
               "source_date": "2026-11-24"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Claude Codeで業務システムを保守する ― 調査5時間が30分になった仕組みづくり",
+          "headline": "2035 Came Early",
           "facts": [
             {
-              "text": "Zenn（トピック: LLM） が公開",
-              "source_url": "https://zenn.dev/ao_workshop/books/legacy-system-ai-agent-guide",
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://fzakaria.com/2026/11/23/2035-came-early",
               "source_date": "2026-11-24"
             }
           ],
           "implications": []
         },
         {
-          "headline": "2026/11/24 #748 - 今日の技術情報ダイジェスト",
+          "headline": "Web・API・Windowsアプリのネットワーク異常系テストのツールと使い分け",
           "facts": [
             {
-              "text": "Engineer's Digest（ponkotsu.dev） が公開",
-              "source_url": "https://www.ponkotsu.dev/entry/20261124/1795474036",
+              "text": "Nishika が公開",
+              "source_url": "https://zenn.dev/team_nishika/articles/2e9c34a33618c5",
               "source_date": "2026-11-24"
             }
           ],
