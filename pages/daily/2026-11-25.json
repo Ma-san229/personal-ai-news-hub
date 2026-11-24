@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-25",
+  "timezone": "Asia/Tokyo",
+  "title": "Signal Shelf 日次｜2026-11-25",
+  "sections": [
+    {
+      "id": "ai_seitaishi",
+      "label": "AI整体師向け",
+      "items": []
+    },
+    {
+      "id": "engineer",
+      "label": "エンジニア向け",
+      "items": [
+        {
+          "headline": "【速報】3値27B「Ternary-Bonsai-2.5-27B」公開 — 5.93GBのまま、エージェント性能がほぼFP16並みに",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/nakanokensetsu/items/e1f74abb5badfa8f71b9",
+              "source_date": "2026-11-25"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "2026/11/25 #749 - 今日の技術情報ダイジェスト",
+          "facts": [
+            {
+              "text": "Engineer's Digest（ponkotsu.dev） が公開",
+              "source_url": "https://www.ponkotsu.dev/entry/20261125/1795558116",
+              "source_date": "2026-11-25"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "米国の2州はなぜ、Grokの「安全」という説明を理由にSpaceXなど4社を訴えたのか",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/quotidia/items/fe86ecd4bb5df3db6cb0",
+              "source_date": "2026-11-25"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Ternary Bonsai 2.5 27B",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://prismml.com/news/bonsai-2-5-27b",
+              "source_date": "2026-11-25"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Cloudflare hides shortcomings of the underlying infrastructure",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/",
+              "source_date": "2026-11-25"
+            }
+          ],
+          "implications": []
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    "AI整体師向け: 直近36時間に該当記事なし"
+  ]
+}
