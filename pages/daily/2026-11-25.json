@@ -13,55 +13,55 @@
       "label": "エンジニア向け",
       "items": [
         {
-          "headline": "【速報】3値27B「Ternary-Bonsai-2.5-27B」公開 — 5.93GBのまま、エージェント性能がほぼFP16並みに",
+          "headline": "日本語ModernBERTをベースモデルとした日本語誤字脱字検出モデルの開発",
+          "facts": [
+            {
+              "text": "SB Intuitions が公開",
+              "source_url": "https://www.sbintuitions.co.jp/blog/entry/2026/11/25/170000",
+              "source_date": "2026-11-25"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "ローカルLLMで意思決定モデル",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/nakanokensetsu/items/e1f74abb5badfa8f71b9",
+              "source_url": "https://qiita.com/u1and0/items/cb79b37ab3ec54ccfdc1",
               "source_date": "2026-11-25"
             }
           ],
           "implications": []
         },
         {
-          "headline": "2026/11/25 #749 - 今日の技術情報ダイジェスト",
-          "facts": [
-            {
-              "text": "Engineer's Digest（ponkotsu.dev） が公開",
-              "source_url": "https://www.ponkotsu.dev/entry/20261125/1795558116",
-              "source_date": "2026-11-25"
-            }
-          ],
-          "implications": []
-        },
-        {
-          "headline": "米国の2州はなぜ、Grokの「安全」という説明を理由にSpaceXなど4社を訴えたのか",
+          "headline": "quantGAIクオンツプラットフォームの更新日記-2026-11-24",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/quotidia/items/fe86ecd4bb5df3db6cb0",
+              "source_url": "https://qiita.com/gzhforever1994/items/929b3a7f7b04a26288d0",
               "source_date": "2026-11-25"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Ternary Bonsai 2.5 27B",
+          "headline": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
           "facts": [
             {
               "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://prismml.com/news/bonsai-2-5-27b",
+              "source_url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
               "source_date": "2026-11-25"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Cloudflare hides shortcomings of the underlying infrastructure",
+          "headline": "Button Sounds – collection of professionally-recorded button clicks and presses",
           "facts": [
             {
               "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/",
+              "source_url": "https://buttons.joshwcomeau.com/",
               "source_date": "2026-11-25"
             }
           ],
