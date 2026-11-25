@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-26",
+  "timezone": "Asia/Tokyo",
+  "title": "Signal Shelf 日次｜2026-11-26",
+  "sections": [
+    {
+      "id": "ai_seitaishi",
+      "label": "AI整体師向け",
+      "items": []
+    },
+    {
+      "id": "engineer",
+      "label": "エンジニア向け",
+      "items": [
+        {
+          "headline": "音楽配信のTidal、AIだけで作られた曲の受け付けをやめ、約2,700万曲を削除へ",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/quotidia/items/9ede1aeece4418220723",
+              "source_date": "2026-11-26"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://scottaaronson.blog/?p=10379",
+              "source_date": "2026-11-26"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Where scientists draw the line on AI agents",
+          "facts": [
+            {
+              "text": "Hugging Face Blog が公開",
+              "source_url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+              "source_date": "2026-11-26"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "OpenCode で DeepSeek V4 を55%オフで使う設定",
+          "facts": [
+            {
+              "text": "Zenn（トピック: LLM） が公開",
+              "source_url": "https://zenn.dev/sunsiyuan/articles/deepseek-opencode-setup",
+              "source_date": "2026-11-26"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "1Password Security Incident",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+              "source_date": "2026-11-26"
+            }
+          ],
+          "implications": []
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    "AI整体師向け: 直近36時間に該当記事なし"
+  ]
+}
