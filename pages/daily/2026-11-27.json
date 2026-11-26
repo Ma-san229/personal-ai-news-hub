@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-27",
+  "timezone": "Asia/Tokyo",
+  "title": "Signal Shelf 日次｜2026-11-27",
+  "sections": [
+    {
+      "id": "ai_seitaishi",
+      "label": "AI整体師向け",
+      "items": []
+    },
+    {
+      "id": "engineer",
+      "label": "エンジニア向け",
+      "items": [
+        {
+          "headline": "ソフトバンクが聴覚障がいのある従業員に配ったスマートグラスは、職場でどこまで使えたか",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/quotidia/items/5e35b5ad248041e937e5",
+              "source_date": "2026-11-27"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Show HN: Fuck_data_brokers.py",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://github.com/gary23w/f-ck_data_brokers",
+              "source_date": "2026-11-27"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+              "source_date": "2026-11-27"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "LLM エージェントの多段階処理における成功率と障害回復の効果を定量評価する",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/ynakayama/items/cd201dca5c4ff9ea08e1",
+              "source_date": "2026-11-27"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+          "facts": [
+            {
+              "text": "Hugging Face Blog が公開",
+              "source_url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+              "source_date": "2026-11-26"
+            }
+          ],
+          "implications": []
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    "AI整体師向け: 直近36時間に該当記事なし"
+  ]
+}
