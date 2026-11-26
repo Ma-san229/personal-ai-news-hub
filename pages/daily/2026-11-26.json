@@ -13,55 +13,55 @@
       "label": "エンジニア向け",
       "items": [
         {
-          "headline": "音楽配信のTidal、AIだけで作られた曲の受け付けをやめ、約2,700万曲を削除へ",
+          "headline": "自動運転の予測軌跡の可視化動画を誰でも高速に作れるようにする",
+          "facts": [
+            {
+              "text": "TURING (Zenn Publication) が公開",
+              "source_url": "https://zenn.dev/turing_motors/articles/cbf9872ca90166",
+              "source_date": "2026-11-26"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Sarashina3 embedding を利用した Wikipedia 記事のクラスタリング",
+          "facts": [
+            {
+              "text": "SB Intuitions が公開",
+              "source_url": "https://www.sbintuitions.co.jp/blog/entry/2026/11/26/170000",
+              "source_date": "2026-11-26"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "quantGAIクオンツプラットフォームの更新日記-2026-11-25",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/quotidia/items/9ede1aeece4418220723",
+              "source_url": "https://qiita.com/gzhforever1994/items/514cc9b3a00132faadec",
               "source_date": "2026-11-26"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+          "headline": "多数決効果の考察",
           "facts": [
             {
-              "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://scottaaronson.blog/?p=10379",
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/nishiha/items/20c53dfe7ff54108099c",
               "source_date": "2026-11-26"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Where scientists draw the line on AI agents",
+          "headline": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
           "facts": [
             {
               "text": "Hugging Face Blog が公開",
-              "source_url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-              "source_date": "2026-11-26"
-            }
-          ],
-          "implications": []
-        },
-        {
-          "headline": "OpenCode で DeepSeek V4 を55%オフで使う設定",
-          "facts": [
-            {
-              "text": "Zenn（トピック: LLM） が公開",
-              "source_url": "https://zenn.dev/sunsiyuan/articles/deepseek-opencode-setup",
-              "source_date": "2026-11-26"
-            }
-          ],
-          "implications": []
-        },
-        {
-          "headline": "1Password Security Incident",
-          "facts": [
-            {
-              "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+              "source_url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
               "source_date": "2026-11-26"
             }
           ],
