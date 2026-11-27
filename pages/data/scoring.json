@@ -1,0 +1,33 @@
+{
+  "defaultSourceWeight": 1,
+  "sourceWeights": {
+    "OpenAI News": 2,
+    "Google AI Blog": 2,
+    "Hugging Face Blog": 1.8,
+    "LangChain Blog": 1.5,
+    "GitHub Blog": 1.2,
+    "Hacker News（100pt以上）": 1.2
+  },
+  "keywords": {
+    "LLM": 1,
+    "エージェント": 1,
+    "agent": 1,
+    "Claude": 1.5,
+    "Claude Code": 1.5,
+    "GPT": 1,
+    "Gemini": 1,
+    "RAG": 1,
+    "MCP": 1.2,
+    "生成AI": 1,
+    "プロンプト": 0.8,
+    "ファインチューニング": 0.8,
+    "推論": 0.5,
+    "オープンソース": 0.5
+  },
+  "keywordScoreCap": 6,
+  "halfLifeHours": 24,
+  "adoptionWindowDays": 90,
+  "adoptionStep": 0.1,
+  "sourceBoostCap": 1,
+  "keywordBoostCap": 1.5
+}
