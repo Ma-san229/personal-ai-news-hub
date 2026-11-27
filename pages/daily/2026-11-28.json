@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-28",
+  "timezone": "Asia/Tokyo",
+  "title": "Signal Shelf 日次｜2026-11-28",
+  "sections": [
+    {
+      "id": "ai_seitaishi",
+      "label": "AI整体師向け",
+      "items": []
+    },
+    {
+      "id": "engineer",
+      "label": "エンジニア向け",
+      "items": [
+        {
+          "headline": "AIエージェントの作業をセッションが切れても続けられる「状態ファイル」設計：必須5フィールドと更新ルール",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/aletheia-jp/items/d01341c3749a692af267",
+              "source_date": "2026-11-28"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "KDDIのクマ対策の実証、AIが見た「約1万1,600枚」は何の数か",
+          "facts": [
+            {
+              "text": "Qiita（タグ: LLM） が公開",
+              "source_url": "https://qiita.com/quotidia/items/85e3417f18594775556a",
+              "source_date": "2026-11-28"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Michael Nielsen took down his book on neural nets",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://twitter.com/michael_nielsen/status/2126359767362748777",
+              "source_date": "2026-11-28"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Convex skills send the user's app idea to a remote server without telling them",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://github.com/convex/convex-backend-skill/issues/64",
+              "source_date": "2026-11-28"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "AIのレバレッジはカスタマーフロントから設計する",
+          "facts": [
+            {
+              "text": "Zenn（トピック: LLM） が公開",
+              "source_url": "https://zenn.dev/knowledge_graph/articles/ai-leverage-customer-front",
+              "source_date": "2026-11-27"
+            }
+          ],
+          "implications": []
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    "AI整体師向け: 直近36時間に該当記事なし"
+  ]
+}
