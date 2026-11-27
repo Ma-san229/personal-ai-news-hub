@@ -13,56 +13,56 @@
       "label": "エンジニア向け",
       "items": [
         {
-          "headline": "ソフトバンクが聴覚障がいのある従業員に配ったスマートグラスは、職場でどこまで使えたか",
+          "headline": "LLMに渡すWebデータを見直したら、21万トークンが約2,800に！実測でわかった入力コストの差",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/quotidia/items/5e35b5ad248041e937e5",
+              "source_url": "https://qiita.com/harupython/items/3ea5ee8a54571b132ecc",
               "source_date": "2026-11-27"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Show HN: Fuck_data_brokers.py",
-          "facts": [
-            {
-              "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://github.com/gary23w/f-ck_data_brokers",
-              "source_date": "2026-11-27"
-            }
-          ],
-          "implications": []
-        },
-        {
-          "headline": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
-          "facts": [
-            {
-              "text": "Hacker News（100pt以上） が公開",
-              "source_url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-              "source_date": "2026-11-27"
-            }
-          ],
-          "implications": []
-        },
-        {
-          "headline": "LLM エージェントの多段階処理における成功率と障害回復の効果を定量評価する",
+          "headline": "個性(ペルソナ)と感情をもった対話AI「FureAI ペルソナ」を作ってみた（第2回/全6回）",
           "facts": [
             {
               "text": "Qiita（タグ: LLM） が公開",
-              "source_url": "https://qiita.com/ynakayama/items/cd201dca5c4ff9ea08e1",
+              "source_url": "https://qiita.com/tosumi-Qiita/items/8f03904e407ba6b9b104",
               "source_date": "2026-11-27"
             }
           ],
           "implications": []
         },
         {
-          "headline": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+          "headline": "The group chat where your AI talks behind your back",
           "facts": [
             {
-              "text": "Hugging Face Blog が公開",
-              "source_url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-              "source_date": "2026-11-26"
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://construct22.com/",
+              "source_date": "2026-11-27"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "Figwright（Figma用のOSS MCP）を、公式MCPと比べて使ってみた",
+          "facts": [
+            {
+              "text": "Algomatic が公開",
+              "source_url": "https://tech.algomatic.jp/entry/2026/11/27/151113",
+              "source_date": "2026-11-27"
+            }
+          ],
+          "implications": []
+        },
+        {
+          "headline": "The need for a formally verifiable mainstream programming language",
+          "facts": [
+            {
+              "text": "Hacker News（100pt以上） が公開",
+              "source_url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+              "source_date": "2026-11-27"
             }
           ],
           "implications": []
