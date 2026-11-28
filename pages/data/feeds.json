@@ -6,7 +6,7 @@
       "url": "https://www.ponkotsu.dev/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:17.774Z",
+      "lastFetchedAt": "2026-11-28T07:49:12.008Z",
       "lastStatus": "success"
     },
     {
@@ -24,7 +24,7 @@
       "url": "https://tech-blog.abeja.asia/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:19.146Z",
+      "lastFetchedAt": "2026-11-28T07:49:13.103Z",
       "lastStatus": "success"
     },
     {
@@ -33,7 +33,7 @@
       "url": "https://tech.acesinc.co.jp/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:20.379Z",
+      "lastFetchedAt": "2026-11-28T07:49:14.019Z",
       "lastStatus": "success"
     },
     {
@@ -42,7 +42,7 @@
       "url": "https://www.ai-shift.co.jp/techblog/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:20.974Z",
+      "lastFetchedAt": "2026-11-28T07:49:14.897Z",
       "lastStatus": "error: HTTP 404"
     },
     {
@@ -51,7 +51,7 @@
       "url": "https://note.com/aiinside_tech/rss",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:21.268Z",
+      "lastFetchedAt": "2026-11-28T07:49:15.126Z",
       "lastStatus": "success"
     },
     {
@@ -60,7 +60,7 @@
       "url": "https://zenn.dev/airev/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:21.650Z",
+      "lastFetchedAt": "2026-11-28T07:49:15.482Z",
       "lastStatus": "success"
     },
     {
@@ -69,7 +69,7 @@
       "url": "https://tech.algomatic.jp/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:23.207Z",
+      "lastFetchedAt": "2026-11-28T07:49:16.482Z",
       "lastStatus": "success"
     },
     {
@@ -78,7 +78,7 @@
       "url": "https://elyza-inc.hatenablog.com/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:23.805Z",
+      "lastFetchedAt": "2026-11-28T07:49:16.889Z",
       "lastStatus": "success"
     },
     {
@@ -87,7 +87,7 @@
       "url": "https://blog.generative-agents.co.jp/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:24.785Z",
+      "lastFetchedAt": "2026-11-28T07:49:17.548Z",
       "lastStatus": "success"
     },
     {
@@ -96,7 +96,7 @@
       "url": "https://tech.preferred.jp/ja/blog/llm-plamo/feed/",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:35.252Z",
+      "lastFetchedAt": "2026-11-28T07:49:28.027Z",
       "lastStatus": "error: fetch failed"
     },
     {
@@ -105,7 +105,7 @@
       "url": "https://www.sbintuitions.co.jp/blog/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:36.829Z",
+      "lastFetchedAt": "2026-11-28T07:49:29.214Z",
       "lastStatus": "success"
     },
     {
@@ -114,7 +114,7 @@
       "url": "https://stockmark-tech.hatenablog.com/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:37.898Z",
+      "lastFetchedAt": "2026-11-28T07:49:29.941Z",
       "lastStatus": "success"
     },
     {
@@ -123,7 +123,7 @@
       "url": "https://tech.stockmark.co.jp/index.xml",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:39.227Z",
+      "lastFetchedAt": "2026-11-28T07:49:30.747Z",
       "lastStatus": "success"
     },
     {
@@ -132,7 +132,7 @@
       "url": "https://zenn.dev/turing/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:39.540Z",
+      "lastFetchedAt": "2026-11-28T07:49:31.040Z",
       "lastStatus": "success"
     },
     {
@@ -141,7 +141,7 @@
       "url": "https://zenn.dev/p/turing_motors/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:39.963Z",
+      "lastFetchedAt": "2026-11-28T07:49:31.082Z",
       "lastStatus": "success"
     },
     {
@@ -150,7 +150,7 @@
       "url": "https://zenn.dev/p/retrieva_tech/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:40.239Z",
+      "lastFetchedAt": "2026-11-28T07:49:31.412Z",
       "lastStatus": "success"
     },
     {
@@ -159,7 +159,7 @@
       "url": "https://zenn.dev/p/pksha/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:40.554Z",
+      "lastFetchedAt": "2026-11-28T07:49:31.443Z",
       "lastStatus": "success"
     },
     {
@@ -168,7 +168,7 @@
       "url": "https://zenn.dev/p/mkj/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:40.594Z",
+      "lastFetchedAt": "2026-11-28T07:49:31.472Z",
       "lastStatus": "success"
     },
     {
@@ -177,7 +177,7 @@
       "url": "https://zenn.dev/p/exwzd/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:40.898Z",
+      "lastFetchedAt": "2026-11-28T07:49:31.820Z",
       "lastStatus": "success"
     },
     {
@@ -186,7 +186,7 @@
       "url": "https://iblog.ridge-i.com/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:42.352Z",
+      "lastFetchedAt": "2026-11-28T07:49:33.095Z",
       "lastStatus": "success"
     },
     {
@@ -195,7 +195,7 @@
       "url": "https://tech.datafluct.com/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:43.321Z",
+      "lastFetchedAt": "2026-11-28T07:49:34.125Z",
       "lastStatus": "success"
     },
     {
@@ -204,7 +204,7 @@
       "url": "https://zenn.dev/p/coefont/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:43.606Z",
+      "lastFetchedAt": "2026-11-28T07:49:34.157Z",
       "lastStatus": "success"
     },
     {
@@ -213,7 +213,7 @@
       "url": "https://medium.com/feed/karakuri",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:43.993Z",
+      "lastFetchedAt": "2026-11-28T07:49:34.637Z",
       "lastStatus": "success"
     },
     {
@@ -222,7 +222,7 @@
       "url": "https://zenn.dev/p/spiralai/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:44.334Z",
+      "lastFetchedAt": "2026-11-28T07:49:34.936Z",
       "lastStatus": "success"
     },
     {
@@ -231,7 +231,7 @@
       "url": "https://techblog.insightedge.jp/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:45.911Z",
+      "lastFetchedAt": "2026-11-28T07:49:36.132Z",
       "lastStatus": "success"
     },
     {
@@ -240,7 +240,7 @@
       "url": "https://heroz-tech.hatenablog.jp/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:48.002Z",
+      "lastFetchedAt": "2026-11-28T07:49:37.596Z",
       "lastStatus": "success"
     },
     {
@@ -249,7 +249,7 @@
       "url": "https://note.com/retail_ai/rss",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:48.293Z",
+      "lastFetchedAt": "2026-11-28T07:49:37.899Z",
       "lastStatus": "success"
     },
     {
@@ -258,7 +258,7 @@
       "url": "https://zenn.dev/p/kikagaku/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:48.695Z",
+      "lastFetchedAt": "2026-11-28T07:49:38.241Z",
       "lastStatus": "success"
     },
     {
@@ -267,7 +267,7 @@
       "url": "https://zenn.dev/p/google_cloud_jp/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:49.062Z",
+      "lastFetchedAt": "2026-11-28T07:49:38.259Z",
       "lastStatus": "success"
     },
     {
@@ -276,7 +276,7 @@
       "url": "https://zenn.dev/p/team_nishika/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:49.397Z",
+      "lastFetchedAt": "2026-11-28T07:49:38.278Z",
       "lastStatus": "success"
     },
     {
@@ -285,7 +285,7 @@
       "url": "https://zenn.dev/p/sboai_tech/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:49.667Z",
+      "lastFetchedAt": "2026-11-28T07:49:38.534Z",
       "lastStatus": "success"
     },
     {
@@ -294,7 +294,7 @@
       "url": "https://zenn.dev/p/aiforall/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:50.000Z",
+      "lastFetchedAt": "2026-11-28T07:49:38.826Z",
       "lastStatus": "success"
     },
     {
@@ -303,7 +303,7 @@
       "url": "https://blog.brainpad.co.jp/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:51.199Z",
+      "lastFetchedAt": "2026-11-28T07:49:39.689Z",
       "lastStatus": "success"
     },
     {
@@ -312,7 +312,7 @@
       "url": "https://openai.com/news/rss.xml",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:51.413Z",
+      "lastFetchedAt": "2026-11-28T07:49:39.819Z",
       "lastStatus": "success"
     },
     {
@@ -321,7 +321,7 @@
       "url": "https://blog.google/technology/ai/rss/",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:51.652Z",
+      "lastFetchedAt": "2026-11-28T07:49:40.034Z",
       "lastStatus": "success"
     },
     {
@@ -330,7 +330,7 @@
       "url": "https://huggingface.co/blog/feed.xml",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:51.826Z",
+      "lastFetchedAt": "2026-11-28T07:49:40.161Z",
       "lastStatus": "success"
     },
     {
@@ -339,7 +339,7 @@
       "url": "https://github.blog/feed/",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:52.032Z",
+      "lastFetchedAt": "2026-11-28T07:49:40.612Z",
       "lastStatus": "success"
     },
     {
@@ -348,7 +348,7 @@
       "url": "https://blog.langchain.com/rss/",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:52.489Z",
+      "lastFetchedAt": "2026-11-28T07:49:41.142Z",
       "lastStatus": "success"
     },
     {
@@ -357,7 +357,7 @@
       "url": "https://zenn.dev/topics/llm/feed",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:52.521Z",
+      "lastFetchedAt": "2026-11-28T07:49:41.166Z",
       "lastStatus": "success"
     },
     {
@@ -366,7 +366,7 @@
       "url": "https://qiita.com/tags/llm/feed.atom",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:53.386Z",
+      "lastFetchedAt": "2026-11-28T07:49:41.430Z",
       "lastStatus": "success"
     },
     {
@@ -375,7 +375,7 @@
       "url": "https://hnrss.org/frontpage?points=100",
       "category": "engineer",
       "enabled": true,
-      "lastFetchedAt": "2026-11-27T21:17:54.692Z",
+      "lastFetchedAt": "2026-11-28T07:49:43.858Z",
       "lastStatus": "success"
     },
     {
